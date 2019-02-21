@@ -1,15 +1,6 @@
-## Guide to the Software Engineering
+## Guide to the Software Engineering Body of Knowledge Version 3.
 
-## Body of Knowledge
-
-## Version 3.
-
-# SWEBOK
-
-##### ®
-
-## A Project of the IEEE Computer Society
-
+## SWEBOK  ®A Project of the IEEE Computer Society
 
 **Guide to the Software Engineering**
 
@@ -23,19 +14,27 @@ Pierre Bourque, École de technologie supérieure (ÉTS)
 Richard E. (Dick) Fairley, Software and Systems Engineering Associates (S2EA)
 
 
-**_Copyright and Reprint Permissions._** Educational or personal use of this material is permitted without fee provided such copies
-1) are not made for profit or in lieu of purchasing copies for classes, and that this notice and a full citation to the original work
-appear on the first page of the copy and 2) do not imply IEEE endorsement of any third-party products or services. Permission
-to reprint/republish this material for commercial, advertising or promotional purposes or for creating new collective works for
-resale or redistribution must be obtained from IEEE by writing to the IEEE Intellectual Property Rights Office, 445 Hoes Lane,
-Piscataway, NJ 08854-4141 or pubs-permissions@ieee.org.
+**_Copyright and Reprint Permissions._** Educational or personal use of this
+material is permitted without fee provided such copies 1) are not made for
+profit or in lieu of purchasing copies for classes, and that this notice and a
+full citation to the original work appear on the first page of the copy and 2)
+do not imply IEEE endorsement of any third-party products or services.
+Permission to reprint/republish this material for commercial, advertising or
+promotional purposes or for creating new collective works for resale or
+redistribution must be obtained from IEEE by writing to the IEEE Intellectual
+Property Rights Office, 445 Hoes Lane, Piscataway, NJ 08854-4141 or
+pubs-permissions@ieee.org.
 
-Reference to any specific commercial products, process, or service does not imply endorsement by IEEE. The views and opin-
-ions expressed in this work do not necessarily reflect those of IEEE.
+Reference to any specific commercial products, process, or service does not
+imply endorsement by IEEE. The views and opinions expressed in this work do
+not necessarily reflect those of IEEE.
 
-IEEE makes this document available on an “as is” basis and makes no warranty, express or implied, as to the accuracy, capabil-
-ity, efficiency merchantability, or functioning of this document. In no event will IEEE be liable for any general, consequential,
-indirect, incidental, exemplary, or special damages, even if IEEE has been advised of the possibility of such damages.
+IEEE makes this document available on an “as is” basis and makes no
+warranty, express or implied, as to the accuracy, capabil- ity, efficiency
+merchantability, or functioning of this document. In no event will IEEE be
+liable for any general, consequential, indirect, incidental, exemplary, or
+special damages, even if IEEE has been advised of the possibility of such
+damages.
 
 Copyright © 2014 IEEE. All rights reserved.
 Paperback ISBN-10: 0-7695-5166-

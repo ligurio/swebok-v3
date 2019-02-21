@@ -9,11 +9,11 @@ MAKRDOWN_FILES += 7_software_engineering_management.markdown
 MAKRDOWN_FILES += 8_software_engineering_process.markdown
 MAKRDOWN_FILES += 9_software_engineering_models.markdown
 MAKRDOWN_FILES += 10_software_quality.markdown
-MAKRDOWN_FILES += 11-software-engineering.markdown
-MAKRDOWN_FILES += 12-software-engineering-economics.markdown
-MAKRDOWN_FILES += 13-computing-foundations.markdown
-MAKRDOWN_FILES += 14-mathematicalfoundations.markdown
-MAKRDOWN_FILES += 15-engineering-foundations.markdown
+MAKRDOWN_FILES += 11_software_engineering.markdown
+MAKRDOWN_FILES += 12_software_engineering_economics.markdown
+MAKRDOWN_FILES += 13_computing_foundations.markdown
+MAKRDOWN_FILES += 14_mathematical_foundations.markdown
+MAKRDOWN_FILES += 15_engineering_foundations.markdown
 MAKRDOWN_FILES += appendix.markdown
 
 PANDOC = pandoc
