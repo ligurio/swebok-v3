@@ -7,9 +7,15 @@ MAKRDOWN_FILES += 5_software_maintenance.markdown
 MAKRDOWN_FILES += 6_software_configuration_management.markdown
 MAKRDOWN_FILES += 7_software_engineering_management.markdown
 MAKRDOWN_FILES += 8_software_engineering_process.markdown
-MAKRDOWN_FILES += 9_software_engineering_tools_and_methods.markdown
+MAKRDOWN_FILES += 9_software_engineering_models.markdown
 MAKRDOWN_FILES += 10_software_quality.markdown
-MAKRDOWN_FILES += bibliography.markdown
+MAKRDOWN_FILES += 11-software-engineering.markdown
+MAKRDOWN_FILES += 12-software-engineering-economics.markdown
+MAKRDOWN_FILES += 13-computing-foundations.markdown
+MAKRDOWN_FILES += 14-mathematicalfoundations.markdown
+MAKRDOWN_FILES += 15-engineering-foundations.markdown
+MAKRDOWN_FILES += appendix.markdown
+
 PANDOC = pandoc
 PANDOC_OPT = -s --toc-depth=2 --number-sections --toc -c epub.css title.txt $(MAKRDOWN_FILES)
 NAME = swebook-v3
