@@ -1,6 +1,3 @@
-```
-10-1
-```
 **CHAPTER 10**
 
 **SOFTWARE QUALITY**
@@ -9,12 +6,10 @@
 
 ##### CMMI
 
-```
 Capability Maturity Model
 Integration
 CoSQ Cost of Software Quality
-```
-```
+
 COTS
 Commercial Off-the-Shelf
 Software
@@ -29,28 +24,22 @@ SQC Software Quality Control
 SQM Software Quality Management
 TQM Total Quality Management
 V&V Verification and Validation
-```
+
 ##### INTRODUCTION
 
-What is software quality, and why is it so impor-
-tant that it is included in many knowledge areas
-(KAs) of the _SWEBOK Guide_?
-One reason is that the term _software quality_ is
-overloaded. Software quality may refer: to desir-
-able characteristics of software products, to the
-extent to which a particular software product pos-
-sess those characteristics, and to processes, tools,
-and techniques used to achieve those character-
-istics. Over the years, authors and organizations
-have defined the term quality differently. To Phil
-Crosby, it was “conformance to requirements”
-[1]. Watts Humphrey refers to it as “achieving
-excellent levels of “fitness for use” [2]. Mean-
-while, IBM coined the phrase “market-driven
+What is software quality, and why is it so impor- tant that it is included in
+many knowledge areas (KAs) of the _SWEBOK Guide_?
 
-```
-quality,” where the “customer is the final arbiter”
+One reason is that the term _software quality_ is overloaded. Software quality
+may refer: to desirable characteristics of software products, to the extent to
+which a particular software product possess those characteristics, and to
+processes, tools, and techniques used to achieve those characteristics. Over
+the years, authors and organizations have defined the term quality differently.
+To Phil Crosby, it was “conformance to requirements” [1]. Watts Humphrey refers
+to it as “achieving excellent levels of “fitness for use” [2]. Meanwhile, IBM
+coined the phrase “market-driven quality,” where the “customer is the final arbiter”
 [3*, p8].
+
 More recently, software quality is defined as the
 “capability of software product to satisfy stated
 and implied needs under specified conditions” [4]
@@ -1502,183 +1491,94 @@ c4 c17 p90
 **4. Software
 Q u a l i t y To o l s**
 
-
-**10-16** **_SWEBOK® Guide_** **V3.0**
-
 ##### FURTHER READINGS
 
-N. Leveson, _Safeware: System Safety and
-Computers_ [20].
+N. Leveson, _Safeware: System Safety and Computers_ [20].
 
-This book describes the importance of software
-safety practices and how these practices can be
-incorporated into software development projects.
+This book describes the importance of software safety practices and how these
+practices can be incorporated into software development projects.
 
-T. Gilb, _Principles of Software Engineering
-Management_ [21].
+T. Gilb, _Principles of Software Engineering Management_ [21].
 
-This is one of the first books on iterative and
-incremental development techniques. The Evo
-Method defines quantified goals, frequent time-
-boxed iterations, measurements of progress
-toward goals, and adaptation of plans based on
-actual results.
+This is one of the first books on iterative and incremental development
+techniques. The Evo Method defines quantified goals, frequent timeboxed
+iterations, measurements of progress toward goals, and adaptation of plans
+based on actual results.
 
-T. Gilb and D. Graham, _Software Inspection_
-[22].
+T. Gilb and D. Graham, _Software Inspection_ [22].
 
-This book introduces measurement and statisti-
-cal sampling for reviews and defects. It presents
-techniques that produce quantified results for
-reducing defects, improving productivity, track-
-ing projects, and creating documentation.
+This book introduces measurement and statistical sampling for reviews and
+defects. It presents techniques that produce quantified results for reducing
+defects, improving productivity, tracking projects, and creating
+documentation.
 
-```
-K.E. Wiegers, Peer Reviews in Software: A
-Practical Guide [23].
-```
-```
-This book provides clear, succinct explanations
-of different peer review methods distinguished by
-level of formality and effectiveness. Pragmatic
-guidance for implementing the methods and how
-to select which methods are appropriate for given
-circumstances is provided.
-```
-```
+K.E. Wiegers, Peer Reviews in Software: A Practical Guide [23].
+
+This book provides clear, succinct explanations of different peer review
+methods distinguished by level of formality and effectiveness. Pragmatic
+guidance for implementing the methods and how to select which methods are
+appropriate for given circumstances is provided.
+
 N.R. Tague, The Quality Toolbox , 2nd ed., [24].
-```
-```
-Provides a pragmatic how-to explanation of a
-comprehensive set of methods, tools, and tech-
-niques for solving quality improvement prob-
-lems. Includes the seven basic quality control
-tools and many others.
-```
-```
-IEEE Std. P730-2013 Draft Standard for
-Software Quality Assurance Processes [5].
-```
-```
-This draft standard expands the SQA processes
-identified in IEEE/ISO/IEC 12207-2008. P730
-establishes standards for initiating, planning,
-controlling, and executing the software quality
-assurance processes of a software development
-or maintenance project. Approval of this draft
-standard is expected in 2014.
-```
 
-```
+Provides a pragmatic how-to explanation of a comprehensive set of methods,
+tools, and techniques for solving quality improvement problems. Includes
+the seven basic quality control tools and many others.
+
+IEEE Std. P730-2013 Draft Standard for Software Quality Assurance Processes
+[5].
+
+This draft standard expands the SQA processes identified in IEEE/ISO/IEC
+12207-2008. P730 establishes standards for initiating, planning, controlling,
+and executing the software quality assurance processes of a software
+development or maintenance project. Approval of this draft standard is expected
+in 2014.
+
 Software Quality 10-17
-```
+
 ##### REFERENCES
 
-[1] P.B. Crosby, _Quality Is Free_ , McGraw-Hill,
-1979.
-
-[2] W. Humphrey, _Managing the Software
-Process_ , Addison-Wesley, 1989.
-
-[3*] S.H. Kan, _Metrics and Models in Software
-Quality Engineering_ , 2nd ed., Addison-
-Wesley, 2002.
-
-[4] _ISO/IEC 25010:2011 Systems and Software
-Engineering—Systems and Software
-Quality Requirements and Evaluation
-(SQuaRE)—Systems and Software Quality
+[1] P.B. Crosby, _Quality Is Free_ , McGraw-Hill, 1979.
+[2] W. Humphrey, _Managing the Software Process_ , Addison-Wesley, 1989.
+[3*] S.H. Kan, _Metrics and Models in Software Quality Engineering_ , 2nd ed.,
+Addison- Wesley, 2002.
+[4] _ISO/IEC 25010:2011 Systems and Software Engineering—Systems and Software
+Quality Requirements and Evaluation (SQuaRE)—Systems and Software Quality
 Models_ , ISO/IEC, 2011.
-
-[5] _IEEE P730™/D8 Draft Standard for
-Software Quality Assurance Processes_ ,
+[5] _IEEE P730™/D8 Draft Standard for Software Quality Assurance Processes_ ,
 IEEE, 2012.
-
-[6*] F. Bott et al., _Professional Issues in
-Software Engineering_ , 3rd ed., Taylor &
-Francis, 2000.
-
-[7*] D. Galin, _Software Quality Assurance:
-From Theory to Implementation_ , Pearson
-Education Limited, 2004.
-
-[8*] S. Naik and P. Tripathy, _Software Testing
-and Quality Assurance: Theory and
-Practice_ , Wiley-Spektrum, 2008.
-
-[9*] P. Clements et al., _Documenting Software
-Architectures: Views and Beyond_ , 2nd ed.,
-Pearson Education, 2010.
-
-[10*] G. Voland, _Engineering by Design_ , 2nd
-ed., Prentice Hall, 2003.
-
-[11] _RTCA DO-178C, Software Considerations
-in Airborne Systems and Equipment
-Certification_ , Radio Technical Commission
-for Aeronautics, 2011.
-
-[12] _IEEE Std. 15026.1-2011 Trial-Use Standard
-Adoption of ISO/IEC TR 15026-1:2010
-Systems and Software Engineering—
-Systems and Software Assurance—Part 1:
-Concepts and Vocabulary_ , IEEE, 2011.
-
-```
-[13] IEEE Std. 12207-2008 (a.k.a. ISO/IEC
-12207:2008) Standard for Systems and
-Software Engineering—Software Life Cycle
-Processes , IEEE, 2008.
-```
-```
-[14] ISO 9000:2005 Quality Management
-Systems—Fundamentals and Vocabulary ,
+[6*] F. Bott et al., _Professional Issues in Software Engineering_ , 3rd ed.,
+Taylor & Francis, 2000.
+[7*] D. Galin, _Software Quality Assurance: From Theory to Implementation_ ,
+Pearson Education Limited, 2004.
+[8*] S. Naik and P. Tripathy, _Software Testing and Quality Assurance: Theory
+and Practice_ , Wiley-Spektrum, 2008.
+[9*] P. Clements et al., _Documenting Software Architectures: Views and Beyond_
+, 2nd ed., Pearson Education, 2010.
+[10*] G. Voland, _Engineering by Design_ , 2nd ed., Prentice Hall, 2003.
+[11] _RTCA DO-178C, Software Considerations in Airborne Systems and Equipment
+Certification_ , Radio Technical Commission for Aeronautics, 2011.
+[12] _IEEE Std. 15026.1-2011 Trial-Use Standard Adoption of ISO/IEC TR
+15026-1:2010 Systems and Software Engineering— Systems and Software
+Assurance—Part 1: Concepts and Vocabulary_ , IEEE, 2011.
+[13] IEEE Std. 12207-2008 (a.k.a. ISO/IEC 12207:2008) Standard for Systems and
+Software Engineering—Software Life Cycle Processes , IEEE, 2008.
+[14] ISO 9000:2005 Quality Management Systems—Fundamentals and Vocabulary ,
 ISO, 2005.
-```
-```
-[15] IEEE Std. 1012-2012 Standard for System
-and Software Verification and Validation ,
-IEEE, 2012.
-```
-```
-[16*] IEEE Std. 1028-2008, Software Reviews
-and Audits , IEEE, 2008.
-```
-```
-[17*] J.W. Moore, The Road Map to Software
-Engineering: A Standards-Based Guide ,
-Wiley-IEEE Computer Society Press, 2006.
-```
-```
-[18*] K.E. Wiegers, Software Requirements , 2nd
-ed., Microsoft Press, 2003.
-```
-```
-[19] ISO/IEC/IEEE 24765:2010 Systems and
-Software Engineering—Vocabulary , ISO/
+[15] IEEE Std. 1012-2012 Standard for System and Software Verification and
+Validation , IEEE, 2012.
+[16*] IEEE Std. 1028-2008, Software Reviews and Audits , IEEE, 2008.
+[17*] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide
+, Wiley-IEEE Computer Society Press, 2006.
+[18*] K.E. Wiegers, Software Requirements , 2nd ed., Microsoft Press, 2003.
+[19] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary , ISO/
 IEC/IEEE, 2010.
-```
-```
-[20] N. Leveson, Safeware: System Safety and
-Computers , Addison-Wesley Professional,
-1995.
-```
-```
-[21] T. Gilb, Principles of Software Engineering
-Management , Addison-Wesley Professional,
-1988.
-```
-```
-[22] T. Gilb and D. Graham, Software
-Inspection , Addison-Wesley Professional,
+[20] N. Leveson, Safeware: System Safety and Computers , Addison-Wesley
+Professional, 1995.
+[21] T. Gilb, Principles of Software Engineering Management , Addison-Wesley
+Professional, 1988.
+[22] T. Gilb and D. Graham, Software Inspection , Addison-Wesley Professional,
 1993.
-```
-```
-[23] K. Wiegers, Peer Reviews in Software: A
-Practical Guide , Addison-Wesley
+[23] K. Wiegers, Peer Reviews in Software: A Practical Guide , Addison-Wesley
 Professional, 2001.
-```
-```
-[24] N.R. Tague, The Quality Toolbox , 2nd ed.,
-ASQ Quality Press, 2010.
-```
+[24] N.R. Tague, The Quality Toolbox , 2nd ed., ASQ Quality Press, 2010.
