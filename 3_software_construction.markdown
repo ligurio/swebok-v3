@@ -1,33 +1,18 @@
-```
-3-1
-```
 **CHAPTER 3**
 
 **SOFTWARE CONSTRUCTION**
 
 ##### ACRONYMS
 
-##### API
-
-```
-Application Programming
-Interface
+API Application Programming Interface
 COTS Commercial Off-the-Shelf
 GUI Graphical User Interface
-```
-```
-IDE
-Integrated Development
-Environment
+IDE Integrated Development Environment
 OMG Object Management Group
-```
-```
-POSIX
-Portable Operating System
-Interface
+POSIX Portable Operating System Interface
 TDD Test-Driven Development
 UML Unified Modeling Language
-```
+
 ##### INTRODUCTION
 
 The term software construction refers to the
@@ -53,7 +38,7 @@ linked to the Software Design KA.
 Throughout construction, software engineers
 both unit test and integration test their work.
 
-```
+
 Thus, the Software Construction KA is closely
 linked to the Software Testing KA as well.
 Software construction typically produces the
@@ -74,46 +59,44 @@ tions that support the design and construction of
 software products. It is also related to project man-
 agement, insofar as the management of construc-
 tion can present considerable challenges.
-```
-```
+
+
 BREAKDOWN OF TOPICS FOR
 SOFTWARE CONSTRUCTION
-```
-```
+
+
 Figure 3.1 gives a graphical representation of the
 top-level decomposition of the breakdown for the
 Software Construction KA.
-```
+
 **1. Software Construction Fundamentals**
 
-```
+
 Software construction fundamentals include
-```
+
 - minimizing complexity
 - anticipating change
 - constructing for verification
 - reuse
 - standards in construction.
 
-```
+
 The first four concepts apply to design as well
 as to construction. The following sections define
-```
 
-**3-2** **_SWEBOK® Guide_** **V3.0**
 
-```
+
 Figure 3.1. Breakdown of Topics for the Software Construction KA
-```
 
-```
+
+
 Software Construction 3-3
-```
+
 these concepts and describe how they apply to
 construction.
 
 _1.1. Minimizing Complexity_
-[1*]
+[1]
 
 Most people are limited in their ability to hold
 complex structures and information in their
@@ -138,7 +121,7 @@ construction-focused quality techniques (see sec-
 tion 3.7, Construction Quality).
 
 _1.2. Anticipating Change_
-[1*]
+[1]
 
 Most software will change over time, and the
 anticipation of _change_ drives many aspects of
@@ -153,14 +136,14 @@ Anticipating change is supported by many spe-
 cific techniques (see section 3.3, Coding).
 
 _1.3. Constructing for Verification_
-[1*]
+[1]
 
 Constructing for verification means building
 software in such a way that faults can be read-
 ily found by the software engineers writing the
 software as well as by the testers and users during
 
-```
+
 independent testing and operational activities.
 Specific techniques that support constructing for
 verification include following coding standards to
@@ -168,12 +151,12 @@ support code reviews and unit testing, organizing
 code to support automated testing, and restrict-
 ing the use of complex or hard-to-understand lan-
 guage structures, among others.
-```
-```
+
+
 1.4. Reuse
-[2*]
-```
-```
+[2]
+
+
 Reuse refers to using existing assets in solving
 different problems. In software construction, typ-
 ical assets that are reused include libraries, mod-
@@ -191,12 +174,12 @@ the construction of a new solution. Reuse often
 transcends the boundary of projects, which means
 reused assets can be constructed in other projects
 or organizations.
-```
-```
+
+
 1.5. Standards in Construction
-[1*]
-```
-```
+[1]
+
+
 Applying external or internal development stan-
 dards during construction helps achieve a proj-
 ect’s objectives for efficiency, quality, and cost.
@@ -205,7 +188,7 @@ ming language subsets and usage standards are
 important aids in achieving higher security.
 Standards that directly affect construction
 issues include
-```
+
 - communication methods (for example, stan-
     dards for document formats and contents)
 - programming languages (for example, lan-
@@ -216,8 +199,6 @@ issues include
 - platforms (for example, interface standards
     for operating system calls)
 
-
-**3-4** **_SWEBOK® Guide_** **V3.0**
 
 - tools (for example, diagrammatic standards
     for notations like UML (Unified Modeling
@@ -242,7 +223,7 @@ and constructing for verification.
 **2. Managing Construction**
 
 _2.1. Construction in Life Cycle Models_
-[1*]
+[1]
 
 Numerous models have been created to develop
 software; some emphasize construction more
@@ -269,7 +250,7 @@ laps them. These approaches tend to mix design,
 coding, and testing activities, and they often treat
 the combination of activities as construction (see
 
-```
+
 the Software Management and Software Process
 KAs).
 Consequently, what is considered to be “con-
@@ -279,12 +260,12 @@ struction is mostly coding and debugging, but
 it also involves construction planning, detailed
 design, unit testing, integration testing, and other
 activities.
-```
-```
+
+
 2.2. Construction Planning
-[1*]
-```
-```
+[1]
+
+
 The choice of construction method is a key aspect
 of the construction-planning activity. The choice
 of construction method affects the extent to
@@ -306,12 +287,12 @@ incremental integration), the software quality
 management processes, the allocation of task
 assignments to specific software engineers, and
 other tasks, according to the chosen method.
-```
-```
+
+
 2.3. Construction Measurement
-[1*]
-```
-```
+[1]
+
+
 Numerous construction activities and artifacts can
 be measured—including code developed, code
 modified, code reused, code destroyed, code com-
@@ -322,11 +303,11 @@ construction, ensuring quality during construction,
 and improving the construction process, among
 other uses (see the Software Engineering Process
 KA for more on measurement).
-```
 
-```
+
+
 Software Construction 3-5
-```
+
 **3. Practical Considerations**
 
 Construction is an activity in which the software
@@ -339,7 +320,7 @@ and software engineering is perhaps most craft-
 like in the construction activities.
 
 _3.1. Construction Design_
-[1*]
+[1]
 
 Some projects allocate considerable design activ-
 ity to construction, while others allocate design
@@ -363,7 +344,7 @@ a smaller scale of algorithms, data structures, and
 interfaces.
 
 _3.2. Construction Languages_
-[1*]
+[1]
 Construction languages include all forms of
 communication by which a human can specify an
 executable problem solution to a problem. Con-
@@ -377,7 +358,7 @@ is a _configuration language,_ in which software
 engineers choose from a limited set of pre-
 defined options to create new or custom software
 
-```
+
 installations. The text-based configuration files
 used in both the Windows and Unix operating
 systems are examples of this, and the menu-style
@@ -407,12 +388,12 @@ for example, uncritical usage of C and C++ are
 questionable choices from a security viewpoint.
 There are three general kinds of notation used
 for programming languages, namely
-```
+
 - linguistic (e.g., C/C++, Java)
 - formal (e.g., Event-B)
 - visual (e.g., MatLab).
 
-```
+
 Linguistic notations are distinguished in par-
 ticular by the use of textual strings to represent
 complex software constructions. The combina-
@@ -428,9 +409,7 @@ on definitions backed up by precise, unambigu-
 ous, and formal (or mathematical) definitions.
 Formal construction notations and formal meth-
 ods are at the semantic base of most forms of
-```
 
-**3-6** **_SWEBOK® Guide_** **V3.0**
 
 system programming notations, where accuracy,
 time behavior, and testability are more important
@@ -452,7 +431,7 @@ a visual interface to a program, the detailed
 behavior of which has an underlying definition.
 
 _3.3. Coding_
-[1*]
+[1]
 
 The following considerations apply to the soft-
 ware construction coding activity:
@@ -479,19 +458,19 @@ ware construction coding activity:
 - Code documentation;
 - Code tuning,
 
-```
+
 3.4. Construction Testing
-[1*]
-```
-```
+[1]
+
+
 Construction involves two forms of testing,
 which are often performed by the software engi-
 neer who wrote the code:
-```
+
 - Unit testing
 - Integration testing.
 
-```
+
 The purpose of construction testing is to reduce
 the gap between the time when faults are inserted
 into the code and the time when those faults are
@@ -514,12 +493,12 @@ for Software Unit Testing.
 (See sections 2.1.1., Unit Testing, and 2.1.2.,
 Integration Testing, in the Software Testing KA
 for more specialized reference material.)
-```
-```
+
+
 3.5. Construction for Reuse
-[2*]
-```
-```
+[2]
+
+
 Construction for reuse creates software that has
 the potential to be reused in the future for the
 present project or other projects taking a broad-
@@ -530,11 +509,11 @@ is desired to encapsulate reusable code fragments
 into well-structured libraries or components.
 The tasks related to software construction for
 reuse during coding and testing are as follows:
-```
 
-```
+
+
 Software Construction 3-7
-```
+
 - Variability implementation with mecha-
     nisms such as parameterization, conditional
     compilation, design patterns, and so forth.
@@ -546,7 +525,7 @@ Software Construction 3-7
     ware assets.
 
 _3.6. Construction with Reuse_
-[2*]
+[2]
 
 Construction with reuse means to create new
 software with the reuse of existing software
@@ -571,7 +550,7 @@ reuse during coding and testing are as follows:
     code, test procedures, or test data.
 
 _3.7. Construction Quality_
-[1*]
+[1]
 
 In addition to faults resulting from requirements
 and design, faults introduced during construction
@@ -597,7 +576,7 @@ niques used for construction quality include
 - static analysis (see section 2.3 of the Soft-
     ware Quality KA)
 
-```
+
 The specific technique or techniques selected
 depend on the nature of the software being con-
 structed as well as on the skillset of the software
@@ -616,12 +595,12 @@ artifacts that are closely related to code—such
 as detailed design—as opposed to other artifacts
 that are less directly connected to the code, such
 as requirements, high-level designs, and plans.
-```
-```
+
+
 3.8. Integration
-[1*]
-```
-```
+[1]
+
+
 A key activity during construction is the integra-
 tion of individually constructed routines, classes,
 components, and subsystems into a single sys-
@@ -635,9 +614,7 @@ ware is needed, creating scaffolding to support
 interim versions of the software, determining
 the degree of testing and quality work performed
 on components before they are integrated, and
-```
 
-**3-8** **_SWEBOK® Guide_** **V3.0**
 
 determining points in the project at which interim
 versions of the software are tested.
@@ -667,7 +644,7 @@ ing, more fully tested units, and so forth.
 **4. Construction Technologies**
 
 _4.1. API Design and Use_
-[3*]
+[3]
 
 An application programming interface (API) is the
 set of signatures that are exported and available to
@@ -689,11 +666,11 @@ ing, learning, testing, integrating, and possibly
 extending APIs provided by a library or frame-
 work (see section 3.6, Construction with Reuse).
 
-```
+
 4.2. Object-Oriented Runtime Issues
-[1*]
-```
-```
+[1]
+
+
 Object-oriented languages support a series of
 runtime mechanisms including polymorphism
 and reflection. These runtime mechanisms
@@ -713,12 +690,12 @@ out knowing their names at compile time. It also
 allows instantiation at runtime of new objects and
 invocation of methods using parameterized class
 and method names.
-```
-```
+
+
 4.3. Parameterization and Generics
-[4*]
-```
-```
+[4]
+
+
 Parameterized types , also known as generics
 (Ada, Eiffel) and templates (C++), enable the
 definition of a type or class without specifying all
@@ -727,13 +704,13 @@ supplied as parameters at the point of use. Param-
 eterized types provide a third way (in addition to
 class inheritance and object composition) to com-
 pose behaviors in object-oriented software.
-```
-```
+
+
 4.4. Assertions, Design by Contract, and Defensive
 Programming
-[1*]
-```
-```
+[1]
+
+
 An assertion is an executable predicate that’s
 placed in a program—usually a routine or macro—
 that allows runtime checks of the program. Asser-
@@ -744,11 +721,11 @@ that creep in when code is modified, and so on.
 Assertions are normally compiled into the code at
 development time and are later compiled out of the
 code so that they don’t degrade the performance.
-```
 
-```
+
+
 Software Construction 3-9
-```
+
 Design by contract is a development approach
 in which preconditions and postconditions are
 included for each routine. When preconditions
@@ -769,7 +746,7 @@ check input values.
 
 _4.5. Error Handling, Exception Handling, and
 Fault Tolerance_
-[1*]
+[1]
 
 The way that errors are handled affects software’s
 ability to meet requirements related to correct-
@@ -799,19 +776,19 @@ Fault tolerance is a collection of techniques
 that increase software reliability by detecting
 errors and then recovering from them if possible
 
-```
+
 or containing their effects if recovery is not pos-
 sible. The most common fault tolerance strategies
 include backing up and retrying, using auxiliary
 code, using voting algorithms, and replacing an
 erroneous value with a phony value that will have
 a benign effect.
-```
-```
+
+
 4.6. Executable Models
-[5*]
-```
-```
+[5]
+
+
 Executable models abstract away the details of
 specific programming languages and decisions
 about the organization of the software. Different
@@ -836,13 +813,13 @@ a Platform Specific Model (PSM), which is a
 model that contains the details of the implemen-
 tation, can be produced by weaving together the
 PIM and the platform on which it relies.
-```
-```
+
+
 4.7. State-Based and Table-Driven Construction
 Techniques
-[1*]
-```
-```
+[1]
+
+
 State-based programming, or automata-based
 programming, is a programming technology
 using finite state machines to describe program
@@ -853,9 +830,7 @@ ging, and documentation). The main idea is to
 construct computer programs the same way the
 automation of technological processes is done.
 State-based programming is usually combined
-```
 
-**3-10** **_SWEBOK® Guide_** **V3.0**
 
 with object-oriented programming, forming a
 new composite approach called _state-based,
@@ -872,7 +847,7 @@ ciently access information in the table.
 
 _4.8. Runtime Configuration and
 Internationalization_
-[1*]
+[1]
 
 To achieve more flexibility, a program is often
 constructed to support late binding time of its vari-
@@ -897,7 +872,7 @@ different languages with minimal impact on the
 processing code and the user interface.
 
 _4.9. Grammar-Based Input Processing_
-[1*] [6*]
+[1] [6]
 
 Grammar-based input processing involves syntax
 analysis, or _parsing_ , of the input token stream. It
@@ -907,16 +882,16 @@ data. The inorder traversal of the parse tree usu-
 ally gives the expression just parsed. The parser
 checks the symbol table for the presence of
 
-```
+
 programmer-defined variables that populate the
 tree. After building the parse tree, the program
 uses it as input to the computational processes.
-```
-```
+
+
 4.10. Concurrency Primitives
-[7*]
-```
-```
+[7]
+
+
 A synchronization primitive is a programming
 abstraction provided by a programming language
 or the operating system that facilitates concur-
@@ -939,12 +914,12 @@ A mutex (mutual exclusion) is a synchroniza-
 tion primitive that grants exclusive access to a
 shared resource by only one process or thread at
 a time.
-```
-```
+
+
 4.11. Middleware
-[3*] [6*]
-```
-```
+[3] [6]
+
+
 Middleware is a broad classification for soft-
 ware that provides services above the operating
 system layer yet below the application program
@@ -958,14 +933,14 @@ ware usually provides an Enterprise Service Bus
 (ESB), which supports service-oriented interac-
 tion and communication between multiple soft-
 ware applications.
-```
 
-```
+
+
 Software Construction 3-11
-```
+
 _4.12. Construction Methods for Distributed
 Software_
-[7*]
+[7]
 
 A distributed system is a collection of physically
 separate, possibly heterogeneous computer sys-
@@ -983,7 +958,7 @@ tributed objects, loose coupling, or tight coupling
 KA and section 3.2 of the Software Design KA).
 
 _4.13. Constructing Heterogeneous Systems_
-[6*]
+[6]
 
 Heterogeneous systems consist of a variety of
 specialized computational units of different types,
@@ -1008,12 +983,12 @@ cuits (ASICs). The software part is translated into
 a low-level programming language.
 
 _4.14. Performance Analysis and Tuning_
-[1*]
+[1]
 
 Code efficiency—determined by architecture,
 detailed design decisions, and data-structure and
 
-```
+
 algorithm selection—influences an execution
 speed and size. Performance analysis is the inves-
 tigation of a program’s behavior using informa-
@@ -1031,12 +1006,12 @@ ing those for tuning logic expressions, loops, data
 transformations, expressions, and routines. Using
 a low-level language is another common tech-
 nique for improving some hot spots in a program.
-```
-```
+
+
 4.15. Platform Standards
-[6*] [7*]
-```
-```
+[6] [7]
+
+
 Platform standards enable programmers to
 develop portable applications that can be exe-
 cuted in compatible environments without
@@ -1049,12 +1024,12 @@ POSIX standard for operating systems (Portable
 Operating System Interface), which represents
 a set of standards implemented primarily for
 UNIX-based operating systems.
-```
-```
+
+
 4.16. Test-First Programming
-[1*]
-```
-```
+[1]
+
+
 Test-first programming (also known as Test-
 Driven Development—TDD) is a popular devel-
 opment style in which test cases are written prior
@@ -1065,17 +1040,15 @@ Furthermore, writing test cases first forces pro-
 grammers to think about requirements and design
 before coding, thus exposing requirements and
 design problems sooner.
-```
 
-**3-12** **_SWEBOK® Guide_** **V3.0**
 
 **5. Software Construction Tools**
 
-```
+
 5.1. Development Environments
-[1*]
-```
-```
+[1]
+
+
 A development environment, or integrated devel-
 opment environment (IDE), provides compre-
 hensive facilities to programmers for software
@@ -1090,12 +1063,12 @@ tor, integration with source code control, build/
 test/debugging tools, compressed or outline
 views of programs, automated code transforms,
 and support for refactoring.
-```
-```
+
+
 5.2. GUI Builders
-[1*]
-```
-```
+[1]
+
+
 A GUI (Graphical User Interface) builder is a
 software development tool that enables the devel-
 oper to create and maintain GUIs in a WYSI-
@@ -1118,10 +1091,10 @@ functions providing the application logic.
 Some modern IDEs provide integrated GUI
 builders or GUI builder plug-ins. There are also
 many standalone GUI builders.
-```
-```
+
+
 5.3. Unit Testing Tools
-[1*] [2*]
+[1] [2]
 Unit testing verifies the functioning of software
 modules in isolation from other software elements
 that are separately testable (for example, classes,
@@ -1135,13 +1108,13 @@ ous data sets. Each individual test is implemented
 as an object, and a test runner runs all of the tests.
 During the test execution, those failed test cases
 will be automatically flagged and reported.
-```
-```
+
+
 5.4. Profiling, Performance Analysis, and
 Slicing Tools
-[1*]
-```
-```
+[1]
+
+
 Performance analysis tools are usually used to
 support code tuning. The most common per-
 formance analysis tools are profiling tools. An
@@ -1163,77 +1136,77 @@ standing, and optimization analysis. Program
 slicing tools compute program slices for various
 programming languages using static or dynamic
 analysis methods.
-```
 
-```
+
+
 Software Construction 3-13
-```
+
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 McConnell 2004
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Sommerville 2011
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Clements et al. 2010
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Gamma et al. 1994
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Mellor and Balcer 2002
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Null and Lobur 2006
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Silberschatz et al. 2008
-```
-##### [7*]
+
+##### [7]
 
 **1. Software
 Construction
 Fundamentals**
 
-```
+
 1.1. Minimizing
 Complexity
-```
-```
+
+
 c2, c3,
 c7-c9,
 c24, c27,
 c28, c31,
 c32, c34
-```
-```
+
+
 1.2. Anticipating
 Change
-```
-```
+
+
 c3–c5,
 c24, c31,
 c32, c34
-```
-```
+
+
 1.3. Constructing for
 Verification
-```
-```
+
+
 c8,
 c20–
 c23, c31,
@@ -1242,270 +1215,266 @@ c34
 1.5. Standards in
 Construction
 c4
-```
+
 **2. Managing
 Construction**
     2.1. Construction in
     Life Cycle Models
 
-```
+
 c2, c3,
 c27, c29
-```
-```
+
+
 2.2. Construction
 Planning
-```
-```
+
+
 c3, c4,
 c21,
 c27–c29
 2.3. Construction
 Measurement
 c25, c28
-```
+
 **3. Practical
 Considerations**
     3.1. Construction
     Design
 
-```
+
 c3, c5,
 c24
 3.2. Construction
 Languages
 c4
-```
-```
+
+
 3.3. Coding
 c5–c19,
 c25–c26
-```
 
-**3-14** **_SWEBOK® Guide_** **V3.0**
 
-```
+
 McConnell 2004
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Sommerville 2011
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Clements et al. 2010
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Gamma et al. 1994
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Mellor and Balcer 2002
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Null and Lobur 2006
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Silberschatz et al. 2008
-```
-##### [7*]
 
-```
+##### [7]
+
+
 3.4. Construction
 Te s t i n g
 c22, c23
-```
-```
+
+
 3.5. Construction for
 Reuse
 c16
-```
-```
+
+
 3.6. Construction
 with Reuse
 c16
-```
-```
+
+
 3.7. Construction
 Quality
-```
-```
+
+
 c8,
 c20–c25
 3.8. Integration c29
-```
+
 **4. Construction
 Te c h no l o g i e s**
     4.1. API Design and
     Use
        c7
 
-```
+
 4.2. Object-Oriented
 Runtime Issues
 c6, c7
-```
-```
+
+
 4.3.
 Parameterization
 and Generics
-```
-```
+
+
 c1
-```
-```
+
+
 4.4. Assertions,
 Design by Contract,
 and Defensive
 Programming
-```
-```
+
+
 c8, c9
-```
-```
+
+
 4.5. Error Handling,
 Exception Handling,
 and Fault Tolerance
-```
-```
+
+
 c3, c8
-```
-```
+
+
 4.6. Executable
 Models
 c1
-```
-```
+
+
 4.7. State-Based
 and Table-Driven
 Construction
 Te c h n i q u e s
-```
-```
+
+
 c18
-```
-```
+
+
 4.8. Runtime
 Configuration and
 Internationalization
-```
-```
+
+
 c3, c10
-```
-```
+
+
 4.9. Grammar-Based
 Input Processing
 c5 c8
-```
 
-```
+
+
 Software Construction 3-15
-```
-```
+
+
 McConnell 2004
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Sommerville 2011
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Clements et al. 2010
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Gamma et al. 1994
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Mellor and Balcer 2002
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Null and Lobur 2006
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Silberschatz et al. 2008
-```
-##### [7*]
 
-```
+##### [7]
+
+
 4.10. Concurrency
 Primitives
 c6
-```
-```
+
+
 4.11. Middleware c1 c8
 4.12. Construction
 Methods for
 Distributed Software
-```
-```
+
+
 c2
-```
-```
+
+
 4.13. Constructing
 Heterogeneous
 Systems
-```
-```
+
+
 c9
-```
-```
+
+
 4.14. Performance
 Analysis and Tuning
 c25, c26
-```
-```
+
+
 4.15. Platform
 Standards
 c10 c1
-```
-```
+
+
 4.16. Test-First
 Programming
 c22
-```
+
 **5. Construction Tools**
 
-```
+
 5.1. Development
 Environments
 c30
-```
-```
+
+
 5.2. GUI Builders c30
 5.3. Unit Testing
 To ol s
 c22 c8
-```
-```
+
+
 5.4. Profiling,
 Performance
 Analysis, and
 Sl i c i n g To ol s
-```
-```
-c25, c26
-```
 
-**3-16** **_SWEBOK® Guide_** **V3.0**
+
+c25, c26
+
 
 ##### FURTHER READINGS
 
@@ -1534,50 +1503,26 @@ software reuse process.
 
 ##### REFERENCES
 
-```
-[1*] S. McConnell, Code Complete , 2nd ed.,
-Microsoft Press, 2004.
-```
-```
-[2*] I. Sommerville, Software Engineering , 9th
-ed., Addison-Wesley, 2011.
-```
-```
-[3*] P. Clements et al., Documenting Software
-Architectures: Views and Beyond , 2nd ed.,
-Pearson Education, 2010.
-```
-```
-[4*] E. Gamma et al., Design Patterns: Elements
-of Reusable Object-Oriented Software , 1st
-ed., Addison-Wesley Professional, 1994.
-```
-```
-[5*] S.J. Mellor and M.J. Balcer, Executable
-UML: A Foundation for Model-Driven
-Architecture , 1st ed., Addison-Wesley,
-2002.
-```
-```
-[6*] L. Null and J. Lobur, The Essentials of
-Computer Organization and Architecture ,
-2nd ed., Jones and Bartlett Publishers,
-2006.
-```
-```
-[7*] A. Silberschatz, P.B. Galvin, and G. Gagne,
-Operating System Concepts , 8th ed., Wiley,
-2008.
-```
-```
-[8] IEEE Std. 1517-2010 Standard for
-Information Technology—System and
-Software Life Cycle Processes—Reuse
-Processes , IEEE, 2010.
-```
-```
-[9] IEEE Std. 12207-2008 (a.k.a. ISO/IEC
-12207:2008) Standard for Systems and
-Software Engineering—Software Life Cycle
-Processes , IEEE, 2008.
-```
+[1] S. McConnell, Code Complete , 2nd ed., Microsoft Press, 2004.
+
+[2] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+
+[3] P. Clements et al., Documenting Software Architectures: Views and Beyond ,
+2nd ed., Pearson Education, 2010.
+
+[4] E. Gamma et al., Design Patterns: Elements of Reusable Object-Oriented
+Software , 1st ed., Addison-Wesley Professional, 1994.
+
+[5] S.J. Mellor and M.J. Balcer, Executable UML: A Foundation for Model-Driven
+Architecture , 1st ed., Addison-Wesley, 2002.
+
+[6] L. Null and J. Lobur, The Essentials of Computer Organization and
+Architecture , 2nd ed., Jones and Bartlett Publishers, 2006.
+
+[7] A. Silberschatz, P.B. Galvin, and G. Gagne, Operating System Concepts , 8th
+ed., Wiley, 2008.
+
+[8] IEEE Std. 1517-2010 Standard for Information Technology—System and Software
+Life Cycle Processes—Reuse Processes , IEEE, 2010.
+
+[9] IEEE Std. 12207-2008 (a.k.a. ISO/IEC 12207:2008) Standard for Systems and
