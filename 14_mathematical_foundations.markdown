@@ -1,6 +1,3 @@
-```
-14-1
-```
 **CHAPTER 14**
 
 **MATHEMATICAL FOUNDATIONS**
@@ -45,26 +42,26 @@ that are discussed here allow us to describe math-
 ematical proofs to infer conclusively the absolute
 truth of certain concepts beyond the numbers. In
 
-```
+
 short, you can write a program for a problem only
 if it follows some logic. The objective of this KA
 is to help you develop the skill to identify and
 describe such logic. The emphasis is on helping
 you understand the basic concepts rather than on
 challenging your arithmetic abilities.
-```
-```
+
+
 BREAKDOWN OF TOPICS FOR
 MATHEMATICAL FOUNDATIONS
-```
-```
+
+
 The breakdown of topics for the Mathematical
 Foundations KA is shown in Figure 14.1.
-```
+
 **1. Set, Relations, Functions**
     [1*, c2]
 
-```
+
 Set. A set is a collection of objects, called elements
 of the set. A set can be represented by listing its
 elements between braces, e.g., S = {1, 2, 3}.
@@ -77,22 +74,20 @@ set builder notation, {x | P(x)} is the set of all x
 such that P(x) for any proposition P(x) over any
 universe of discourse. Examples for some impor-
 tant sets include the following:
-```
-```
+
+
 N = {0, 1, 2, 3, ...} = the set of nonnegative
 integers.
 Z = {..., −3, −2, −1, 0, 1, 2, 3, ...} = the set of
 integers.
-```
-```
+
+
 Finite and Infinite Set. A set with a finite num-
 ber of elements is called a finite set. Conversely,
 any set that does not have a finite number of ele-
 ments in it is an infinite set. The set of all natural
 numbers, for example, is an infinite set.
-```
 
-**14-2** **_SWEBOK® Guide_** **V3.0**
 
 _Cardinality._ The cardinality of a finite set S is
 the number of elements in S. This is represented
@@ -106,9 +101,9 @@ may define universal set as the set of all elements.
 _Set Equality._ Two sets are equal if and only if
 they have the same elements, i.e.:
 
-```
+
 X = Y ≡ ∀p (p ∈ X ↔ p ∈ Y).
-```
+
 _Subset._ X is a subset of set Y, or X is contained
 in Y, if all elements of X are included in Y. This is
 denoted by X ⊆ Y. In other words, X ⊆ Y if and
@@ -132,7 +127,7 @@ a _superset_ of X. This is denoted by Y ⊇ X, i.e., Y
 For example, if X = {1, 2, 3} and Y = {1, 2, 3,
 4, 5}, then Y ⊇ X.
 
-```
+
 Empty Set. A set with no elements is called an
 empty set. An empty set, denoted by ∅, is also
 referred to as a null or void set.
@@ -147,14 +142,14 @@ resentations of sets as enclosed areas in the plane.
 For example, in Figure 14.2, the rectangle rep-
 resents the universal set and the shaded region
 represents a set X.
-```
-```
+
+
 Figure 14.2. Venn Diagram for Set X
-```
-```
+
+
 1.1. Set Operations
-```
-```
+
+
 Intersection. The intersection of two sets X and
 Y, denoted by X ∩ Y, is the set of common ele-
 ments in both X and Y.
@@ -162,21 +157,21 @@ In other words, X ∩ Y = {p | (p ∈ X) ∧ (p ∈ Y)}.
 As, for example, {1, 2, 3} ∩ {3, 4, 6} = {3}
 If X ∩ Y = f, then the two sets X and Y are said
 to be a disjoint pair of sets.
-```
-```
-Figure 14.1. Breakdown of Topics for the Mathematical Foundations KA
-```
 
-```
+
+Figure 14.1. Breakdown of Topics for the Mathematical Foundations KA
+
+
+
 Mathematical Foundations 14-3
-```
+
 A Venn diagram for set intersection is shown in
 Figure 14.3. The common portion of the two sets
 represents the set intersection.
 
-```
+
 Figure 14.3. Intersection of Sets X and Y
-```
+
 _Union._ The union of two sets X and Y, denoted
 by X ∪ Y, is the set of all elements either in X, or
 in Y, or in both.
@@ -184,9 +179,9 @@ In other words, X ∪ Y = {p | (p ∈ X) ∨ (p ∈ Y)}.
 As, for example, {1, 2, 3} ∪ {3, 4, 6} = {1, 2,
 3, 4, 6}.
 
-```
+
 Figure 14.4. Union of Sets X and Y
-```
+
 It may be noted that |X ∪ Y| = |X| + |Y| − |X
 ∩ Y|.
 A Venn diagram illustrating the union of two
@@ -197,10 +192,10 @@ sal set that do not belong to a given set X is called
 its complement set X'.
 In other words, X' ={p | (p ∈ U) ∧ (p ∉ X)}.
 
-```
+
 Figure 14.5. Venn Diagram for Complement Set of X
-```
-```
+
+
 The shaded portion of the Venn diagram in Fig-
 ure 14.5 represents the complement set of X.
 Set Difference or Relative Complement. The set
@@ -212,11 +207,11 @@ As, for example, {1, 2, 3} − {3, 4, 6} = {1, 2}.
 It may be proved that X − Y = X ∩ Y’.
 Set difference X – Y is illustrated by the shaded
 region in Figure 14.6 using a Venn diagram.
-```
-```
+
+
 Figure 14.6. Venn Diagram for X − Y
-```
-```
+
+
 Cartesian Product. An ordinary pair {p, q} is
 a set with two elements. In a set, the order of the
 elements is irrelevant, so {p, q} = {q, p}.
@@ -231,20 +226,18 @@ In other words, X × Y = {(p, q) | (p ∈ X) ∧ (q
 ∈ Y)}.
 As for example, {a, b} × {1, 2} = {(a, 1), (a, 2),
 (b, 1), (b, 2)}
-```
-```
+
+
 1.2. Properties of Set
-```
-```
+
+
 Some of the important properties and laws of sets
 are mentioned below.
-```
+
 1. Associative Laws:
     X ∪ (Y ∪ Z) = (X ∪ Y) ∪ Z
     X ∩ (Y ∩ Z) = (X ∩ Y) ∩ Z
 
-
-**14-4** **_SWEBOK® Guide_** **V3.0**
 
 2. Commutative Laws:
     X ∪ Y = Y ∪ X X ∩ Y = Y ∩ X
@@ -289,7 +282,7 @@ considered is not a function. However, if we draw
 a relation between names of residents and their
 date of births with the name set as domain, then
 
-```
+
 this becomes a well-behaved relation and hence a
 function. This means that, while all functions are
 relations, not all relations are functions. In case
@@ -297,12 +290,12 @@ of a function given an x, one gets one and exactly
 one y for each ordered pair ( x , y ).
 For example, let’s consider the following two
 relations.
-```
-```
+
+
 A: {(3, –9), (5, 8), (7, –6), (3, 9), (6, 3)}.
 B: {(5, 8), (7, 8), (3, 8), (6, 8)}.
-```
-```
+
+
 Are these functions as well?
 In case of relation A, the domain is all the
 x-values, i.e., {3, 5, 6, 7}, and the range is all the
@@ -322,21 +315,21 @@ using a vertical line test, which is stated below:
 Given the graph of a relation, if one can draw
 a vertical line that crosses the graph in more than
 one place, then the relation is not a function.
-```
-```
+
+
 Figure 14.7. Vertical Line Test for Function
-```
-```
+
+
 In this example, both lines L1 and L2 cut the
 graph for the relation thrice. This signifies that
 for the same x-value, there are three different
 y-values for each of case. Thus, the relation is not
 a function.
-```
 
-```
+
+
 Mathematical Foundations 14-5
-```
+
 **2. Basic Logic**
     [1*, c1]
 
@@ -387,36 +380,36 @@ p ∧ T ≡ p p ∨ F ≡ p
 Domination laws:
 p ∨ T ≡ T p ∧ F ≡ F
 
-```
+
 Idempotent laws:
 p ∨ p ≡ p p ∧ p ≡ p
-```
-```
+
+
 Double negation law:
 ¬ (¬ p) ≡ p
-```
-```
+
+
 Commutative laws:
 p ∨ q ≡ q ∨ p p ∧ q ≡ q ∧ p
-```
-```
+
+
 Associative laws:
 (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
 (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)
-```
-```
+
+
 Distributive laws:
 p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)
 p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
-```
-```
+
+
 De Morgan’s laws:
 ¬ (p ∧ q) ≡ ¬ p ∨ ¬ q ¬ (p ∨ q) ≡ ¬ p ∧ ¬ q
-```
-```
+
+
 2.2. Predicate Logic
-```
-```
+
+
 A predicate is a verb phrase template that
 describes a property of objects or a relationship
 among objects represented by the variables. For
@@ -444,9 +437,7 @@ there exists at least one tiger that is a man-eater.
 Thus, while universal quantification uses
 implication, the existential quantification natu-
 rally uses conjunction.
-```
 
-**14-6** **_SWEBOK® Guide_** **V3.0**
 
 A variable _x_ that is introduced into a logical
 expression by a quantifier is bound to the closest
@@ -498,7 +489,7 @@ A proof is an argument that rigorously establishes
 the truth of a statement. Proofs can themselves be
 represented formally as discrete structures.
 
-```
+
 Statements used in a proof include axioms
 and postulates that are essentially the underlying
 assumptions about mathematical structures, the
@@ -516,22 +507,22 @@ is unknown.
 When a conjecture’s proof is found, the conjec-
 ture becomes a theorem. Many times conjectures
 are shown to be false and, hence, are not theorems.
-```
-```
+
+
 3.1. Methods of Proving Theorems
-```
-```
+
+
 Direct Proof. Direct proof is a technique to estab-
 lish that the implication p → q is true by showing
 that q must be true when p is true.
 For example, to show that if n is odd then n^2 −1
 is even, suppose n is odd, i.e., n = 2k + 1 for some
 integer k:
-```
-```
+
+
 ∴ n^2 = (2k + 1)^2 = 4k^2 + 4k + 1.
-```
-```
+
+
 As the first two terms of the Right Hand Side
 (RHS) are even numbers irrespective of the value
 of k, the Left Hand Side (LHS) (i.e., n^2 ) is an odd
@@ -552,11 +543,11 @@ tion, and conjunction need to be studied.
 Proof by Induction. Proof by induction is done
 in two phases. First, the proposition is estab-
 lished to be true for a base case—typically for the
-```
 
-```
+
+
 Mathematical Foundations 14-7
-```
+
 positive integer 1. In the second phase, it is estab-
 lished that if the proposition holds for an arbitrary
 positive integer _k,_ then it must also hold for the
@@ -584,19 +575,19 @@ Inductive Step: The induction hypothesis (IH)
 is that the proposition is true for n = k, k being an
 arbitrary positive integer k.
 
-```
+
 ∴ 1 + 3 + 5+ ... + (2k − 1) = k^2
-```
-```
+
+
 Now, it’s to be shown that P(k) → P(k + 1).
-```
-```
+
+
 P(k + 1) = 1 + 3 + 5+ ... +(2k − 1) + (2k + 1)
 = P(k) + (2k + 1)
 = k^2 + (2k + 1) [using IH]
 = k^2 + 2k + 1
 = (k + 1)^2
-```
+
 Thus, it is shown that if the proposition is true
 for n = k, then it is also true for n = k + 1.
 The basis step together with the inductive step of
@@ -610,18 +601,18 @@ integers k. Hence, the proposition is proved.
 The sum rule states that if a task t 1 can be done
 in n 1 ways and a second task t 2 can be done in
 
-```
+
 n 2 ways, and if these tasks cannot be done at the
 same time, then there are n 1 + n 2 ways to do either
 task.
-```
+
 - If A and B are disjoint sets, then |A ∪ B|=|A|
     + |B|.
 - In general if A1, A2, .... , An are disjoint
     sets, then |A1 ∪ A2 ∪ ... ∪ An| = |A1| + |A2|
     + ... + |An|.
 
-```
+
 For example, if there are 200 athletes doing
 sprint events and 30 athletes who participate in
 the long jump event, then how many ways are
@@ -633,14 +624,14 @@ The product rule states that if a task t 1 can be
 done in n 1 ways and a second task t 2 can be done
 in n 2 ways after the first task has been done, then
 there are n 1 * n 2 ways to do the procedure.
-```
+
 - If A and B are disjoint sets, then |A × B| =
     |A| * |B|.
 - In general if A1, A2, ..., An are disjoint sets,
     then |A1 × A2 × ... × An| = |A1| * |A2| * ....
     * |An|.
 
-```
+
 For example, if there are 200 athletes doing
 sprint events and 30 athletes who participate in
 the long jump event, then how many ways are
@@ -654,18 +645,16 @@ task t 2 can be done in n 2 ways at the same time
 with t 1 , then to find the total number of ways the
 two tasks can be done, subtract the number of
 ways to do both tasks from n 1 + n 2.
-```
+
 - If A and B are not disjoint, |A ∪ B| = |A| +
     |B| − |A ∩ B|.
 
-```
+
 In other words, the principle of inclusion-
 exclusion aims to ensure that the objects in the
 intersection of two sets are not counted more than
 once.
-```
 
-**14-8** **_SWEBOK® Guide_** **V3.0**
 
 _Recursion_ is the general term for the practice
 of defining an object in terms of itself. There are
@@ -717,18 +706,18 @@ r = n! / [r! * (n − r)!].
 **5. Graphs and Trees**
     [1*, c10, c11]
 
-```
+
 5.1. Graphs
-```
-```
+
+
 A graph G = (V, E) where V is the set of vertices
 (nodes) and E is the set of edges. Edges are also
 referred to as arcs or links.
-```
-```
+
+
 Figure 14.8. Example of a Graph
-```
-```
+
+
 F is a function that maps the set of edges E to
 a set of ordered or unordered pairs of elements V.
 For example, in Figure 14.8, G = (V, E) where V
@@ -754,28 +743,28 @@ For example, in Figure 14.9, the edges e3 and
 e4 are both between A and B. Figure 14.9 is a
 multigraph where edges e3 and e4 are multiple
 edges.
-```
 
-```
+
+
 Mathematical Foundations 14-9
-```
-```
+
+
 Figure 14.9. Example of a Multigraph
-```
+
 In a _pseudograph_ , edges connecting a node to
 itself are allowed. Such edges are called loops.
 
-```
+
 Figure 14.10. Example of a Pseudograph
-```
+
 For example, in Figure 14.10, the edge e4 both
 starts and ends at B. Figure 14.10 is a pseudo-
 graph in which e4 is a loop.
 
-```
+
 Figure 14.11. Example of a Directed Graph
-```
-```
+
+
 A directed graph G = (V, E) consists of a set of
 vertices V and a set of edges E that are ordered
 pairs of elements of V. A directed graph may con-
@@ -783,11 +772,11 @@ tain loops.
 For example, in Figure 14.11, G = (V, E) where
 V = {A, B, C}, E = {e1, e2, e3}, and F = {(e1, (A,
 C)), (e2, (B, C)), (e3, (B, A))}.
-```
-```
+
+
 Figure 14.12. Example of a Weighted Graph
-```
-```
+
+
 In a weighted graph G = (V, E), each edge has a
 weight associated with it. The weight of an edge
 typically represents the numeric value associated
@@ -802,23 +791,21 @@ these cities.
 Let G = (V, E) be an undirected graph with
 edge set E. Then, for an edge e ∈ E where e = {u,
 v}, the following terminologies are often used:
-```
+
 - u, v are said to be _adjacent_ or _neighbors_ or
     _connected_.
 - edge e is _incident_ with vertices u and v.
 - edge e _connects_ u and v.
 - vertices u and v are _endpoints_ for edge e.
 
-```
+
 If vertex v ∈ V, the set of vertices in the undi-
 rected graph G(V, E), then:
-```
+
 - the _degree_ of v, deg(v), is its number of inci-
     dent edges, except that any self-loops are
     counted twice.
 
-
-**14-10** **_SWEBOK® Guide_** **V3.0**
 
 - a vertex with degree 0 is called an _isolated_
     _vertex_.
@@ -867,35 +854,35 @@ v 2 }, {v 2 , v 3 }, ... , {vn−1, vn}, {vn, v 1 }}.
 For example, Figure 14.13 illustrates two
 cycles of length 3 and 4.
 
-```
+
 Figure 14.13. Example of Cycles C 3 and C 4
-```
-```
+
+
 An adjacency list is a table with one row per
 vertex, listing its adjacent vertices. The adjacency
 listing for a directed graph maintains a listing of
 the terminal nodes for each of the vertex in the
 graph.
-```
-```
+
+
 Ve r t ex
 Adjacency
 List
-```
-```
+
+
 A B, C
-```
-```
+
+
 B A, B, C
-```
-```
+
+
 C A, B
-```
-```
+
+
 Figure 14.14. Adjacency Lists for Graphs in Figures 14.10
 and 14.11
-```
-```
+
+
 For example, Figure 14.14 illustrates the adja-
 cency lists for the pseudograph in Figure 14.10
 and the directed graph in Figure 14.11. As the
@@ -904,11 +891,11 @@ there is no entry against C in the adjacency list.
 Different representations for a graph—like
 adjacency matrix, incidence matrix, and adja-
 cency lists—need to be studied.
-```
-```
+
+
 5.2. Trees
-```
-```
+
+
 A tree T(N, E) is a hierarchical data structure of n
 = |N| nodes with a specially designated root node
 R while the remaining n − 1 nodes form subtrees
@@ -920,14 +907,14 @@ all edges incident to those descendants. As an
 alternate to this recursive definition, a tree may
 be defined as a connected undirected graph with
 no simple circuits.
-```
 
-```
+
+
 Mathematical Foundations 14-11
-```
-```
+
+
 Figure 14.15. Example of a Tree
-```
+
 However, one should remember that a tree is
 strictly hierarchical in nature as compared to a
 graph, which is flat. In case of a tree, an ordered
@@ -964,7 +951,7 @@ The distance of a node from the root node in
 terms of number of hops is called its _level_. Nodes
 in a tree are at different levels. The root node is
 
-```
+
 at level 0. Alternately, the level of a node X is the
 length of the unique path from the root of the tree
 to node X.
@@ -1014,9 +1001,7 @@ A binary tree is formed with zero or more nodes
 where there is a root node R and all the remaining
 nodes form a pair of ordered subtrees under the
 root node.
-```
 
-**14-12** **_SWEBOK® Guide_** **V3.0**
 
 In a binary tree, no internal node can have more
 than two children. However, one must consider
@@ -1026,17 +1011,17 @@ If the positions of the left and right subtrees for
 any node in the tree are swapped, then a new tree
 is derived.
 
-```
+
 Figure 14.16. Examples of Binary Trees
-```
+
 For example, in Figure 14.16, the two binary
 trees are different as the positions of occurrences
 of the children of A are different in the two trees.
 
-```
+
 Figure 14.17. Example of a Full Binary Tree
-```
-According to [1*], a binary tree is called a full
+
+According to [1], a binary tree is called a full
 binary tree if every internal node has exactly two
 children.
 For example, the binary tree in Figure 14.17
@@ -1053,10 +1038,10 @@ In case the last level of a complete binary tree is
 not full, nodes occur from the leftmost positions
 available.
 
-```
+
 Figure 14.18. Example of Complete Binary Trees
-```
-```
+
+
 Interestingly, following the definitions above,
 the tree in Figure 14.18(b) is a complete but not
 full binary tree as node B has only one child in D.
@@ -1090,15 +1075,15 @@ ing nodes form an ordered pair of nonnull left
 subtree TL and nonnull right subtree TR below R,
 then the preorder traversal function PreOrder(T)
 is defined as:
-```
-```
+
+
 PreOrder(T) = R, PreOrder(TL), PreOrder(TR)
 ... eqn. 1
-```
 
-```
+
+
 Mathematical Foundations 14-13
-```
+
 The recursive process of finding the preorder
 traversal of the subtrees continues till the sub-
 trees are found to be Null. Here, commas have
@@ -1107,28 +1092,28 @@ readability.
 The postorder and in-order may be similarly
 defined using eqn. 2 and eqn. 3 respectively.
 
-```
+
 PostOrder(T) = PostOrder(TL), PostOrder(TR),
 R ... eqn 2
 InOrder(T) = InOrder(TL), R, InOrder(TR) ...
 eqn 3
-```
-```
+
+
 Figure 14.19. A Binary Search Tree
-```
+
 For example, the tree in Figure 14.19 is a binary
 search tree (BST). The preorder, postorder, and
 in-order traversal outputs for the BST are given
 below in their respective order.
 
-```
+
 Preorder output: 9, 5, 2, 1, 4, 7, 6, 8, 13, 11,
 10, 15
 Postorder output: 1, 4, 2, 6, 8, 7, 5, 10, 11, 15,
 13, 9
 In-order output: 1, 2, 4, 5, 6, 7, 8, 9, 10, 11,
 13, 15
-```
+
 Further discussion on trees and their usage has
 been included in section 6, Data Structure and Rep-
 resentation, of the Computing Foundations KA.
@@ -1139,7 +1124,7 @@ resentation, of the Computing Foundations KA.
 Probability is the mathematical description of
 randomness. Basic definition of probability and
 
-```
+
 randomness has been defined in section 4 of this
 KA. Here, let us start with the concepts behind
 probability distribution and discrete probability.
@@ -1182,34 +1167,32 @@ counterpart, x, will represent the value of the ran-
 dom variable.
 The probability that the random variable X will
 equal x is:
-```
-```
+
+
 P(X = x) or, more simply, P(x).
-```
-```
+
+
 A probability distribution (density) function is
 a table, formula, or graph that describes the val-
 ues of a random variable and the probability asso-
 ciated with these values.
-```
 
-**14-14** **_SWEBOK® Guide_** **V3.0**
 
 Probabilities associated with discrete random
 variables have the following properties:
 
-```
+
 i. 0 ≤ P(x) ≤ 1 for all x
 ii. ΣP(x) = 1
-```
+
 A discrete probability distribution can be repre-
 sented as a discrete random variable.
 
 ##### X 1 2 3 4 5 6
 
-```
+
 P(x) 1/6 1/6 1/6 1/6 1/6 1/6
-```
+
 **Figure 14.20.** A Discrete Probability Function for a Rolling
 Die
 
@@ -1223,11 +1206,11 @@ come xk, the mean of this probability would be μ
 For example, the mean of the probability den-
 sity for the distribution in Figure 14.20 would be
 
-```
+
 1 * (1/6) + 2 * (1/6) + 3 * (1/6) + 4 * (1/6) + 5
 * (1/6) + 6 * (1/6)
 = 21 * (1/6) = 3.5
-```
+
 Here, the sample space refers to the set of all
 possible outcomes.
 The variance s^2 of a discrete probability model
@@ -1237,7 +1220,7 @@ variance.
 For example, for the probability distribution in
 Figure 14.20, the variation σ^2 would be
 
-```
+
 s^2 = [(1 – 3.5)^2 * (1/6) + (2 – 3.5)^2 * (1/6) +
 (3 – 3.5)^2 * (1/6) + (4 – 3.5)^2 * (1/6) + (5 –
 3.5)^2 * (1/6) + (6 – 3.5)^2 * (1/6)]
@@ -1245,11 +1228,11 @@ s^2 = [(1 – 3.5)^2 * (1/6) + (2 – 3.5)^2 * (1/6) +
 (1/6)
 = 17.5 * (1/6)
 = 2.90
-```
-```
+
+
 ∴ standard deviation s =
-```
-```
+
+
 These numbers indeed aim to derive the aver-
 age value from repeated experiments. This is
 based on the single most important phenom-
@@ -1259,11 +1242,11 @@ expected value of one experiment. Moreover,
 the average value is more likely to be closer to
 the expected value of any one experiment as the
 number of experiments increases.
-```
+
 **7. Finite State Machines**
     [1*, c13]
 
-```
+
 A computer system may be abstracted as a map-
 ping from state to state driven by inputs. In other
 words, a system may be considered as a transition
@@ -1295,29 +1278,29 @@ an information capacity of C bits as an FSM, then
 its state transition graph will have |S| = 2C nodes.
 A finite state machine is formally defined as M
 = ( S , I , O , f , g , s 0 ).
-```
-```
+
+
 S is the state set;
 I is the set of input symbols;
 O is the set of output symbols;
 f is the state transition function;
-```
 
-```
+
+
 Mathematical Foundations 14-15
-```
-```
+
+
 g is the output function;
 and s 0 is the initial state.
-```
+
 Given an input x ∈ I on state Sk, the FSM
 makes a transition to state Sh following state tran-
 sition function f and produces an output y ∈ O
 using the output function g.
 
-```
+
 Figure 14.21. Example of an FSM
-```
+
 For example, Figure 14.21 illustrates an FSM
 with S 0 as the start state and S 1 as the final state.
 Here, S = {S 0 , S 1 , S 2 }; I = {0, 1}; O = {2, 3}; f(S 0 ,
@@ -1325,39 +1308,39 @@ Here, S = {S 0 , S 1 , S 2 }; I = {0, 1}; O = {2, 3}; f(S 0 ,
 0) = S 2 , f(S 2 , 1) = S 0 ; g(S 0 , 0) = 3, g(S 0 , 1) = 2, g(S 1 ,
 0) = 3, g(S 1 , 1) = 2, g(S 2 , 0) = 2, g(S 2 , 1) = 3.
 
-```
+
 Current
 State
-```
-```
+
+
 Input
 0 1
 S 0 S 2 S 1
 S 1 S 2 S 2
 S 2 S 2 S 0
-```
-```
+
+
 (a)
-```
-```
+
+
 Current
 State
-```
-```
+
+
 Output State
 Input Input
 0 1 0 1
 S 0 3 2 S 2 S 1
 S 1 3 2 S 2 S 2
 S 2 2 3 S 2 S 0
-```
-```
+
+
 (b)
-```
-```
+
+
 Figure 14.22. Tabular Representation of an FSM
-```
-```
+
+
 The state transition and output values for differ-
 ent inputs on different states may be represented
 using a state table. The state table for the FSM in
@@ -1367,11 +1350,11 @@ and the output symbol.
 For example, Figures 14.22(a) and 14.22(b) are
 two alternate representations of the FSM in Fig-
 ure 14.21.
-```
+
 **8. Grammars**
     [1*, c13]
 
-```
+
 The grammar of a natural language tells us
 whether a combination of words makes a valid
 sentence. Unlike natural languages, a formal lan-
@@ -1394,7 +1377,7 @@ generate all legal sentences of the language.
 There are different types of grammars.
 A phrase-structure or Type-0 grammar G = (V,
 T, S, P) is a 4-tuple in which:
-```
+
 - V is the vocabulary, i.e., set of words.
 - T ⊆ V is a set of words called terminals.
 - S ∈ N is a special word called the start
@@ -1402,16 +1385,14 @@ T, S, P) is a 4-tuple in which:
 - P is the set of productions rules for substitut-
     ing one sentence fragment for another.
 
-```
+
 There exists another set N = V − T of words
 called nonterminals. The nonterminals represent
 concepts like noun. Production rules are applied
 on strings containing nonterminals until no more
 nonterminal symbols are present in the string.
 The start symbol S is a nonterminal.
-```
 
-**14-16** **_SWEBOK® Guide_** **V3.0**
 
 The language generated by a formal grammar
 G, denoted by L(G), is the set of all strings over
@@ -1428,11 +1409,11 @@ Applying the production rules in all possible
 ways, the following words may be generated
 from the start symbol.
 
-```
+
 S → aA (using P1 on start symbol)
 → aaa (using P3)
 S → b (using P2 on start symbol)
-```
+
 Nothing else can be derived for G. Thus, the
 language of the grammar G consists of only two
 words: L(G) = {aaa, b}.
@@ -1444,9 +1425,9 @@ types of productions that are allowed. The Chom-
 sky hierarchy (introduced by Noam Chomsky in
 1956) describes such a classification scheme.
 
-```
+
 Figure 14.23. Chomsky Hierarchy of Grammars
-```
+
 As illustrated in Figure 14.23, we infer the fol-
 lowing on different types of grammars:
 
@@ -1457,7 +1438,7 @@ lowing on different types of grammars:
        3. Every CSG is a phrase-structure grammar
           (PSG).
 
-```
+
 Context-Sensitive Grammar: All fragments in
 the RHS are either longer than the corresponding
 fragments in the LHS or empty, i.e., if b → a, then
@@ -1492,25 +1473,25 @@ operations, OR (+), PRODUCT (.), CONCATE-
 NATION (*). The language of G, L(G) is equal to
 all those strings that match G, L(G) = {x ∈ S*|x
 matches G}.
-```
-```
+
+
 For any a ∈ S, L(a) = a; L(e) = {ε}; L(0) = 0.
 + functions as an or, L(A + B) = L(A) ∪ L(B).
-```
+
 . creates a product structure, L(AB) = L(A).
     L(B).
 * denotes concatenation, L(A*) = {x 1 x 2 ...xn |
     xi ∈ L(A) and n ³ 0}
 
-```
+
 For example, the regular expression (ab)*
 matches the set of strings: {e, ab, abab, ababab,
 abababab, ...}.
-```
 
-```
+
+
 Mathematical Foundations 14-17
-```
+
 For example, the regular expression (aa)*
 matches the set of strings on one letter _a_ that have
 even length.
@@ -1561,7 +1542,7 @@ interval −2−n−1N < x ≤ 2−n−1N. Real numbers lying
 between the gaps are represented by either _round-
 ing_ (meaning the closest exact representative)
 
-```
+
 or chopping (meaning the exact representative
 immediately below —or above, if negative—the
 number).
@@ -1611,9 +1592,7 @@ are known to be correct. In a measurement, one
 uncertain digit is included.
 For example, measurement of length with
 a ruler of 15.5 mm with ±0.5 mm maximum
-```
 
-**14-18** **_SWEBOK® Guide_** **V3.0**
 
 allowable error has 2 significant digits, whereas
 a measurement of the same length using a caliper
@@ -1666,7 +1645,7 @@ bers is Q.
 Rational numbers may be classified into
 three types, based on how the decimals act. The
 
-```
+
 decimals either do not exist, e.g., 15, or, when
 decimals do exist, they may terminate, as in 15.6,
 or they may repeat with a pattern, as in 1.666...,
@@ -1717,11 +1696,11 @@ floor of the real number.
 Let Z+ = {n ∈ Z | n > 0} and a, b ∈ Z, m ∈ Z+,
 then a is congruent to b modulo m , written as a ≡
 b (mod m) , if and only if m | a−b.
-```
 
-```
+
+
 Mathematical Foundations 14-19
-```
+
 Alternately, _a_ is congruent to _b modulo m_ if and
 only if _(a−b) mod m = 0_.
 
@@ -1747,9 +1726,9 @@ The greatest common divisor gcd(a, b) of inte-
 gers a, b is the greatest integer d that is a divisor
 both of a and of b, i.e.,
 
-```
+
 d = gcd(a, b) for max(d: d|a ∧ d|b)
-```
+
 For example, gcd(24, 36) = 12.
 Integers _a_ and _b_ are called relatively prime or
 coprime if and only if their GCD is 1.
@@ -1771,14 +1750,14 @@ For example, group, monoid, ring, and lattice
 are examples of algebraic structures. Each of
 these is defined in this section.
 
-```
+
 11.1. Group
-```
-```
+
+
 A set S closed under a binary operation • forms a
 group if the binary operation satisfies the follow-
 ing four criteria:
-```
+
 - Associative: ∀a, b, c ∈ S, the equation (a • b)
     - c = a • (b • c) holds.
 - Identity: There exists an identity element I ∈
@@ -1795,7 +1774,7 @@ ing four criteria:
 - A group that is commutative, i.e., a • b = b • a,
     is known as a commutative or Abelian group.
 
-```
+
 The set of natural numbers N (with the opera-
 tion of addition) is not a group, since there is no
 inverse for any x > 0 in the set of natural numbers.
@@ -1824,9 +1803,7 @@ gers P forms a commutative monoid under multi-
 plication with identity element 1.
 It may be noted that, unlike those in a group,
 elements of a monoid need not have inverses. A
-```
 
-**14-20** **_SWEBOK® Guide_** **V3.0**
 
 monoid can also be thought of as a semigroup
 with an identity element.
@@ -1861,10 +1838,10 @@ For example, the group _G_ = {0, 2, 4, 6, 1, 3, 5,
 is cyclic. The subgroups _J_ = {0, 4} and _H_ = {0, 2,
 4, 6} are also cyclic.
 
-```
+
 11.2. Rings
-```
-```
+
+
 If we take an Abelian group and define a second
 operation on it, a new structure is found that is
 different from just a group. If this second opera-
@@ -1872,7 +1849,7 @@ tion is associative and is distributive over the
 first, then we have a ring.
 A ring is a triple of the form (S, +, •), where (S,
 +) is an Abelian group, (S, •) is a semigroup, and
-```
+
 - is distributive over +; i.e., “ a, b, c ∈ S, the equa-
 tion _a_ • ( _b_ + _c_ ) = ( _a_ • _b_ ) + ( _a_ • _c_ ) holds. Further, if
 - is commutative, then the ring is said to be com-
@@ -1902,20 +1879,20 @@ simply − _a_ / _b_ , and the multiplicative inverse is _b/a_
 provided that _a_ ≠ 0.
 
 
-```
+
 Mathematical Foundations 14-21
-```
+
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
-Rosen 2011
-```
-##### [1*]
 
-```
+Rosen 2011
+
+##### [1]
+
+
 Cheney and Kincaid 2007
-```
-##### [2*]
+
+##### [2]
 
 **1. Sets, Relations, Functions** c2
 **2. Basic Logic** c1
@@ -1930,20 +1907,17 @@ Cheney and Kincaid 2007
 **11. Algebraic Structures**
 
 
-**14-22** **_SWEBOK® Guide_** **V3.0**
-
 ##### REFERENCES
 
-[1*] K. Rosen, _Discrete Mathematics and Its
+[1] K. Rosen, _Discrete Mathematics and Its
 Applications_ , 7th ed., McGraw-Hill, 2011.
 
-[2*] E.W. Cheney and D.R. Kincaid, _Numerical
+[2] E.W. Cheney and D.R. Kincaid, _Numerical
 Mathematics and Computing_ , 6th ed.,
 Brooks/Cole, 2007.
 
 ##### ACKNOWLEDGMENTS
 
-```
 The author thankfully acknowledges the contri-
 bution of Prof. Arun Kumar Chatterjee, Ex-Head,
 Department of Mathematics, Manipur Univer-
@@ -1951,4 +1925,3 @@ sity, India, and Prof. Devadatta Sinha, Ex-Head,
 Department of Computer Science and Engineer-
 ing, University of Calcutta, India, in preparing
 this chapter on Mathematical Foundations.
-```
