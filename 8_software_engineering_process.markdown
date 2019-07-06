@@ -1,28 +1,13 @@
-```
-8-1
-```
 **CHAPTER 8**
 
 **SOFTWARE ENGINEERING PROCESS**
 
 ##### ACRONYMS
 
-##### BPMN
-
-```
-Business Process Modeling
-Notation
-```
-```
-CASE
-Computer-Assisted Software
-Engineering
+BPMN Business Process Modeling Notation
+CASE Computer-Assisted Software Engineering
 CM Configuration Management
-```
-```
-CMMI
-Capability Maturity Model
-Integration
+CMMI Capability Maturity Model Integration
 GQM Goal-Question-Metric
 IDEF0 Integration Definition
 LOE Level of Effort
@@ -30,7 +15,7 @@ ODC Orthogonal Defect Classification
 SDLC Software Development Life Cycle
 SPLC Software Product Life Cycle
 UML Unified Modeling Language
-```
+
 ##### INTRODUCTION
 
 An engineering process consists of a set of inter-
@@ -52,7 +37,7 @@ ments, design, construction, testing, configura-
 tion management, and other software engineering
 processes. For readability, “software engineering
 
-```
+
 process” will be referred to as “software process”
 in this KA. In addition, please note that “software
 process” denotes work activities—not the execu-
@@ -84,20 +69,18 @@ for project and product quality. Measurement and
 measurement results in the Engineering Founda-
 tions KA are essential for evaluating and control-
 ling software processes.
-```
-```
+
+
 BREAKDOWN OF TOPICS FOR
 SOFTWARE ENGINEERING PROCESS
-```
-```
+
+
 As illustrated in Figure 8.1, this KA is concerned
 with software process definition, software life
 cycles, software process assessment and improve-
 ment, software measurement, and software engi-
 neering process tools.
-```
 
-**8-2** **_SWEBOK® Guide_** **V3.0**
 
 **1. Software Process Definition**
     [1*, p177] [2*, p295] [3*, p28–29, p36, c5]
@@ -121,7 +104,7 @@ criteria should be satisfied before a process can
 commence. All specified conditions should be
 satisfied before a process can be successfully
 
-```
+
 concluded, including the acceptance criteria for
 the output work product or work products.
 A software process may include subprocesses.
@@ -143,14 +126,14 @@ inputs to the software design and software test-
 ing processes. Requirements validation and other
 subprocesses of the software requirements process
 are often interleaved and iterated in various ways;
-```
-```
-Figure 8.1. Breakdown of Topics for the Software Engineering Process KA
-```
 
-```
+
+Figure 8.1. Breakdown of Topics for the Software Engineering Process KA
+
+
+
 Software Engineering Process 8-3
-```
+
 the software requirements process and its subpro-
 cesses may be entered and exited multiple times
 during software development or modification.
@@ -187,7 +170,7 @@ _1.1. Software Process Management_
 Two objectives of software process management
 are to realize the efficiency and effectiveness that
 
-```
+
 result from a systematic approach to accomplish-
 ing software processes and producing work prod-
 ucts—be it at the individual, project, or organiza-
@@ -222,12 +205,10 @@ If the modifications are extensive, then changes
 in the organizational culture and business model
 will likely be necessary to accommodate the pro-
 cess changes.
-```
-```
-Figure 8.2. Elements of a Software Process
-```
 
-**8-4** **_SWEBOK® Guide_** **V3.0**
+
+Figure 8.2. Elements of a Software Process
+
 
 _1.2. Software Process Infrastructure_
 [2*, p183, p186] [4*, p437–438]
@@ -280,7 +261,7 @@ software product quality.
 This topic addresses categories of software pro-
 cesses, software life cycle models, software
 
-```
+
 process adaptation, and practical considerations.
 A software development life cycle (SDLC)
 includes the software processes used to specify
@@ -330,11 +311,11 @@ software processes are being performed at the
 same time (e.g., software test planning during
 software requirements analysis can improve the
 software requirements).
-```
 
-```
+
+
 Software Engineering Process 8-5
-```
+
 _2.1. Categories of Software Processes_
 [1*, Preface] [2* , p294–295] [3*, c22–c24]
 
@@ -386,11 +367,11 @@ ware processes may also be developed to provide
 adequate grounds for establishing confidence in
 the integrity of the software.
 
-```
+
 2.2. Software Life Cycle Models
 [1*, c2] [2*, s3.2] [3*, s2.1] [5]
-```
-```
+
+
 The intangible and malleable nature of software
 permits a wide variety of software development
 life cycle models, ranging from linear models in
@@ -437,11 +418,7 @@ ments may be rigorously controlled, as in a linear
 model, or there may be some flexibility in revising
 the software requirements as the software product
 evolves. Agile models may define product scope
-and high-level features initially; however, agile
-```
-
-**8-6** **_SWEBOK® Guide_** **V3.0**
-
+and high-level features initially; however, agile 
 models are designed to facilitate evolution of the
 software requirements during the project.
 It must be emphasized that the continuum of
@@ -492,7 +469,7 @@ organizational context and business environment.
 Another practical consideration: software
 processes (such as configuration management,
 
-```
+
 construction, and testing) can be adapted to facili-
 tate operation, support, maintenance, migration,
 and retirement of the software.
@@ -506,12 +483,12 @@ nature of the work (e.g., modification of exist-
 ing software versus new development) and the
 application domain (e.g., aerospace versus hotel
 management).
-```
+
 **3. Software Process Assessment and
 Improvement**
     [2*, p188, p194] [3*, c26] [4*, p397, c15]
 
-```
+
 This topic addresses software process assess-
 ment models, software process assessment meth-
 ods, software process improvement models, and
@@ -543,11 +520,11 @@ risk management, or to identify lessons learned.
 Process assessment is carried out using both an
 assessment model and an assessment method. The
 model can provide a norm for a benchmarking
-```
 
-```
+
+
 Software Engineering Process 8-7
-```
+
 comparison among projects within an organiza-
 tion and among organizations.
 A process audit differs from a process assess-
@@ -598,7 +575,7 @@ and outcomes of a defined software process. For
 example, a quantitative assessment of the soft-
 ware inspection process might be performed by
 
-```
+
 examining the procedural steps followed and
 results obtained plus data concerning defects
 found and time required to find and fix the defects
@@ -633,12 +610,12 @@ process improvement; performing a software
 process assessment by following a checklist for
 conformance without gaining insight adds little
 value.
-```
-```
+
+
 3.3. Software Process Improvement Models
 [2*, p187–188] [3*, s26.5] [4*, s2.7]
-```
-```
+
+
 Software process improvement models empha-
 size iterative cycles of continuous improvement.
 A software process improvement cycle typically
@@ -649,12 +626,7 @@ software process improvement. Improvement
 activities include identifying and prioritizing
 desired improvements (planning); introducing
 an improvement, including change management
-and training (doing); evaluating the improvement
-```
-
-**8-8** **_SWEBOK® Guide_** **V3.0**
-
-as compared to previous or exemplary process
+and training (doing); evaluating the improvement as compared to previous or exemplary process
 results and costs (checking); and making further
 modifications (acting). The Plan-Do-Check-Act
 process improvement model can be applied, for
@@ -679,19 +651,19 @@ els is provided in Table 8.1. Continuous models
 typically use a level 0 rating; staged models typi-
 cally do not.
 
-```
+
 Table 8.1. Software Process Rating Levels
-```
-```
+
+
 Level
-```
-```
+
+
 Continuous
 Representation
 of Capability
 Levels
-```
-```
+
+
 Staged
 Representation
 of Maturity
@@ -700,13 +672,13 @@ Levels
 1 Performed Initial
 2 Managed Managed
 3 Defined Defined
-```
-```
+
+
 4
 Quantitatively
 Managed
 5 Optimizing
-```
+
 In Table 8.1, level 0 indicates that a software
 process is incompletely performed or may not be
 performed. At level 1, a software process is being
@@ -717,7 +689,7 @@ level 2, a software process (capability rating) or
 the processes in maturity level 2 are being per-
 formed in a manner that provides management
 
-```
+
 visibility into intermediate work products and
 can exert some control over transitions between
 processes. At level 3, a single software process or
@@ -748,11 +720,11 @@ cesses within a maturity level is accomplished for
 that maturity level, which provides a foundation
 for improving all of the software processes at the
 next higher level.
-```
+
 **4. Software Measurement**
     [3*, s26.2] [4*, s18.1.1]
 
-```
+
 This topic addresses software process and prod-
 uct measurement, quality of measurement results,
 software information models, and software pro-
@@ -768,11 +740,11 @@ process, effort required to fix defects discovered
 by testing should be measured. Following an ini-
 tial start-up period after the inspection process
 is introduced, the combined effort of inspection
-```
 
-```
+
+
 Software Engineering Process 8-9
-```
+
 plus testing can be compared to the previous
 amount of effort required for testing alone. Simi-
 lar considerations apply if a process is changed.
@@ -823,7 +795,7 @@ determining the effectiveness of software pro-
 cesses include product complexity, total defects,
 defect density, and the quality of requirements,
 
-```
+
 design documentation, and other related work
 products.
 Also note that efficiency and effectiveness are
@@ -873,10 +845,6 @@ correct the defects they find—as in unit testing
 by software developers or in a cross-functional
 agile team. Or the productivity calculation
 may include either the effort of the software
-```
-
-**8-10** **_SWEBOK® Guide_** **V3.0**
-
 developers or the effort of an independent test-
 ing team, depending on who fixes the defects
 found by the independent testers. Note that this
@@ -925,11 +893,11 @@ in the Software Engineering Management KA
 describes a process for implementing a software
 measurement program.
 
-```
+
 4.3. Software Information Models
 [1*, p310–311] [3*, p712–713] [4*, s19.2]
-```
-```
+
+
 Software information models allow modeling,
 analysis, and prediction of software process and
 software product attributes to provide answers to
@@ -968,7 +936,7 @@ A model is evaluated by comparing computed
 results to actual outcomes for a different set of
 similar data. There are three possible evaluation
 outcomes:
-```
+
 1. results computed for a different data set vary
     widely from actual outcomes for that data
     set, in which case the derived model is not
@@ -977,9 +945,9 @@ outcomes:
     for future projects;
 
 
-```
+
 Software Engineering Process 8-11
-```
+
 2. results computed for a new data set are
     close to actual outcomes for that data set,
     in which case minor adjustments are made
@@ -1029,19 +997,19 @@ activities that are candidates for improvement.
 In some cases, new software processes may be
 needed.
 
-```
+
 Process measurement techniques also provide
 the information needed to measure the effects of
 process improvement initiatives. Process mea-
 surement techniques can be used to collect both
 quantitative and qualitative data.
-```
-```
+
+
 4.4.1. Quantitative Process Measurement
 Techniques
 [4*, s5.1, s5.7, s9.8]
-```
-```
+
+
 The purpose of quantitative process measurement
 techniques is to collect, transform, and analyze
 quantitative process and work product data that
@@ -1080,10 +1048,6 @@ Orthogonal Defect Classification (ODC) can
 be used to analyze quantitative process measure-
 ment data. ODC can be used to group detected
 defects into categories and link the defects in
-```
-
-**8-12** **_SWEBOK® Guide_** **V3.0**
-
 each category to the software process or soft-
 ware processes where a group of defects origi-
 nated (see Defect Characterization in the Soft-
@@ -1097,11 +1061,11 @@ Statistical Process Control can be used to track
 process stability, or the lack of process stability,
 using control charts.
 
-```
+
 4.4.2. Qualitative Process Measurement
 Techniques
 [1*, s6.4]
-```
+
 Qualitative process measurement techniques—
 including interviews, questionnaires, and expert
 judgment—can be used to augment quantitative
@@ -1123,7 +1087,7 @@ diagrams. In some cases, software process tools
 allow different types of analyses and simula-
 tions (for example, discrete event simulation). In
 
-```
+
 addition, general purpose business tools, such as
 a spreadsheet, may be useful.
 Computer-Assisted Software Engineering
@@ -1161,69 +1125,69 @@ play selected process and product attributes for
 software projects and indicate measurements that
 are within control limits and those needing cor-
 rective action.
-```
 
-```
+
+
 Software Engineering Process 8-13
-```
+
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Fairley 2009
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Moore 2009
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Sommerville 2011
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Kan 2003
-```
-##### [4*]
+
+##### [4]
 
 **1. Software Process Definition** p177 p295
 
-```
+
 p28–29,
 p36,
 c5
 1.1. Software Process Management s26.1 p453–454
-```
-```
+
+
 1.2. Software Process Infrastructure
 p183, p186
 p437–438
-```
+
 **2. Software Life Cycles** c2 p190
 
-```
+
 2.1. Categories of Software Processes preface p294–295
 c22, c23,
 c24
 2.2. Software Life Cycle Models c2 s3.2 s2.1
 2.3. Software Process Adaptation s2.7 p51
-```
-```
+
+
 2.4. Practical Considerations p188–190
-```
+
 **3. Software Process Assessment and
 Improvement**
     p188, p194 c26 p397, c15
 
-```
+
 3.1. Software Process Assessment Models
 s4.5,
 s4.6
 s26.5 p44–48
-```
-```
+
+
 3.2. Software Process Assessment
 Methods
 p322–331 s26.3
@@ -1232,49 +1196,46 @@ s16.4
 3.3. Software Process Improvement
 Models
 p187–188 s26.5 s2.7
-```
-```
+
+
 3.4. Continuous and Staged Ratings p28–34 s26.5 p39–45
-```
+
 **4. Software Measurement** s26.2 s18.1.1
     4.1. Software Process and Product
     Measurement
 
-```
+
 s6.3,
 p273
-```
-```
+
+
 s26.2,
 p638
-```
-```
+
+
 4.2. Quality of Measurement Results
-```
-```
+
+
 s3.4,
 s3.5,
 s3.6,
 s3.7
 4.3. Software Information Models p310–311 p. 712–713 s19.2
-```
-```
+
+
 4.4. Software Process Measurement
 Te c h n i q u e s
-```
-```
+
+
 s6.4,
 c8
-```
-```
+
+
 s5.1,
 s5.7,
 s9.8
-```
+
 **5. Software Engineering Process Tools** s8.7
-
-
-**8-14** **_SWEBOK® Guide_** **V3.0**
 
 ##### FURTHER READINGS
 
@@ -1290,8 +1251,7 @@ this extension to the _PMBOK® Guide_ is descrip-
 tion of processes that are applicable for managing
 adaptive life cycle software projects.
 
-D. Gibson, D. Goldenson, and K. Kost,
-“Performance Results of CMMI-Based
+D. Gibson, D. Goldenson, and K. Kost, “Performance Results of CMMI-Based
 Process Improvement” [6].
 
 This technical report summarizes publicly avail-
@@ -1317,59 +1277,35 @@ _ISO/IEC 15504-1:2004 Information tech-
 nology—Process assessment—Part 1:
 Concepts and vocabulary_ [8].
 
-This standard, commonly known as SPICE
-(Software Process Improvement and Capability
-Determination), includes multiple parts. Part 1
-provides concepts and vocabulary for software
-development processes and related business-
-management functions. Other parts of 15504
-define the requirements and procedures for per-
-forming process assessments.
+This standard, commonly known as SPICE (Software Process Improvement and
+Capability Determination), includes multiple parts. Part 1 provides concepts
+and vocabulary for software development processes and related business-
+management functions. Other parts of 15504 define the requirements and
+procedures for per- forming process assessments.
 
 ##### REFERENCES
 
-```
-[1*] R.E. Fairley, Managing and Leading
-Software Projects , Wiley-IEEE Computer
+[1] R.E. Fairley, Managing and Leading Software Projects , Wiley-IEEE Computer
 Society Press, 2009.
-```
-```
-[2*] J.W. Moore, The Road Map to Software
-Engineering: A Standards-Based Guide ,
+
+[2] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide ,
 Wiley-IEEE Computer Society Press, 2006.
-```
-```
-[3*] I. Sommerville, Software Engineering , 9th
-ed., Addison-Wesley, 2011.
-```
-```
-[4*] S.H. Kan, Metrics and Models in Software
-Quality Engineering , 2nd ed., Addison-
-Wesley, 2002.
-```
-```
-[5] Project Management Institute and IEEE
-Computer Society, Software Extension
-to the PMBOK® Guide Fifth Edition , ed:
-Project Management Institute, 2013.
-```
-```
-[6] D. Gibson, D. Goldenson, and K. Kost,
-“Performance Results of CMMI-Based
-Process Improvement,” Software
-Engineering Institute, 2006; http://
-resources.sei.cmu.edu/library/asset-view.
-cfm?assetID=8065.
-```
-```
-[7] CMMI Product Team, “CMMI for
-Development, Version 1.3,” Software
-Engineering Institute, 2010; http://
-resources.sei.cmu.edu/library/asset-view.
+
+[3] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+
+[4] S.H. Kan, Metrics and Models in Software Quality Engineering , 2nd ed.,
+Addison- Wesley, 2002.
+
+[5] Project Management Institute and IEEE Computer Society, Software Extension
+to the PMBOK® Guide Fifth Edition , ed: Project Management Institute, 2013.
+
+[6] D. Gibson, D. Goldenson, and K. Kost, “Performance Results of CMMI-Based
+Process Improvement,” Software Engineering Institute, 2006; http://
+resources.sei.cmu.edu/library/asset-view.  cfm?assetID=8065.
+
+[7] CMMI Product Team, “CMMI for Development, Version 1.3,” Software
+Engineering Institute, 2010; http:// resources.sei.cmu.edu/library/asset-view.
 cfm?assetID=9661.
-```
-```
-[8] ISO/IEC 15504-1:2004, Information
-Technology—Process Assessment—Part 1:
+
+[8] ISO/IEC 15504-1:2004, Information Technology—Process Assessment—Part 1:
 Concepts and Vocabulary , ISO/IEC, 2004.
-```
