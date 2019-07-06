@@ -1,24 +1,16 @@
-```
-5-1
-```
 **CHAPTER 5**
 
 **SOFTWARE MAINTENANCE**
 
 ##### ACRONYMS
 
-```
 MR Modification Request
 PR Problem Report
-```
-```
-SCM
-Software Configuration
-Management
+SCM Software Configuration Management
 SLA Service-Level Agreement
 SQA Software Quality Assurance
 V&V Verification and Validation
-```
+
 ##### INTRODUCTION
 
 Software development efforts result in the deliv-
@@ -48,7 +40,7 @@ as the totality of activities required to provide
 cost-effective support to software. Activities are
 performed during the predelivery stage as well as
 
-```
+
 during the postdelivery stage. Predelivery activi-
 ties include planning for postdelivery operations,
 maintainability, and logistics determination for
@@ -60,18 +52,18 @@ The Software Maintenance knowledge area
 engineering. Therefore, this KA description is
 linked to all other software engineering KAs of
 the Guide.
-```
-```
+
+
 BREAKDOWN OF TOPICS FOR
 SOFTWARE MAINTENANCE
-```
-```
+
+
 The breakdown of topics for the Software Main-
 tenance KA is shown in Figure 5.1.
-```
+
 **1. Software Maintenance Fundamentals**
 
-```
+
 This first section introduces the concepts and
 terminology that form an underlying basis to
 understanding the role and scope of software
@@ -79,25 +71,23 @@ maintenance. The topics provide definitions and
 emphasize why there is a need for maintenance.
 Categories of software maintenance are critical to
 understanding its underlying meaning.
-```
-```
+
+
 1.1. Definitions and Terminology
 [1*, c3] [2*, c1s2, c2s2]
-```
-```
+
+
 The purpose of software maintenance is defined
 in the international standard for software mainte-
-nance: ISO/IEC/IEEE 14764 [1*].^1 In the context
+nance: ISO/IEC/IEEE 14764 [1].^1 In the context
 of software engineering, software maintenance is
 essentially one of the many technical processes.
-```
-```
+
+
 1 For the purpose of conciseness and ease of read-
 ing, this standard is referred to simply as IEEE 14764
 in the subsequent text of this KA.
-```
 
-**5-2** **_SWEBOK® Guide_** **V3.0**
 
 The objective of software maintenance is to
 modify existing software while preserving its
@@ -117,7 +107,7 @@ to operations). Modification requests are logged
 and tracked, the impact of proposed changes is
 determined, code and other software artifacts are
 
-```
+
 modified, testing is conducted, and a new version
 of the software product is released. Also, train-
 ing and daily support are provided to users. The
@@ -135,14 +125,14 @@ discussed in section 3.2, Maintenance Activities.
 Maintainers can learn from the develop-
 ers’ knowledge of the software. Contact with
 the developers and early involvement by the
-```
-```
-Figure 5.1. Breakdown of Topics for the Software Maintenance KA
-```
 
-```
+
+Figure 5.1. Breakdown of Topics for the Software Maintenance KA
+
+
+
 Software Maintenance 5-3
-```
+
 maintainer helps reduce the overall maintenance
 effort. In some instances, the initial developer
 cannot be reached or has moved on to other tasks,
@@ -193,7 +183,7 @@ _1.4. Majority of Maintenance Costs_
 Maintenance consumes a major share of the finan-
 cial resources in a software life cycle. A common
 
-```
+
 perception of software maintenance is that it
 merely fixes faults. However, studies and sur-
 veys over the years have indicated that the major-
@@ -209,18 +199,18 @@ the factors that influence the maintainability of
 software can help to contain costs. Some environ-
 mental factors and their relationship to software
 maintenance costs include the following:
-```
+
 - Operating environment refers to hardware
     and software.
 - Organizational environment refers to poli-
     cies, competition, process, product, and
     personnel.
 
-```
+
 1.5. Evolution of Software
 [2*, c3s5]
-```
-```
+
+
 Software maintenance in terms of evolution was
 first addressed in the late 1960s. Over a period of
 twenty years, research led to the formulation of
@@ -234,31 +224,28 @@ development, except that there is an extra input
 ware is never complete and continues to evolve;
 as it evolves, it grows more complex unless some
 action is taken to reduce this complexity.
-```
-```
+
+
 1.6. Categories of Maintenance
 [1*, c3, c6s2] [2*, c3s3.1]
-```
-```
+
+
 Three categories (types) of maintenance have
 been defined: corrective, adaptive, and perfec-
 tive [2*, c4s3]. IEEE 14764 includes a fourth
 category–preventative.
-```
+
 - Corrective maintenance: reactive modifi-
     cation (or repairs) of a software product
 
 
-**5-4** **_SWEBOK® Guide_** **V3.0**
-
-```
 performed after delivery to correct discov-
 ered problems. Included in this category
 is emergency maintenance, which is an
 unscheduled modification performed to tem-
 porarily keep a software product operational
 pending corrective maintenance.
-```
+
 - Adaptive maintenance: modification of a
     software product performed after delivery to
     keep a software product usable in a changed
@@ -283,16 +270,16 @@ also groups together the corrective and preven-
 tive maintenance categories into a correction cat-
 egory, as shown in Table 5.1.
 
-```
+
 Table 5.1. Software Maintenance Categories
-```
-```
+
+
 Correction Enhancement
-```
-```
+
+
 Proactive Preventive Perfective
 Reactive Corrective Adaptive
-```
+
 **2. Key Issues in Software Maintenance**
 
 A number of key issues must be dealt with to
@@ -306,27 +293,27 @@ Similarly, competing with software developers
 for resources is a constant battle. Planning for a
 future release, which often includes coding the
 
-```
+
 next release while sending out emergency patches
 for the current release, also creates a challenge.
 The following section presents some of the tech-
 nical and management issues related to software
 maintenance. They have been grouped under the
 following topic headings:
-```
+
 - technical issues,
 - management issues,
 - cost estimation, and
 - measurement.
 
-```
+
 2.1. Technical Issues
-```
-```
+
+
 2.1.1. Limited Understanding
 [2*, c6]
-```
-```
+
+
 Limited understanding refers to how quickly a
 software engineer can understand where to make
 a change or correction in software that he or she
@@ -343,12 +330,12 @@ developers are not available to explain it, which is
 often the case. Thus, software engineers may ini-
 tially have a limited understanding of the software;
 much has to be done to remedy this.
-```
-```
+
+
 2.1.2. Testing
 [1*, c6s2.2.2] [2*, c9]
-```
-```
+
+
 The cost of repeating full testing on a major
 piece of software is significant in terms of time
 and money. In order to ensure that the requested
@@ -361,11 +348,11 @@ tended effects) is an important testing concept in
 maintenance. Additionally, finding time to test is
 often difficult. Coordinating tests when different
 members of the maintenance team are working
-```
 
-```
+
+
 Software Maintenance 5-5
-```
+
 on different problems at the same time remains a
 challenge. When software performs critical func-
 tions, it may be difficult to bring it offline to test.
@@ -375,10 +362,10 @@ Testing KA provides additional information and
 references on this matter in its subtopic on regres-
 sion testing.
 
-```
+
 2.1.3. Impact Analysis
 [1*, c5s2.5] [2*, c13s3]
-```
+
 Impact analysis describes how to conduct, cost-
 effectively, a complete analysis of the impact of
 a change in existing software. Maintainers must
@@ -417,11 +404,11 @@ greatly facilitates impact analysis. More informa-
 tion can be found in the Software Configuration
 Management KA.
 
-```
+
 2.1.4. Maintainability
 [1*, c6s8] [2*, c12s5.5]
-```
-```
+
+
 IEEE 14764 [1*, c3s4] defines maintainability
 as the capability of the software product to be
 modified. Modifications may include corrections,
@@ -446,16 +433,16 @@ ties in program comprehension and subsequent
 impact analysis. The presence of systematic and
 mature processes, techniques, and tools helps to
 enhance the maintainability of software.
-```
-```
+
+
 2.2. Management Issues
-```
-```
+
+
 2.2.1. Alignment with Organizational
 Objectives
 [2*, c4]
-```
-```
+
+
 Organizational objectives describe how to demon-
 strate the return on investment of software main-
 tenance activities. Initial software development is
@@ -471,14 +458,11 @@ investment is much less clear, so that the view at
 the senior management level is often that of a major
 activity consuming significant resources with no
 clear quantifiable benefit for the organization.
-```
 
-**5-6** **_SWEBOK® Guide_** **V3.0**
 
-```
 2.2.2. Staffing
 [2*, c4s5, c10s4]
-```
+
 Staffing refers to how to attract and keep soft-
 ware maintenance staff. Maintenance is not often
 viewed as glamorous work. As a result, software
@@ -486,10 +470,10 @@ maintenance personnel are frequently viewed
 as “second-class citizens,” and morale therefore
 suffers.
 
-```
+
 2.2.3. Process
 [1*, c5] [2*, c5]
-```
+
 The software life cycle process is a set of activities,
 methods, practices, and transformations that peo-
 ple use to develop and maintain software and its
@@ -502,10 +486,10 @@ that are not found in software development (see
 section 3.2 on unique activities for details). These
 activities present challenges to management.
 
-```
+
 2.2.4. Organizational Aspects of Maintenance
 [1*, c7s2.3] [2*, c10]
-```
+
 Organizational aspects describe how to iden-
 tify which organization and/or function will be
 responsible for the maintenance of software. The
@@ -529,16 +513,16 @@ Since there are many pros and cons to each
 option, the decision should be made on a case-by-
 case basis. What is important is the delegation or
 
-```
+
 assignment of the maintenance responsibility to a
 single group or person, regardless of the organi-
 zation’s structure.
-```
-```
+
+
 2.2.5. Outsourcing
-[3*]
-```
-```
+[3]
+
+
 Outsourcing and offshoring software mainte-
 nance has become a major industry. Organiza-
 tions are outsourcing entire portfolios of soft-
@@ -556,23 +540,23 @@ should be staffed with native-language speakers.
 Outsourcing requires a significant initial invest-
 ment and the setup of a maintenance process that
 will require automation.
-```
-```
+
+
 2.3. Maintenance Cost Estimation
-```
-```
+
+
 Software engineers must understand the different
 categories of software maintenance, discussed
 above, in order to address the question of estimat-
 ing the cost of software maintenance. For plan-
 ning purposes, cost estimation is an important
 aspect of planning for software maintenance.
-```
-```
+
+
 2.3.1. Cost Estimation
 [2*, c7s2.4]
-```
-```
+
+
 Section 2.1.3 describes how impact analysis iden-
 tifies all systems and software products affected
 by a software change request and develops an
@@ -585,15 +569,15 @@ approaches to estimating resources for software
 maintenance are the use of parametric models
 and the use of experience” [1*, c7s4.1]. A combi-
 nation of these two can also be used.
-```
 
-```
+
+
 Software Maintenance 5-7
-```
-```
+
+
 2.3.2. Parametric Models
 [2*, c12s5.6]
-```
+
 Parametric cost modeling (mathematical models)
 has been applied to software maintenance. Of sig-
 nificance is that historical data from past main-
@@ -601,10 +585,10 @@ tenance are needed in order to use and calibrate
 the mathematical models. Cost driver attributes
 affect the estimates.
 
-```
+
 2.3.3. Experience
 [2*, c12s5.5]
-```
+
 Experience, in the form of expert judgment,
 is often used to estimate maintenance effort.
 Clearly, the best approach to maintenance esti-
@@ -636,20 +620,20 @@ Software Engineering Process KA. The topic of
 a software measurement program is described in
 the Software Engineering Management KA.
 
-```
+
 2.4.1. Specific Measures
 [2*, c12]
-```
+
 The maintainer must determine which measures
 are appropriate for a specific organization based
 on that organization’s own context. The software
 
-```
+
 quality model suggests measures that are specific
 for software maintenance. Measures for subchar-
 acteristics of maintainability include the follow-
 ing [4*, p. 60]:
-```
+
 - Analyzability: measures of the maintainer’s
     effort or resources expended in trying either
     to diagnose deficiencies or causes of failure
@@ -669,50 +653,46 @@ ing [4*, p. 60]:
 - understandability, and
 - maintainability.
 
-```
+
 Providing software maintenance effort, by
 categories, for different applications provides
 business information to users and their organiza-
 tions. It can also enable the comparison of soft-
 ware maintenance profiles internally within an
 organization.
-```
+
 **3. Maintenance Process**
 
-```
+
 In addition to standard software engineering pro-
 cesses and activities described in IEEE 14764,
 there are a number of activities that are unique to
 maintainers.
-```
-```
+
+
 3.1. Maintenance Processes
 [1*, c5] [2*, c5] [5, s5.5]
-```
-```
+
+
 Maintenance processes provide needed activities
 and detailed inputs/outputs to those activities as
 described in IEEE 14764. The maintenance pro-
 cess activities of IEEE 14764 are shown in Figure
 5.2. Software maintenance activities include
-```
+
 - process implementation,
 - problem and modification analysis,
 - modification implementation,
-
-
-**5-8** **_SWEBOK® Guide_** **V3.0**
-
 - maintenance review/acceptance,
 - migration, and
 - software retirement.
 
-```
+
 Figure 5.2. Software Maintenance Process
-```
-```
+
+
 Other maintenance process models include:
-```
+
 - quick fix,
 - spiral,
 - Osborne’s,
@@ -736,7 +716,7 @@ The maintenance process contains the activities
 and tasks necessary to modify an existing soft-
 ware product while preserving its integrity. These
 
-```
+
 activities and tasks are the responsibility of the
 maintainer. As already noted, many maintenance
 activities are similar to those of software develop-
@@ -750,15 +730,15 @@ it must be tailored to meet specific needs [1*,
 c5s3.2.2]. However, for software maintenance,
 some activities involve processes unique to soft-
 ware maintenance.
-```
-```
+
+
 3.2.1. Unique Activities
 [1*, c3s10, c6s9, c7s2, c7s3] [2*, c6, c7]
-```
-```
+
+
 There are a number of processes, activities, and
 practices that are unique to software maintenance:
-```
+
 - Program understanding: activities needed to
     obtain a general knowledge of what a software
     product does and how the parts work together.
@@ -781,27 +761,27 @@ practices that are unique to software maintenance:
     tracts: contractual agreements that describe
     the services and quality objectives.
 
-```
+
 3.2.2. Supporting Activities
 [1*, c4s1, c5, c6s7] [2*, c9]
-```
-```
+
+
 Maintainers may also perform support activities,
 such as documentation, software configuration
 management, verification and validation, problem
 resolution, software quality assurance, reviews,
-```
 
-```
+
+
 Software Maintenance 5-9
-```
+
 and audits. Another important support activity
 consists of training the maintainers and users.
 
-```
+
 3.2.3. Maintenance Planning Activities
 [1*, c7s3]
-```
+
 An important activity for software maintenance is
 planning, and maintainers must address the issues
 associated with a number of planning perspec-
@@ -849,7 +829,7 @@ c7s2] and should address the
           organization, and
        - estimate of software maintenance costs.
 
-```
+
 The next step is to develop a corresponding
 software maintenance plan. This plan should be
 prepared during software development and should
@@ -863,12 +843,12 @@ will have to conduct business planning activities
 like all the other divisions of the organization.
 Management is discussed in the chapter Related
 Disciplines of Software Engineering.
-```
-```
+
+
 3.2.4. Software Configuration Management
 [1*, c5s1.2.3] [2*, c11]
-```
-```
+
+
 IEEE 14764 describes software configuration
 management as a critical element of the mainte-
 nance process. Software configuration manage-
@@ -894,14 +874,11 @@ a software configuration management plan and
 operating procedures. Maintainers participate in
 Configuration Control Boards to determine the
 content of the next release/version.
-```
 
-**5-10** **_SWEBOK® Guide_** **V3.0**
 
-```
 3.2.5. Software Quality
 [1*, c6s5, c6s7, c6s8] [2*, c12s5.3]
-```
+
 It is not sufficient to simply hope that increased
 quality will result from the maintenance of soft-
 ware. Maintainers should have a software qual-
@@ -946,11 +923,11 @@ changing its behavior. It seeks to improve a pro-
 gram structure and its maintainability. Refactor-
 ing techniques can be used during minor changes.
 
-```
+
 4.3. Reverse Engineering
 [1*, c6s2] [2*, c7, c14s5]
-```
-```
+
+
 Reverse engineering is the process of analyzing
 software to identify the software’s components
 and their inter-relationships and to create repre-
@@ -967,12 +944,12 @@ physical databases, has grown in importance over
 the last few years. Tools are key for reverse engi-
 neering and related tasks such as redocumenta-
 tion and design recovery.
-```
-```
+
+
 4.4. Migration
 [1*, c5s5]
-```
-```
+
+
 During software’s life, it may have to be modi-
 fied to run in different environments. In order to
 migrate it to a new environment, the maintainer
@@ -984,7 +961,7 @@ ments, migration tools, conversion of product
 and data, execution, verification, and support.
 Migrating software can also entail a number of
 additional activities such as
-```
+
 - notification of intent: a statement of why
     the old environment is no longer to be sup-
     ported, followed by a description of the new
@@ -998,9 +975,9 @@ additional activities such as
     sent to all concerned;
 
 
-```
+
 Software Maintenance 5-11
-```
+
 - postoperation review: an assessment of par-
     allel operation and the impact of changing to
     the new environment;
@@ -1043,7 +1020,7 @@ ing program comprehension include
     ers analyze and understand the interrelation-
     ships between components of a program.
 
-```
+
 Reverse engineering tools assist the process by
 working backwards from an existing product to
 create artifacts such as specification and design
@@ -1052,162 +1029,157 @@ generate a new product from an old one. Main-
 tainers also use software test, software configura-
 tion management, software documentation, and
 software measurement tools.
-```
 
-**5-12** **_SWEBOK® Guide_** **V3.0**
 
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
 ##### IEEE/ISO/IEC 14764 2006
 
-##### [1*]
+##### [1]
 
-```
+
 Grubb and Takang 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Sneed 2008
-```
-##### [3*]
+
+##### [3]
 
 **1. Software Maintenance
 Fundamentals**
     1.1. Definitions and Terminology c3 c1s2, c2s2
 
-```
+
 1.2. Nature of Maintenance c1s3
-```
-```
+
+
 1.3. Need for Maintenance c1s5
-```
-```
+
+
 1.4. Majority of Maintenance Costs c4s3, c5s5.2
-```
-```
+
+
 1.5. Evolution of Software c3s5
-```
-```
+
+
 1.6. Categories of Maintenance c3, c6s2 c3s3.1, c4s3
-```
+
 **2. Key Issues in Software
 Maintenance**
     2.1. Technical Issues
 
-```
+
 2.1.1. Limited Understanding c6
 2.1.2. Te s t i n g c6s2.2.2 c9
-```
-```
+
+
 2.1.3. Impact Analysis c5s2.5 c13s3
-```
-```
+
+
 2.1.4. Maintainability c6s8, c3s4 c12s5.5
-```
-```
+
+
 2.2. Management Issues
 2.2.1. Alignment with
 Organizational objectives
 c4
-```
-```
+
+
 2.2.2. Staffing c4s5, c10s4
-```
-```
+
+
 2.2.3. Process c5 c5
 2.2.4. Organizational Aspects of
 Maintenance
 c7s.2.3 c10
-```
-```
+
+
 2.2.5. Outsourcing/Offshoring all
-```
-```
+
+
 2.3. Maintenance Cost Estimation
 2.3.1. Cost Estimation c7s4.1 c7s2.4
-```
 
-```
+
+
 Software Maintenance 5-13
-```
+
 ##### IEEE/ISO/IEC 14764 2006
 
-##### [1*]
+##### [1]
 
-```
+
 Grubb and Takang 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Sneed 2008
-```
-##### [3*]
 
-```
+##### [3]
+
+
 2.3.2. Parametric Models c12s5.6
-```
-```
+
+
 2.3.3. Experience c12s5.5
 2.4. Software Maintenance
 Measurement
 c6s5 c12, c12s3.1
-```
-```
+
+
 2.4.1. Specific Measures c12
-```
+
 **3. Maintenance Process**
 
-```
+
 3.1. Maintenance Processes c5 c5
-```
-```
+
+
 3.2. Maintenance Activities
 c5, c5s3.2.2,
 c6s8.2, c7s3.3
-```
-```
+
+
 3.2.1. Unique Activities
 c3s10, c6s9, c7s2,
 c7s3
 c6,c7
-```
-```
+
+
 3.2.2. Supporting Activities c4s1, c5, c6s7 c9
 3.2.3. Maintenance Planning
 Activities
 c7s2, c7s.3
-```
-```
+
+
 3.2.4. Software Configuration
 Management
 c5s1.2.3 c11
-```
-```
+
+
 3.2.5. Software Quality c6s5, c6s7, c6s8 c12s5.3
-```
+
 **4. Techniques for Maintenance**
 
-```
+
 4.1. Program Comprehension c6,c14s5
-```
-```
+
+
 4.2. Reengineering c7
-```
-```
+
+
 4.3. Reverse Engineering c6s2 c7, c14s5
-```
-```
+
+
 4.4. Migration c5s5
-```
-```
+
+
 4.5. Retirement c5s6
-```
+
 **5. Software Maintenance Tools** c6s4 c14
-
-
-**5-14** **_SWEBOK® Guide_** **V3.0**
 
 ##### FURTHER READINGS
 
@@ -1246,42 +1218,23 @@ maintenance process.
 
 ##### REFERENCES
 
-```
-[1*] IEEE Std. 14764-2006 (a.k.a. ISO/IEC
-14764:2006) Standard for Software
-Engineering—Software Life Cycle
-Processes—Maintenance , IEEE, 2006.
-```
-```
-[2*] P. Grubb and A.A. Takang, Software
-Maintenance: Concepts and Practice , 2nd
+[1] IEEE Std. 14764-2006 (a.k.a. ISO/IEC 14764:2006) Standard for Software
+Engineering—Software Life Cycle Processes—Maintenance , IEEE, 2006.
+
+[2] P. Grubb and A.A. Takang, Software Maintenance: Concepts and Practice , 2nd
 ed., World Scientific Publishing, 2003.
-```
-```
-[3*] H.M. Sneed, “Offering Software
-Maintenance as an Offshore Service,” Proc.
-IEEE Int’l Conf. Software Maintenance
-(ICSM 08), IEEE, 2008, pp. 1–5.
-```
-```
-[4*] J.W. Moore, The Road Map to Software
-Engineering: A Standards-Based Guide ,
+
+[3] H.M. Sneed, “Offering Software Maintenance as an Offshore Service,” Proc.
+IEEE Int’l Conf. Software Maintenance (ICSM 08), IEEE, 2008, pp. 1–5.
+
+[4] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide ,
 Wiley-IEEE Computer Society Press, 2006.
-```
-```
-[5] ISO/IEC/IEEE 24765:2010 Systems and
-Software Engineering—Vocabulary , ISO/
+
+[5] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary , ISO/
 IEC/IEEE, 2010.
-```
-```
-[6] A. April and A. Abran, Software
-Maintenance Management: Evaluation
-and Continuous Improvement , Wiley-IEEE
-Computer Society Press, 2008.
-```
-```
-[7] M. Kajko-Mattsson, “Towards a Business
-Maintenance Model,” Proc. Int’l Conf.
-Software Maintenance , IEEE, 2001, pp.
-500–509.
-```
+
+[6] A. April and A. Abran, Software Maintenance Management: Evaluation and
+Continuous Improvement , Wiley-IEEE Computer Society Press, 2008.
+
+[7] M. Kajko-Mattsson, “Towards a Business Maintenance Model,” Proc. Int’l
+Conf.  Software Maintenance , IEEE, 2001, pp.  500–509.
