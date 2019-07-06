@@ -1,49 +1,32 @@
-```
-9-1
-```
 **CHAPTER 9**
 
-**SOFTWARE ENGINEERING MODELS**
-
-**AND METHODS**
+**SOFTWARE ENGINEERING MODELS AND METHODS**
 
 ##### ACRONYMS
 
-```
 3GL 3rd Generation Language
 BNF Backus-Naur Form
 FDD Feature-Driven Development
-```
-```
-IDE
-Integrated Development
-Environment
+IDE Integrated Development Environment
 PBI Product Backlog Item
 RAD Rapid Application Development
 UML Unified Modeling Language
 XP eXtreme Programming
-```
+
 ##### INTRODUCTION
 
-Software engineering models and methods
-impose structure on software engineering with
-the goal of making that activity systematic,
-repeatable, and ultimately more success-oriented.
-Using models provides an approach to problem
-solving, a notation, and procedures for model
-construction and analysis. Methods provide an
-approach to the systematic specification, design,
-construction, test, and verification of the end-item
-software and associated work products.
-Software engineering models and methods
-vary widely in scope—from addressing a single
-software life cycle phase to covering the com-
-plete software life cycle. The emphasis in this
-knowledge area (KA) is on software engineer-
-ing models and methods that encompass multiple
-software life cycle phases, since methods specific
-for single life cycle phases are covered by other
-KAs.
+Software engineering models and methods impose structure on software
+engineering with the goal of making that activity systematic, repeatable, and
+ultimately more success-oriented.  Using models provides an approach to problem
+solving, a notation, and procedures for model construction and analysis.
+Methods provide an approach to the systematic specification, design,
+construction, test, and verification of the end-item software and associated
+work products.  Software engineering models and methods vary widely in
+scope—from addressing a single software life cycle phase to covering the com-
+plete software life cycle. The emphasis in this knowledge area (KA) is on
+software engineer- ing models and methods that encompass multiple software life
+cycle phases, since methods specific for single life cycle phases are covered
+by other KAs.
 
 ##### BREAKDOWN OF TOPICS FOR
 
@@ -51,10 +34,10 @@ KAs.
 
 ##### AND METHODS
 
-```
+
 This chapter on software engineering models and
 methods is divided into four main topic areas:
-```
+
 - _Modeling_ : discusses the general practice
     of modeling and presents topics in model-
     ing principles; properties and expression of
@@ -77,20 +60,15 @@ methods is divided into four main topic areas:
     methods, formal methods, prototyping, and
     agile methods.
 
-```
+
 The breakdown of topics for the Software
 Engineering Models and Methods KA is shown
 in Figure 9.1.
-```
+
 **1. Modeling**
 
-```
 Modeling of software is becoming a pervasive
-technique to help software engineers understand,
-```
-
-**9-2** **_SWEBOK® Guide_** **V3.0**
-
+technique to help software engineers understand, 
 engineer, and communicate aspects of the soft-
 ware to appropriate stakeholders. Stakeholders
 are those persons or parties who have a stated
@@ -114,11 +92,11 @@ senting significant aspects of the software under
 study, facilitating decision-making about the soft-
 ware or elements of it, and communicating those
 
-```
+
 significant decisions to others in the stakeholder
 communities. There are three general principles
 guiding such modeling activities:
-```
+
 - _Model the Essentials_ : good models do not
     usually represent every aspect or feature of
     the software under every possible condition.
@@ -138,18 +116,15 @@ guiding such modeling activities:
     Organizing information into views focuses
     the software modeling efforts on specific
 
-```
-Figure 9.1. Breakdown of Topics for the Software Engineering Models and Methods KA
-```
 
-```
+Figure 9.1. Breakdown of Topics for the Software Engineering Models and Methods KA
+
 Software Engineering Models and Methods 9-3
-```
-```
+
 concerns relevant to that view using the
 appropriate notation, vocabulary, methods,
 and tools.
-```
+
 - _Enable Effective Communications_ : modeling
     employs the application domain vocabulary
     of the software, a modeling language, and
@@ -198,7 +173,7 @@ used. Properties of models include the following:
     satisfies its requirements and design specifi-
     cations and is free of defects.
 
-```
+
 Models are constructed to represent real-world
 objects and their behaviors to answer specific
 questions about how the software is expected
@@ -240,21 +215,17 @@ depends greatly on the level of semantic and syn-
 tactic rigor applied to the modeling effort in addi-
 tion to explicit tool support. Correctness is typi-
 cally checked through simulation and/or review.
-```
-```
+
+
 1.3. Syntax, Semantics, and Pragmatics
 [2* c2s2.2.2p6] [3*, c5s0]
-```
-```
+
+
 Models can be surprisingly deceptive. The fact
 that a model is an abstraction with missing infor-
 mation can lead one into a false sense of com-
 pletely understanding the software from a single
 model. A complete model (“complete” being
-```
-
-**9-4** **_SWEBOK® Guide_** **V3.0**
-
 relative to the modeling effort) may be a union
 of multiple submodels and any special function
 models. Examination and decision-making rela-
@@ -306,7 +277,7 @@ different in the new environment, which is a dif-
 ferent context. Also, consider that as software
 matures and changes are made, semantic discord
 
-```
+
 can be introduced, leading to errors. With many
 software engineers working on a model part over
 time coupled with tool updates and perhaps new
@@ -314,13 +285,13 @@ requirements, there are opportunities for portions
 of the model to represent something different
 from the original author’s intent and initial model
 context.
-```
-```
+
+
 1.4. Preconditions, Postconditions, and
 Invariants
 [2*, c4s4] [4*, c10s4p2, c10s5p2p4]
-```
-```
+
+
 When modeling functions or methods, the soft-
 ware engineer typically starts with a set of
 assumptions about the state of the software prior
@@ -329,7 +300,7 @@ cutes. These assumptions are essential to the cor-
 rect operation of the function or method and are
 grouped, for discussion, as a set of preconditions,
 postconditions, and invariants.
-```
+
 - _Preconditions_ : a set of conditions that must
     be satisfied prior to execution of the function
     or method. If these preconditions do not hold
@@ -353,17 +324,17 @@ postconditions, and invariants.
     function or method.
 **2. Types of Models**
 
-```
+
 A typical model consists of an aggregation of
 submodels. Each submodel is a partial descrip-
 tion and is created for a specific purpose; it may
 be comprised of one or more diagrams. The
 collection of submodels may employ multiple
-```
 
-```
+
+
 Software Engineering Models and Methods 9-5
-```
+
 modeling languages or a single modeling lan-
 guage. The Unified Modeling Language (UML)
 recognizes a rich collection of modeling dia-
@@ -415,11 +386,11 @@ ior is typified as a sequence of steps where data
 moves through processes toward data stores or
 data sinks.
 
-```
+
 2.3. Structure Modeling
 [1*, c7s2.5, c7s3.1, c7s3.2] [3*, c5s3] [4*, c4]
-```
-```
+
+
 Structure models illustrate the physical or logical
 composition of software from its various com-
 ponent parts. Structure modeling establishes the
@@ -434,10 +405,10 @@ and the definition of process or functional inter-
 faces. Structure diagrams provided by the UML
 for structure modeling include class, component,
 object, deployment, and packaging diagrams.
-```
+
 **3. Analysis of Models**
 
-```
+
 The development of models affords the software
 engineer an opportunity to study, reason about,
 and understand the structure, function, opera-
@@ -451,12 +422,12 @@ analysis techniques generally used with soft-
 ware models to ensure that the software engineer
 and other relevant stakeholders gain appropriate
 value from the development and use of models.
-```
-```
+
+
 3.1. Analyzing for Completeness
 [3*, c4s1.1p7, c4s6] [5*, p8–11]
-```
-```
+
+
 In order to have software that fully meets the needs
 of the stakeholders, completeness is critical—from
 the requirements elicitation process to code imple-
@@ -470,10 +441,6 @@ the state models are reached by some set of correct
 inputs); models may also be checked for complete-
 ness manually by using inspections or other review
 techniques (see the Software Quality KA). Errors
-```
-
-**9-6** **_SWEBOK® Guide_** **V3.0**
-
 and warnings generated by these analysis tools and
 found by inspection or review indicate probable
 needed corrective actions to ensure completeness
@@ -524,7 +491,7 @@ creation, and modification of many work products
 such as planning documents, process specifica-
 tions, software requirements, diagrams, designs
 
-```
+
 and pseudo-code, handwritten and tool-generated
 code, manual and automated test cases and reports,
 and files and data. These work products may be
@@ -550,12 +517,12 @@ ments, design, code, and/or test entities as may be
 represented in the models and other software work
 products. (For more information on traceability,
 see the Software Configuration Management KA).
-```
-```
+
+
 3.5. Interaction Analysis
 [2*, c10, c11] [3*, c29s1.1, c29s5] [4*, c5]
-```
-```
+
+
 Interaction analysis focuses on the communica-
 tions or control flow relations between entities
 used to accomplish a specific task or function
@@ -575,11 +542,11 @@ option for the software engineer to review the
 interaction design and verify that the different
 parts of the software work together to provide the
 intended functions.
-```
 
-```
+
+
 Software Engineering Models and Methods 9-7
-```
+
 **4. Software Engineering Methods**
 
 Software engineering methods provide an orga-
@@ -630,12 +597,12 @@ oriented analysis and design methods.
     eling method is used primarily for defining
     and analyzing data requirements supporting
 
-```
+
 database designs or data repositories typi-
 cally found in business software, where data
 is actively managed as a business systems
 resource or asset.
-```
+
 - _Object-Oriented Analysis and Design Meth-_
     _ods_ : The object-oriented model is represented
     as a collection of objects that encapsulate
@@ -653,11 +620,11 @@ resource or asset.
     ing approach for eventual software product
     release and deployment is expressed.
 
-```
+
 4.2. Formal Methods
 [1*, c18] [3*, c27] [5*, p8–24]
-```
-```
+
+
 Formal methods are software engineering meth-
 ods used to specify, develop, and verify the soft-
 ware through application of a rigorous mathemat-
@@ -671,7 +638,7 @@ sis section in the Software Requirements KA.
 This section addresses specification languages,
 program refinement and derivation, formal verifi-
 cation, and logical inference.
-```
+
 - _Specification Languages_ : Specification
     languages provide the mathematical basis
     for a formal method; specification lan-
@@ -683,15 +650,10 @@ cation, and logical inference.
     or design stages to describe specific input/
     output behavior. Specification languages are
     not directly executable languages; they are
-
-
-**9-8** **_SWEBOK® Guide_** **V3.0**
-
-```
 typically comprised of a notation and syntax,
 semantics for use of the notation, and a set of
 allowed relations for objects.
-```
+
 - _Program Refinement and Derivation_ : Pro-
     gram refinement is the process of creating a
     lower level (or more detailed) specification
@@ -737,11 +699,11 @@ allowed relations for objects.
     ways to represent these proofs along with the
     design or code.
 
-```
+
 4.3. Prototyping Methods
 [1*, c12s2] [3*, c2s3.1] [6*, c7s3p5]
-```
-```
+
+
 Software prototyping is an activity that generally
 creates incomplete or minimally functional ver-
 sions of a software application, usually for try-
@@ -761,7 +723,7 @@ product without extensive development rework
 or refactoring.
 This section discusses prototyping styles, tar-
 gets, and evaluation techniques in brief.
-```
+
 - _Prototyping Style_ : This addresses the various
     approaches to developing prototypes. Proto-
     types can be developed as throwaway code
@@ -789,16 +751,16 @@ gets, and evaluation techniques in brief.
     the actual implemented software or against
 
 
-```
+
 Software Engineering Models and Methods 9-9
-```
-```
+
+
 a target set of requirements (for example, a
 requirements prototype); the prototype may
 also serve as a model for a future software
 development effort (for example, as in a user
 interface specification).
-```
+
 _4.4. Agile Methods_
 [3*, c3] [6*, c7s3p7] [7*, c6, App. A]
 
@@ -867,7 +829,7 @@ Development (FDD).
           feature correctly the first time rather than
           emphasizing continual refactoring.
 
-```
+
 There are many more variations of agile meth-
 ods in the literature and in practice. Note that
 there will always be a place for heavyweight,
@@ -885,149 +847,147 @@ using one software engineering method over
 another or in constructing a new method from the
 best features of a combination of software engi-
 neering methods.
-```
 
-**9-10** **_SWEBOK® Guide_** **V3.0**
 
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Budgen 2003
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Mellor and Balcer 2002
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Sommerville 2011
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Page-Jones 1999
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Wing 1990
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Brookshear 2008
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Boehm and Turner 2003
-```
-##### [7*]
+
+##### [7]
 
 **1. Modeling**
 
-```
+
 1.1. Modeling
 Principles
-```
-```
+
+
 c2s2,
 c5s1,
 c5s2
-```
-```
+
+
 c2s2 c5s0
-```
-```
+
+
 1.2. Properties
 and Expression of
 Models
-```
-```
+
+
 c5s2,
 c5s3
-```
-```
+
+
 c4s1.1p7,
 c4s6p3,
 c5s0p3
 1.3. Syntax,
 Semantics, and
 Pragmatics
-```
-```
+
+
 c2s2.2.2
 p6
 c5s0
-```
-```
+
+
 1.4. Preconditions,
 Postconditions, and
 Invariants
-```
-```
+
+
 c4s4
-```
-```
+
+
 c10s4p2,
 c10s5
 p2p4
-```
+
 **2. Types of Models**
     2.1. Information
     Modeling
        c7s2.2 c8s1
 
-```
+
 2.2. Behavioral
 Modeling
-```
-```
+
+
 c7s2.1,
 c7s2.3,
 c7s2.4
-```
-```
+
+
 c9s2 c5s4
-```
-```
+
+
 2.3. Structure
 Modeling
-```
-```
+
+
 c7s2.5,
 c7s3.1,
 c7s3.2
-```
-```
+
+
 c5s3 c4
-```
+
 **3. Analysis of Models**
     3.1. Analyzing for
     Completeness
 
-```
+
 c4s1.1p7,
 c4s6
 pp8–11
-```
-```
+
+
 3.2. Analyzing for
 Consistency
-```
-```
+
+
 c4s1.1p7,
 c4s6
 pp8–11
-```
-```
+
+
 3.3. Analyzing for
 Correctness
 pp8–11
-```
-```
+
+
 3.4. Traceability
 c4s7.1,
 c4s7.2
@@ -1037,58 +997,58 @@ c10, c11
 c29s1.1,
 c29s5
 c5
-```
 
-```
+
+
 Software Engineering Models and Methods 9-11
-```
-```
+
+
 Budgen 2003
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Mellor and Balcer 2002
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Sommerville 2011
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Page-Jones 1999
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Wing 1990
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Brookshear 2008
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Boehm and Turner 2003
-```
-##### [7*]
+
+##### [7]
 
 **4. Software
 Engineering Methods**
 
-```
+
 4.1. Heuristic
 Methods
-```
-```
+
+
 c13, c15,
 c16
-```
-```
+
+
 c2s2.2,
 c7s1,
 c5s4.1
@@ -1096,43 +1056,29 @@ c5s4.1
 4.3. Prototyping
 Methods
 c12s2 c2s3.1 c7s3p5
-```
-```
+
+
 4.4. Agile Methods c3 c7s3p7
 c6, app.
 A
-```
-
-**9-12** **_SWEBOK® Guide_** **V3.0**
 
 ##### REFERENCES
 
-[1*] D. Budgen, _Software Design_ , 2nd ed.,
-Addison-Wesley, 2003.
+[1] D. Budgen, _Software Design_ , 2nd ed., Addison-Wesley, 2003.
 
-[2*] S.J. Mellor and M.J. Balcer, _Executable
-UML: A Foundation for Model-Driven
-Architecture_ , 1st ed., Addison-Wesley,
-2002.
+[2] S.J. Mellor and M.J. Balcer, _Executable UML: A Foundation for Model-Driven
+Architecture_ , 1st ed., Addison-Wesley, 2002.
 
-[3*] I. Sommerville, _Software Engineering_ , 9th
-ed., Addison-Wesley, 2011.
+[3] I. Sommerville, _Software Engineering_ , 9th ed., Addison-Wesley, 2011.
 
-[4*] M. Page-Jones, _Fundamentals of Object-
-Oriented Design in UML_ , 1st ed., Addison-
-Wesley, 1999.
+[4] M. Page-Jones, _Fundamentals of Object- Oriented Design in UML_ , 1st ed.,
+Addison- Wesley, 1999.
 
-```
-[5*] J.M. Wing, “A Specifier’s Introduction to
-Formal Methods,” Computer , vol. 23, no. 9,
-1990, pp. 8, 10–23.
-```
-```
-[6*] J.G. Brookshear, Computer Science: An
-Overview , 10th ed., Addison-Wesley, 2008.
-```
-```
-[7*] B. Boehm and R. Turner, Balancing Agility
-and Discipline: A Guide for the Perplexed ,
-Addison-Wesley, 2003.
-```
+[5] J.M. Wing, “A Specifier’s Introduction to Formal Methods,” Computer , vol.
+23, no. 9, 1990, pp. 8, 10–23.
+
+[6] J.G. Brookshear, Computer Science: An Overview , 10th ed., Addison-Wesley,
+2008.
+
+[7] B. Boehm and R. Turner, Balancing Agility and Discipline: A Guide for the
+Perplexed , Addison-Wesley, 2003.
