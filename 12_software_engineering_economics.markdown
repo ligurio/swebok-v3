@@ -1,26 +1,18 @@
-```
-12-1
-```
 **CHAPTER 12**
 
 **SOFTWARE ENGINEERING ECONOMICS**
 
 ##### ACRONYMS
 
-```
 EVM Earned Value Management
 IRR Internal Rate of Return
-```
-```
-MARR
-Minimum Acceptable Rate of
-Return
+MARR Minimum Acceptable Rate of Return
 SDLC Software Development Life Cycle
 SPLC Software Product Life Cycle
 ROI Return on Investment
 ROCE Return on Capital Employed
 TCO Total Cost of Ownership
-```
+
 ##### INTRODUCTION
 
 Software engineering economics is about mak-
@@ -48,7 +40,7 @@ an entire producing or acquiring business.
 Software engineering economics is concerned
 with aligning software technical decisions with
 
-```
+
 the business goals of the organization. In all
 types of organizations—be it “for-profit,” “not-
 for-profit,” or governmental—this translates into
@@ -89,17 +81,15 @@ highlights risk and uncertainty management, and
 shows how economic analysis methods are used.
 Some practical considerations finalize the knowl-
 edge area.
-```
 
-**12-2** **_SWEBOK® Guide_** **V3.0**
 
-```
+
 Figure 12.1. Breakdown of Topics for the Software Engineering Economics KA
-```
 
-```
+
+
 Software Engineering Economics 12-3
-```
+
 ##### BREAKDOWN OF TOPICS FOR
 
 ##### SOFTWARE ENGINEERING ECONOMICS
@@ -151,7 +141,7 @@ _1.2. Accounting_
 Accounting is part of finance. It allows people
 whose money is being used to run an organization
 
-```
+
 to know the results of their investment: did they
 get the profit they were expecting? In “for-profit”
 organizations, this relates to the tangible ROI
@@ -172,12 +162,12 @@ the user. Information and its timing are partially
 governed by risk management and governance
 policies. Accounting systems are also a rich
 source of historical data for estimating.
-```
-```
+
+
 1.3. Controlling
 [1*, c15]
-```
-```
+
+
 Controlling is an element of finance and account-
 ing. Controlling involves measuring and correct-
 ing the performance of finance and accounting.
@@ -185,12 +175,12 @@ It ensures that an organization’s objectives and
 plans are accomplished. Controlling cost is a spe-
 cialized branch of controlling used to detect vari-
 ances of actual costs from planned costs.
-```
-```
+
+
 1.4. Cash Flow
 [1*, c3]
-```
-```
+
+
 Cash flow is the movement of money into or out
 of a business, project, or financial product over a
 given period. The concepts of cash flow instances
@@ -205,9 +195,7 @@ ing cash flow instance. Money would need to be
 spent to carry out that proposal. The sales income
 from product X in the 11th month after market
 launch is an example of an incoming cash flow
-```
 
-**12-4** **_SWEBOK® Guide_** **V3.0**
 
 instance. Money would be coming in because of
 carrying out the proposal.
@@ -242,7 +230,7 @@ the organization care which one is chosen? The
 answer is that there is usually a large differ-
 ence in the costs and incomes from the different
 
-```
+
 solutions. A commercial, off-the-shelf, object-
 request broker product might cost a few thousand
 dollars, but the effort to develop a homegrown
@@ -275,14 +263,14 @@ wise and serial. The real process is more fluid.
 Sometimes the steps can be done in a different
 order and often several of the steps can be done
 in parallel. The important thing is to be sure that
-```
-```
-Figure 12.2. A Cash Flow Diagram
-```
 
-```
+
+Figure 12.2. A Cash Flow Diagram
+
+
+
 Software Engineering Economics 12-5
-```
+
 none of the steps are skipped or curtailed. It’s also
 important to understand that this same process
 applies at all levels of decision making: from a
@@ -315,11 +303,11 @@ interrelationships, into a set of mutually exclu-
 sive alternatives. The choice can then be made
 among these alternatives.
 
-```
+
 1.6. Valuation
 [1*, c5, c8]
-```
-```
+
+
 In an abstract sense, the decision-making pro-
 cess—be it financial decision making or other—
 is about maximizing value. The alternative that
@@ -327,14 +315,14 @@ maximizes total value should always be chosen.
 A financial basis for value-based comparison is
 comparing two or more cash flows. Several bases
 of comparison are available, including
-```
+
 - present worth
 - future worth
 - annual equivalent
 - internal rate of return
 - (discounted) payback period.
 
-```
+
 Based on the time-value of money, two or more
 cash flows are equivalent only when they equal
 the same amount of money at a common point
@@ -347,12 +335,10 @@ its perceived value. Relevant values that can’t
 be expressed in terms of money still need to be
 expressed in similar terms so that they can be
 evaluated objectively.
-```
-```
-Figure 12.3. The Basic Business Decision-Making Process
-```
 
-**12-6** **_SWEBOK® Guide_** **V3.0**
+
+Figure 12.3. The Basic Business Decision-Making Process
+
 
 _1.7. Inflation_
 [1*, c13]
@@ -405,11 +391,11 @@ Not accounting for taxation can also lead to unre-
 alistically high expectations about how profitable a
 proposed product might be.
 
-```
+
 1.10. Time-Value of Money
 [1*, c5, c11]
-```
-```
+
+
 One of the most fundamental concepts in
 finance—and therefore, in business decisions—
 is that money has time-value: its value changes
@@ -425,12 +411,12 @@ exchange variations over time need to be taken
 into account based on historical data. This is par-
 ticularly important in cross-border developments
 of all kinds.
-```
-```
+
+
 1.11. Efficiency
 [2*, c1]
-```
-```
+
+
 Economic efficiency of a process, activity, or
 task is the ratio of resources actually consumed to
 resources expected to be consumed or desired to
@@ -443,31 +429,31 @@ software engineering include product complex-
 ity, quality requirements, time pressure, process
 capability, team distribution, interrupts, feature
 churn, tools, and programming language.
-```
-```
+
+
 1.12. Effectiveness
 [2*, c1]
-```
-```
+
+
 Effectiveness is about having impact. It is the
 relationship between achieved objectives to
 defined objectives. Effectiveness means “doing
 the right things.” Effectiveness looks only at
 whether defined objectives are reached—not at
 how they are reached.
-```
-```
+
+
 1.13. Productivity
 [2*, c23]
-```
-```
+
+
 Productivity is the ratio of output over input from
 an economic perspective. Output is the value
-```
 
-```
+
+
 Software Engineering Economics 12-7
-```
+
 delivered. Input covers all resources (e.g., effort)
 spent to generate the output. Productivity com-
 bines efficiency and effectiveness from a value-
@@ -518,16 +504,16 @@ of Project Management Terms,_ 2012, [http://www.pmi.org/](http://www.pmi.org/)
 PMBOK-Guide-and-Standards/~/media/Registered/
 PMI_Lexicon_Final.ashx.
 
-```
+
 from managing them individually.”^2 Programs
 are often used to identify and manage different
 deliveries to a single customer or market over a
 time horizon of several years.
-```
-```
+
+
 2.4. Portfolio
-```
-```
+
+
 Portfolios are “projects, programs, subportfolios,
 and operations managed as a group to achieve
 strategic objectives.”^3 Portfolios are used to group
@@ -537,12 +523,12 @@ entire portfolio makes sure that impacts of deci-
 sions are considered, such as resource allocation
 to a specific project—which means that the same
 resources are not available for other projects.
-```
-```
+
+
 2.5. Product Life Cycle
 [2*, c2] [3*, c2]
-```
-```
+
+
 A software product life cycle (SPLC) includes
 all activities needed to define, build, operate,
 maintain, and retire a software product or service
@@ -563,22 +549,20 @@ maintain” time frame. Software engineering eco-
 nomics should be concerned with all SPLC activ-
 ities, including the activities after initial product
 release.
-```
-```
+
+
 2.6. Project Life Cycle
 [2*, c2] [3*, c2]
-```
-```
+
+
 Project life cycle activities typically involve five
 process groups—Initiating, Planning, Execut-
 ing, Monitoring and Controlling, and Closing [4]
-```
-```
+
+
 2 Ibid.
 3 Ibid.
-```
 
-**12-8** **_SWEBOK® Guide_** **V3.0**
 
 (see the Software Engineering Management KA).
 The activities within a software project life cycle
@@ -629,11 +613,11 @@ or improving the value of the company. Intangi-
 ble aspects such as goodwill, culture, and compe-
 tences should be considered.
 
-```
+
 2.9. Planning Horizon
 [1*, c11]
-```
-```
+
+
 When an organization chooses to invest in a par-
 ticular proposal, money gets tied up in that pro-
 posal—so-called “frozen assets.” The economic
@@ -662,12 +646,12 @@ planning horizon. Once the planning horizon is
 established, several techniques are available for
 putting proposals with different life spans into
 that planning horizon.
-```
-```
+
+
 2.10. Price and Pricing
 [1*, c13]
-```
-```
+
+
 A price is what is paid in exchange for a good or
 service. Price is a fundamental aspect of financial
 modeling and is one of the four Ps of the marketing
@@ -682,11 +666,11 @@ ment, competition, market condition, and quality
 of product. Pricing applies prices to products and
 services based on factors such as fixed amount,
 quantity break, promotion or sales campaign,
-```
 
-```
+
+
 Software Engineering Economics 12-9
-```
+
 specific vendor quote, shipment or invoice date,
 combination of multiple orders, service offerings,
 and many others. The needs of the consumer can
@@ -737,19 +721,19 @@ _2.12. Performance Measurement_
 Performance measurement is the process whereby
 an organization establishes and measures the
 
-```
+
 parameters used to determine whether programs,
 investments, and acquisitions are achieving the
 desired results. It is used to evaluate whether
 performance objectives are actually achieved; to
 control budgets, resources, progress, and deci-
 sions; and to improve performance.
-```
-```
+
+
 2.13. Earned Value Management
 [3*, c8]
-```
-```
+
+
 Earned value management (EVM) is a project
 management technique for measuring progress
 based on created value. At a given moment, the
@@ -767,12 +751,12 @@ actual cost. EVM tracking gives much earlier vis-
 ibility to deviations and thus permits corrections
 earlier than classic cost and schedule tracking that
 only looks at delivered documents and products.
-```
-```
+
+
 2.14. Termination Decisions
 [1*, c11, c12] [2*, c9]
-```
-```
+
+
 Termination means to end a project or product.
 Termination can be preplanned for the end of a
 long product lifetime (e.g., when foreseeing that a
@@ -789,9 +773,7 @@ ing resources for other opportunities. Sunk costs
 should not be considered in such decision making
 because they have been spent and will not reap-
 pear as a value.
-```
 
-**12-10** **_SWEBOK® Guide_** **V3.0**
 
 _2.15. Replacement and Retirement Decisions_
 [1*, c12] [2*, c9]
@@ -822,7 +804,7 @@ _3.1. Goals, Estimates, and Plans_
 Goals in software engineering economics are
 mostly business goals (or business objectives).
 
-```
+
 A business goal relates business needs (such as
 increasing profitability) to investing resources
 (such as starting a project or launching a prod-
@@ -851,14 +833,14 @@ mistic. Estimation is a periodic activity; estimates
 should be continually revised during a project.
 A plan describes the activities and milestones
 that are necessary in order to reach the goals of
-```
-```
-Figure 12.4. Goals, Estimates, and Plans
-```
 
-```
+
+Figure 12.4. Goals, Estimates, and Plans
+
+
+
 Software Engineering Economics 12-11
-```
+
 a project (see Software Project Planning in the
 Software Engineering Management KA). The
 plan should be in line with the goal and the esti-
@@ -908,26 +890,26 @@ the spread and then reestimating again to pro-
 duce results that converge could lead to a better
 estimate.
 
-```
+
 3.3. Addressing Uncertainty
 [3*, c6]
-```
-```
+
+
 Because of the many unknown factors during
 project initiation and planning, estimates are
 inherently uncertain; that uncertainty should be
 addressed in business decisions. Techniques for
 addressing uncertainty include
-```
+
 - consider ranges of estimates
 - analyze sensitivity to changes of assumptions
 - delay final decisions.
 
-```
+
 3.4. Prioritization
 [3*, c6]
-```
-```
+
+
 Prioritization involves ranking alternatives based
 on common criteria to deliver the best possible
 value. In software engineering projects, software
@@ -941,26 +923,24 @@ Classification and Requirements Negotiation in
 the Software Requirements KA and Software
 Life Cycle Models in the Software Engineering
 Process KA).
-```
-```
+
+
 3.5. Decisions under Risk
 [1*, c24] [3*, c9]
-```
-```
+
+
 Decisions under risk techniques are used when
 the decision maker can assign probabilities to the
 different possible outcomes (see Risk Manage-
 ment in the Software Engineering Management
 KA). The specific techniques include
-```
+
 - expected value decision making
 - expectation variance and decision making
 - Monte Carlo analysis
 - decision trees
 - expected value of perfect information.
 
-
-**12-12** **_SWEBOK® Guide_** **V3.0**
 
 _3.6. Decisions under Uncertainty_
 [1*, c25] [3*, c9]
@@ -979,11 +959,11 @@ agement KA). Specific techniques include
 - Minimax Regret Rule.
     **4. Economic Analysis Methods**
 
-```
+
 4.1. For-Profit Decision Analysis
 [1*, c10]
-```
-```
+
+
 Figure 12.5 describes a process for identifying
 the best alternative from a set of mutually exclu-
 sive alternatives. Decision criteria depend on the
@@ -997,14 +977,14 @@ cases, organizations have different goals—which
 means that a different set of decision techniques
 are needed, such as cost-benefit or cost-effective-
 ness analysis.
-```
-```
-Figure 12.5. The for-profit decision-making process
-```
 
-```
+
+Figure 12.5. The for-profit decision-making process
+
+
+
 Software Engineering Economics 12-13
-```
+
 _4.2. Minimum Acceptable Rate of Return_
 [1*, c10]
 
@@ -1052,11 +1032,11 @@ before taxes and interest (EBIT) to the total assets
 minus current liabilities. It describes the return on
 the used capital.
 
-```
+
 4.5. Cost-Benefit Analysis
 [1*, c18]
-```
-```
+
+
 Cost-benefit analysis is one of the most widely
 used methods for evaluating individual propos-
 als. Any proposal with a benefit-cost ratio of less
@@ -1067,24 +1047,24 @@ sider the associated risk of an investment and
 compare the benefits with the option of investing
 the money at a guaranteed interest rate (see sec-
 tion 4.2, Minimum Acceptable Rate of Return).
-```
-```
+
+
 4.6. Cost-Effectiveness Analysis
 [1*, c18]
-```
-```
+
+
 Cost-effectiveness analysis is similar to cost-
 benefit analysis. There are two versions of cost-
 effectiveness analysis: the fixed-cost version
 maximizes the benefit given some upper bound
 on cost; the fixed-effectiveness version minimizes
 the cost needed to achieve a fixed goal.
-```
-```
+
+
 4.7. Break-Even Analysis
 [1*, c19]
-```
-```
+
+
 Break-even analysis identifies the point where
 the costs of developing a product and the revenue
 to be generated are equal. Such an analysis can
@@ -1093,12 +1073,12 @@ different estimated costs and revenue. Given esti-
 mated costs and revenue of two or more propos-
 als, break-even analysis helps in choosing among
 them.
-```
-```
+
+
 4.8. Business Case
 [1*, c3]
-```
-```
+
+
 The business case is the consolidated information
 summarizing and explaining a business proposal
 from different perspectives for a decision maker
@@ -1108,9 +1088,7 @@ can be used as a basis in the investment decision-
 making process. As opposed to a mere profit-
 loss calculation, the business case is a “case” of
 plans and analyses that is owned by the product
-```
 
-**12-14** **_SWEBOK® Guide_** **V3.0**
 
 manager and used in support of achieving the
 business objectives.
@@ -1162,7 +1140,7 @@ _4.10. Optimization Analysis_
 The typical use of optimization analysis is to
 study a cost function over a range of values to
 
-```
+
 find the point where overall performance is best.
 Software’s classic space-time tradeoff is an
 example of optimization; an algorithm that runs
@@ -1177,14 +1155,14 @@ that choices have a monetary value provides
 insight in the timing of decisions such as increas-
 ing project staff or lengthening time to market to
 improve quality.
-```
+
 **5. Practical Considerations**
 
-```
+
 5.1. The “Good Enough” Principle
 [1*, c21]
-```
-```
+
+
 Often software engineering projects and products
 are not precise about the targets that should be
 achieved. Software requirements are stated, but
@@ -1214,11 +1192,11 @@ insufficient quantity is not good enough.
 Agile methods are examples of “good enough”
 that try to optimize value by reducing the over-
 head of delayed rework and the gold plating that
-```
 
-```
+
+
 Software Engineering Economics 12-15
-```
+
 results from adding features that have low mar-
 ginal value for the users (see Agile Methods in
 the Software Engineering Models and Methods
@@ -1266,7 +1244,7 @@ An ecosystem is an environment consisting of all
 the mutually dependent stakeholders, business
 units, and companies working in a particular area.
 
-```
+
 In a typical ecosystem, there are producers and
 consumers, where the consumers add value to
 the consumed resources. Note that a consumer is
@@ -1282,11 +1260,11 @@ in establishing or extending an ecosystem—for
 instance, assessing whether to work with a spe-
 cific distributor or have the distribution done by a
 company doing service in an area.
-```
-```
+
+
 5.4. Offshoring and Outsourcing
-```
-```
+
+
 Offshoring means executing a business activity
 beyond sales and marketing outside the home
 country of an enterprise. Enterprises typically
@@ -1314,26 +1292,24 @@ monitoring and communication. (For more infor-
 mation on offshoring and outsourcing, see “Out-
 sourcing” in Management Issues in the Software
 Maintenance KA.)
-```
 
-**12-16** **_SWEBOK® Guide_** **V3.0**
 
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Tockey 2005
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Sommerville 2011
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Fairley 2009
-```
-##### [3*]
+
+##### [3]
 
 **1. Software Engineering Economics
 Fundamentals**
@@ -1368,37 +1344,37 @@ Fundamentals**
     2.15. Replacement and Retirement Decisions c12 c9
 
 
-```
+
 Software Engineering Economics 12-17
-```
-```
+
+
 Tockey 2005
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Sommerville 2011
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Fairley 2009
-```
-##### [3*]
+
+##### [3]
 
 **3. Risk and Uncertainty**
 
-```
+
 3.1. Goals, Estimates, and Plans c6
 3.2. Estimation Techniques c6
 3.3. Addressing Uncertainty c6
 3.4. Prioritization c6
 3.5. Decisions under Risk c24 c9
 3.6. Decisions under Uncertainty c25 c9
-```
+
 **4. Economic Analysis Methods**
 
-```
+
 4.1. For-Profit Decision Analysis c10
 4.2. Minimum Acceptable Rate of Return c10
 4.3. Return on Investment c10
@@ -1409,17 +1385,15 @@ Fairley 2009
 4.8. Business Case c3
 4.9. Multiple Attribute Evaluation c26
 4.10. Optimization Analysis c20
-```
+
 **5. Practical Considerations**
 
-```
+
 5.1. The “Good Enough” Principle c21
 5.2. Friction-Free Economy
 5.3. Ecosystems
 5.4. Offshoring and Outsourcing
-```
 
-**12-18** **_SWEBOK® Guide_** **V3.0**
 
 ##### FURTHER READINGS
 
@@ -1473,43 +1447,24 @@ is formulated and quantified.
 
 ##### REFERENCES
 
-```
-[1*] S. Tockey, Return on Software: Maximizing
-the Return on Your Software Investment ,
-Addison-Wesley, 2004.
-```
-```
-[2*] J.H. Allen et al., Software Security
-Engineering: A Guide for Project
+[1] S. Tockey, Return on Software: Maximizing the Return on Your Software
+Investment , Addison-Wesley, 2004.
+
+[2] J.H. Allen et al., Software Security Engineering: A Guide for Project
 Managers , Addison-Wesley, 2008.
-```
-```
-[3*] R.E. Fairley, Managing and Leading
-Software Projects , Wiley-IEEE Computer
+
+[3] R.E. Fairley, Managing and Leading Software Projects , Wiley-IEEE Computer
 Society Press, 2009.
-```
-```
-[4] Project Management Institute, A Guide
-to the Project Management Body of
-Knowledge (PMBOK(R) Guide) , 5th ed.,
-Project Management Institute, 2013.
-```
-```
-[5] Project Management Institute and IEEE
-Computer Society, Software Extension
-to the PMBOK® Guide Fifth Edition , ed:
-Project Management Institute, 2013.
-```
-```
-[6] B.W. Boehm, Software Engineering
-Economics , Prentice-Hall, 1981.
-```
-```
-[7] C. Ebert and R. Dumke, Software
-Measurement , Springer, 2007.
-```
-```
-[8] D.J. Reifer, Making the Software Business
-Case: Improvement by the Numbers ,
-Addison Wesley, 2002.
-```
+
+[4] Project Management Institute, A Guide to the Project Management Body of
+Knowledge (PMBOK(R) Guide) , 5th ed., Project Management Institute, 2013.
+
+[5] Project Management Institute and IEEE Computer Society, Software Extension
+to the PMBOK® Guide Fifth Edition , ed: Project Management Institute, 2013.
+
+[6] B.W. Boehm, Software Engineering Economics , Prentice-Hall, 1981.
+
+[7] C. Ebert and R. Dumke, Software Measurement , Springer, 2007.
+
+[8] D.J. Reifer, Making the Software Business Case: Improvement by the Numbers
+, Addison Wesley, 2002.
