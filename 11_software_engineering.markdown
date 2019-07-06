@@ -1,6 +1,3 @@
-```
-11-1
-```
 **CHAPTER 11**
 
 **SOFTWARE ENGINEERING**
@@ -9,47 +6,18 @@
 
 ##### ACRONYMS
 
-##### ACM
-
-```
-Association for Computing
-Machinery
+ACM Association for Computing Machinery
 BCS British Computer Society
-```
-```
-CSDA
-Certified Software Development
-Associate
-```
-```
-CSDP
-Certified Software Development
-Professional
-```
-```
-IEC
-International Electrotechnical
-Commission
-IEEE CS IEEE Computer Society
-```
-```
-IFIP
-International. Federation for
-Information Processing
-IP Intellectual Property
-```
-```
-ISO
-International Organization for
-Standardization
-N DA Non-Disclosure Agreement
-```
-```
-WIPO
-World Intellectual Property
-Organization
+CSDA Certified Software Development Associate
+CSDP Certified Software Development Professional
+IEC International Electrotechnical Commission IEEE CS IEEE Computer Society
+IFIP International. Federation for Information Processing IP Intellectual
+Property
+ISO International Organization for Standardization N DA Non-Disclosure
+Agreement
+WIPO World Intellectual Property Organization
 WTO World Trade Organization
-```
+
 ##### INTRODUCTION
 
 The Software Engineering Professional Prac-
@@ -64,7 +32,7 @@ profound impact on our personal well-being
 and societal harmony. Software engineers must
 handle unique engineering problems, producing
 
-```
+
 software with known characteristics and reliabil-
 ity. This requirement calls for software engineers
 who possess a proper set of knowledge, skills,
@@ -103,39 +71,34 @@ Guide ). IEEE CS has established two international
 certification programs (CSDA, CSDP) and a corre-
 sponding Guide to the Software Engineering Body
 of Knowledge ( SWEBOK Guide ). All of these are
-```
 
-**11-2** **_SWEBOK® Guide_** **V3.0**
 
 elements that lay the foundation for of the profes-
 sional practice of software engineering.
 
-**BREAKDOWN OF TOPICS FOR
-SOFTWARE ENGINEERING
-PROFESSIONAL PRACTICE**
+**BREAKDOWN OF TOPICS FOR SOFTWARE ENGINEERING PROFESSIONAL PRACTICE**
 
 The Software Engineering Professional Practice
 KA’s breakdown of topics is shown in Figure
 
-```
+
 11.1. The subareas presented in this KA are pro-
 fessionalism, group dynamics and psychology,
 and communication skills.
-```
+
 **1. Professionalism**
 
-```
 A software engineer displays professionalism
 notably through adherence to codes of ethics
 and professional conduct and to standards and
-```
-```
-Figure 11.1. Breakdown of Topics for the Software Engineering Professional Practice KA
-```
 
-```
+
+Figure 11.1. Breakdown of Topics for the Software Engineering Professional Practice KA
+
+
+
 Software Engineering Professional Practice 11-3
-```
+
 practices that are established by the engineer’s
 professional community.
 The professional community is often repre-
@@ -150,9 +113,9 @@ competence or negligence.
 _1.1. Accreditation, Certification, and Licensing_
 [1*, c1s4.1, c1s5.1–c1s5.4]
 
-```
+
 1.1.1. Accreditation
-```
+
 Accreditation is a process to certify the compe-
 tency, authority, or credibility of an organization.
 Accredited schools or programs are assured to
@@ -183,13 +146,13 @@ maintaining standards that qualify the graduates
 for admission to higher or more specialized insti-
 tutions or for professional practice” [2].
 
-```
+
 1.1.2. Certification
-```
+
 Certification refers to the confirmation of a per-
 son’s particular characteristics. A common type
 
-```
+
 of certification is professional certification, where
 a person is certified as being able to complete an
 activity in a certain discipline at a stated level
@@ -218,11 +181,11 @@ software engineer. Currently certification in soft-
 ware engineering is completely voluntary. In fact,
 most software engineers are not certified under
 any program.
-```
-```
+
+
 1.1.3. Licensing
-```
-```
+
+
 “Licensing” is the action of giving a person the
 authorization to perform certain kinds of activi-
 ties and take responsibility for resultant engineer-
@@ -242,16 +205,14 @@ In general, engineers are licensed as a means of
 protecting the public from unqualified individuals.
 In some countries, no one can practice as a pro-
 fessional engineer unless licensed; or further, no
-```
 
-**11-4** **_SWEBOK® Guide_** **V3.0**
 
 company may offer “engineering services” unless
 at least one licensed engineer is employed there.
 
 _1.2. Codes of Ethics and Professional Conduct_
 [1*, c1s6–c1s9] [3*, c8] [4*, c1s2] [5*, c33]
-[6*]
+[6]
 
 Codes of ethics and professional conduct com-
 prise the values and behavior that an engineer’s
@@ -281,10 +242,10 @@ sible expulsion from professional status.
 A code of ethics and professional conduct for
 software engineering was approved by the ACM
 Council and the IEEE CS Board of Governors in
-1999 [6*]. According to the short version of this
+1999 [6]. According to the short version of this
 code:
 
-```
+
 Software engineers shall commit them-
 selves to making the analysis, specifica-
 tion, design, development, testing and
@@ -296,20 +257,20 @@ shall adhere to the eight principles con-
 cerning the public, client and employer,
 product, judgment, management, profes-
 sion, colleagues, and self, respectively.
-```
-```
+
+
 Since standards and codes of ethics and pro-
 fessional conduct may be introduced, modified,
 or replaced at any time, individual software engi-
 neers bear the responsibility for their own con-
 tinuing study to stay current in their professional
 practice.
-```
-```
+
+
 1.3. Nature and Role of Professional Societies
 [1*, c1s1–c1s2] [4*, c1s2] [5*, c35s1]
-```
-```
+
+
 Professional societies are comprised of a mix
 of practitioners and academics. These societies
 serve to define, advance, and regulate their cor-
@@ -318,7 +279,7 @@ help to establish professional standards as well
 as codes of ethics and professional conduct. For
 this reason, they also engage in related activities,
 which include
-```
+
 - establishing and promulgating a body of gen-
     erally accepted knowledge;
 - accrediting, certifying, and licensing;
@@ -326,19 +287,19 @@ which include
 - advancing the profession through confer-
     ences, training, and publications.
 
-```
+
 Participation in professional societies assists
 the individual engineer in maintaining and sharp-
 ening their professional knowledge and relevancy
 and in expanding and maintaining their profes-
 sional network.
-```
-```
+
+
 1.4. Nature and Role of Software Engineering
 Standards
 [1*, c5s3.2, c10s2.1] [5*, c32s6] [7*, c1s2]
-```
-```
+
+
 Software engineering standards cover a remark-
 able variety of topics. They provide guidelines for
 the practice of software engineering and processes
@@ -352,11 +313,11 @@ IEC software engineering standards that support
 the knowledge areas of this Guide.
 The benefits of software engineering standards
 are many and include improving software quality,
-```
 
-```
+
+
 Software Engineering Professional Practice 11-5
-```
+
 helping avoid errors, protecting both software
 producers and users, increasing professional dis-
 cipline, and helping technology transition.
@@ -407,7 +368,7 @@ volunteering. In all of these situations, the cus-
 tomer and supplier agree that a product or ser-
 vice will be provided in return for some sort of
 
-```
+
 consideration. Here, we are most concerned with
 the engineer-to-customer arrangement and its
 attendant agreements or contracts, whether they
@@ -444,12 +405,12 @@ neer’s and employer’s liability; a communication
 matrix and/or escalation plan; and administrative
 details such as rates, frequency of compensation,
 working hours, and working conditions.
-```
-```
+
+
 1.7. Legal Issues
 [1*, c6, c11] [3*, c5s3–c5s4] [9*, c1s10]
-```
-```
+
+
 Legal issues surrounding software engineering
 professional practice notably include matters
 related to standards, trademarks, patents, copy-
@@ -459,16 +420,14 @@ It is therefore beneficial to possess knowledge of
 these issues and their applicability.
 Legal issues are jurisdictionally based; soft-
 ware engineers must consult attorneys who
-```
 
-**11-6** **_SWEBOK® Guide_** **V3.0**
 
 specialize in the type and jurisdiction of any iden-
 tified legal issues.
 
-```
+
 1.7.1. Standards
-```
+
 Software engineering standards establish guide-
 lines for generally accepted practices and mini-
 mum requirements for products and services pro-
@@ -489,9 +448,9 @@ cies. Further, adherence to standards is a major
 component of defense from legal action or from
 allegations of malpractice.
 
-```
+
 1.7.2. Trademarks
-```
+
 A trademark relates to any word, name, symbol,
 or device that is used in business transactions.
 It is used “to indicate the source or origin of the
@@ -507,16 +466,16 @@ Nations agency dedicated to the use of intellec-
 tual property as a means of stimulating innova-
 tion and creativity.
 
-```
+
 1.7.3. Patents
-```
+
 Patents protect an inventor’s right to manufac-
 ture and sell an idea. A patent consists of a set
 of exclusive rights granted by a sovereign gov-
 ernment to an individual, group of individuals, or
 organization for a limited period of time. Patents
 
-```
+
 are an old form of idea-ownership protection and
 date back to the 15th century.
 Application for a patent entails careful records
@@ -534,11 +493,11 @@ patentable. In many countries, software code is
 not patentable, although software algorithms may
 be. Existing and filed patent applications can be
 searched at WIPO.
-```
-```
+
+
 1.7.4. Copyrights
-```
-```
+
+
 Most governments in the world give exclusive
 rights of an original work to its creator, usually
 for a limited time, enacted as a copyright. Copy-
@@ -548,11 +507,11 @@ particular wording of an account of an historical
 event, whereas the event itself is not protected.
 Copyrights are long-term and renewable; they
 date back to the 17th century.
-```
-```
+
+
 1.7.5. Trade Secrets
-```
-```
+
+
 In many countries, an intellectual asset such as
 a formula, algorithm, process, design, method,
 pattern, instrument, or compilation of informa-
@@ -565,18 +524,18 @@ is not subject to a time limit. However, if another
 party derives or discovers the same asset legally,
 then the asset is no longer protected and the other
 party will also possess all rights to use it.
-```
-```
+
+
 1.7.6. Professional Liability
-```
-```
+
+
 It is common for software engineers to be con-
 cerned with matters of professional liability. As
-```
 
-```
+
+
 Software Engineering Professional Practice 11-7
-```
+
 an individual provides services to a client or
 employer, it is vital to adhere to standards and
 generally accepted practices, thereby protecting
@@ -607,9 +566,9 @@ allegation is to show that standards and generally
 accepted practices were followed in the develop-
 ment of the product.
 
-```
+
 1.7.7. Legal Requirements
-```
+
 Software engineers must operate within the con-
 fines of local, national, and international legal
 frameworks. Therefore, software engineers must
@@ -625,10 +584,10 @@ be aware of legal requirements for
     framework can be accessed from the World
     Trade Organization (WTO).
 
-```
+
 1.7.8. Trade Compliance
-```
-```
+
+
 All software professionals must be aware of
 legal restrictions on import, export, or reexport
 of goods, services, and technology in the juris-
@@ -640,11 +599,11 @@ services and technology by sanctioned nation,
 enterprise or individual entities, and import
 restrictions and duties. Trade experts should be
 consulted for detailed compliance guidance.
-```
-```
+
+
 1.7.9. Cybercrime
-```
-```
+
+
 Cybercrime refers to any crime that involves
 a computer, computer software, computer net-
 works, or embedded software controlling a sys-
@@ -671,18 +630,16 @@ cybercrime and to understand how the software
 system will protect or endanger software and user
 information from accidental or malicious access,
 use, modification, destruction, or disclosure.
-```
-```
+
+
 1.8. Documentation
 [1*, c10s5.8] [3*, c1s5] [5*, c32]
-```
-```
+
+
 Providing clear, thorough, and accurate docu-
 mentation is the responsibility of each software
 engineer. The adequacy of documentation is
-```
 
-**11-8** **_SWEBOK® Guide_** **V3.0**
 
 judged by different criteria based on the needs of
 the various stakeholder audiences.
@@ -695,9 +652,9 @@ engineers should document
 - warnings of undesirable or dangerous conse-
     quences from use or misuse of the software.
 
-```
+
 Software engineers should avoid
-```
+
 - certifying or approving unacceptable products,
 - disclosing confidential information, or
 - falsifying facts or data.
@@ -735,7 +692,7 @@ ation, administration, and performance of other
 functions by various groups of users and support
 personnel. If the customer will acquire ownership
 
-```
+
 of the software source code or the right to modify
 the code, the software engineer should provide
 documentation of the functional specifications,
@@ -745,12 +702,12 @@ The minimum length of time documents should
 be kept is the duration of the software products’
 life cycle or the time required by relevant organi-
 zational or regulatory requirements.
-```
-```
+
+
 1.9. Tradeoff Analysis
 [3*, c1s2, c10] [9*, c9s5.10]
-```
-```
+
+
 Within the practice of software engineering, a
 software engineer often has to choose between
 alternative problem solutions. The outcome of
@@ -787,11 +744,11 @@ formulate a tradeoff analysis of cost against risk,
 especially where primary production and second-
 ary risk-based costs must be traded against each
 other.
-```
 
-```
+
+
 Software Engineering Professional Practice 11-9
-```
+
 A software engineer must conduct a tradeoff
 analysis in an ethical manner—notably by being
 objective and impartial when selecting criteria for
@@ -842,7 +799,7 @@ and growth without personal risk. In general,
 members of cohesive teams demonstrate respect
 for each other and their leader.
 
-```
+
 One point to emphasize is that software engi-
 neers must be able to work in multidisciplinary
 environments and in varied application domains.
@@ -851,12 +808,12 @@ to a car, software is impacting people’s lives far
 beyond the more traditional concept of software
 made for information management in a business
 environment.
-```
-```
+
+
 2.2. Individual Cognition
 [3*, c1s6.5] [5*, c33]
-```
-```
+
+
 Engineers desire to solve problems. The ability to
 solve problems effectively and efficiently is what
 every engineer strives for. However, the limits
@@ -868,7 +825,7 @@ in problem solving.
 In general, an individual’s (in particular, a software
 engineer’s) ability to decompose a problem and cre-
 atively develop a solution can be inhibited by
-```
+
 - need for more knowledge,
 - subconscious assumptions,
 - volume of data,
@@ -879,7 +836,7 @@ atively develop a solution can be inhibited by
 - perceived working atmosphere, and
 - emotional status of the individual.
 
-```
+
 The impact of these inhibiting factors can be
 reduced by cultivating good problem solving
 habits that minimize the impact of misleading
@@ -895,9 +852,7 @@ KA). Breaking down problems and solving them
 one piece at a time reduces cognitive overload.
 Taking advantage of professional curiosity and
 pursuing continuous professional development
-```
 
-**11-10** **_SWEBOK® Guide_** **V3.0**
 
 through training and study add skills and knowl-
 edge to the software engineer’s portfolio; reading,
@@ -950,16 +905,16 @@ vide feedback on evolving or new requirements
 as well problem reports so that the software may
 be extended and improved.
 
-```
+
 Therefore, it is vital to maintain open and pro-
 ductive communication with stakeholders for the
 duration of the software product’s lifetime.
-```
-```
+
+
 2.5. Dealing with Uncertainty and Ambiguity
 [4*, c24s4, c26s2] [9*, c9s4]
-```
-```
+
+
 As with engineers of other fields, software engi-
 neers must often deal with and resolve uncer-
 tainty and ambiguities while providing services
@@ -979,12 +934,12 @@ case, work estimates or pricing are adjusted to
 mitigate the anticipated cost of addressing it (see
 Risk Management in the Software Engineering
 Management KA).
-```
-```
+
+
 2.6. Dealing with Multicultural Environments
 [9*, c10s7]
-```
-```
+
+
 Multicultural environments can have an impact
 on the dynamics of a group. This is especially
 true when the group is geographically separated
@@ -1005,11 +960,11 @@ common for a software project team to consist of
 people from diverse cultural backgrounds.
 For a software project to be a success, team
 members must achieve a level of tolerance,
-```
 
-```
+
+
 Software Engineering Professional Practice 11-11
-```
+
 acknowledging that some rules depend on soci-
 etal norms and that not all societies derive the
 same solutions and expectations.
@@ -1061,17 +1016,17 @@ Reading and comprehending source code is
 also a component of information gathering and
 problem solving. When modifying, extending,
 
-```
+
 or rewriting software, it is critical to understand
 both its implementation directly derived from the
 presented code and its design, which must often
 be inferred.
-```
-```
+
+
 3.2. Writing
 [3*, c1s5]
-```
-```
+
+
 Software engineers are able to produce written
 products as required by customer requests or gen-
 erally accepted practice. These written products
@@ -1086,13 +1041,13 @@ munication among relevant parties. In all cases,
 written software engineering products must be
 written so that they are accessible, understand-
 able and relevant for their intended audience(s).
-```
-```
+
+
 3.3. Team and Group Communication
 [3*, c1s6.8] [4*, c22s3] [5*, c27s1]
 [9*, c10s4]
-```
-```
+
+
 Effective communication among team and group
 members is essential to a collaborative software
 engineering effort. Stakeholders must be con-
@@ -1116,9 +1071,7 @@ but, although it is useful, it is not always enough;
 also, if one sends too many messages, it becomes
 difficult to identify the important information.
 Increasingly, organizations are using enterprise
-```
 
-**11-12** **_SWEBOK® Guide_** **V3.0**
 
 collaboration tools to share information. In addi-
 tion, the use of electronic information stores,
@@ -1141,7 +1094,7 @@ Software engineers rely on their presentation
 skills during software life cycle processes. For
 example, during the software requirements
 
-```
+
 phase, software engineers may walk customers
 and teammates through software requirements
 and conduct formal requirements reviews (see
@@ -1162,229 +1115,226 @@ the product effort. This knowledge needs to be
 archived in the form of slides, knowledge write-
 up, technical whitepapers, and any other material
 utilized for knowledge creation.
-```
 
-```
+
+
 Software Engineering Professional Practice 11-13
-```
+
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Bott et al. 2000
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Voland 2003
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Sommerville 2011
-```
-##### [4*]
 
-```
+##### [4]
+
+
 McConnell 2004
-```
-##### [5*]
+
+##### [5]
 
 ##### IEEE-CS/ACM 1999
 
-##### [6*]
+##### [6]
 
-```
+
 Moore 2006
-```
-##### [7*]
 
-```
+##### [7]
+
+
 Tockey 2004
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Fairley 2009
-```
-##### [9*]
+
+##### [9]
 
 **1. Professionalism**
     1.1. Accreditation,
     Certification, and
     Licensing
 
-```
+
 c1s4.1,
 c1s5.1–
 c1s5.4
 1.2. Codes of Ethics
 and Professional
 Conduct
-```
-```
+
+
 c1s6–
 c1s9
 c8 c1s2 c33 *
-```
-```
+
+
 1.3. Nature and
 Role of Professional
 Societies
-```
-```
+
+
 c1s1–
 c1s2
 c1s2 c35s1
-```
-```
+
+
 1.4. Nature and
 Role of Software
 Engineering
 Standards
-```
-```
+
+
 c5s3.2,
 c10 s2.1
 c32s6 c1s2
-```
-```
+
+
 1.5. Economic
 Impact of Software
 c10 s8 c1s1.1 c1
-```
-```
+
+
 1.6. Employment
 Contracts
 c7
-```
-```
+
+
 1.7. Legal Issues c6, c11
 c5s3–
 c5s4
 c1s10
-```
-```
+
+
 1.8. Documentation c10s5.8 c1s5 c32
 1.9. Tradeoff
 Analysis
-```
-```
+
+
 c1s2,
 c10
 c9s5.10
-```
+
 **2. Group Dynamics
 and Psychology**
     2.1. Dynamics of
     Working in Teams/
     Groups
 
-```
+
 c1s6
 c1s3.5,
 c10
-```
-```
+
+
 2.2. Individual
 Cognition
 c1s6.5 c33
-```
-```
+
+
 2.3. 2.3 Dealing with
 Problem Complexity
 c3s2 c33
-```
-```
+
+
 2.4. Interacting with
 Stakeholders
 c2s3.1
-```
 
-**11-14** **_SWEBOK® Guide_** **V3.0**
 
-```
 Bott et al. 2000
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Voland 2003
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Sommerville 2011
-```
-##### [4*]
 
-```
+##### [4]
+
+
 McConnell 2004
-```
-##### [5*]
+
+##### [5]
 
 ##### IEEE-CS/ACM 1999
 
-##### [6*]
+##### [6]
 
-```
+
 Moore 2006
-```
-##### [7*]
 
-```
+##### [7]
+
+
 Tockey 2004
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Fairley 2009
-```
-##### [9*]
 
-```
+##### [9]
+
+
 2.5. Dealing with
 Uncertainty and
 Ambiguity
-```
-```
+
+
 c24s4,
 c26s2
 c9s4
-```
-```
+
+
 2.6. Dealing with
 Multicultural
 Environments
-```
-```
+
+
 c10s7
-```
+
 **3. Communication
 Skills**
     3.1. Reading,
     Understanding, and
     Summarizing
 
-```
+
 c33s3
-```
-```
+
+
 3.2. Writing c1s5
 3.3. Team and Group
 Communication
 c1s6.8 c22s3 c27s1 c10s4
-```
-```
+
+
 3.4. Presentation
 Skills
 c1s5 c22
 c10s7–
 c10 s8
-```
 
-```
+
+
 Software Engineering Professional Practice 11-15
-```
+
 ##### FURTHER READINGS
 
 Gerald M. Weinberg, _The Psychology of
@@ -1403,57 +1353,32 @@ why it looks the way it does.
 
 ##### REFERENCES
 
-```
-[1*] F. Bott et al., Professional Issues in
-Software Engineering , 3rd ed., Taylor &
-Francis, 2000.
-```
-```
-[2] Merriam-Webster’s Collegiate Dictionary ,
-11th ed., 2003.
-```
-```
-[3*] G. Voland, Engineering by Design , 2nd ed.,
-Prentice Hall, 2003.
-```
-```
-[4*] I. Sommerville, Software Engineering , 9th
-ed., Addison-Wesley, 2011.
-```
-```
-[5*] S. McConnell, Code Complete , 2nd ed.,
-Microsoft Press, 2004.
-```
-```
-[6*] IEEE CS/ACM Joint Task Force on
-Software Engineering Ethics and
-Professional Practices, “Software
-Engineering Code of Ethics and
-Professional Practice (Version 5.2),” 1999;
-http://www.acm.org/serving/se/code.htm.
-```
-```
-[7*] J.W. Moore, The Road Map to Software
-Engineering: A Standards-Based Guide ,
+[1] F. Bott et al., Professional Issues in Software Engineering , 3rd ed.,
+Taylor & Francis, 2000.
+
+[2] Merriam-Webster’s Collegiate Dictionary , 11th ed., 2003.
+
+[3] G. Voland, Engineering by Design , 2nd ed., Prentice Hall, 2003.
+
+[4] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+
+[5] S. McConnell, Code Complete , 2nd ed., Microsoft Press, 2004.
+
+[6] IEEE CS/ACM Joint Task Force on Software Engineering Ethics and
+Professional Practices, “Software Engineering Code of Ethics and Professional
+Practice (Version 5.2),” 1999; http://www.acm.org/serving/se/code.htm.
+
+[7] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide ,
 Wiley-IEEE Computer Society Press, 2006.
-```
-```
-[8*] S. Tockey, Return on Software: Maximizing
-the Return on Your Software Investment ,
-Addison-Wesley, 2004.
-```
-```
-[9*] R.E. Fairley, Managing and Leading
-Software Projects , Wiley-IEEE Computer
+
+[8] S. Tockey, Return on Software: Maximizing the Return on Your Software
+Investment , Addison-Wesley, 2004.
+
+[9] R.E. Fairley, Managing and Leading Software Projects , Wiley-IEEE Computer
 Society Press, 2009.
-```
-```
-[10] G.M. Weinberg, The Psychology
-of Computer Programming: Silver
-Anniversary Edition , Dorset House, 1998.
-```
-```
-[11] Kinney and Lange, P.A., Intellectual
-Property Law for Business Lawyers ,
+
+[10] G.M. Weinberg, The Psychology of Computer Programming: Silver Anniversary
+Edition , Dorset House, 1998.
+
+[11] Kinney and Lange, P.A., Intellectual Property Law for Business Lawyers ,
 Thomson West, 2013.
-```
