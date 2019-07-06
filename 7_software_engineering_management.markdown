@@ -1,30 +1,16 @@
-```
-7-1
-```
 **CHAPTER 7**
 
 **SOFTWARE ENGINEERING MANAGEMENT**
 
 ##### ACRONYMS
 
-##### PMBOK ®
-
-```
-Guide
-```
-```
-Guide to the Project Management
-Body of Knowledge
+PMBOK ® Guide Guide to the Project Management Body of Knowledge
 SDLC Software Development Life Cycle
 SEM Software Engineering Management
 SQA Software Quality Assurance
-```
-```
-SWX
-Software Extension to the PMBOK ®
-Guide
+SWX Software Extension to the PMBOK ® Guide
 WBS Work Breakdown Structure
-```
+
 ##### INTRODUCTION
 
 Software engineering management can be defined
@@ -72,7 +58,7 @@ _SWX_.
 - There is often a rapid rate of change in the
     underlying technology.
 
-```
+
 Software engineering management activities
 occur at three levels: organizational and infra-
 structure management, project management,
@@ -91,9 +77,7 @@ programs in which software is a component of
 the system architecture are aware of the differ-
 ences that software processes introduce into proj-
 ect management and project measurement.
-```
 
-**7-2** **_SWEBOK® Guide_** **V3.0**
 
 Other aspects of organizational management
 exert an impact on software engineering (for
@@ -117,7 +101,7 @@ across an organization (for example, establishing
 a consistent basis by which to analyze past proj-
 ect performance and implement improvements).
 
-```
+
 Another important aspect of organizational
 management is personnel management policies
 and procedures for hiring, training, and mentor-
@@ -139,14 +123,12 @@ rently under development in various projects and
 programs (integrated projects), but also of soft-
 ware planned and currently in use in an organiza-
 tion, is desirable. Also, software reuse is a key
-```
-```
-Figure 7.1. Breakdown of Topics for the Software Engineering Management KA
-```
 
-```
-Software Engineering Management 7-3
-```
+
+Figure 7.1. Breakdown of Topics for the Software Engineering Management KA
+
+
+
 factor in maintaining and improving productivity
 and competitiveness. Effective reuse requires a
 strategic vision that reflects the advantages and
@@ -197,7 +179,7 @@ ware industry is that software products are deliv-
 ered late, over budget, of poor quality, and with
 incomplete functionality. Measurement-informed
 
-```
+
 management—a basic principle of any true engi-
 neering discipline (see Measurement in the Engi-
 neering Foundations KA)—can help improve
@@ -210,7 +192,7 @@ requires a combination of both measurement and
 experience.
 The following working definitions are adopted
 here:
-```
+
 - _Management_ is a system of processes and
     controls required to achieve the strategic
     objectives set by the organization.
@@ -221,7 +203,7 @@ here:
     these models are developed using statistical
     or other techniques [3* , c7, c8].
 
-```
+
 The software engineering project management
 sections in this KA make extensive use of the
 software engineering measurement section.
@@ -229,7 +211,7 @@ This KA is closely related to others in the
 SWEBOK Guide , and reading the following KA
 descriptions in conjunction with this one will be
 particularly helpful:
-```
+
 - The Engineering Foundations KA describes
     some general concepts of measurement that
     are directly applicable to the Software Engi-
@@ -249,8 +231,6 @@ particularly helpful:
     agement and delivery and software configu-
     ration management tools.
 
-
-**7-4** **_SWEBOK® Guide_** **V3.0**
 
 - The Software Engineering Process KA
     describes software life cycle models and the
@@ -303,16 +283,16 @@ each activity occurs. The seven topics are:
 - Software Engineering Measurement, which
     deals with the effective development and
 
-```
+
 implementation of measurement programs in
 software engineering organizations;
-```
+
 - Software Engineering Management Tools,
     which describes the selection and use of tools
     for managing a software engineering project.
 **1. Initiation and Scope Definition**
 
-```
+
 The focus of these activities is on effective deter-
 mination of software requirements using vari-
 ous elicitation methods and the assessment of
@@ -321,13 +301,13 @@ Once project feasibility has been established, the
 remaining tasks within this section are the speci-
 fication of requirements and selection of the pro-
 cesses for revision and review of requirements.
-```
-```
+
+
 1.1. Determination and Negotiation of
 Requirements
 [3*, c3]
-```
-```
+
+
 Determining and negotiating requirements set
 the visible boundaries for the set of tasks being
 undertaken (see the Software Requirements KA).
@@ -337,12 +317,12 @@ techniques should be selected and applied, taking
 into account the various stakeholder perspectives.
 This leads to the determination of project scope in
 order to meet objectives and satisfy constraints.
-```
-```
+
+
 1.2. Feasibility Analysis
 [4*, c4]
-```
-```
+
+
 The purpose of feasibility analysis is to develop a
 clear description of project objectives and evalu-
 ate alternative approaches in order to determine
@@ -359,11 +339,9 @@ externally). Feasibility analysis often requires
 approximate estimations of effort and cost based
 on appropriate methods (see section 2.3, Effort,
 Schedule, and Cost Estimation).
-```
 
-```
-Software Engineering Management 7-5
-```
+
+
 _1.3. Process for the Review and Revision of
 Requirements_
 [3*, c3]
@@ -415,11 +393,11 @@ responsibilities for ongoing review and revision
 of the project plan and related plans should also
 be clearly stated and agreed upon.
 
-```
+
 2.1. Process Planning
 [3*, c3, c4, c5] [5*, c1]
-```
-```
+
+
 Software development life cycle (SDLC) mod-
 els span a continuum from predictive to adaptive
 (see Software Life Cycle Models in the Software
@@ -457,21 +435,19 @@ tools should be selected based primarily on the
 technical considerations discussed in other KAs,
 some of them are closely related to the manage-
 ment considerations discussed in this chapter.
-```
-```
+
+
 2.2. Determine Deliverables
 [3*, c4, c5, c6]
-```
-```
+
+
 The work product(s) of each project activity (for
 example, software architecture design docu-
 ments, inspection reports, tested software) should
 be identified and characterized. Opportunities to
 reuse software components from previous proj-
 ects or to utilize off-the-shelf software products
-```
 
-**7-6** **_SWEBOK® Guide_** **V3.0**
 
 should be evaluated. Procurement of software
 and use of third parties to develop deliverables
@@ -523,16 +499,16 @@ about each of the tasks can be used. Resource
 allocation is based on, and constrained by, the
 availability of resources and their optimal use, as
 
-```
+
 well as by issues relating to personnel (for exam-
 ple, productivity of individuals and teams, team
 dynamics, and team structures).
-```
-```
+
+
 2.5. Risk Management
 [3*, c9] [5*, c5]
-```
-```
+
+
 Risk and uncertainty are related but distinct con-
 cepts. Uncertainty results from lack of informa-
 tion. Risk is characterized by the probability of an
@@ -565,23 +541,21 @@ safety or security (see the Software Quality KA).
 Risk management should be done not only at the
 beginning of a project, but also at periodic inter-
 vals throughout the project life cycle.
-```
-```
+
+
 2.6. Quality Management
 [3*, c4] [4*, c24]
-```
-```
+
+
 Software quality requirements should be identi-
 fied, perhaps in both quantitative and qualitative
 terms, for a software project and the associated
 work products. Thresholds for acceptable qual-
 ity measurements should be set for each software
 quality requirement based on stakeholder needs
-```
 
-```
-Software Engineering Management 7-7
-```
+
+
 and expectations. Procedures concerned with
 ongoing Software Quality Assurance (SQA) and
 quality improvement throughout the development
@@ -632,16 +606,16 @@ dance with the project plan and supporting plans.
 Resources (for example, personnel, technology,
 and funding) are utilized and work products (for
 
-```
+
 example, software design, software code, and
 software test cases) are generated.
-```
-```
+
+
 3.2. Software Acquisition and Supplier Contract
 Management
 [3*, c3, c4]
-```
-```
+
+
 Software acquisition and supplier contract man-
 agement is concerned with issues involved in
 contracting with customers of the software devel-
@@ -669,29 +643,25 @@ cution of the project in compliance with the terms
 of the agreement should be managed (see chapter
 12 of SWX, Software Procurement Management,
 for more information on this topic [2]).
-```
-```
+
+
 3.3. Implementation of Measurement Process
 [3*, c7]
-```
-```
+
+
 The measurement process should be enacted dur-
 ing the software project to ensure that relevant
 and useful data are collected (see sections 6.2,
 Plan the Measurement Process, and 6.3, Perform
 the Measurement Process).
-```
-```
+
+
 3.4. Monitor Process
 [3*, c8]
-```
-```
+
+
 Adherence to the project plan and related
-plans should be assessed continually and at
-```
-
-**7-8** **_SWEBOK® Guide_** **V3.0**
-
+plans should be assessed continually and at 
 predetermined intervals. Also, outputs and com-
 pletion criteria for each task should be assessed.
 Deliverables should be evaluated in terms of their
@@ -742,7 +712,7 @@ their implications.
 In some instances, the control process may
 lead to abandonment of the project. In all cases,
 
-```
+
 software configuration control and software con-
 figuration management procedures should be
 adhered to (see the Software Configuration Man-
@@ -751,12 +721,12 @@ and communicated to all relevant parties, plans
 should be revisited and revised when necessary,
 and relevant data recorded (see section 6.3, Per-
 form the Measurement Process).
-```
-```
+
+
 3.6. Reporting
 [3*, c11]
-```
-```
+
+
 At specified and agreed-upon times, progress to
 date should be reported—both within the orga-
 nization (for example, to a project steering com-
@@ -765,10 +735,10 @@ ple, clients or users). Reports should focus on
 the information needs of the target audience as
 opposed to the detailed status reporting within the
 project team.
-```
+
 **4. Review and Evaluation**
 
-```
+
 At prespecified times and as needed, overall prog-
 ress towards achievement of the stated objectives
 and satisfaction of stakeholder (user and customer)
@@ -777,12 +747,12 @@ assessments of the effectiveness of the software
 process, the personnel involved, and the tools and
 methods employed should also be undertaken reg-
 ularly and as determined by circumstances.
-```
-```
+
+
 4.1. Determining Satisfaction of Requirements
 [4*, c8]
-```
-```
+
+
 Because achieving stakeholder satisfaction is
 a principal goal of the software engineering
 manager, progress towards this goal should
@@ -797,11 +767,9 @@ requirements should be identified and appropri-
 ate actions should be taken.
 As in the control process activity above (see sec-
 tion 3.5, Control Process), software configuration
-```
 
-```
-Software Engineering Management 7-9
-```
+
+
 control and software configuration management
 procedures should be followed (see the Software
 Configuration Management KA), decisions docu-
@@ -851,11 +819,11 @@ relevant stakeholders and result in documentation
 of relevant stakeholders’ acceptance; any known
 problems should be documented.
 
-```
+
 5.2. Closure Activities
 [2, s3.7, s4.8]
-```
-```
+
+
 After closure has been confirmed, archiving of
 project materials should be accomplished in
 accordance with stakeholder agreed-upon meth-
@@ -871,10 +839,10 @@ and opportunities encountered can be analyzed
 learned should be drawn from the project and fed
 into organizational learning and improvement
 endeavors.
-```
+
 **6. Software Engineering Measurement**
 
-```
+
 The importance of measurement and its role in
 better management and engineering practices is
 widely acknowledged (see Measurement in the
@@ -890,30 +858,27 @@ standard [6], which describes a process to define
 the activities and tasks necessary to implement a
 software measurement process. The standard also
 includes a measurement information model.
-```
-```
+
+
 6.1. Establish and Sustain Measurement
 Commitment
 [7*, c1, c2]^2
-```
+
 - Requirements for measurement. Each mea-
     surement endeavor should be guided by
     organizational objectives and driven by a set
     of measurement requirements established by
 
-```
+
 2 Please note that these two chapters can be
 downloaded free of charge from http://www.psmsc.com/
 PSMBook.asp.
-```
 
-**7-10** **_SWEBOK® Guide_** **V3.0**
 
-```
 the organization and the project (for exam-
 ple, an organizational objective might be
 “first-to-market with new products”).
-```
+
 - Scope of measurement_._ The organizational
     unit to which each measurement requirement
     is to be applied should be established. This
@@ -960,11 +925,11 @@ _6.2. Plan the Measurement Process_
     organizational, regulatory, and/or product
     objectives. They should be identified and
 
-```
+
 prioritized. Then a subset of objectives to be
 addressed can be selected, documented, com-
 municated, and reviewed by stakeholders.
-```
+
 - Select measures. Candidate measures should
     be selected, with clear links to the informa-
     tion needs. Measures should be selected
@@ -1013,17 +978,14 @@ municated, and reviewed by stakeholders.
     implementing the planned and approved
 
 
-```
-Software Engineering Management 7-11
-```
-```
+
 measurement tasks. Resource availability
 may be staged in cases where changes are
 to be piloted before widespread deployment.
 Consideration should be paid to the resources
 necessary for successful deployment of new
 procedures or measures.
-```
+
 - Acquire and deploy supporting technologies.
     This includes evaluation of available supporting
     technologies, selection of the most appropriate
@@ -1068,7 +1030,7 @@ _6.3. Perform the Measurement Process_
     and recommendations to be presented to
     stakeholders (see Statistical Analysis in the
 
-```
+
 Engineering Foundations KA). The results
 and conclusions are usually reviewed, using
 a process defined by the organization (which
@@ -1077,15 +1039,15 @@ and measurement users should participate
 in reviewing the data to ensure that they are
 meaningful and accurate and that they can
 result in reasonable actions.
-```
+
 - Communicate results. Information products
     should be documented and communicated to
     users and stakeholders.
 
-```
+
 6.4. Evaluate Measurement
 [7*, c1, c2]
-```
+
 - Evaluate information products and the mea-
     surement process against specified evalu-
     ation criteria and determine strengths and
@@ -1111,7 +1073,7 @@ result in reasonable actions.
 **7. Software Engineering Management Tools**
 [3*, c5, c6, c7]
 
-```
+
 Software engineering management tools are often
 used to provide visibility and control of software
 engineering management processes. Some tools
@@ -1120,9 +1082,7 @@ mented. There has been a recent trend towards
 the use of integrated suites of software engineer-
 ing tools that are used throughout a project to
 plan, collect and record, monitor and control, and
-```
 
-**7-12** **_SWEBOK® Guide_** **V3.0**
 
 report project and product information. Tools can
 be divided into the following categories:
@@ -1150,7 +1110,7 @@ and monitoring. These tools include the use of
 approaches such as simulation or decision trees
 to analyze the effect of costs versus payoffs
 
-```
+
 and subjective estimates of the probabilities of
 risk events. Monte Carlo simulation tools can
 be used to produce probability distributions of
@@ -1176,32 +1136,30 @@ tools used to gather, analyze, and report project
 measurement data may be based on spreadsheets
 developed by project team members or organiza-
 tional employees.
-```
 
-```
-Software Engineering Management 7-13
-```
+
+
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Fairley 2009
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Sommerville 2011
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Boehm and Turner 2003
-```
-##### [5*]
 
-```
+##### [5]
+
+
 McGarry et al. 2001
-```
-##### [7*]
+
+##### [7]
 
 **1. Initiation and Scope
 Definition**
@@ -1209,12 +1167,12 @@ Definition**
     Negotiation of Requirements
        c3
 
-```
+
 1.2. Feasibility Analysis c4
 1.3. Process for the Review and
 Revision of Requirements
 c3
-```
+
 **2. Software Project Planning**
     2.1. Process Planning c2, c3, c4, c5 c1
     2.2. Determine Deliverables c4, c5, c6
@@ -1222,28 +1180,28 @@ c3
     Estimation
        c6
 
-```
+
 2.4. Resource Allocation c5, c10, c11
 2.5. Risk Management c9 c5
 2.6. Quality Management c4 c24
 2.7. Plan Management c4
-```
+
 **3. Software Project Enactment**
     3.1. Implementation of Plans c2
     3.2. Software Acquisition and
     Supplier Contract Management
        c3, c4
 
-```
+
 3.3. Implementation of
 Measurement Process
 c7
-```
-```
+
+
 3.4. Monitor Process c8
 3.5. Control Process c7, c8
 3.6. Reporting c11
-```
+
 **4. Review and Evaluation**
     4.1. Determining Satisfaction of
     Requirements
@@ -1252,58 +1210,52 @@ c7
        c8, c10
 
 
-**7-14** **_SWEBOK® Guide_** **V3.0**
-
-```
 Fairley 2009
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Sommerville 2011
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Boehm and Turner 2003
-```
-##### [5*]
 
-```
+##### [5]
+
+
 McGarry et al. 2001
-```
-##### [7*]
+
+##### [7]
 
 **5. Closure**
     5.1. Determining Closure
     5.2. Closure Activities
-**6. Software Engineering
-Measurement**
+**6. Software Engineering Measurement**
     6.1. Establish and Sustain
     Measurement Commitment
        c1, c2
 
-```
+
 6.2. Plan the Measurement
 Process
 c1, c2
-```
-```
+
+
 6.3. Perform the Measurement
 Process
 c1, c2
-```
-```
+
+
 6.4. Evaluate Measurement c1, c2
-```
+
 **7. Software Engineering
 Management Tools**
     c5, c6, c7
 
 
-```
-Software Engineering Management 7-15
-```
+
 ##### FURTHER READINGS
 
 _A Guide to the Project Management Body of
@@ -1354,46 +1306,25 @@ tor project status.
 
 ##### REFERENCES
 
-```
-[1] Project Management Institute, A Guide to the
-Project Management Body of Knowledge
-(PMBOK(R) Guide) , 5th ed., Project
-Management Institute, 2013.
-```
-```
-[2] Project Management Institute and IEEE
-Computer Society, Software Extension to
-the PMBOK® Guide Fifth Edition , Project
-Management Institute, 2013.
-```
-```
-[3*] R.E. Fairley, Managing and Leading
-Software Projects , Wiley-IEEE Computer
+[1] Project Management Institute, A Guide to the Project Management Body of
+Knowledge (PMBOK(R) Guide) , 5th ed., Project Management Institute, 2013.
+
+[2] Project Management Institute and IEEE Computer Society, Software Extension
+to the PMBOK® Guide Fifth Edition , Project Management Institute, 2013.
+
+[3] R.E. Fairley, Managing and Leading Software Projects , Wiley-IEEE Computer
 Society Press, 2009.
-```
-```
-[4*] I. Sommerville, Software Engineering , 9th
-ed., Addison-Wesley, 2011.
-```
-```
-[5*] B. Boehm and R. Turner, Balancing Agility
-and Discipline: A Guide for the Perplexed ,
-Addison-Wesley, 2003.
-```
-```
-[6] IEEE Std. 15939-2008 Standard Adoption of
-ISO/IEC 15939:2007 Systems and Software
-Engineering—Measurement Process ,
-IEEE, 2008.
-```
-```
-[7*] J. McGarry et al., Practical Software
-Measurement: Objective Information
-for Decision Makers , Addison-Wesley
-Professional, 2001.
-```
-```
-[8] J. McDonald, Managing the Development of
-Software Intensive Systems , John Wiley and
-Sons, Inc., 2010.
-```
+
+[4] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+
+[5] B. Boehm and R. Turner, Balancing Agility and Discipline: A Guide for the
+Perplexed , Addison-Wesley, 2003.
+
+[6] IEEE Std. 15939-2008 Standard Adoption of ISO/IEC 15939:2007 Systems and
+Software Engineering—Measurement Process , IEEE, 2008.
+
+[7] J. McGarry et al., Practical Software Measurement: Objective Information
+for Decision Makers , Addison-Wesley Professional, 2001.
+
+[8] J. McDonald, Managing the Development of Software Intensive Systems , John
+Wiley and Sons, Inc., 2010.
