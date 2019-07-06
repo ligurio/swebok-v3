@@ -1,40 +1,23 @@
-```
-13-1
-```
 **CHAPTER 13**
 
 **COMPUTING FOUNDATIONS**
 
 ##### ACRONYMS
 
-```
 AOP Aspect-Oriented Programming
 ALU Arithmetic and Logic Unit
-```
-```
-API
-Application Programming
-Interface
+API Application Programming Interface
 ATM Asynchronous Transfer Mode
 B/S Browser-Server
-```
-```
-CERT
-Computer Emergency Response
-Te a m
+CERT Computer Emergency Response Team
 COTS Commercial Off-The-Shelf
-CRUD Create, Read, Update, Delete
-C/S Client-Server
+CRUD Create, Read, Update, Delete C/S Client-Server
 CS Computer Science
 DBMS Database Management System
 FPU Float Point Unit
 I/O Input and Output
 ISA Instruction Set Architecture
-```
-```
-ISO
-International Organization for
-Standardization
+ISO International Organization for Standardization
 ISP Internet Service Provider
 LAN Local Area Network
 MUX Multiplexer
@@ -48,18 +31,15 @@ PPP Point-to-Point Protocol
 RFID Radio Frequency Identification
 RAM Random Access Memory
 ROM Read Only Memory
-```
-```
 SCSI Small Computer System Interface
 SQL Structured Query Language
 TCP Transport Control Protocol
 UDP User Datagram Protocol
 VPN Virtual Private Network
-WA N Wide Area Network
-```
+WAN Wide Area Network
+
 ##### INTRODUCTION
 
-```
 The scope of the Computing Foundations knowl-
 edge area (KA) encompasses the development
 and operational environment in which software
@@ -81,25 +61,21 @@ states, “One particularly important aspect is that
 software engineering builds on computer science
 and mathematics” (italics added).
 Steve Tockey wrote in his book Return on
-Software :
-```
-```
+Software:
+
+
 Both computer science and software engi-
 neering deal with computers, computing,
 and software. The science of computing, as
 a body of knowledge, is at the core of both.
-```
 
-**13-2** **_SWEBOK® Guide_** **V3.0**
-
-```
 ... Software engineering is concerned with
 the application of computers, computing,
 and software to practical purposes, specifi-
 cally the design, construction, and opera-
 tion of efficient and economical software
 systems.
-```
+
 Thus, at the core of software engineering is an
 understanding of computer science.
 While few people will deny the role computer
@@ -127,7 +103,7 @@ equally important to software engineering. Thus,
 some topics that would otherwise be covered in a
 computer science course are not covered in this
 
-```
+
 KA. For example, computer graphics—while an
 important course in a computer science degree
 program—is not included in this KA.
@@ -155,22 +131,22 @@ closely to the Software Design, Software Con-
 struction, Software Testing, Software Main-
 tenance, Software Quality, and Mathematical
 Foundations KAs.
-```
-```
+
+
 BREAKDOWN OF TOPICS FOR
 COMPUTING FOUNDATIONS
-```
-```
+
+
 The breakdown of topics for the Computing
 Foundations KA is shown in Figure 13.1.
-```
-```
-Figure 13.1. Breakdown of Topics for the Computing Foundations KA
-```
 
-```
+
+Figure 13.1. Breakdown of Topics for the Computing Foundations KA
+
+
+
 Computing Foundations 13-3
-```
+
 **1. Problem Solving Techniques**
     [2*, s3.2, c4] [3*, c5]
 
@@ -197,7 +173,7 @@ in solving problems do follow some guidelines
 and can often be generalized as problem solving
 techniques. For example, a general guideline for
 solving a generic engineering problem is to use
-the three-step process given below [2*].
+the three-step process given below [2].
 
 - Formulate the real problem.
 - Analyze the problem.
@@ -207,7 +183,7 @@ _1.2. Formulating the Real Problem_
 
 Gerard Voland writes, “It is important to recog-
 nize that a specific problem should be formulated
-if one is to develop a specific solution” [2*].
+if one is to develop a specific solution” [2].
 This formulation is called the problem statement,
 which explicitly specifies what both the problem
 and the desired outcome are.
@@ -221,10 +197,10 @@ and the cause, revising the statement, analyzing
 present and desired state, and using the fresh eye
 approach.
 
-```
+
 1.3. Analyze the Problem
-```
-```
+
+
 Once the problem statement is available, the next
 step is to analyze the problem statement or situ-
 ation to help structure our search for a solution.
@@ -238,11 +214,11 @@ cause must be determined; and potential problem
 analysis, in which the action(s) needed to prevent
 any reoccurrences of the problem or the develop-
 ment of new problems must be determined.
-```
-```
+
+
 1.4. Design a Solution Search Strategy
-```
-```
+
+
 Once the problem analysis is complete, we can
 focus on structuring a search strategy to find the
 solution. In order to find the “best” solution (here,
@@ -254,17 +230,17 @@ tasks in a way that provides the most guidance in
 searching for a solution, and use various attributes
 of the final solution state to guide our choices in
 the problem solving process.
-```
-```
+
+
 1.5. Problem Solving Using Programs
-```
-```
+
+
 The uniqueness of computer software gives prob-
 lem solving a flavor that is distinct from general
 engineering problem solving. To solve a problem
 using computers, we must answer the following
 questions.
-```
+
 - How do we figure out what to tell the com-
     puter to do?
 - How do we convert the problem statement
@@ -272,14 +248,12 @@ questions.
 - How do we convert the algorithm into
     machine instructions?
 
-```
+
 The first task in solving a problem using a com-
 puter is to determine what to tell the computer to
 do. There may be many ways to tell the story, but
 all should take the perspective of a computer such
-```
 
-**13-4** **_SWEBOK® Guide_** **V3.0**
 
 that the computer can eventually solve the prob-
 lem. In general, a problem should be expressed
@@ -302,13 +276,13 @@ natural language into electrons running around
 a circuit. In general, this transformation can be
 broken into three phases:
 
-```
+
 a) Development of algorithms from the prob-
 lem statement.
 b) Application of algorithms to the problem.
 c) Transformation of algorithms to program
 code.
-```
+
 The conversion of a problem statement into
 algorithms and algorithms into program codes
 usually follows a “stepwise refinement” (a.k.a.
@@ -332,23 +306,23 @@ on the “big picture.” One of the most important
 skills in any engineering undertaking is framing
 the levels of abstraction appropriately.
 
-```
+
 “Through abstraction,” according to Voland,
 “we view the problem and its possible solution
 paths from a higher level of conceptual under-
 standing. As a result, we may become better pre-
 pared to recognize possible relationships between
 different aspects of the problem and thereby gen-
-erate more creative design solutions” [2*]. This
+erate more creative design solutions” [2]. This
 is particularly true in computer science in general
 (such as hardware vs. software) and in software
 engineering in particular (data structure vs. data
 flow, and so forth).
-```
-```
+
+
 2.1. Levels of Abstraction
-```
-```
+
+
 When abstracting, we concentrate on one “level”
 of the big picture at a time with confidence that
 we can then connect effectively with levels above
@@ -361,11 +335,11 @@ defined standard interfaces such as programming
 APIs. The advantages that standard interfaces
 provide include portability, easier software/hard-
 ware integration and wider usage.
-```
-```
+
+
 2.2. Encapsulation
-```
-```
+
+
 Encapsulation is a mechanism used to imple-
 ment abstraction. When we are dealing with one
 level of abstraction, the information concerning
@@ -381,18 +355,18 @@ To an object, information hiding means we don’t
 need to know the details of how the object is rep-
 resented or how the operations on those objects
 are implemented.
-```
-```
+
+
 2.3. Hierarchy
-```
-```
+
+
 When we use abstraction in our problem formula-
 tion and solution, we may use different abstractions
-```
 
-```
+
+
 Computing Foundations 13-5
-```
+
 at different times—in other words, we work on dif-
 ferent levels of abstraction as the situation calls.
 Most of the time, these different levels of abstrac-
@@ -443,7 +417,7 @@ in sync.
 Programming is composed of the methodologies
 or activities for creating computer programs that
 
-```
+
 perform a desired function. It is an indispensible
 part in software construction. In general, pro-
 gramming can be considered as the process of
@@ -457,11 +431,11 @@ domain, appropriate data structures, special-
 ized algorithms, various language constructs,
 good programming techniques, and software
 engineering.
-```
-```
+
+
 3.1. The Programming Process
-```
-```
+
+
 Programming involves design, writing, testing,
 debugging, and maintenance. Design is the con-
 ception or invention of a scheme for turning a
@@ -478,11 +452,11 @@ activity to update, correct, and enhance existing
 programs. Each of these activities is a huge topic
 and often warrants the explanation of an entire
 KA in the SWEBOK Guide and many books.
-```
-```
+
+
 3.2. Programming Paradigms
-```
-```
+
+
 Programming is highly creative and thus some-
 what personal. Different people often write dif-
 ferent programs for the same requirements. This
@@ -497,9 +471,7 @@ write the code. The major types of programming
 paradigms are discussed below.
 Unstructured Programming: In unstructured
 programming, a programmer follows his/her
-```
 
-**13-6** **_SWEBOK® Guide_** **V3.0**
 
 hunch to write the code in whatever way he/she
 likes as long as the function is operational. Often,
@@ -552,7 +524,7 @@ _Functional Programming_ : Though less popu-
 lar, functional programming is as viable as
 the other paradigms in solving programming
 
-```
+
 problems. In functional programming, all com-
 putations are treated as the evaluation of math-
 ematical functions. In contrast to the imperative
@@ -560,11 +532,11 @@ programming that emphasizes changes in state,
 functional programming emphasizes the applica-
 tion of functions, avoids state and mutable data,
 and provides referential transparency.
-```
+
 **4. Programming Language Basics**
     [4*, c6]
 
-```
+
 Using computers to solve problems involves
 programming—which is writing and organiz-
 ing instructions telling the computer what to do
@@ -576,11 +548,11 @@ programming language to describe problems,
 develop algorithms, and reason about problem
 solutions. To write any program, one must under-
 stand at least one programming language.
-```
-```
+
+
 4.1. Programming Language Overview
-```
-```
+
+
 A programming language is designed to express
 computations that can be performed by a com-
 puter. In a practical sense, a programming lan-
@@ -598,21 +570,21 @@ fied by an ISO standard named ISO/IEC 9899.
 Other languages, such as Perl and Python, do not
 enjoy such treatment and often have a dominant
 implementation that is used as a reference.
-```
-```
+
+
 4.2. Syntax and Semantics of Programming
 Languages
-```
-```
+
+
 Just like natural languages, many programming
 languages have some form of written specifica-
 tion of their syntax (form) and semantics (mean-
 ing). Such specifications include, for example,
-```
 
-```
+
+
 Computing Foundations 13-7
-```
+
 specific requirements for the definition of vari-
 ables and constants (in other words, declara-
 tion and types) and format requirements for the
@@ -652,22 +624,22 @@ instruction can be easily translated into machine
 code “0001 0001 0010 0011**.** ” (Assume the oper-
 ation code for addition is 0001, see Figure 13.2).
 
-```
+
 add r1, r2, r3
 0001 0001 0010 0 011
-```
-```
+
+
 Figure 13.2. Assembly-to-Binary Translations
-```
+
 One common trait shared by these two types
 of language is their close association with the
 specifics of a type of computer or instruction set
 architecture (ISA).
 
-```
+
 4.4. High-Level Programming Languages
-```
-```
+
+
 A high-level programming language has a strong
 abstraction from the details of the computer’s
 ISA. In comparison to low-level programming
@@ -684,12 +656,12 @@ most programmers use and most software are
 written in high-level programming languages.
 Examples of high-level programming languages
 include C, C++, C#, and Java.
-```
-```
+
+
 4.5. Declarative vs. Imperative Programming
 Languages
-```
-```
+
+
 Most programming languages (high-level or low-
 level) allow programmers to specify the indi-
 vidual instructions that a computer is to execute.
@@ -716,9 +688,7 @@ gramming languages include Lisp (also a func-
 tional programming language) and Prolog, while
 imperative programming languages include C,
 C++, and JAVA.
-```
 
-**13-8** **_SWEBOK® Guide_** **V3.0**
 
 **5. Debugging Tools and Techniques**
     [3*, c23]
@@ -770,10 +740,10 @@ _Data errors_ are input errors that result either in
 input data that is different from what the program
 expects or in the processing of wrong data.
 
-```
+
 5.2. Debugging Techniques
-```
-```
+
+
 Debugging involves many activities and can be
 static, dynamic, or postmortem. Static debug-
 ging usually takes the form of code review, while
@@ -790,7 +760,7 @@ tracing, which is executing the program one piece
 at a time, examining the contents of registers and
 memory, in order to examine the results at each
 step. There are three ways to trace a program.
-```
+
 - _Single-stepping:_ execute one instruction at
     a time to make sure each instruction is exe-
     cuted correctly. This method is tedious but
@@ -807,10 +777,10 @@ step. There are three ways to trace a program.
     when a value is changed and when this value
     change likely causes the error.
 
-```
+
 5.3. Debugging Tools
-```
-```
+
+
 Debugging can be complex, difficult, and tedious.
 Like programming, debugging is also highly cre-
 ative (sometimes more creative than program-
@@ -823,11 +793,11 @@ ory, and even, in some cases, go back in time.
 For static debugging, there are many static
 code analysis tools , which look for a specific
 set of known problems within the source code.
-```
 
-```
+
+
 Computing Foundations 13-9
-```
+
 Both commercial and free tools exist in various
 languages. These tools can be extremely useful
 when checking very large source trees, where it is
@@ -878,10 +848,10 @@ vs. transient, external vs. internal, primitive vs.
 aggregate, recursive vs. nonrecursive; passive vs.
 active; and stateful vs. stateless structures.
 
-```
+
 6.2. Types of Data Structure
-```
-```
+
+
 As mentioned above, different perspectives can
 be used to classify data structures. However, the
 predominant perspective used in classification
@@ -910,18 +880,18 @@ as the underlying structure. Examples of com-
 pound structures include sets, graphs, and parti-
 tions. For example, a partition can be viewed as
 a set of sets.
-```
-```
+
+
 6.3. Operations on Data Structures
-```
-```
+
+
 All data structures support some operations that
 produce a specific structure and ordering, or
 retrieve relevant data from the structure, store data
 into the structure, or delete data from the structure.
 Basic operations supported by all data structures
 include create, read, update, and delete (CRUD).
-```
+
 - Create: Insert a new data entry into the
     structure.
 - Read: Retrieve a data entry from the structure.
@@ -929,12 +899,10 @@ include create, read, update, and delete (CRUD).
 - Delete: Remove a data entry from the
     structure.
 
-```
+
 Some data structures also support additional
 operations:
-```
 
-**13-10** **_SWEBOK® Guide_** **V3.0**
 
 - Find a particular element in the structure.
 - Sort all elements according to some ordering.
@@ -985,10 +953,10 @@ other words, terminate eventually or one must be
 able to write it in a finite number of steps), and
 unambiguous.
 
-```
+
 7.2. Attributes of Algorithms
-```
-```
+
+
 The attributes of algorithms are many and often
 include modularity, correctness, maintainabil-
 ity, functionality, robustness, user-friendliness
@@ -1002,11 +970,11 @@ ciency determines if an algorithm is feasible or
 impractical. For example, an algorithm that takes
 one hundred years to terminate is virtually use-
 less and is even considered incorrect.
-```
-```
+
+
 7.3. Algorithmic Analysis
-```
-```
+
+
 Analysis of algorithms is the theoretical study
 of computer-program performance and resource
 usage; to some extent it determines the goodness
@@ -1038,11 +1006,11 @@ the relative performance merit of an algorithm
 against the optimal algorithm (which may not
 be known) in the same category (for the same
 operations).
-```
 
-```
+
+
 Computing Foundations 13-11
-```
+
 _7.4. Algorithmic Design Strategies_
 
 The design of algorithms generally follows one
@@ -1093,7 +1061,7 @@ one makes use of probabilities in analyzing the
 average performance of an algorithm; _amor-
 tized analysis,_ in which one uses the methods of
 
-```
+
 aggregation, potential, and accounting to ana-
 lyze the worst performance of an algorithm on a
 sequence of operations; and competitive analysis,
@@ -1103,14 +1071,14 @@ an algorithm to the optimal algorithm.
 For complex problems and algorithms, one
 may need to use a combination of the aforemen-
 tioned analysis strategies.
-```
+
 **8. Basic Concept of a System**
     [6*, c10]
 
-```
+
 Ian Sommerville writes, “a system is a purposeful
 collection of interrelated components that work
-together to achieve some objective” [6*]. A sys-
+together to achieve some objective” [6]. A sys-
 tem can be very simple and include only a few
 components, like an ink pen, or rather complex,
 like an aircraft. Depending on whether humans
@@ -1124,11 +1092,11 @@ will not function without human involvement.
 Examples of such system include manned space
 vehicles, chips embedded inside a human, and so
 forth.
-```
-```
+
+
 8.1. Emergent System Properties
-```
-```
+
+
 A system is more than simply the sum of its parts.
 Thus, the properties of a system are not simply the
 sum of the properties of its components. Instead,
@@ -1146,9 +1114,7 @@ functional properties describe how the system
 behaves in its operational environment. These
 can include such qualities as consistency, capac-
 ity, weight, security, etc.
-```
 
-**13-12** **_SWEBOK® Guide_** **V3.0**
 
 _8.2. Systems Engineering_
 
@@ -1181,7 +1147,7 @@ the computer system. A computer is a machine
 that executes programs or software. It consists of
 a purposeful collection of mechanical, electrical,
 
-```
+
 and electronic components with each component
 performing a preset function. Jointly, these com-
 ponents are able to execute the instructions that
@@ -1211,14 +1177,14 @@ tion into the memory, and output for producing
 results for the user. The basic components of a
 computer system based on the von Neumann
 model are depicted in Figure 13.3.
-```
-```
-Figure 13.3. Basic Components of a Computer System Based on the von Neumann Model
-```
 
-```
+
+Figure 13.3. Basic Components of a Computer System Based on the von Neumann Model
+
+
+
 Computing Foundations 13-13
-```
+
 **9. Computer Organization**
     [8*, c1–c4]
 
@@ -1257,31 +1223,31 @@ as complementary metal-oxide semiconductors
 (NMOS), or gallium arsenide (GaAs) transistors,
 and so forth.
 
-```
+
 Macro Architecture Level (ISA)
 Micro Architecture Level
 Logic Circuits Level
 Devices Level
-```
-```
+
+
 Figure 13.4. Machine Architecture Levels
-```
+
 Each level provides an abstraction to the level
 above and is dependent on the level below. To a
 programmer, the most important abstraction is
 
-```
+
 the ISA, which specifies such things as the native
 data types, instructions, registers, addressing
 modes, the memory architecture, interrupt and
 exception handling, and the I/Os. Overall, the
 ISA specifies the ability of a computer and what
 can be done on the computer with programming.
-```
-```
+
+
 9.2. Digital Systems
-```
-```
+
+
 At the lowest level, computations are carried out
 by the electrical and electronic devices within a
 computer. The computer uses circuits and mem-
@@ -1299,11 +1265,11 @@ be encoded as 0001, and so forth. The component
 of the computer such as the control unit, ALU,
 memory and I/O use the information to compute
 the instructions.
-```
-```
+
+
 9.3. Digital Logic
-```
-```
+
+
 Obviously, logics are needed to manipulate data
 and to control the operation of computers. This
 logic, which is behind a computer’s proper func-
@@ -1318,17 +1284,15 @@ ANDed, ORed, or exclusively ORed together. It
 also specifies how to build decoders, multiplex-
 ers (MUX), memory, and adders that are used to
 assemble the computer.
-```
-```
+
+
 9.4. Computer Expression of Data
-```
-```
+
+
 As mentioned before, a computer expresses data
 with electrical signals or digital zeros and ones.
 Since there are only two different digits used in
-```
 
-**13-14** **_SWEBOK® Guide_** **V3.0**
 
 data expression, such a system is called a _binary
 expression system_. Due to the inherent nature of
@@ -1385,7 +1349,7 @@ tem architecture include the following:
 - Memory hierarchy and cache
 - Memory as a subsystem of the computer.
 
-```
+
 Memory cells and chips deal with single-digital
 storage and the assembling of single-digit units
 into one-dimensional memory arrays as well
@@ -1400,11 +1364,11 @@ are used to support efficient memory operations.
 Memory as a sub-system deals with the interface
 between the memory system and other parts of
 the computer.
-```
-```
+
+
 9.7. Input and Output (I/O)
-```
-```
+
+
 A computer is useless without I/O. Common
 input devices include the keyboard and mouse;
 common output devices include the disk, the
@@ -1432,11 +1396,11 @@ I/O; interrupt-driven I/O lets the CPU’s handling
 of I/O be driven by the I/O device; and direct
 memory access ( DMA) lets I/O be handled by a
 secondary CPU embedded in a DMA device (or
-```
 
-```
+
+
 Computing Foundations 13-15
-```
+
 channel). (Except during the initial setup, the
 main CPU is not disturbed during a DMA I/O
 operation.)
@@ -1487,7 +1451,7 @@ cation software is sold in this form.
 While both compilation and interpretation con-
 vert high level language code into machine code,
 
-```
+
 there are some important differences between the
 two methods. First, a compiler makes the conver-
 sion just once, while an interpreter typically con-
@@ -1509,21 +1473,21 @@ tion. Program faults caused by incorrect compiler
 behavior can be very difficult to track down. For
 this reason, compiler implementers invest a lot of
 time ensuring the correctness of their software.
-```
-```
+
+
 10.3. The Compilation Process
-```
-```
+
+
 Compilation is a complex task. Most compilers
 divide the compilation process into many phases.
 A typical breakdown is as follows:
-```
+
 - Lexical Analysis
 - Syntax Analysis or Parsing
 - Semantic Analysis
 - Code Generation
 
-```
+
 Lexical analysis partitions the input text (the
 source code), which is a sequence of characters,
 into separate comments , which are to be ignored
@@ -1540,9 +1504,7 @@ program and determines whether or not a text
 conforms to an expected format. Is this a textu-
 ally correct C++ program? or Is this entry tex-
 tually correct? are typical questions that can be
-```
 
-**13-16** **_SWEBOK® Guide_** **V3.0**
 
 answered by syntax analysis. Syntax analysis
 determines if the source code of a program is cor-
@@ -1592,10 +1554,10 @@ ager for managing the resources and activities
 occurring on it. That manager is called an _operat-
 ing system_ (OS)_._
 
-```
+
 11.1. Operating Systems Overview
-```
-```
+
+
 Operating systems is a collection of software and
 firmware, that controls the execution of computer
 programs and provides such services as computer
@@ -1616,11 +1578,11 @@ management (allocation and recovery) of physi-
 cal resources among multiple competing users/
 applications/tasks. Illusion refers to the nice
 abstractions the OS provides.
-```
-```
+
+
 11.2. Tasks of an Operating System
-```
-```
+
+
 The tasks of an operating system differ signifi-
 cantly depending on the machine and time of its
 invention. However, modern operating systems
@@ -1645,11 +1607,11 @@ disks among multiple programs/users and its main
 abstraction is the file system. I/O device manage-
 ment deals with the allocation and releases of
 various I/O devices among competing processes.
-```
 
-```
+
+
 Computing Foundations 13-17
-```
+
 Security and protection deal with the protection of
 computer resources from illegal use.
 
@@ -1718,11 +1680,11 @@ following.
           and PDAs. Examples of such OSs include
           Palm OS, Windows CE, and TOPPER.
 
-```
+
 Alternatively, an OS can be classified by its
 applicable target machine/environment into the
 following.
-```
+
 - _Mainframe OS:_ runs on the mainframe com-
     puters and include OS/360, OS/390, AS/400,
     MVS, and VM.
@@ -1741,7 +1703,7 @@ following.
 **12. Database Basics and Data Management**
 [4*, c9]
 
-```
+
 A database consists of an organized collection of
 data for one or more uses. In a sense, a database is
 a generalization and expansion of data structures.
@@ -1749,9 +1711,7 @@ But the difference is that a database is usually
 external to individual programs and permanent in
 existence compared to data structures. Databases
 are used when the data volume is large or logical
-```
 
-**13-18** **_SWEBOK® Guide_** **V3.0**
 
 relations between data items are important. The
 factors considered in database design include per-
@@ -1801,10 +1761,10 @@ tures of the relational model. An object database
 management system (ODBMS) implements fea-
 tures of the object model.
 
-```
+
 12.3. Database Query Language
-```
-```
+
+
 Users/applications interact with a database
 through a database query language, which is a spe-
 cialized programming language tailored to data-
@@ -1820,25 +1780,25 @@ Definition Language (DDL), Data Manipulation
 Language (DML), and Data Control Language
 (DCL). An example of an DML query may look
 like the following:
-```
-```
+
+
 SELECT Component_No, Quantity
 FROM COMPONENT
 WHERE Item_No = 100
-```
-```
+
+
 The above query selects all the Component_No
 and its corresponding quantity from a database
 table called COMPONENT, where the Item_No
 equals to 100.
-```
-```
+
+
 12.4. Tasks of DBMS Packages
-```
-```
+
+
 A DBMS system provides the following
 capabilities:
-```
+
 - _Database development_ is used to define and
     organize the content, relationships, and struc-
     ture of the data needed to build a database.
@@ -1858,9 +1818,9 @@ capabilities:
     erators to develop or generate program code.
 
 
-```
+
 Computing Foundations 13-19
-```
+
 _12.5. Data Management_
 
 A database must manage the data stored in it.
@@ -1911,15 +1871,15 @@ a _network node._
 A number of computing paradigms have emerged
 to benefit from the functions and capabilities
 
-```
+
 provided by computer networks. These paradigms
 include distributed computing, grid computing,
 Internet computing, and cloud computing.
-```
-```
+
+
 13.1. Types of Network
-```
-```
+
+
 Computer networks are not all the same and
 may be classified according to a wide variety of
 characteristics, including the network’s connec-
@@ -1927,7 +1887,7 @@ tion method, wired technologies, wireless tech-
 nologies, scale, network topology, functions, and
 speed. But the classification that is familiar to
 most is based on the scale of networking.
-```
+
 - _Personal Area Network/Home Network_ is a
     computer network used for communication
     among computer(s) and different informa-
@@ -1954,21 +1914,19 @@ most is based on the scale of networking.
     computers located in many (perhaps all)
     countries.
 
-```
+
 Other classifications may divide networks into
 control networks, storage networks, virtual pri-
 vate networks (VPN), wireless networks, point-
 to-point networks, and Internet of Things.
-```
-```
+
+
 13.2. Basic Network Components
-```
-```
+
+
 All networks are made up of the same basic hard-
 ware components, including computers, network
-```
 
-**13-20** **_SWEBOK® Guide_** **V3.0**
 
 interface cards (NICs), bridges, hubs, switches,
 and routers. All these components are called _nodes_
@@ -2020,7 +1978,7 @@ reliable transport function (TCP). Physical layer
 protocols include token ring, Ethernet, fast Ether-
 net, gigabit Ethernet, and wireless Ethernet. Data
 
-```
+
 link layer protocols include frame-relay, asyn-
 chronous transfer mode (ATM), and Point-to-
 Point Protocol (PPP). Application layer protocols
@@ -2030,8 +1988,8 @@ or even each individual protocol, there may be
 standards established by national or international
 organizations to guide the design and develop-
 ment of the corresponding protocols.
-```
-```
+
+
 Application Layer
 Presentation Layer
 Session Layer
@@ -2039,14 +1997,14 @@ Transport Layer
 Network Layer
 Data link Layer
 Physical Layer
-```
-```
+
+
 Figure 13.5. The Seven-Layer OSI Networking Model
-```
-```
+
+
 13.4. The Internet
-```
-```
+
+
 The Internet is a global system of interconnected
 governmental, academic, corporate, public, and
 private computer networks. In the public domain
@@ -2055,11 +2013,11 @@ known as internet service providers (ISP). The
 ISP maintains one or more switching centers
 called a point of presence, which actually con-
 nects the users to the Internet.
-```
-```
+
+
 13.5. Internet of Things
-```
-```
+
+
 The Internet of Things refers to the networking
 of everyday objects—such as cars, cell phones,
 PDAs, TVs, refrigerators, and even buildings—
@@ -2073,11 +2031,11 @@ software of course. As the paradigm of Internet
 of Things is still taking shape, much work is
 needed for Internet of Things to gain wide spread
 acceptance.
-```
 
-```
+
+
 Computing Foundations 13-21
-```
+
 _13.6. Virtual Private Network (VPN)_
 
 A virtual private network is a preplanned virtual
@@ -2128,7 +2086,7 @@ distributed computing studies the ways of dividing
 a problem into many tasks and assigning such tasks
 to various computers involved in the computation.
 
-```
+
 Fundamentally, distributed computing is
 another form of parallel computing, albeit on a
 grander scale. In distributed computing, the func-
@@ -2139,12 +2097,12 @@ same as parallel computing. Because both distrib-
 uted and parallel computing involve some form
 of concurrency, they are both also called concur-
 rent computing.
-```
-```
+
+
 14.2. Difference between Parallel and Distrib-
 uted Computing
-```
-```
+
+
 Though parallel and distributed computing resem-
 ble each other on the surface, there is a subtle but
 real distinction between them: parallel comput-
@@ -2172,19 +2130,17 @@ within a single computer; distributed computing
 deals with computations within a set of comput-
 ers. According to this view, multicore computing
 is a form of parallel computing.
-```
-```
+
+
 14.3. Parallel and Distributed Computing
 Models
-```
-```
+
+
 Since multiple computers/processors/cores are
 involved in distributed/parallel computing, some
 coordination among the involved parties is nec-
 essary to ensure correct behavior of the system.
-```
 
-**13-22** **_SWEBOK® Guide_** **V3.0**
 
 Different ways of coordination give rise to differ-
 ent computing models. The most common mod-
@@ -2239,7 +2195,7 @@ computing.
 **15. Basic User Human Factors**
     [3*, c8] [9*, c5]
 
-```
+
 Software is developed to meet human desires or
 needs. Thus, all software design and develop-
 ment must take into consideration human-user
@@ -2252,11 +2208,11 @@ such interactions.[10] But the basic human-user
 factors considered here include input/output, the
 handling of error messages, and the robustness of
 the software in general.
-```
-```
+
+
 15.1. Input and Output
-```
-```
+
+
 Input and output are the interfaces between users
 and software. Software is useless without input
 and output. Humans design software to process
@@ -2265,7 +2221,7 @@ software engineers must consider input and out-
 put as an integral part of the software product
 they engineer or develop. Issues considered for
 input include (but are not limited to):
-```
+
 - What input is required?
 - How is the input passed from users to
     computers?
@@ -2274,7 +2230,7 @@ input include (but are not limited to):
 - What format does the computer require of
     the input data?
 
-```
+
 The designer should request the minimum
 data from human input, only when the data is not
 already stored in the system. The designer should
@@ -2283,16 +2239,16 @@ reduce errors arising from incorrect or malicious
 data entry.
 For output, we need to consider what the users
 wish to see:
-```
+
 - In what format would users like to see
     output?
 - What is the most pleasing way to display
     output?
 
 
-```
+
 Computing Foundations 13-23
-```
+
 If the party interacting with the software isn’t
 human but another software or computer or con-
 trol system, then we need to consider the input/
@@ -2334,7 +2290,7 @@ when the error condition occurs. According to
 Jakob Nielsen, “Good error messages should be
 expressed in plain language (no codes), precisely
 indicate the problem, and constructively suggest
-a solution” [9*]. Fourth, error messages should
+a solution” [9]. Fourth, error messages should
 not overload the users with too much informa-
 tion and cause them to ignore the messages all
 together.
@@ -2342,10 +2298,10 @@ However, messages relating to security access
 errors should not provide extra information that
 would help unauthorized persons break in.
 
-```
+
 15.3. Software Robustness
-```
-```
+
+
 Software robustness refers to the ability of soft-
 ware to tolerate erroneous inputs. Software is said
 to be robust if it continues to function even when
@@ -2360,7 +2316,7 @@ robustness: “The software should have a low
 error rate, so that users make few errors during
 the use of the system and so that if they do make
 errors they can easily recover from them. Further,
-catastrophic errors must not occur” [9*].
+catastrophic errors must not occur” [9].
 There are many ways to evaluate the robust-
 ness of software and just as many ways to make
 software more robust. For example, to improve
@@ -2371,11 +2327,11 @@ tion when something unexpected occurs, and
 one should never quit a program without first
 giving users/applications a chance to correct the
 condition.
-```
+
 **16. Basic Developer Human Factors**
     [3*, c31–32]
 
-```
+
 Developer human factors refer to the consider-
 ations of human factors taken when developing
 software. Software is developed by humans, read
@@ -2392,9 +2348,7 @@ architecture at the macro level to the particular
 coding style and variable usage at the micro level.
 But the two prominent factors are structure (or
 program layouts) and comments (documentation).
-```
 
-**13-24** **_SWEBOK® Guide_** **V3.0**
 
 _16.1. Structure_
 
@@ -2460,7 +2414,7 @@ good comments:
 Maintenance**
 [11*, c29]
 
-```
+
 Due to increasing malicious activities targeted
 at computer systems, security has become a sig-
 nificant issue in the development of software. In
@@ -2487,19 +2441,19 @@ rity. In addition, security must also be taken into
 consideration when performing software mainte-
 nance as security faults and loopholes can be and
 often are introduced during maintenance.
-```
-```
+
+
 17.1. Software Requirements Security
-```
-```
+
+
 Software requirements security deals with the
 clarification and specification of security policy
 and objectives into software requirements, which
-```
 
-```
+
+
 Computing Foundations 13-25
-```
+
 lays the foundation for security considerations in
 the software development. Factors to consider
 in this phase include software requirements and
@@ -2570,20 +2524,20 @@ such rules follow:
     the state it had before the process began, and
     then terminate.
 
-```
+
 17.4. Software Testing Security
-```
-```
+
+
 Software testing security determines that soft-
 ware protects data and maintains security speci-
 fication as given. For more information, please
 refer to the Software Testing KA.
-```
-```
+
+
 17.5. Build Security into Software Engineering
 Process
-```
-```
+
+
 Software is only as secure as its development
 process goes. To ensure the security of software,
 security must be built into the software engineer-
@@ -2597,17 +2551,15 @@ an afterthought later in production. The SDL pro-
 cess is claimed to reduce software maintenance
 costs and increase reliability of software concern-
 ing software security related faults.
-```
-```
+
+
 17.6. Software Security Guidelines
-```
-```
+
+
 Although there are no bulletproof ways for secure
 software development, some general guidelines
 do exist that can be used to aid such effort. These
-```
 
-**13-26** **_SWEBOK® Guide_** **V3.0**
 
 guidelines span every phase of the software
 development lifecycle. Some reputable guide-
@@ -2629,251 +2581,248 @@ found in [12]:
     standard.
 
 
-```
+
 Computing Foundations 13-27
-```
+
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Voland 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 McConnell 2004
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Brookshear 2008
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Horowitz et al. 2007
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Sommerville 2011
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Null and Lobur 2006
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Nielsen 1993
-```
-##### [9*]
 
-```
+##### [9]
+
+
 Bishop 2002
-```
-##### [11*]
+
+##### [11]
 
 **1. Problem Solving
 Te c h n i que s**
 
-```
+
 s3.2,
 s4.2
 1.1. Definition of
 Problem Solving
 s3.2
-```
-```
+
+
 1.2. Formulating the
 Real Problem
 s3.2
-```
-```
+
+
 1.3. Analyze the
 Problem
 s3.2
-```
-```
+
+
 1.4. Design a
 Solution Search
 Strategy
-```
-```
+
+
 s4.2
-```
-```
+
+
 1.5. Problem Solving
 Using Programs
 c5
-```
+
 **2. Abstraction**
     s5.2–
        5.4
 2.1. Levels of
 Abstraction
 
-```
+
 s5.2–
 5.3
 2.2. Encapsulation s5.3
 2.3. Hierarchy s5.2
-```
+
 **3. Programming
 Fundamentals**
     c6–19
 
-```
+
 3.1. The
 Programming
 Process
-```
-```
+
+
 c6–c19
-```
-```
+
+
 3.2. Programming
 Paradigms
 c6–c19
-```
-```
+
+
 3.3. Defensive
 Programming
 c8
-```
+
 **4. Programming
 Language Basics**
     c6
 
-```
+
 4.1. Programming
 Language Overview
 s6.1
-```
-```
+
+
 4.2. Syntax and
 Semantics of
 Programming
 Language
-```
-```
+
+
 s6.2
-```
 
-**13-28** **_SWEBOK® Guide_** **V3.0**
 
-```
 Voland 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 McConnell 2004
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Brookshear 2008
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Horowitz et al. 2007
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Sommerville 2011
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Null and Lobur 2006
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Nielsen 1993
-```
-##### [9*]
 
-```
+##### [9]
+
+
 Bishop 2002
-```
-##### [11*]
 
-```
+##### [11]
+
+
 4.3. Low Level
 Programming
 Language
-```
-```
+
+
 s6.5–
 6.7
-```
-```
+
+
 4.4. High Level
 Programing
 Language
-```
-```
+
+
 s6.5–
 6.7
-```
-```
+
+
 4.5. Declarative
 vs. Imperative
 Programming
 Language
-```
-```
+
+
 s6.5–
 6.7
-```
+
 **5. Debugging Tools
 and Techniques**
     c23
 
-```
+
 5.1. Types of Errors s23.1
 5.2. Debugging
 Techniques:
 s23.2
-```
-```
+
+
 5.3. Debugging
 To ol s
 s23.5
-```
+
 **6. Data Structure and
 Representation**
 
-```
+
 s2.1–
 2.6
 6.1. Data Structure
 Overview
-```
-```
+
+
 s2.1–
 2.6
 6.2. Types of Data
 Structure
-```
-```
+
+
 s2.1–
 2.6
 6.3. Operations on
 Data Structures
-```
-```
+
+
 s2.1–
 2.6
-```
+
 **7. Algorithms and
 Complexity**
 
-```
+
 s1.1–
 1.3,
 s3.3–
@@ -2888,71 +2837,71 @@ s7.1–
 7.6,
 s11.1,
 s12.1
-```
 
-```
+
+
 Computing Foundations 13-29
-```
-```
+
+
 Voland 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 McConnell 2004
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Brookshear 2008
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Horowitz et al. 2007
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Sommerville 2011
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Null and Lobur 2006
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Nielsen 1993
-```
-##### [9*]
 
-```
+##### [9]
+
+
 Bishop 2002
-```
-##### [11*]
 
-```
+##### [11]
+
+
 7.1. Overview of
 Algorithms
 s1.1–1.2
-```
-```
+
+
 7.2. Attributes of
 Algorithms
 s1.3
-```
-```
+
+
 7.3. Algorithmic
 Analysis
 s1.3
-```
-```
+
+
 7.4. Algorithmic
 Design Strategies
-```
-```
+
+
 s3.3–
 3.6,
 s4.1–
@@ -2965,12 +2914,12 @@ s7.1–
 7.6,
 s11.1,
 s12.1
-```
-```
+
+
 7.5. Algorithmic
 Analysis Strategies
-```
-```
+
+
 s3.3–
 3.6,
 s4.1–
@@ -2983,470 +2932,439 @@ s7.1–
 7.6,
 s11.1,
 s12.1
-```
+
 **8. Basic Concept of a
 System**
     c10
 
-```
+
 8.1. Emergent
 System Properties
 s10.1
-```
-```
+
+
 8.2. System
 Engineering
 s10.2
-```
-```
+
+
 8.3. Overview of a
 Computer System
-```
 
-**13-30** **_SWEBOK® Guide_** **V3.0**
 
-```
 Voland 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 McConnell 2004
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Brookshear 2008
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Horowitz et al. 2007
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Sommerville 2011
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Null and Lobur 2006
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Nielsen 1993
-```
-##### [9*]
 
-```
+##### [9]
+
+
 Bishop 2002
-```
-##### [11*]
+
+##### [11]
 
 **9. Computer
 Organization**
     c1–4
 
-```
+
 9.1. Computer
 Organization
 Overview
-```
-```
+
+
 s1.1–1.2
-```
-```
+
+
 9.2. Digital Systems c3
 9.3. Digital Logic c3
 9.4. Computer
 Expression of Data
 c2
-```
-```
+
+
 9.5. The Central
 Processing Unit
 (CPU)
-```
-```
+
+
 s4.1–
 4.2
-```
-```
+
+
 9.6. Memory System
 Organization
 s4.6
-```
-```
+
+
 9.7. Input and Output
 (I/O)
 s4.5
-```
+
 **10. Compiler Basics** s6.4 s8.4
     10.1. Compiler
     Overview
        s8.4
 
-```
+
 10.2. Interpretation
 and Compilation
 s8.4
-```
-```
+
+
 10.3. The
 Compilation Process
 s6.4 s8.4
-```
+
 **11. Operating
 Systems Basics**
     c3
 
-```
+
 11.1. Operating
 Systems Overview
 s3.2
-```
+
 11. 2. Ta sk s of
 Operating System
     s3.3
 
-```
+
 11.3. Operating
 System Abstractions
 s3.2
-```
-```
+
+
 11.4. Operating
 Systems
 Classification
-```
-```
+
+
 s3.1
-```
 
-```
+
+
 Computing Foundations 13-31
-```
-```
+
+
 Voland 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 McConnell 2004
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Brookshear 2008
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Horowitz et al. 2007
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Sommerville 2011
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Null and Lobur 2006
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Nielsen 1993
-```
-##### [9*]
 
-```
+##### [9]
+
+
 Bishop 2002
-```
-##### [11*]
+
+##### [11]
 
 **12. Database
 Basics and Data
 Management**
 
-```
+
 c9
-```
-```
+
+
 12.1. Entity and
 Schema
 s9.1
-```
-```
+
+
 12.2. Database
 Management
 Systems (DBMS)
-```
-```
+
+
 s9.1
-```
-```
+
+
 12.3. Database
 Query Language
 s9.2
-```
-```
+
+
 12.4. Ta sk s of
 DBMS Packages
 s9.2
-```
-```
+
+
 12.5. Data
 Management
 s9.5
-```
-```
+
+
 12.6. Data Mining s9.6
-```
+
 **13. Network
 Communication
 Basics**
 
-```
+
 c12
-```
-```
+
+
 13.1. Ty p e s of
 Network
-```
-```
+
+
 s12.2–
 12.3
 13.2. Basic Network
 Components
 s12.6
-```
-```
+
+
 13.3. Networking
 Protocols and
 Standards
-```
-```
+
+
 s12.4–
 12.5
-```
-```
+
+
 13.4. The Internet
 13.5. Internet of
 Things
 s12.8
-```
-```
+
+
 13.6. Virtual Private
 Network
-```
+
 **14. Parallel and
 Distributed
 Computing**
 
-```
+
 c9
-```
-```
+
+
 14.1. Parallel
 and Distributed
 Computing
 Overview
-```
-```
+
+
 s9.4.1–
 9.4.3
-```
 
-**13-32** **_SWEBOK® Guide_** **V3.0**
 
-```
 Voland 2003
-```
-##### [2*]
 
-```
+##### [2]
+
+
 McConnell 2004
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Brookshear 2008
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Horowitz et al. 2007
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Sommerville 2011
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Null and Lobur 2006
-```
-##### [8*]
 
-```
+##### [8]
+
+
 Nielsen 1993
-```
-##### [9*]
 
-```
+##### [9]
+
+
 Bishop 2002
-```
-##### [11*]
 
-```
+##### [11]
+
+
 14.2. Differences
 between Parallel
 and Distributed
 Computing
-```
-```
+
+
 s9.4.4–
 9.4.5
-```
-```
+
+
 14.3. Parallel
 and Distributed
 Computing Models
-```
-```
+
+
 s9.4.4–
 9.4.5
-```
-```
+
+
 14.4. Main Issues
 in Distributed
 Computing
-```
+
 **15. Basic User
 Human Factors**
     c8 c5
 
-```
+
 15.1. Input and
 Output
-```
-```
+
+
 s5.1,
 s5.3
-```
-```
+
+
 15.2. Error Messages
 s5.2,
 s5.8
 15.3. Software
 Robustness
-```
-```
+
+
 s5.5–
 5.6
-```
+
 **16. Basic Developer
 Human Factors**
     c31–32
 
-```
+
 16.1. Structure c31
 16.2. Comments c32
-```
+
 **17. Secure Software
 Development and
 Maintenance**
 
-```
+
 c29
-```
-```
+
+
 17.1. Two Aspects of
 Secure Coding
 s29.1
-```
-```
+
+
 17.2. Coding
 Security into
 Software
-```
-```
+
+
 s29.4
-```
-```
+
+
 17.3. Requirement
 Security
 s29.2
-```
-```
+
+
 17.4. Design
 Security
 s29.3
-```
-```
+
+
 17.5. Implementation
 Security
 s29.5
-```
 
-```
-Computing Foundations 13-33
-```
 ##### REFERENCES
 
-[1] Joint Task Force on Computing Curricula,
-IEEE Computer Society and Association
-for Computing Machinery, _Software
-Engineering 2004: Curriculum Guidelines
-for Undergraduate Degree Programs in
-Software Engineering_ , 2004; [http://sites.](http://sites.)
-computer.org/ccse/SE2004Volume.pdf.
+[1] Joint Task Force on Computing Curricula, IEEE Computer Society and
+Association for Computing Machinery, _Software Engineering 2004: Curriculum
+Guidelines for Undergraduate Degree Programs in Software Engineering_ , 2004;
+[http://sites.](http://sites.) computer.org/ccse/SE2004Volume.pdf.
 
-[2*] G. Voland, _Engineering by Design_ , 2nd ed.,
-Prentice Hall, 2003.
+[2] G. Voland, _Engineering by Design_ , 2nd ed., Prentice Hall, 2003.
 
-[3*] S. McConnell, _Code Complete_ , 2nd ed.,
-Microsoft Press, 2004.
+[3] S. McConnell, _Code Complete_ , 2nd ed., Microsoft Press, 2004.
 
-[4*] J.G. Brookshear, _Computer Science: An
-Overview_ , 10th ed., Addison-Wesley, 2008.
+[4] J.G. Brookshear, _Computer Science: An Overview_ , 10th ed.,
+Addison-Wesley, 2008.
 
-[5*] E. Horowitz et al., _Computer Algorithms_ ,
-2nd ed., Silicon Press, 2007.
+[5] E. Horowitz et al., _Computer Algorithms_ , 2nd ed., Silicon Press, 2007.
 
-[6*] I. Sommerville, _Software Engineering_ , 9th
-ed., Addison-Wesley, 2011.
+[6] I. Sommerville, _Software Engineering_ , 9th ed., Addison-Wesley, 2011.
 
-```
-[7] ISO/IEC/IEEE 24765:2010 Systems and
-Software Engineering—Vocabulary , ISO/
+[7] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary , ISO/
 IEC/IEEE, 2010.
-```
-```
-[8*] L. Null and J. Lobur, The Essentials of
-Computer Organization and Architecture ,
-2nd ed., Jones and Bartlett Publishers,
-2006.
-```
-```
-[9*] J. Nielsen, Usability Engineering , Morgan
-Kaufmann, 1993.
-```
-```
-[10] ISO 9241-420:2011 Ergonomics of Human-
-System Interaction, ISO, 2011.
-```
-```
-[11*] M. Bishop, Computer Security: Art and
-Science , Addison-Wesley, 2002.
-```
-```
-[12] R.C. Seacord, The CERT C Secure Coding
-Standard , Addison-Wesley Professional,
-2008.
-```
+
+[8] L. Null and J. Lobur, The Essentials of Computer Organization and
+Architecture , 2nd ed., Jones and Bartlett Publishers, 2006.
+
+[9] J. Nielsen, Usability Engineering , Morgan Kaufmann, 1993.
+
+[10] ISO 9241-420:2011 Ergonomics of Human- System Interaction, ISO, 2011.
+
+[11] M. Bishop, Computer Security: Art and Science , Addison-Wesley, 2002.
+
+[12] R.C. Seacord, The CERT C Secure Coding Standard , Addison-Wesley
+Professional, 2008.
