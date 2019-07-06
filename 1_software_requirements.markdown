@@ -1,6 +1,3 @@
-```
-1-1
-```
 **CHAPTER 1**
 
 **SOFTWARE REQUIREMENTS**
@@ -9,19 +6,13 @@
 
 ##### CIA
 
-```
-Confidentiality, Integrity, and
-Availability
-DAG Directed Acyclic Graph
-FSM Functional Size Measurement
-```
-```
-INCOSE
-International Council on Systems
-Engineering
-UML Unified Modeling Language
-SysML Systems Modeling Language
-```
+- Confidentiality, Integrity, and Availability
+- DAG Directed Acyclic Graph
+- FSM Functional Size Measurement
+- INCOSE International Council on Systems Engineering
+- UML Unified Modeling Language
+- SysML Systems Modeling Language
+
 ##### INTRODUCTION
 
 The Software Requirements knowledge area (KA)
@@ -50,7 +41,7 @@ ments specialist” will be used, the latter where
 the role in question is usually performed by an
 individual other than a software engineer. This
 
-```
+
 does not imply, however, that a software engineer
 could not perform the function.
 A risk inherent in the proposed breakdown is
@@ -77,27 +68,25 @@ Management, Software Engineering Manage-
 ment, Software Engineering Process, Software
 Engineering Models and Methods, and Software
 Quality KAs.
-```
-```
+
+
 BREAKDOWN OF TOPICS FOR
 SOFTWARE REQUIREMENTS
-```
-```
+
+
 The breakdown of topics for the Software
 Requirements KA is shown in Figure 1.1.
-```
+
 **1. Software Requirements Fundamentals**
     [1*, c4, c4s1, c10s1, c10s4] [2*, c1, c6, c12]
 
-```
+
 1.1. Definition of a Software Requirement
-```
-```
+
+
 At its most basic, a software requirement is a
 property that must be exhibited by something in
-```
 
-**1-2** **_SWEBOK® Guide_** **V3.0**
 
 order to solve some problem in the real world. It
 may aim to automate part of a task for someone
@@ -124,7 +113,7 @@ may necessitate the development of simulation
 software. Software requirements, software test-
 ing, and quality personnel must ensure that the
 
-```
+
 requirements can be verified within available
 resource constraints.
 Requirements have other attributes in addi-
@@ -136,11 +125,11 @@ cally, software requirements are uniquely identi-
 fied so that they can be subjected to software con-
 figuration management over the entire life cycle
 of the feature and of the software.
-```
-```
+
+
 1.2. Product and Process Requirements
-```
-```
+
+
 A product requirement is a need or constraint on
 the software to be developed (for example, “The
 software shall verify that a student meets all pre-
@@ -151,14 +140,14 @@ example, “The software shall be developed using
 a RUP process”).
 Some software requirements generate implicit
 process requirements. The choice of verification
-```
-```
-Figure 1.1. Breakdown of Topics for the Software Requirements KA
-```
 
-```
+
+Figure 1.1. Breakdown of Topics for the Software Requirements KA
+
+
+
 Software Requirements 1-3
-```
+
 technique is one example. Another might be the
 use of particularly rigorous analysis techniques
 (such as formal specification methods) to reduce
@@ -208,7 +197,7 @@ and as unambiguously as possible, and, where
 appropriate, quantitatively. It is important to
 avoid vague and unverifiable requirements that
 
-```
+
 depend for their interpretation on subjective
 judgment (“the software shall be reliable”; “the
 software shall be user-friendly”). This is par-
@@ -223,22 +212,22 @@ very high level and will need to be used to derive
 a number of detailed requirements. The reliabil-
 ity requirement will tightly constrain the system
 architecture.
-```
-```
+
+
 1.6. System Requirements and Software
 Requirements
-```
-```
+
+
 In this topic, “system” means
-```
-```
+
+
 an interacting combination of elements
 to accomplish a defined objective. These
 include hardware, software, firmware,
 people, information, techniques, facilities,
 services, and other support elements,
-```
-```
+
+
 as defined by the International Council on Soft-
 ware and Systems Engineering (INCOSE) [3].
 System requirements are the requirements for
@@ -252,18 +241,16 @@ ments, by contrast, encompass user requirements,
 requirements of other stakeholders (such as regu-
 latory authorities), and requirements without an
 identifiable human source.
-```
+
 **2. Requirements Process**
     [1*, c4s4] [2*, c1–4, c6, c22, c23]
 
-```
+
 This section introduces the software requirements
 process, orienting the remaining five topics and
 showing how the requirements process dovetails
 with the overall software engineering process.
-```
 
-**1-4** **_SWEBOK® Guide_** **V3.0**
 
 _2.1. Process Models_
 
@@ -316,11 +303,11 @@ include (but are not restricted to) the following:
 - Market analysts: A mass-market product
     will not have a commissioning customer, so
 
-```
+
 marketing people are often needed to estab-
 lish what the market needs and to act as
 proxy customers.
-```
+
 - Regulators: Many application domains, such
     as banking and public transport, are regu-
     lated. Software in these domains must com-
@@ -342,7 +329,7 @@ proxy customers.
     engineers. Important tradeoffs among such
     requirements should be identified.
 
-```
+
 It will not be possible to perfectly satisfy the
 requirements of every stakeholder, and it is the
 software engineer’s job to negotiate tradeoffs that
@@ -351,11 +338,11 @@ and within budgetary, technical, regulatory, and
 other constraints. A prerequisite for this is that all
 the stakeholders be identified, the nature of their
 “stake” analyzed, and their requirements elicited.
-```
-```
+
+
 2.3. Process Support and Management
-```
-```
+
+
 This section introduces the project management
 resources required and consumed by the require-
 ments process. It establishes the context for the
@@ -364,20 +351,20 @@ Software Engineering Management KA. Its prin-
 cipal purpose is to make the link between the pro-
 cess activities identified in 2.1 and the issues of
 cost, human resources, training, and tools.
-```
-```
+
+
 2.4. Process Quality and Improvement
-```
-```
+
+
 This topic is concerned with the assessment of
 the quality and improvement of the requirements
 process. Its purpose is to emphasize the key role
 the requirements process plays in terms of the
-```
 
-```
+
+
 Software Requirements 1-5
-```
+
 cost and timeliness of a software product and of
 the customer’s satisfaction with it. It will help to
 orient the requirements process with quality stan-
@@ -428,7 +415,7 @@ informing the project scope. This involves provid-
 ing a description of the software being specified
 and its purpose and prioritizing the deliverables
 
-```
+
 to ensure the customer’s most important business
 needs are satisfied first. This minimizes the risk
 of requirements specialists spending time elicit-
@@ -439,11 +426,11 @@ description must be scalable and extensible to
 accept further requirements not expressed in the
 first formal lists and compatible with the previous
 ones as contemplated in recursive methods.
-```
-```
+
+
 3.1. Requirements Sources
-```
-```
+
+
 Requirements have many sources in typical soft-
 ware, and it is essential that all potential sources
 be identified and evaluated. This topic is designed
@@ -451,7 +438,7 @@ to promote awareness of the various sources of
 software requirements and of the frameworks for
 managing them. The main points covered are as
 follows:
-```
+
 - Goals. The term “goal” (sometimes called
     “business concern” or “critical success fac-
     tor”) refers to the overall, high-level objec-
@@ -483,12 +470,9 @@ follows:
     needs to identify, represent, and manage
 
 
-**1-6** **_SWEBOK® Guide_** **V3.0**
-
-```
 the “viewpoints” of many different types of
 stakeholders.
-```
+
 - Business rules. These are statements that
     define or constrain some aspect of the struc-
     ture or the behavior of the business itself. “A
@@ -537,13 +521,13 @@ available, the software engineer has to work hard
 to elicit the right information. Many business or
 technical requirements are tacit or in feedback that
 
-```
+
 has yet to be obtained from end users. The impor-
 tance of planning, verification, and validation in
 requirements elicitation cannot be overstated. A
 number of techniques exist for requirements elici-
 tation; the principal ones are these:
-```
+
 - Interviews. Interviewing stakeholders is a
     “traditional” means of eliciting requirements.
     It is important to understand the advantages
@@ -589,10 +573,10 @@ tation; the principal ones are these:
     occur. When it works well, this technique
 
 
-```
+
 Software Requirements 1-7
-```
-```
+
+
 may result in a richer and more consistent
 set of requirements than might otherwise
 be achievable. However, meetings need to
@@ -603,7 +587,7 @@ by group loyalty, or in which requirements
 reflecting the concerns of a few outspoken
 (and perhaps senior) people that are favored
 to the detriment of others.
-```
+
 - Observation. The importance of software
     context within the organizational environ-
     ment has led to the adaptation of observa-
@@ -647,10 +631,10 @@ to the detriment of others.
           [1*, c4s1, c4s5, c10s4, c12s5]
              [2*, c7, c11, c12, c17]
 
-```
+
 This topic is concerned with the process of ana-
 lyzing requirements to
-```
+
 - detect and resolve conflicts between
     requirements;
 - discover the bounds of the software and how
@@ -659,7 +643,7 @@ lyzing requirements to
 - elaborate system requirements to derive soft-
     ware requirements.
 
-```
+
 The traditional view of requirements analysis
 has been that it be reduced to conceptual model-
 ing using one of a number of analysis methods,
@@ -673,14 +657,14 @@ Care must be taken to describe requirements
 precisely enough to enable the requirements to
 be validated, their implementation to be verified,
 and their costs to be estimated.
-```
-```
+
+
 4.1. Requirements Classification
-```
-```
+
+
 Requirements can be classified on a number of
 dimensions. Examples include the following:
-```
+
 - Whether the requirement is functional or
     nonfunctional (see section 1.3, Functional
     and Nonfunctional Requirements).
@@ -697,8 +681,6 @@ dimensions. Examples include the following:
     tor, the software engineering process to be
     adopted, or the standards to be adhered to.
 
-
-**1-8** **_SWEBOK® Guide_** **V3.0**
 
 - The requirement priority. The higher the pri-
     ority, the more essential the requirement is
@@ -747,10 +729,10 @@ There is a strong overlap between requirements
 classification and requirements attributes (see
 section 7.3, Requirements Attributes).
 
-```
+
 4.2. Conceptual Modeling
-```
-```
+
+
 The development of models of a real-world
 problem is key to software requirements analy-
 sis. Their purpose is to aid in understanding the
@@ -774,7 +756,7 @@ ronment) from the internal behavior where each
 use case depicts a functionality of the system.
 The factors that influence the choice of model-
 ing notation include these:
-```
+
 - The nature of the problem. Some types of
     software demand that certain aspects be ana-
     lyzed particularly rigorously. For example,
@@ -794,16 +776,16 @@ ing notation include these:
     with which they are unfamiliar. This factor
     can conflict with the previous factor.
 
-```
+
 Note that, in almost all cases, it is useful to start
 by building a model of the software context. The
 software context provides a connection between
 the intended software and its external environment.
-```
 
-```
+
+
 Software Requirements 1-9
-```
+
 This is crucial to understanding the software’s con-
 text in its operational environment and to identify-
 ing its interfaces with the environment.
@@ -854,10 +836,10 @@ Architectural design is closely identified with
 conceptual modeling (see section 4.2, Conceptual
 Modeling).
 
-```
+
 4.4. Requirements Negotiation
-```
-```
+
+
 Another term commonly used for this subtopic
 is “conflict resolution.” This concerns resolv-
 ing problems with requirements where conflicts
@@ -902,9 +884,7 @@ oritization approach called the analytic hierarchy
 process involves comparing all unique pairs of
 requirements to determine which of the two is of
 higher priority, and to what extent.
-```
 
-**1-10** **_SWEBOK® Guide_** **V3.0**
 
 _4.5. Formal Analysis_
 
@@ -956,7 +936,7 @@ values or limits to a product’s design goals. In
 software engineering, “software requirements
 specification” typically refers to the production of
 
-```
+
 a document that can be systematically reviewed,
 evaluated, and approved. For complex systems,
 particularly those involving substantial nonsoft-
@@ -970,11 +950,11 @@ may be combined as appropriate. A description of
 systems engineering can be found in the Related
 Disciplines of Software Engineering chapter of
 this Guide.
-```
-```
+
+
 5.1. System Definition Document
-```
-```
+
+
 This document (sometimes known as the user
 requirements document or concept of operations
 document) records the system requirements. It
@@ -992,11 +972,11 @@ requirements. It may include conceptual models
 designed to illustrate the system context, usage
 scenarios, and the principal domain entities, as
 well as workflows.
-```
-```
+
+
 5.2. System Requirements Specification
-```
-```
+
+
 Developers of systems with substantial software
 and nonsoftware components—a modern air-
 liner, for example—often separate the descrip-
@@ -1009,11 +989,11 @@ ponents are specified. Strictly speaking, system
 requirements specification is a systems engineer-
 ing activity and falls outside the scope of this
 Guide.
-```
 
-```
+
+
 Software Requirements 1-11
-```
+
 _5.3. Software Requirements Specification_
 
 Software requirements specification establishes
@@ -1066,7 +1046,7 @@ ability, specification, depth, and text structure.
 **6. Requirements Validation**
     [1*, c4s6] [2*, c13, c15]
 
-```
+
 The requirements documents may be subject to val-
 idation and verification procedures. The require-
 ments may be validated to ensure that the software
@@ -1099,11 +1079,11 @@ dation is concerned with the process of examin-
 ing the requirements document to ensure that it
 defines the right software (that is, the software
 that the users expect).
-```
-```
+
+
 6.1. Requirements Reviews
-```
-```
+
+
 Perhaps the most common means of validation
 is by inspection or reviews of the requirements
 document(s). A group of reviewers is assigned
@@ -1115,9 +1095,7 @@ tative of the customer should be included for a
 customer-driven project, for example), and it may
 help to provide guidance on what to look for in
 the form of checklists.
-```
 
-**1-12** **_SWEBOK® Guide_** **V3.0**
 
 Reviews may be constituted on completion of
 the system definition document, the system spec-
@@ -1169,17 +1147,17 @@ ple, in object models, it is useful to perform a
 static analysis to verify that communication paths
 exist between objects that, in the stakeholders’
 
-```
+
 domain, exchange data. If formal analysis nota-
 tions are used, it is possible to use formal reason-
 ing to prove specification properties. This topic is
 closely related to the Software Engineering Mod-
 els and Methods KA.
-```
-```
+
+
 6.4. Acceptance Tests
-```
-```
+
+
 An essential property of a software requirement
 is that it should be possible to validate that the
 finished product satisfies it. Requirements that
@@ -1197,12 +1175,12 @@ they can be expressed quantitatively.
 Additional information can be found in Accep-
 tance/Qualification/Conformance Testing in the
 Software Testing KA.
-```
+
 **7. Practical Considerations**
     [1*, c4s1, c4s4, c4s6, c4s7]
 [2*, c3, c12, c14, c16, c18–21]
 
-```
+
 The first level of topic decomposition pre-
 sented in this KA may seem to describe a linear
 sequence of activities. This is a simplified view
@@ -1222,11 +1200,11 @@ overhead. Most often, however, as these compa-
 nies expand, as their customer base grows, and
 as their product starts to evolve, they discover
 that they need to recover the requirements that
-```
 
-```
+
+
 Software Requirements 1-13
-```
+
 motivated product features in order to assess the
 impact of proposed changes. Hence, requirements
 documentation and change management are key
@@ -1277,7 +1255,7 @@ ing the cost of rework.
 In almost all cases, requirements understanding
 continues to evolve as design and development
 
-```
+
 proceeds. This often leads to the revision of
 requirements late in the life cycle. Perhaps the
 most crucial point in understanding software
@@ -1308,22 +1286,22 @@ meet in the middle could provide the best of both
 worlds. However, this is difficult to achieve in
 practice, as it depends heavily upon the maturity
 and expertise of the software engineers.
-```
-```
+
+
 7.2. Change Management
-```
-```
+
+
 Change management is central to the management
 of requirements. This topic describes the role of
 change management, the procedures that need to
 be in place, and the analysis that should be applied
 to proposed changes. It has strong links to the Soft-
 ware Configuration Management KA.
-```
-```
+
+
 7.3. Requirements Attributes
-```
-```
+
+
 Requirements should consist not only of a speci-
 fication of what is required, but also of ancillary
 information, which helps manage and interpret
@@ -1331,9 +1309,7 @@ the requirements. Requirements attributes must
 be defined, recorded, and updated as the soft-
 ware under development or maintenance evolves.
 This should include the various classification
-```
 
-**1-14** **_SWEBOK® Guide_** **V3.0**
 
 dimensions of the requirement (see section 4.1,
 Requirements Classification) and the verification
@@ -1376,10 +1352,10 @@ updated as changes in the requirements continue
 to happen, the traceability information becomes
 unreliable for impact analysis.
 
-```
+
 7.5. Measuring Requirements
-```
-```
+
+
 As a practical matter, it is typically useful to have
 some concept of the “volume” of the require-
 ments for a particular software product. This
@@ -1393,10 +1369,10 @@ tional requirements.
 Additional information on size measurement
 and standards will be found in the Software Engi-
 neering Process KA.
-```
+
 **8. Software Requirements Tools**
 
-```
+
 Tools for dealing with software requirements fall
 broadly into two categories: tools for modeling
 and tools for managing requirements.
@@ -1412,22 +1388,22 @@ in requirements management tools, although
 many more manage their requirements in more
 ad hoc and generally less satisfactory ways (e.g.,
 using spreadsheets).
-```
 
-```
+
+
 Software Requirements 1-15
-```
+
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
-Sommerville 2011
-```
-##### [1*]
 
-```
+Sommerville 2011
+
+##### [1]
+
+
 Wiegers 2003
-```
-##### [2*]
+
+##### [2]
 
 **1. Software Requirements Fundamentals**
     1.1. Definition of a Software Requirement c4 c1
@@ -1453,20 +1429,20 @@ Wiegers 2003
 **5. Requirements Specification**
     5.1. System Definition Document c4s2 c10
 
-```
+
 5.2. System Requirements Specification
-```
-```
+
+
 c4s2, c12s2,
 c12s3, c12s4,
 c12s5
-```
-```
+
+
 c10
-```
-```
+
+
 5.3. Software Requirements Specification c4s3 c10
-```
+
 **6. Requirements Validation**
     6.1. Requirements Reviews c4s6 c15
     6.2. Prototyping c4s6 c13
@@ -1474,17 +1450,14 @@ c10
     6.4. Acceptance Tests c4s6 c15
 
 
-**1-16** **_SWEBOK® Guide_** **V3.0**
-
-```
 Sommerville 2011
-```
-##### [1*]
 
-```
+##### [1]
+
+
 Wiegers 2003
-```
-##### [2*]
+
+##### [2]
 
 **7. Practical Considerations**
     7.1. Iterative Nature of the Requirements Process c4s4 c3, c16
@@ -1495,9 +1468,9 @@ Wiegers 2003
 **8. Software Requirements Tools** c21
 
 
-```
+
 Software Requirements 1-17
-```
+
 ##### FURTHER READINGS
 
 I. Alexander and L. Beus-Dukic, _Discovering
@@ -1527,24 +1500,24 @@ elicited from the customer. The role of scenarios
 is described in a way that helps to define their use
 in discovering and describing requirements.
 
-```
+
 A. van Lamsweerde, Requirements
 Engineering: From System Goals to UML
 Models to Software Specifications [7].
-```
-```
+
+
 Serves as a good introduction to requirements
 engineering but its unique value is as a reference
 book for the KAOS goal-oriented requirements
 modelling language. Explains why goal model-
 ling is useful and shows how it can integrate with
 mainstream modelling techniques using UML.
-```
-```
+
+
 O. Gotel and A. Finkelstein, “An Analysis of the
 Requirements Traceability Problem” [8].
-```
-```
+
+
 This paper is a classic reference work on a key
 element of requirements management. Based on
 empirical studies, it sets out the reasons for and
@@ -1552,12 +1525,12 @@ the barriers to the effective tracing of require-
 ments. It is essential reading for an understanding
 of why requirements tracing is an essential ele-
 ment of an effective software process.
-```
-```
+
+
 N. Maiden and C. Ncube, “Acquiring COTS
 Software Selection Requirements” [9].
-```
-```
+
+
 This paper is significant because it recognises
 explicitly that software products often integrate
 third-party components. It offers insights into the
@@ -1566,53 +1539,32 @@ satisfy requirements: there is usually a mismatch.
 This challenges some of the assumptions under-
 pinning much of traditional requirements han-
 dling, which tends to assume custom software.
-```
 
-**1-18** **_SWEBOK® Guide_** **V3.0**
 
 ##### REFERENCES
 
-[1*] I. Sommerville, _Software Engineering_ , 9th
-ed., Addison-Wesley, 2011.
+[1] I. Sommerville, _Software Engineering_ , 9th ed., Addison-Wesley, 2011.
 
-[2*] K.E. Wiegers, _Software Requirements_ , 2nd
-ed., Microsoft Press, 2003.
+[2] K.E. Wiegers, _Software Requirements_ , 2nd ed., Microsoft Press, 2003.
 
-[3] INCOSE, _Systems Engineering Handbook:
-A Guide for System Life Cycle Processes
-and Activities_ , version 3.2.2, International
-Council on Systems Engineering, 2012.
+[3] INCOSE, _Systems Engineering Handbook: A Guide for System Life Cycle
+Processes and Activities_ , version 3.2.2, International Council on Systems
+Engineering, 2012.
 
-[4] S. Friedenthal, A. Moore, and R. Steiner, _A
-Practical Guide to SysML: The Systems
-Modeling Language_ , 2nd ed., Morgan
-Kaufmann, 2012.
+[4] S. Friedenthal, A. Moore, and R. Steiner, _A Practical Guide to SysML: The
+Systems Modeling Language_ , 2nd ed., Morgan Kaufmann, 2012.
 
-[5] I. Alexander and L. Beus-Deukic,
-_Discovering Requirements: How to Specify
+[5] I. Alexander and L. Beus-Deukic, _Discovering Requirements: How to Specify
 Products and Services_ , Wiley, 2009.
 
-```
-[6] C. Potts, K. Takahashi, and A.I. Antón,
-“Inquiry-Based Requirements Analysis,”
-IEEE Software, vol. 11, no. 2, Mar. 1994,
-pp. 21–32.
-```
-```
-[7] A. van Lamsweerde, Requirements
-Engineering: From System Goals to UML
-Models to Software Specifications , Wiley,
-2009.
-```
-```
-[8] O. Gotel and C.W. Finkelstein, “An Analysis
-of the Requirements Traceability Problem,”
-Proc. 1st Int’l Conf. Requirements Eng. ,
-IEEE, 1994.
-```
-```
-[9] N.A. Maiden and C. Ncube, “Acquiring
-COTS Software Selection Requirements,”
-IEEE Software, vol. 15, no. 2, Mar.–Apr.
-1998, pp. 46–56.
-```
+[6] C. Potts, K. Takahashi, and A.I. Antón, “Inquiry-Based Requirements
+Analysis,” IEEE Software, vol. 11, no. 2, Mar. 1994, pp. 21–32.
+
+[7] A. van Lamsweerde, Requirements Engineering: From System Goals to UML
+Models to Software Specifications , Wiley, 2009.
+
+[8] O. Gotel and C.W. Finkelstein, “An Analysis of the Requirements
+Traceability Problem,” Proc. 1st Int’l Conf. Requirements Eng. , IEEE, 1994.
+
+[9] N.A. Maiden and C. Ncube, “Acquiring COTS Software Selection Requirements,”
+IEEE Software, vol. 15, no. 2, Mar.–Apr.  1998, pp. 46–56.
