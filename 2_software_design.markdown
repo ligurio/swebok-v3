@@ -1,6 +1,6 @@
-```
+
 2-1
-```
+
 **CHAPTER 2**
 
 **SOFTWARE DESIGN**
@@ -9,7 +9,7 @@
 
 ##### ADL
 
-```
+
 Architecture Description
 Language
 CBD Component-Based Design
@@ -20,7 +20,7 @@ IDL Interface Description Language
 MVC Model View Controller
 OO Object-Oriented
 PDL Program Design Language
-```
+
 ##### INTRODUCTION
 
 Design is defined as both “the process of defin-
@@ -46,7 +46,7 @@ be implemented. We can analyze and evaluate
 these models to determine whether or not they
 will allow us to fulfill the various requirements.
 
-```
+
 We can also examine and evaluate alternative
 solutions and tradeoffs. Finally, we can use the
 resulting models to plan subsequent development
@@ -58,7 +58,7 @@ cesses, such as that in ISO/IEC/IEEE Std. 12207,
 Software Life Cycle Processes [2], software design
 consists of two activities that fit between software
 requirements analysis and software construction:
-```
+
 - Software architectural design (sometimes
     called high-level design): develops top-level
     structure and organization of the software
@@ -67,7 +67,7 @@ requirements analysis and software construction:
     component in sufficient detail to facilitate its
     construction.
 
-```
+
 This Software Design knowledge area (KA)
 does not discuss every topic that includes the
 word “design.” In Tom DeMarco’s terminology
@@ -88,9 +88,7 @@ considered to be part of the requirements process
 (see the Software Requirements KA).
 This Software Design KA is related specifi-
 cally to the Software Requirements, Software
-```
 
-**2-2** **_SWEBOK® Guide_** **V3.0**
 
 Construction, Software Engineering Manage-
 ment, Software Engineering Models and Meth-
@@ -117,19 +115,19 @@ form of problem solving. For example, the con-
 cept of a wicked problem—a problem with no
 definitive solution—is interesting in terms of
 
-```
+
 understanding the limits of design. A number of
 other notions and concepts are also of interest in
 understanding design in its general sense: goals,
 constraints, alternatives, representations, and
 solutions (see Problem Solving Techniques in the
 Computing Foundations KA).
-```
-```
+
+
 1.2. Context of Software Design
 [4*, c3]
-```
-```
+
+
 Software design is an important part of the soft-
 ware development process. To understand the
 role of software design, we must see how it fits
@@ -138,22 +136,22 @@ is important to understand the major characteris-
 tics of software requirements analysis, software
 design, software construction, software testing,
 and software maintenance.
-```
-```
+
+
 1.3. Software Design Process
 [4*, c2]
-```
-```
+
+
 Software design is generally considered a two-
 step process:
-```
-```
-Figure 2.1. Breakdown of Topics for the Software Design KA
-```
 
-```
+
+Figure 2.1. Breakdown of Topics for the Software Design KA
+
+
+
 Software Design 2-3
-```
+
 - Architectural design (also referred to as high-
     level design and top-level design) describes
     how software is organized into components.
@@ -168,7 +166,7 @@ By recording the rationale, long-term maintain-
 ability of the software product is enhanced.
 
 _1.4. Software Design Principles_
-[4*] [5*, c6, c7, c21] [6*, c1, c8, c9]
+[4] [5*, c6, c7, c21] [6*, c1, c8, c9]
 
 A _principle_ is “a comprehensive and fundamen-
 tal law, doctrine, or assumption” [7]. Software
@@ -204,14 +202,14 @@ and primitiveness; and separation of concerns.
 - _Decomposition and modularization._ Decom-
     posing and modularizing means that large
 
-```
+
 software is divided into a number of smaller
 named components having well-defined
 interfaces that describe component interac-
 tions. Usually the goal is to place different
 functionalities and responsibilities in differ-
 ent components.
-```
+
 - _Encapsulation and information hiding_ means
     grouping and packaging the internal details
     of an abstraction and making those details
@@ -241,7 +239,7 @@ ent components.
     means of managing complexity [9].
 **2. Key Issues in Software Design**
 
-```
+
 A number of key issues must be dealt with when
 designing software. Some are quality concerns
 that all software must address—for example,
@@ -255,9 +253,7 @@ ware Design Strategies and Methods). In contrast,
 other issues “deal with some aspect of software’s
 behavior that is not in the application domain,
 but which addresses some of the supporting
-```
 
-**2-4** **_SWEBOK® Guide_** **V3.0**
 
 domains” [10]. Such issues, which often crosscut
 the system’s functionality, have been referred to
@@ -310,11 +306,11 @@ This design issue is concerned with how to pre-
 vent, tolerate, and process errors and deal with
 exceptional conditions.
 
-```
+
 2.6. Interaction and Presentation
 [5*, c16]
-```
-```
+
+
 This design issue is concerned with how to struc-
 ture and organize interactions with users as well
 as the presentation of information (for example,
@@ -323,12 +319,12 @@ using the Model-View-Controller approach).
 Note that this topic does not specify user interface
 details, which is the task of user interface design
 (see topic 4, User Interface Design).
-```
-```
+
+
 2.7. Security
 [5*, c12, c18] [13*, c4]
-```
-```
+
+
 Design for security is concerned with how to pre-
 vent unauthorized disclosure, creation, change,
 deletion, or denial of access to information and
@@ -339,15 +335,15 @@ repair and recovery, and failing and recovering
 securely. Access control is a fundamental con-
 cept of security, and one should also ensure the
 proper use of cryptology.
-```
+
 **3. Software Structure and Architecture**
 
-```
+
 In its strict sense, a software architecture is
 “the set of structures needed to reason about
 the system, which comprise software elements,
 relations among them, and properties of both”
-[14*]. During the mid-1990s, however, soft-
+[14]. During the mid-1990s, however, soft-
 ware architecture started to emerge as a broader
 discipline that involved the study of software
 structures and architectures in a more generic
@@ -362,11 +358,11 @@ to design families of programs (also known as
 product lines). Interestingly, most of these con-
 cepts can be seen as attempts to describe, and
 thus reuse, design knowledge.
-```
 
-```
+
+
 Software Design 2-5
-```
+
 _3.1. Architectural Structures and Viewpoints_
 [14*, c1]
 
@@ -374,7 +370,7 @@ Different high-level facets of a software design
 can be described and documented. These facets
 are often called views: “A view represents a partial
 aspect of a software architecture that shows spe-
-cific properties of a software system” [14*]. Views
+cific properties of a software system” [14]. Views
 pertain to distinct issues associated with software
 design—for example, the logical view (satisfying
 the functional requirements) vs. the process view
@@ -394,7 +390,7 @@ _3.2. Architectural Styles_
 
 An architectural style is “a specialization of ele-
 ment and relation types, together with a set of
-constraints on how they can be used” [14*]. An
+constraints on how they can be used” [14]. An
 architectural style can thus be seen as providing
 the software’s high-level organization. Various
 authors have identified a number of major archi-
@@ -418,12 +414,12 @@ Succinctly described, a pattern is “a common
 solution to a common problem in a given context”
 [16]. While architectural styles can be viewed as
 
-```
+
 patterns describing the high-level organization
 of software, other design patterns can be used
 to describe details at a lower level. These lower
 level design patterns include the following:
-```
+
 - Creational patterns (for example, builder,
     factory, prototype, singleton)
 - Structural patterns (for example, adapter,
@@ -433,11 +429,11 @@ level design patterns include the following:
     interpreter, iterator, mediator, memento,
     observer, state, strategy, template, visitor).
 
-```
+
 3.4. Architecture Design Decisions
 [5*, c6]
-```
-```
+
+
 Architectural design is a creative process. Dur-
 ing the design process, software designers have
 to make a number of fundamental decisions that
@@ -448,12 +444,12 @@ perspective rather than from an activity perspec-
 tive. Often, the impact on quality attributes and
 tradeoffs among competing quality attributes are
 the basis for design decisions.
-```
-```
+
+
 3.5. Families of Programs and Frameworks
 [5*, c6, c7, c16]
-```
-```
+
+
 One approach to providing for reuse of software
 designs and components is to design families of
 programs, also known as software product lines.
@@ -466,17 +462,15 @@ related notion is that of a framework : a partially
 completed software system that can be extended
 by appropriately instantiating specific extensions
 (such as plug-ins).
-```
+
 **4. User Interface Design**
 
-```
+
 User interface design is an essential part of the
 software design process. User interface design
 should ensure that interaction between the human
 and the machine provides for effective operation
-```
 
-**2-6** **_SWEBOK® Guide_** **V3.0**
 
 and control of the machine. For software to
 achieve its full potential, the user interface should
@@ -528,21 +522,21 @@ between the most appropriate styles of interaction
 at [http://ifs.host.cs.st-andrews.ac.uk/Books/SE9/](http://ifs.host.cs.st-andrews.ac.uk/Books/SE9/)
 WebChapters/.
 
-```
+
 and presentation for the software, the background
 and experience of the software users, and the
 available devices.
-```
-```
+
+
 4.3. The Design of User Interaction Modalities
 [5*, c29-web] [17*, c2]
-```
-```
+
+
 User interaction involves issuing commands and
 providing associated data to the software. User
 interaction styles can be classified into the fol-
 lowing primary styles:
-```
+
 - _Question-answer._ The interaction is essen-
     tially restricted to a single question-answer
     exchange between the user and the software.
@@ -571,22 +565,22 @@ lowing primary styles:
     guage and is parsed and translated into soft-
     ware commands.
 
-```
+
 4.4. The Design of Information Presentation
 [5*, c29-web] [17*, c2]
-```
-```
+
+
 Information presentation may be textual or graphi-
 cal in nature. A good design keeps the information
 presentation separate from the information itself.
 The MVC (Model-View-Controller) approach is
 an effective way to keep information presentation
 separating from the information being presented.
-```
 
-```
+
+
 Software Design 2-7
-```
+
 Software engineers also consider software
 response time and feedback in the design of infor-
 mation presentation. Response time is generally
@@ -637,11 +631,11 @@ core activities:
 - _Interface evaluation._ Designers can observe
     users’ experiences with the evolving interface.
 
-```
+
 4.6. Localization and Internationalization
 [17*, c8, c9]
-```
-```
+
+
 User interface design often needs to consider inter-
 nationalization and localization, which are means
 of adapting software to the different languages,
@@ -656,12 +650,12 @@ locale-specific components and translating the
 text. Localization and internationalization should
 consider factors such as symbols, numbers, cur-
 rency, time, and measurement units.
-```
-```
+
+
 4.7. Metaphors and Conceptual Models
 [17*, c5]
-```
-```
+
+
 User interface designers can use metaphors and
 conceptual models to set up mappings between the
 software and some reference system known to the
@@ -675,27 +669,25 @@ metaphor for each concept. Metaphors also pres-
 ent potential problems with respect to internation-
 alization, since not all metaphors are meaningful
 or are applied in the same way within all cultures.
-```
+
 **5. Software Design Quality Analysis and
 Evaluation**
 
-```
+
 This section includes a number of quality anal-
 ysis and evaluation topics that are specifically
 related to software design. (See also the Software
 Quality KA.)
-```
-```
+
+
 5.1. Quality Attributes
 [4*, c4]
-```
-```
+
+
 Various attributes contribute to the quality of
 a software design, including various “-ilities”
 (maintainability, portability, testability, usability)
-```
 
-**2-8** **_SWEBOK® Guide_** **V3.0**
 
 and “-nesses” (correctness, robustness). There is
 an interesting distinction between quality attri-
@@ -745,11 +737,11 @@ ing and evaluating software design quality.
     performance simulation or feasibility
     prototypes).
 
-```
+
 5.3. Measures
 [4*, c4] [5*, c24]
-```
-```
+
+
 Measures can be used to assess or to quanti-
 tatively estimate various aspects of a software
 design; for example, size, structure, or quality.
@@ -757,7 +749,7 @@ Most measures that have been proposed depend
 on the approach used for producing the design.
 These measures are classified in two broad
 categories:
-```
+
 - Function-based (structured) design mea-
     sures: measures obtained by analyzing func-
     tional decomposition; generally represented
@@ -772,7 +764,7 @@ categories:
     computed.
 **6. Software Design Notations**
 
-```
+
 Many notations exist to represent software design
 artifacts. Some are used to describe the structural
 organization of a design, others to represent soft-
@@ -787,21 +779,21 @@ software design is often accomplished using mul-
 tiple notations. Here, they are categorized into
 notations for describing the structural (static)
 view vs. the behavioral (dynamic) view.
-```
-```
+
+
 6.1. Structural Descriptions (Static View)
 [4*, c7] [5*, c6, c7] [6*, c4, c5, c6, c7]
 [12*, c7] [14*, c7]
-```
-```
+
+
 The following notations, mostly but not always
 graphical, describe and represent the structural
 aspects of a software design—that is, they are
-```
 
-```
+
+
 Software Design 2-9
-```
+
 used to describe the major components and how
 they are interconnected (static view):
 
@@ -863,7 +855,7 @@ how a design will meet security requirements.
     ing the flow of information around a network
     of operational elements, with each element
     making use of or modifying the information
-    flowing into that element” [4*]. Data flows
+    flowing into that element” [4]. Data flows
     (and therefore data flow diagrams) can be
     used for security analysis, as they offer iden-
     tification of possible paths for attack and dis-
@@ -897,8 +889,6 @@ how a design will meet security requirements.
     detailed design stage, the behavior of a pro-
     cedure or method.
 
-
-**2-10** **_SWEBOK® Guide_** **V3.0**
 
 **7. Software Design Strategies and Methods**
 
@@ -949,7 +939,7 @@ Numerous software design methods based
 on objects have been proposed. The field has
 evolved from the early object-oriented (OO)
 
-```
+
 design of the mid-1980s (noun = object; verb
 = method; adjective = attribute), where inheri-
 tance and polymorphism play a key role, to the
@@ -959,12 +949,12 @@ reflection, for example). Although OO design’s
 roots stem from the concept of data abstraction,
 responsibility-driven design has been proposed
 as an alternative approach to OO design.
-```
-```
+
+
 7.4. Data Structure-Centered Design
 [4*, c14, c15]
-```
-```
+
+
 Data structure-centered design starts from the data
 structures a program manipulates rather than from
 the function it performs. The software engineer
@@ -974,12 +964,12 @@ based on these data structure diagrams. Various
 heuristics have been proposed to deal with special
 cases—for example, when there is a mismatch
 between the input and output structures.
-```
-```
+
+
 7.5. Component-Based Design (CBD)
 [4*, c17]
-```
-```
+
+
 A software component is an independent unit,
 having well-defined interfaces and dependen-
 cies that can be composed and deployed inde-
@@ -993,22 +983,22 @@ a design concern; components treated as hav-
 ing a certain degree of trustworthiness should
 not depend on less trustworthy components or
 services.
-```
-```
+
+
 7.6. Other Methods
 [5*, c19, c21]
-```
-```
+
+
 Other interesting approaches also exist (see the
 Software Engineering Models and Methods
 KA). Iterative and adaptive methods imple-
 ment software increments and reduce emphasis
 on rigorous software requirement and design.
-```
 
-```
+
+
 Software Design 2-11
-```
+
 Aspect-oriented design is a method by which
 software is constructed using aspects to imple-
 ment the crosscutting concerns and extensions
@@ -1025,12 +1015,12 @@ and service information exchange.
 **8. Software Design Tools**
     [14*, c10, Appendix A]
 
-```
+
 Software design tools can be used to support the
 creation of the software design artifacts during
 the software development process. They can sup-
 port part or whole of the following activities:
-```
+
 - to translate the requirements model into a
     design representation;
 - to provide support for representing func-
@@ -1040,49 +1030,47 @@ port part or whole of the following activities:
 - to provide guidelines for quality assessment.
 
 
-**2-12** **_SWEBOK® Guide_** **V3.0**
-
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Budgen 2003
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Sommerville 2011
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Page-Jones 1999
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Brookshear 2008
-```
-##### [12*]
 
-```
+##### [12]
+
+
 Allen 2008
-```
-##### [13*]
 
-```
+##### [13]
+
+
 Clements et al. 2010
-```
-##### [14*]
 
-```
+##### [14]
+
+
 Gamma et al. 1994
-```
-##### [15*]
 
-```
+##### [15]
+
+
 Nielsen 1993
-```
-##### [17*]
+
+##### [17]
 
 **1. Software Design
 Fundamentals**
@@ -1090,27 +1078,27 @@ Fundamentals**
     Concepts
        c1
 
-```
+
 1.2. The Context of
 Software Design
 c3
-```
-```
+
+
 1.3. The Software
 Design Process
 c2
-```
-```
+
+
 1.4. Software Design
 Principles
 c1
 c6, c7,
 c21
-```
-```
+
+
 c1, c8,
 c9
-```
+
 **2. Key Issues in
 Software Design**
     2.1. Concurrency c18
@@ -1118,228 +1106,225 @@ Software Design**
     Handling of Events
        c21
 
-```
+
 2.3. Data Persistence c9
 2.4. Distribution of
 Components
 c18
-```
-```
+
+
 2.5. Error and
 Exception Handling
 and Fault Tolerance
-```
-```
+
+
 c18
-```
-```
+
+
 2.6. Interaction and
 Presentation
 c16
-```
-```
+
+
 2.7. Security
 c12 ,
 c18
 c4
-```
+
 **3. Software Structure
 and Architecture**
     3.1. Architectural
     Structures and
     Viewpoints
 
-```
+
 c1
-```
-```
+
+
 3.2. Architectural
 Styles
-```
-```
+
+
 c1, c2,
 c3, c4,
 c5
-```
-```
+
+
 3.3. Design Patterns
 c3, c4,
 c5
-```
 
-```
+
+
 Software Design 2-13
-```
-```
+
+
 Budgen 2003
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Sommerville 2011
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Page-Jones 1999
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Brookshear 2008
-```
-##### [12*]
 
-```
+##### [12]
+
+
 Allen 2008
-```
-##### [13*]
 
-```
+##### [13]
+
+
 Clements et al. 2010
-```
-##### [14*]
 
-```
+##### [14]
+
+
 Gamma et al. 1994
-```
-##### [15*]
 
-```
+##### [15]
+
+
 Nielsen 1993
-```
-##### [17*]
 
-```
+##### [17]
+
+
 3.4. Architecture
 Design Decisions
 c6
-```
-```
+
+
 3.5. Families of
 Programs and
 Frameworks
-```
-```
+
+
 c6, c7,
 c16
-```
+
 **4. User Interface
 Design**
 
-```
+
 4.1. General User
 Interface Design
 Principle
-```
-```
+
+
 c29-
 web
 c2
-```
-```
+
+
 4.2. User Interface
 Design Issues
-```
-```
+
+
 c29-
 web
 4.3. The Design of
 User Interaction
 Modalities
-```
-```
+
+
 c29-
 web
-```
-```
+
+
 4.4. The Design
 of Information
 Presentation
-```
-```
+
+
 c29-
 web
-```
-```
+
+
 4.5. User Interface
 Design Process
-```
-```
+
+
 c29-
 web
 4.6. Localization and
 Internationalization
 c8, c9
-```
-```
+
+
 4.7. Metaphors and
 Conceptual Models
 c5
-```
+
 **5. Software Design
 Quality Analysis and
 Evaluation**
 
-```
+
 5.1. Quality
 Attributes
 c4
-```
-```
+
+
 5.2. Quality
 Analysis and
 Evaluation
 Te c h n i q u e s
-```
-```
+
+
 c4 c24
-```
-```
+
+
 5.3. Measures c4 c24
-```
 
-**2-14** **_SWEBOK® Guide_** **V3.0**
 
-```
 Budgen 2003
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Sommerville 2011
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Page-Jones 1999
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Brookshear 2008
-```
-##### [12*]
 
-```
+##### [12]
+
+
 Allen 2008
-```
-##### [13*]
 
-```
+##### [13]
+
+
 Clements et al. 2010
-```
-##### [14*]
 
-```
+##### [14]
+
+
 Gamma et al. 1994
-```
-##### [15*]
 
-```
+##### [15]
+
+
 Nielsen 1993
-```
-##### [17*]
+
+##### [17]
 
 **6. Software Design
 Notations**
@@ -1347,76 +1332,76 @@ Notations**
     Descriptions (Static
     View)
 
-```
+
 c7 c6, c7
 c4, c5,
 c6, c7
 c7 c7
-```
-```
+
+
 6.2. Behavioral
 Descriptions
 (Dynamic View)
-```
-```
+
+
 c7, c13,
 c18
 c6, c7
 c4, c5,
 c6, c7
 c8
-```
+
 **7. Software Design
 Strategies and
 Methods**
     7.1. General
     Strategies
 
-```
+
 c8, c9,
 c10
 c7
-```
-```
+
+
 7.2. Function-
 Oriented
 (Structured) Design
-```
-```
+
+
 c13
-```
-```
+
+
 7.3. Object-Oriented
 Design
 c16
-```
-```
+
+
 7.4. Data Structure-
 Centered Design
-```
-```
+
+
 c14,
 c15
 7.5. Component-
 Based Design (CBD)
 c17
-```
-```
+
+
 7.6. Other Methods
 c19,
 c21
-```
+
 **8. Software Design
 To o l s**
 
-```
+
 c10,
 App. A
-```
 
-```
+
+
 Software Design 2-15
-```
+
 ##### FURTHER READINGS
 
 Roger Pressman, _Software Engineering: A
@@ -1427,7 +1412,7 @@ For roughly three decades, Roger Pressman’s
 _Software Engineering: A Practitioner’s Approach_
 has been one of the world’s leading textbooks in
 software engineering. Notably, this complemen-
-tary textbook to [5*] comprehensively presents
+tary textbook to [5] comprehensively presents
 software design—including design concepts,
 architectural design, component-level design,
 user interface design, pattern-based design, and
@@ -1466,107 +1451,61 @@ currently available on software architecture.
 
 ##### REFERENCES
 
-```
-[1] ISO/IEC/IEEE 24765:2010 Systems and
-Software Engineering—Vocabulary , ISO/
+[1] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary , ISO/
 IEC/IEEE, 2010.
-```
-```
-[2] IEEE Std. 12207-2008 (a.k.a. ISO/IEC
-12207:2008) Standard for Systems and
-Software Engineering—Software Life Cycle
-Processes , IEEE, 2008.
-```
-```
-[3] T. DeMarco, “The Paradox of Software
-Architecture and Design,” Stevens Prize
-Lecture, 1999.
-```
-```
-[4*] D. Budgen, Software Design , 2nd ed.,
-Addison-Wesley, 2003.
-```
-```
-[5*] I. Sommerville, Software Engineering , 9th
-ed., Addison-Wesley, 2011.
-```
-```
-[6*] M. Page-Jones, Fundamentals of Object-
-Oriented Design in UML , 1st ed., Addison-
-Wesley, 1999.
-```
-```
-[7] Merriam-Webster’s Collegiate Dictionary ,
-11th ed., 2003.
-```
-```
-[8] IEEE Std. 1069-2009 Standard for
-Information Technology—Systems
-Design—Software Design Descriptions ,
-IEEE, 2009.
-```
-```
-[9] ISO/IEC 42010:2011 Systems and Software
-Engineering—Recommended Practice for
-Architectural Description of Software-
-Intensive Systems , ISO/IEC, 2011.
-```
-```
-[10] J. Bosch, Design and Use of Software
-Architectures: Adopting and Evolving a
-Product-Line Approach , ACM Press, 2000.
-```
-```
-[11] G. Kiczales et al., “Aspect-Oriented
-Programming,” Proc. 11th European Conf.
-Object-Oriented Programming (ECOOP
-97), Springer, 1997.
-```
 
-**2-16** **_SWEBOK® Guide_** **V3.0**
+[2] IEEE Std. 12207-2008 (a.k.a. ISO/IEC 12207:2008) Standard for Systems and
+Software Engineering—Software Life Cycle Processes , IEEE, 2008.
 
-[12*] J.G. Brookshear, _Computer Science: An
-Overview_ , 10th ed., Addison-Wesley, 2008.
+[3] T. DeMarco, “The Paradox of Software Architecture and Design,” Stevens
+Prize Lecture, 1999.
 
-[13*] J.H. Allen et al., _Software Security
-Engineering: A Guide for Project
+[4] D. Budgen, Software Design , 2nd ed., Addison-Wesley, 2003.
+
+[5] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+
+[6] M. Page-Jones, Fundamentals of Object- Oriented Design in UML , 1st ed.,
+Addison- Wesley, 1999.
+
+[7] Merriam-Webster’s Collegiate Dictionary , 11th ed., 2003.
+
+[8] IEEE Std. 1069-2009 Standard for Information Technology—Systems
+Design—Software Design Descriptions , IEEE, 2009.
+
+[9] ISO/IEC 42010:2011 Systems and Software Engineering—Recommended Practice
+for Architectural Description of Software- Intensive Systems , ISO/IEC, 2011.
+
+[10] J. Bosch, Design and Use of Software Architectures: Adopting and Evolving
+a Product-Line Approach , ACM Press, 2000.
+
+[11] G. Kiczales et al., “Aspect-Oriented Programming,” Proc. 11th European
+Conf.  Object-Oriented Programming (ECOOP 97), Springer, 1997.
+
+[12] J.G. Brookshear, _Computer Science: An Overview_ , 10th ed.,
+Addison-Wesley, 2008.
+
+[13] J.H. Allen et al., _Software Security Engineering: A Guide for Project
 Managers_ , Addison-Wesley, 2008.
 
-[14*] P. Clements et al., _Documenting Software
-Architectures: Views and Beyond_ , 2nd ed.,
-Pearson Education, 2010.
+[14] P. Clements et al., _Documenting Software Architectures: Views and Beyond_
+, 2nd ed., Pearson Education, 2010.
 
-[15*] E. Gamma et al., _Design Patterns:
-Elements of Reusable Object-Oriented
-Software_ , 1st ed., Addison-Wesley
-Professional, 1994.
+[15] E. Gamma et al., _Design Patterns: Elements of Reusable Object-Oriented
+Software_ , 1st ed., Addison-Wesley Professional, 1994.
 
-[16] I. Jacobson, G. Booch, and J. Rumbaugh,
-_The Unified Software Development
-Process_ , Addison-Wesley Professional,
-1999.
+[16] I. Jacobson, G. Booch, and J. Rumbaugh, _The Unified Software Development
+Process_ , Addison-Wesley Professional, 1999.
 
-```
-[17*] J. Nielsen, Usability Engineering , Morgan
-Kaufmann, 1993.
-```
-```
-[18] G. Booch, J. Rumbaugh, and I. Jacobson,
-The Unified Modeling Language User
+[17] J. Nielsen, Usability Engineering , Morgan Kaufmann, 1993.
+
+[18] G. Booch, J. Rumbaugh, and I. Jacobson, The Unified Modeling Language User
 Guide, Addison-Wesley, 1999.
-```
-```
-[19] R.S. Pressman, Software Engineering: A
-Practitioner’s Approach , 7th ed., McGraw-
-Hill, 2010.
-```
-```
-[20] P.B. Kruchten, “The 4+1 View Model of
-Architecture,” IEEE Software, vol. 12, no.
-6, 1995, pp. 42–55.
-```
-```
-[21] L. Bass, P. Clements, and R. Kazman,
-Software Architecture in Practice , 3rd ed.,
-Addison-Wesley Professional, 2013.
-```
+
+[19] R.S. Pressman, Software Engineering: A Practitioner’s Approach , 7th ed.,
+McGraw- Hill, 2010.
+
+[20] P.B. Kruchten, “The 4+1 View Model of Architecture,” IEEE Software, vol.
+12, no.  6, 1995, pp. 42–55.
+
+[21] L. Bass, P. Clements, and R. Kazman, Software Architecture in Practice ,
+3rd ed., Addison-Wesley Professional, 2013.
