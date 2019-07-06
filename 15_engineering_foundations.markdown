@@ -1,24 +1,17 @@
-```
-15-1
-```
 **CHAPTER 15**
 
 **ENGINEERING FOUNDATIONS**
 
 ##### ACRONYMS
 
-```
+
 CAD Computer-Aided Design
-```
-```
-CMMI
-Capability Maturity Model
-Integration
+CMMI Capability Maturity Model Integration
 pdf Probability Density Function
 pmf Probability Mass Function
 RCA Root Cause Analysis
 SDLC Software Development Life Cycle
-```
+
 ##### INTRODUCTION
 
 IEEE defines engineering as “the application of
@@ -48,23 +41,23 @@ software engineers to develop and maintain
 software more efficiently and effectively. Com-
 pleting their engineering work efficiently and
 
-```
+
 effectively is a goal of all engineers in all engi-
 neering disciplines.
-```
-```
+
+
 BREAKDOWN OF TOPICS FOR
 ENGINEERING FOUNDATIONS
-```
-```
+
+
 The breakdown of topics for the Engineering
 Foundations KA is shown in Figure 15.1.
-```
+
 **1. Empirical Methods and Experimental
 Techniques**
     [2*, c1]
 
-```
+
 An engineering method for problem solving
 involves proposing solutions or models of solu-
 tions and then conducting experiments or tests
@@ -81,11 +74,11 @@ monly used in engineering efforts are designed
 experiments, observational studies, and retro-
 spective studies. Brief descriptions of the com-
 monly used methods are given below.
-```
-```
+
+
 1.1. Designed Experiment
-```
-```
+
+
 A designed or controlled experiment is an inves-
 tigation of a testable hypothesis where one or
 more independent variables are manipulated to
@@ -94,9 +87,7 @@ variables. A precondition for conducting an
 experiment is the existence of a clear hypothesis.
 It is important for an engineer to understand how
 to formulate clear hypotheses.
-```
 
-**15-2** **_SWEBOK® Guide_** **V3.0**
 
 Designed experiments allow engineers to
 determine in precise terms how the variables are
@@ -142,7 +133,7 @@ plete, inconsistently measured, or incorrect.
 **2. Statistical Analysis**
     [2*, c9s1, c2s1] [3*, c10s3]
 
-```
+
 In order to carry out their responsibilities, engi-
 neers must understand how different product
 and process characteristics vary. Engineers often
@@ -157,12 +148,12 @@ ing of statistical techniques for collecting reliable
 data in terms of sampling and analysis to arrive at
 results that can be generalized. These techniques
 are discussed below.
-```
-```
+
+
 2.1. Unit of Analysis (Sampling Units),
 Population, and Sample
-```
-```
+
+
 Unit of analysis. While carrying out any empiri-
 cal study, observations need to be made on cho-
 sen units called the units of analysis or sampling
@@ -182,14 +173,14 @@ While defining the population, care must be
 exercised to understand the study and target
 population. There are cases when the popula-
 tion studied and the population for which the
-```
-```
-Figure 15.1. Breakdown of Topics for the Engineering Foundations KA
-```
 
-```
+
+Figure 15.1. Breakdown of Topics for the Engineering Foundations KA
+
+
+
 Engineering Foundations 15-3
-```
+
 results are being generalized may be different.
 For example, when the study population consists
 of only past observations and generalizations are
@@ -240,7 +231,7 @@ some random variable; then, for example, we
 may define different events such as X ³ x or X <
 x and so on.
 
-```
+
 Distribution of a random variable. The range
 and pattern of variation of a random variable is
 given by its distribution. When the distribution
@@ -251,7 +242,7 @@ to model many random variables occurring in
 practice in the context of engineering. A few of
 the more commonly occurring distributions are
 given below.
-```
+
 - Binomial distribution: used to model random
     variables that count the number of successes
     in _n_ trials carried out independently of each
@@ -267,7 +258,7 @@ given below.
     variables by taking a very large number of
     values [2*, c4s6].
 
-```
+
 Concept of parameters. A statistical distribution
 is characterized by some parameters. For exam-
 ple, the proportion of success in any given trial
@@ -291,9 +282,7 @@ called the pdf. The pdf is very much like density
 and needs to be integrated over a range to obtain
 the probability that the continuous random vari-
 able lies between certain values. Thus, if the pdf
-```
 
-**15-4** **_SWEBOK® Guide_** **V3.0**
 
 or pmf is known, the chances of the random vari-
 able taking certain set of values may be computed
@@ -345,7 +334,7 @@ an interval estimate. An interval estimate is a
 random interval with the lower and upper lim-
 its of the interval being functions of the sample
 
-```
+
 observations as well as the sample size. The lim-
 its are computed on the basis of some assump-
 tions regarding the sampling distribution of the
@@ -395,37 +384,37 @@ the statistic does not fall inside the critical region,
 then we cannot reject the null hypothesis. This
 indicates that there is not enough evidence to
 believe that the alternative hypothesis is true.
-```
 
-```
+
+
 Engineering Foundations 15-5
-```
+
 As the decision is being taken on the basis
 of sample observations, errors are possible; the
 types of such errors are summarized in the fol-
 lowing table.
 
-```
+
 Nature
-```
-```
+
+
 Statistical Decision
 Accept H 0 Reject H 0
 H 0 is
 true
-```
+
 ##### OK
 
-```
+
 Type I error
 (probability = a)
 H 0 is
 false
-```
-```
+
+
 Type II error
 (probability = b)
-```
+
 ##### OK
 
 In test of hypotheses, we aim at maximizing the
@@ -465,7 +454,7 @@ coefficient takes a value between –1 to +1. The
 values –1 and +1 indicate a situation when the
 association between the variables is perfect—i.e.,
 
-```
+
 given the value of one variable, the other can be
 estimated with no error. A positive correlation
 coefficient indicates a positive relationship—that
@@ -487,12 +476,12 @@ determination. This is a value between 0 and 1.
 The closer the coefficient is to 1, the stronger the
 relationship between the variables. A value of 1
 indicates a perfect relationship.
-```
+
 **3. Measurement**
     [4*, c3s1, c3s2] [5*, c4s4] [6*, c7s5]
        [7*, p442–447]
 
-```
+
 Knowing what to measure and which measure-
 ment method to use is critical in engineering
 endeavors. It is important that everyone involved
@@ -516,9 +505,7 @@ engineering, a combination of both direct and
 derived measures is necessary [6*, p273].
 The theory of measurement states that mea-
 surement is an attempt to describe an underlying
-```
 
-**15-6** **_SWEBOK® Guide_** **V3.0**
 
 real empirical system. Measurement methods
 define activities that allocate a value or a symbol
@@ -571,16 +558,16 @@ whether the measurement will be with or without
 shoes, what kind of accuracy is expected (correct
 up to an inch, 1/2 inch, centimeter, etc.)—even
 
-```
+
 this simple measurement will lead to substantial
 variation. Engineers must appreciate the need to
 define measures from an operational perspective.
-```
-```
+
+
 3.1. Levels (Scales) of Measurement
 [4*, c3s2] [6*, c7s5]
-```
-```
+
+
 Once the operational definitions are determined,
 the actual measurements need to be undertaken.
 It is to be noted that measurement may be car-
@@ -596,13 +583,13 @@ classification and the observed sampling units
 are put into any one of the mutually exclusive
 and collectively exhaustive categories (classes).
 Some examples of nominal scales are:
-```
+
 - Job titles in a company
 - The software development life cycle (SDLC)
     model (like waterfall, iterative, agile, etc.)
     followed by different software projects
 
-```
+
 In nominal scale, the names of the different cat-
 egories are just labels and no relationship between
 them is assumed. The only operations that can be
@@ -620,16 +607,16 @@ ing. The intervals between values are not speci-
 fied and there is no objectively defined zero
 element. Typical examples of measurements in
 ordinal scales are:
-```
+
 - Skill levels (low, medium, high)
 - Capability Maturity Model Integration
     (CMMI) maturity levels of software devel-
     opment organizations
 
 
-```
+
 Engineering Foundations 15-7
-```
+
 - Level of adherence to process as measured in
     a 5-point scale of excellent, above average,
     average, below average, and poor, indicating
@@ -681,12 +668,12 @@ measurement follow:
 - Many psychological measurements aspire to
     create interval scales. Intelligence is often
 
-```
+
 measured in interval scale, as it is not neces-
 sary to define what zero intelligence would
 mean.
-```
-```
+
+
 If a variable is measured in interval scale, most
 of the usual statistical analyses like mean, stan-
 dard deviation, correlation, and regression may
@@ -706,24 +693,24 @@ measures are applicable to ratio scale; logarithm
 usage is valid only when these scales are used, as
 in the case of decibels. Some examples of ratio
 measures are
-```
+
 - the number of statements in a software
     program
 - temperature measured in the Kelvin (K) scale
     or in Fahrenheit (F).
 
-```
+
 An additional measurement scale, the absolute
 scale, is a ratio scale with uniqueness of the mea-
 sure; i.e., a measure for which no transformation
 is possible (for example, the number of program-
 mers working on a project).
-```
-```
+
+
 3.2. Direct and Derived Measures
 [6*, c7s5]
-```
-```
+
+
 Measures may be either direct or derived (some-
 times called indirect measures). An example of
 a direct measure would be a count of how many
@@ -736,9 +723,7 @@ be calculating the productivity of a team as the
 number of lines of code developed per developer-
 month. In both cases, the measurement method
 determines how to make the measurement.
-```
 
-**15-8** **_SWEBOK® Guide_** **V3.0**
 
 _3.3. Reliability and Validity_
 [4*, c3s4, c3s5]
@@ -789,7 +774,7 @@ A product’s life cycle costs are largely influenced
 by the design of the product. This is true for manu-
 factured products as well as for software products.
 
-```
+
 The design of a software product is guided by
 the features to be included and the quality attri-
 butes to be provided. It is important to note that
@@ -818,12 +803,12 @@ there are also implicit constraints (such as the
 physical properties of materials or laws of phys-
 ics) that also restrict the set of feasible solutions
 for a given problem.
-```
-```
+
+
 4.1. Engineering Design in Engineering
 Education
-```
-```
+
+
 The importance of engineering design in engi-
 neering education can be clearly seen by the high
 expectations held by various accreditation bod-
@@ -839,12 +824,12 @@ is necessary for engineering students as well as
 qualifications for the faculty members who teach
 such coursework or supervise design projects.
 Their accreditation criteria states:
-```
 
-```
+
+
 Engineering Foundations 15-9
-```
-```
+
+
 Design: An ability to design solutions for
 complex, open-ended engineering prob-
 lems and to design systems, components
@@ -853,11 +838,11 @@ appropriate attention to health and safety
 risks, applicable standards, and economic,
 environmental, cultural and societal con-
 siderations. [8, p12]
-```
+
 In a similar manner, ABET defines engineering
 design as
 
-```
+
 the process of devising a system, compo-
 nent, or process to meet desired needs. It
 is a decision-making process (often itera-
@@ -865,7 +850,7 @@ tive), in which the basic sciences, math-
 ematics, and the engineering sciences are
 applied to convert resources optimally to
 meet these stated needs. [9, p4]
-```
+
 Thus, it is clear that engineering design is a
 vital component in the training and education for
 all engineers. The remainder of this section will
@@ -895,11 +880,11 @@ solved again to create a solution that works. This
 has been an important insight for software design-
 ers for several decades [10*, c5s1].
 
-```
+
 4.3. Steps Involved in Engineering Design
 [7*, c4]
-```
-```
+
+
 Engineering problem solving begins when a
 need is recognized and no existing solution will
 meet that need. As part of this problem solving,
@@ -910,22 +895,22 @@ mine how well a proposed solution will satisfy
 the need. Once a need for a solution to a problem
 has been identified, the process of engineering
 design has the following generic steps:
-```
-```
+
+
 a) define the problem
 b) gather pertinent information
 c) generate multiple solutions
 d) analyze and select a solution
 e) implement the solution
-```
-```
+
+
 All of the engineering design steps are itera-
 tive, and knowledge gained at any step in the
 process may be used to inform earlier tasks and
 trigger an iteration in the process. These steps are
 expanded in the subsequent sections.
-```
-```
+
+
 a. Define the problem. At this stage, the custom-
 er’s requirements are gathered. Specific informa-
 tion about product functions and features are also
@@ -942,16 +927,14 @@ criteria with the required product characteristics.
 It is also an engineering task to limit the scope
 of a problem and its solution through negotiation
 among the stakeholders.
-```
-```
+
+
 b. Gather pertinent information. At this stage,
 the designer attempts to expand his/her knowl-
 edge about the problem. This is a vital, yet often
 neglected, stage. Gathering pertinent information
 can reveal facts leading to a redefinition of the
-```
 
-**15-10** **_SWEBOK® Guide_** **V3.0**
 
 problem—in particular, mistakes and false starts
 may be identified. This step may also involve the
@@ -1003,7 +986,7 @@ oped initially to test the proposed design solu-
 tion under certain conditions. Feedback resulting
 from testing a prototype may be used either to
 
-```
+
 refine the design or drive the selection of an alter-
 native design solution. One of the most impor-
 tant activities in design is documentation of the
@@ -1021,11 +1004,11 @@ different possible failure modes and then design
 tests based on those failure modes. The engineer
 may choose to carry out designed experiments to
 assess the validity of the design.
-```
+
 **5. Modeling, Simulation, and Prototyping**
     [5*, c6] [11*, c13s3] [12*, c2s3.1]
 
-```
+
 Modeling is part of the abstraction process used
 to represent some aspects of a system. Simula-
 tion uses a model of the system and provides a
@@ -1042,11 +1025,11 @@ a partial representation (that captures aspects of
 interest) of the product or system is built. A pro-
 totype may be an initial version of the system but
 lacks the full functionality of the final version.
-```
-```
+
+
 5.1. Modeling
-```
-```
+
+
 A model is always an abstraction of some real
 or imagined artifact. Engineers use models in
 many ways as part of their problem solving
@@ -1056,11 +1039,11 @@ or building. Other models may be nonphysical
 representations, such as a CAD drawing of a cog
 or a mathematical model for a process. Models
 help engineers reason and understand aspects of
-```
 
-```
+
+
 Engineering Foundations 15-11
-```
+
 a problem. They can also help engineers under-
 stand what they do know and what they don’t
 know about the problem at hand.
@@ -1111,7 +1094,7 @@ of the system, a simulation clock, and a random
 number generator. Output is generated by the
 simulation and must be analyzed.
 
-```
+
 An important problem in the development of a
 discrete simulation is that of initialization. Before
 a simulation can be run, the initial values of all
@@ -1123,11 +1106,11 @@ instance, it might be decided that a queue should
 be initialized as empty and idle. Such a choice of
 initial condition can have a significant but unrec-
 ognized impact on the outcome of the simulation.
-```
-```
+
+
 5.3. Prototyping
-```
-```
+
+
 Constructing a prototype of a system is another
 abstraction process. In this case, an initial version
 of the system is constructed, often while the sys-
@@ -1161,16 +1144,14 @@ All can be used to perform designed experiments
 to study various aspects of the system. How-
 ever, these are abstractions and, as such, may not
 model all attributes of interest.
-```
 
-**15-12** **_SWEBOK® Guide_** **V3.0**
 
 **6. Standards**
     [5*, c9s3.2] [13*, c1s2]
 
 Moore states that a
 
-```
+
 standard can be; (a) an object or measure
 of comparison that defines or represents
 the magnitude of a unit; (b) a characteriza-
@@ -1182,7 +1163,7 @@ lished either to further understanding and
 interaction or to acknowledge observed (or
 desired) norms of exhibited characteristics
 or behavior. [13*, p8]
-```
+
 Standards provide requirements, specifica-
 tions, guidelines, or characteristics that must be
 observed by engineers so that the products, pro-
@@ -1216,7 +1197,7 @@ the International Electrotechnical Commission
 (IEC), IEEE, and the International Organization
 for Standardization (ISO). In addition, there are
 
-```
+
 regional and governmentally recognized organi-
 zations that generate standards for that region or
 country. For example, in the United States, there
@@ -1255,23 +1236,23 @@ all constraints imposed by the applicable stan-
 dard. Standards important to software engineers
 are discussed in more detail in an appendix spe-
 cifically on this subject.
-```
+
 **7. Root Cause Analysis**
     [4*, c5, c3s7, c9s8] [5*, c9s3, c9s4, c9s5]
        [13*, c13s3.4.5]
 
-```
+
 Root cause analysis (RCA) is a process designed
 to investigate and identify why and how an
 undesirable event has happened. Root causes
 are underlying causes. The investigator should
 attempt to identify specific underlying causes of
 the event that has occurred. The primary objective
-```
 
-```
+
+
 Engineering Foundations 15-13
-```
+
 of RCA is to prevent recurrence of the undesir-
 able event. Thus, the more specific the investiga-
 tor can be about why an event occurred, the easier
@@ -1316,7 +1297,7 @@ problem. Those factors are broken down into sub-
 factors and sub-subfactors until root causes can
 be identified.
 
-```
+
 A very simple approach that is useful in quality
 control is the use of a checklist. Checklists are
 a list of key points in a process with tasks that
@@ -1340,7 +1321,7 @@ to the occurrence of some undesirable event.
 Some of the techniques that may be used to
 reduce variation due to common causes are given
 below.
-```
+
 1. Cause-and-effect diagrams may be used to
     identify the sub and sub-sub causes.
 2. Fault tree analysis is a technique that may be
@@ -1359,69 +1340,67 @@ below.
     sis in this KA).
 
 
-**15-14** **_SWEBOK® Guide_** **V3.0**
-
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
 
-```
+
 Montgomery and Runger 2007
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Null and Lobur 2006
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Kan 2002
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Voland 2003
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Fairley 2009
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Tockey 2004
-```
-##### [7*]
 
-```
+##### [7]
+
+
 McConnell 2004
-```
-##### [10*]
 
-```
+##### [10]
+
+
 Cheney and Kincaid 2007
-```
-##### [11*]
 
-```
+##### [11]
+
+
 Sommerville 2011
-```
-##### [12*]
 
-```
+##### [12]
+
+
 Moore 2006
-```
-##### [13*]
+
+##### [13]
 
 **1. Empirical
 Methods and
 Experimental
 Te c h n i que s**
 
-```
+
 c1
-```
-```
+
+
 1.1. Designed
 Experiment
 1.2.
@@ -1430,23 +1409,23 @@ Study
 1.3.
 Retrospective
 Study
-```
+
 **2. Statistical
 Analysis**
 
-```
+
 c9s1,
 c2s1
 c10s3
-```
-```
+
+
 2.1. Concept of
 Unit of Analysis
 (Sampling
 Units), Sample,
 and Population
-```
-```
+
+
 c3s6,
 c3s9,
 c4s6,
@@ -1458,100 +1437,100 @@ c9s1
 2.2. Concepts of
 Correlation and
 Regression
-```
-```
+
+
 c11s2,
 c11s 8
-```
+
 **3. Measurement**
     c3s1,
     c3s2
        c4s4 c7s5
 
-```
+
 3.1. Levels
 (Scales) of
 Measurement
-```
-```
+
+
 c3s2 c7s5
 p442
 –447
-```
-```
+
+
 3.2. Direct
 and Derived
 Measures
-```
 
-```
+
+
 Engineering Foundations 15-15
-```
-```
+
+
 Montgomery and Runger 2007
-```
-##### [2*]
 
-```
+##### [2]
+
+
 Null and Lobur 2006
-```
-##### [3*]
 
-```
+##### [3]
+
+
 Kan 2002
-```
-##### [4*]
 
-```
+##### [4]
+
+
 Voland 2003
-```
-##### [5*]
 
-```
+##### [5]
+
+
 Fairley 2009
-```
-##### [6*]
 
-```
+##### [6]
+
+
 Tockey 2004
-```
-##### [7*]
 
-```
+##### [7]
+
+
 McConnell 2004
-```
-##### [10*]
 
-```
+##### [10]
+
+
 Cheney and Kincaid 2007
-```
-##### [11*]
 
-```
+##### [11]
+
+
 Sommerville 2011
-```
-##### [12*]
 
-```
+##### [12]
+
+
 Moore 2006
-```
-##### [13*]
 
-```
+##### [13]
+
+
 3.3. Reliability
 a nd Va l id it y
-```
-```
+
+
 c3s4,
 c3s5
 3.4. Assessing
 Reliability
 c3s5
-```
+
 **4. Engineering
 Design**
 
-```
+
 c1s2,
 c1s3,
 c1s4
@@ -1561,38 +1540,38 @@ Education
 4.2. Design
 as a Problem
 Solving Activity
-```
-```
+
+
 c1s4,
 c2s1,
 c3s3
-```
-```
+
+
 c5s1
-```
-```
+
+
 4.3. Steps
 Involved in
 Engineering
 Design
-```
-```
+
+
 c4
-```
+
 **5. Modeling,
 Prototyping, and
 Simulation**
 
-```
+
 c6 c13s3
 c2
 s3.1
-```
-```
+
+
 5.1. Modeling
 5.2. Simulation
 5.3. Prototyping
-```
+
 **6. Standards**
     c9
 s3.2
@@ -1600,31 +1579,29 @@ c1s2
 **7. Root Cause
 Analysis**
 
-```
+
 c5,
 c3s7,
 c9s8
-```
-```
+
+
 c9s3,
 c9s4,
 c9s5
-```
-```
+
+
 c13
 s3.4.5
-```
-```
+
+
 7.1. Te c h n i q u e s
 for Conducting
 Root Cause
 Analysis
-```
-```
-c5 c3
-```
 
-**15-16** **_SWEBOK® Guide_** **V3.0**
+
+c5 c3
+
 
 ##### FURTHER READINGS
 
@@ -1637,92 +1614,61 @@ method and measurement outcome. It provides
 strong support material for the entire section on
 Measurement.
 
-```
+
 W.G. Vincenti, What Engineers Know and How
 They Know It. [15]
-```
-```
+
+
 This book provides an interesting introduc-
 tion to engineering foundations through a series
 of case studies that show many of the founda-
 tional concepts as used in real world engineering
 applications.
-```
 
-```
-Engineering Foundations 15-17
-```
 ##### REFERENCES
 
-[1] _ISO/IEC/IEEE 24765:2010 Systems and
-Software Engineering—Vocabulary_ , ISO/
-IEC/IEEE, 2010.
+[1] _ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary_ ,
+ISO/ IEC/IEEE, 2010.
 
-[2*] D.C. Montgomery and G.C. Runger,
-_Applied Statistics and Probability for
+[2] D.C. Montgomery and G.C. Runger, _Applied Statistics and Probability for
 Engineers_ , 4th ed., Wiley, 2007.
 
-[3*] L. Null and J. Lobur, _The Essentials of
-Computer Organization and Architecture_ ,
-2nd ed., Jones and Bartlett Publishers,
-2006.
+[3] L. Null and J. Lobur, _The Essentials of Computer Organization and
+Architecture_ , 2nd ed., Jones and Bartlett Publishers, 2006.
 
-[4*] S.H. Kan, _Metrics and Models in Software
-Quality Engineering_ , 2nd ed., Addison-
-Wesley, 2002.
+[4] S.H. Kan, _Metrics and Models in Software Quality Engineering_ , 2nd ed.,
+Addison- Wesley, 2002.
 
-[5*] G. Voland, _Engineering by Design_ , 2nd ed.,
-Prentice Hall, 2003.
+[5] G. Voland, _Engineering by Design_ , 2nd ed., Prentice Hall, 2003.
 
-[6*] R.E. Fairley, _Managing and Leading
-Software Projects_ , Wiley-IEEE Computer
-Society Press, 2009.
+[6] R.E. Fairley, _Managing and Leading Software Projects_ , Wiley-IEEE
+Computer Society Press, 2009.
 
-[7*] S. Tockey, _Return on Software: Maximizing
-the Return on Your Software Investment_ ,
-Addison-Wesley, 2004.
+[7] S. Tockey, _Return on Software: Maximizing the Return on Your Software
+Investment_ , Addison-Wesley, 2004.
 
-[8] Canadian Engineering Accreditation Board,
-Engineers Canada, “Accreditation Criteria
-and Procedures,” Canadian Council of
-Professional Engineers, 2011; [http://www.](http://www.)
-engineerscanada.ca/files/w_Accreditation_
+[8] Canadian Engineering Accreditation Board, Engineers Canada, “Accreditation
+Criteria and Procedures,” Canadian Council of Professional Engineers, 2011;
+[http://www.](http://www.) engineerscanada.ca/files/w_Accreditation_
 Criteria_Procedures_2011.pdf.
 
-```
-[9] ABET Engineering Accreditation
-Commission, “Criteria for Accrediting
-Engineering Programs, 2012-2013,”
-ABET, 2011; http://www.abet.org/uploadedFiles/
-Accreditation/Accreditation_Process/
-Accreditation_Documents/Current/eac-
-criteria-2012-2013.pdf.
-```
-```
-[10*] S. McConnell, Code Complete , 2nd ed.,
-Microsoft Press, 2004.
-```
-```
-[11*] E.W. Cheney and D.R. Kincaid, Numerical
-Mathematics and Computing , 6th ed.,
-Brooks/Cole, 2007.
-```
-```
-[12*] I. Sommerville, Software Engineering , 9th
-ed., Addison-Wesley, 2011.
-```
-```
-[13*] J.W. Moore, The Road Map to Software
-Engineering: A Standards-Based Guide ,
-Wiley-IEEE Computer Society Press, 2006.
-```
-```
-[14] A. Abran, Software Metrics and Software
-Metrology , Wiley-IEEE Computer Society
-Press, 2010.
-```
-```
-[15] W.G. Vincenti, What Engineers Know
-and How They Know It , John Hopkins
+[9] ABET Engineering Accreditation Commission, “Criteria for Accrediting
+Engineering Programs, 2012-2013,” ABET, 2011;
+http://www.abet.org/uploadedFiles/ Accreditation/Accreditation_Process/
+Accreditation_Documents/Current/eac- criteria-2012-2013.pdf.
+
+[10] S. McConnell, Code Complete , 2nd ed., Microsoft Press, 2004.
+
+[11] E.W. Cheney and D.R. Kincaid, Numerical Mathematics and Computing , 6th
+ed., Brooks/Cole, 2007.
+
+[12] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+
+[13] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide
+, Wiley-IEEE Computer Society Press, 2006.
+
+[14] A. Abran, Software Metrics and Software Metrology , Wiley-IEEE Computer
+Society Press, 2010.
+
+[15] W.G. Vincenti, What Engineers Know and How They Know It , John Hopkins
 University Press, 1990.
-```
