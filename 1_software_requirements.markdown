@@ -4,9 +4,7 @@
 
 ##### ACRONYMS
 
-##### CIA
-
-- Confidentiality, Integrity, and Availability
+- CIA - Confidentiality, Integrity, and Availability
 - DAG Directed Acyclic Graph
 - FSM Functional Size Measurement
 - INCOSE International Council on Systems Engineering
@@ -28,6 +26,7 @@ Software requirements express the needs and
 constraints placed on a software product that
 contribute to the solution of some real-world
 problem.
+
 The term “requirements engineering” is widely
 used in the field to denote the systematic handling
 of requirements. For reasons of consistency, the
@@ -39,10 +38,7 @@ will not be used either. Instead, the term “software
 engineer” or, in some specific cases, “require-
 ments specialist” will be used, the latter where
 the role in question is usually performed by an
-individual other than a software engineer. This
-
-
-does not imply, however, that a software engineer
+individual other than a software engineer. This does not imply, however, that a software engineer
 could not perform the function.
 A risk inherent in the proposed breakdown is
 that a waterfall-like process may be inferred. To
@@ -69,25 +65,17 @@ ment, Software Engineering Process, Software
 Engineering Models and Methods, and Software
 Quality KAs.
 
-
-BREAKDOWN OF TOPICS FOR
-SOFTWARE REQUIREMENTS
-
+BREAKDOWN OF TOPICS FOR SOFTWARE REQUIREMENTS
 
 The breakdown of topics for the Software
 Requirements KA is shown in Figure 1.1.
 
-**1. Software Requirements Fundamentals**
-    [1*, c4, c4s1, c10s1, c10s4] [2*, c1, c6, c12]
-
+**1. Software Requirements Fundamentals** [1, c4, c4s1, c10s1, c10s4] [2, c1, c6, c12]
 
 1.1. Definition of a Software Requirement
 
-
 At its most basic, a software requirement is a
-property that must be exhibited by something in
-
-
+property that must be exhibited by something in 
 order to solve some problem in the real world. It
 may aim to automate part of a task for someone
 to support the business processes of an organiza-
@@ -111,11 +99,10 @@ ware requirements. For example, verification
 of the throughput requirement on a call center
 may necessitate the development of simulation
 software. Software requirements, software test-
-ing, and quality personnel must ensure that the
-
-
+ing, and quality personnel must ensure that the 
 requirements can be verified within available
 resource constraints.
+
 Requirements have other attributes in addi-
 tion to behavioral properties. Common examples
 include a priority rating to enable tradeoffs in
@@ -129,7 +116,6 @@ of the feature and of the software.
 
 1.2. Product and Process Requirements
 
-
 A product requirement is a need or constraint on
 the software to be developed (for example, “The
 software shall verify that a student meets all pre-
@@ -141,12 +127,7 @@ a RUP process”).
 Some software requirements generate implicit
 process requirements. The choice of verification
 
-
 Figure 1.1. Breakdown of Topics for the Software Requirements KA
-
-
-
-Software Requirements 1-3
 
 technique is one example. Another might be the
 use of particularly rigorous analysis techniques
@@ -360,11 +341,6 @@ This topic is concerned with the assessment of
 the quality and improvement of the requirements
 process. Its purpose is to emphasize the key role
 the requirements process plays in terms of the
-
-
-
-Software Requirements 1-5
-
 cost and timeliness of a software product and of
 the customer’s satisfaction with it. It will help to
 orient the requirements process with quality stan-
@@ -374,15 +350,12 @@ ment is closely related to both the Software
 Quality KA and Software Engineering Process
 KA, comprising
 
-- requirements process coverage by process
-    improvement standards and models;
-- requirements process measures and
-    benchmarking;
+- requirements process coverage by process improvement standards and models;
+- requirements process measures and benchmarking;
 - improvement planning and implementation;
-- security/CIA improvement/planning and
-    implementation.
-**3. Requirements Elicitation**
-[1*, c4s5] [2*, c5, c6, c9]
+- security/CIA improvement/planning and implementation.
+
+**3. Requirements Elicitation** [1, c4s5] [2, c5, c6, c9]
 
 Requirements elicitation is concerned with the
 origins of software requirements and how the
@@ -413,9 +386,7 @@ holders and software engineers.
 A critical element of requirements elicitation is
 informing the project scope. This involves provid-
 ing a description of the software being specified
-and its purpose and prioritizing the deliverables
-
-
+and its purpose and prioritizing the deliverables 
 to ensure the customer’s most important business
 needs are satisfied first. This minimizes the risk
 of requirements specialists spending time elicit-
@@ -427,9 +398,7 @@ accept further requirements not expressed in the
 first formal lists and compatible with the previous
 ones as contemplated in recursive methods.
 
-
 3.1. Requirements Sources
-
 
 Requirements have many sources in typical soft-
 ware, and it is essential that all potential sources
@@ -570,14 +539,7 @@ tation; the principal ones are these:
     views. Another advantage is that conflicting
     requirements surface early on in a way that
     lets the stakeholders recognize where these
-    occur. When it works well, this technique
-
-
-
-Software Requirements 1-7
-
-
-may result in a richer and more consistent
+    occur. When it works well, this technique may result in a richer and more consistent
 set of requirements than might otherwise
 be achievable. However, meetings need to
 be handled carefully (hence the need for a
@@ -781,10 +743,6 @@ Note that, in almost all cases, it is useful to start
 by building a model of the software context. The
 software context provides a connection between
 the intended software and its external environment.
-
-
-
-Software Requirements 1-9
 
 This is crucial to understanding the software’s con-
 text in its operational environment and to identify-
@@ -990,10 +948,6 @@ requirements specification is a systems engineer-
 ing activity and falls outside the scope of this
 Guide.
 
-
-
-Software Requirements 1-11
-
 _5.3. Software Requirements Specification_
 
 Software requirements specification establishes
@@ -1043,43 +997,28 @@ ances. Indicators for the entire software require-
 ments specification document include size, read-
 ability, specification, depth, and text structure.
 
-**6. Requirements Validation**
-    [1*, c4s6] [2*, c13, c15]
+**6. Requirements Validation** [1, c4s6] [2, c13, c15]
 
-
-The requirements documents may be subject to val-
-idation and verification procedures. The require-
-ments may be validated to ensure that the software
-engineer has understood the requirements; it is
-also important to verify that a requirements docu-
-ment conforms to company standards and that it
-is understandable, consistent, and complete. In
-cases where documented company standards or
-terminology are inconsistent with widely accepted
-standards, a mapping between the two should be
-agreed on and appended to the document.
-Formal notations offer the important advantage
-of permitting the last two properties to be proven
-(in a restricted sense, at least). Different stake-
-holders, including representatives of the customer
-and developer, should review the document(s).
-Requirements documents are subject to the same
-configuration management practices as the other
-deliverables of the software life cycle processes.
-When practical, the individual requirements are
-also subject to configuration management, gener-
-ally using a requirements management tool (see
-topic 8, Software Requirements Tools).
-It is normal to explicitly schedule one or more
-points in the requirements process where the
-requirements are validated. The aim is to pick up
-any problems before resources are committed to
-addressing the requirements. Requirements vali-
-dation is concerned with the process of examin-
-ing the requirements document to ensure that it
-defines the right software (that is, the software
-that the users expect).
-
+The requirements documents may be subject to val- idation and verification
+procedures. The require- ments may be validated to ensure that the software
+engineer has understood the requirements; it is also important to verify that a
+requirements docu- ment conforms to company standards and that it is
+understandable, consistent, and complete. In cases where documented company
+standards or terminology are inconsistent with widely accepted standards, a
+mapping between the two should be agreed on and appended to the document.
+Formal notations offer the important advantage of permitting the last two
+properties to be proven (in a restricted sense, at least). Different stake-
+holders, including representatives of the customer and developer, should review
+the document(s).  Requirements documents are subject to the same configuration
+management practices as the other deliverables of the software life cycle
+processes.  When practical, the individual requirements are also subject to
+configuration management, gener- ally using a requirements management tool (see
+topic 8, Software Requirements Tools).  It is normal to explicitly schedule one
+or more points in the requirements process where the requirements are
+validated. The aim is to pick up any problems before resources are committed to
+addressing the requirements. Requirements vali- dation is concerned with the
+process of examin- ing the requirements document to ensure that it defines the
+right software (that is, the software that the users expect).
 
 6.1. Requirements Reviews
 
@@ -1200,11 +1139,6 @@ overhead. Most often, however, as these compa-
 nies expand, as their customer base grows, and
 as their product starts to evolve, they discover
 that they need to recover the requirements that
-
-
-
-Software Requirements 1-13
-
 motivated product features in order to assess the
 impact of proposed changes. Hence, requirements
 documentation and change management are key
@@ -1389,17 +1323,11 @@ many more manage their requirements in more
 ad hoc and generally less satisfactory ways (e.g.,
 using spreadsheets).
 
-
-
-Software Requirements 1-15
-
 ##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
-
 
 Sommerville 2011
 
 ##### [1]
-
 
 Wiegers 2003
 
@@ -1467,10 +1395,6 @@ Wiegers 2003
     7.5. Measuring Requirements c4s6 c18
 **8. Software Requirements Tools** c21
 
-
-
-Software Requirements 1-17
-
 ##### FURTHER READINGS
 
 I. Alexander and L. Beus-Dukic, _Discovering
@@ -1500,11 +1424,9 @@ elicited from the customer. The role of scenarios
 is described in a way that helps to define their use
 in discovering and describing requirements.
 
-
 A. van Lamsweerde, Requirements
 Engineering: From System Goals to UML
 Models to Software Specifications [7].
-
 
 Serves as a good introduction to requirements
 engineering but its unique value is as a reference
@@ -1513,10 +1435,8 @@ modelling language. Explains why goal model-
 ling is useful and shows how it can integrate with
 mainstream modelling techniques using UML.
 
-
 O. Gotel and A. Finkelstein, “An Analysis of the
 Requirements Traceability Problem” [8].
-
 
 This paper is a classic reference work on a key
 element of requirements management. Based on
@@ -1526,10 +1446,8 @@ ments. It is essential reading for an understanding
 of why requirements tracing is an essential ele-
 ment of an effective software process.
 
-
 N. Maiden and C. Ncube, “Acquiring COTS
 Software Selection Requirements” [9].
-
 
 This paper is significant because it recognises
 explicitly that software products often integrate
@@ -1539,7 +1457,6 @@ satisfy requirements: there is usually a mismatch.
 This challenges some of the assumptions under-
 pinning much of traditional requirements han-
 dling, which tends to assume custom software.
-
 
 ##### REFERENCES
 
