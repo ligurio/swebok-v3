@@ -1,0 +1,22 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Setup pandoc
+        run: sudo apt install -y pandoc
+
+      - name: Build EPUB
+        run: make epub
+
+      - name: Build HTML
+        run: make html
