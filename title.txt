@@ -2,3 +2,5 @@
 title: Guide to the Software Engineering Body of Knowledge Version 3.
 rights: Copyright <C2><A9> 2014 IEEE. All rights reserved.
 language: en-US
+pagetitle: SWEBOK v3
+---
