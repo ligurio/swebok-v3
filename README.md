@@ -4,8 +4,15 @@
 
 Copyright <C2><A9> 2014 IEEE. All rights reserved.
 
-[Основы программной инженерии (SWEBOK 2004 на
-русском)](https://github.com/ligurio/swebok-v3) в [EPUB][epub] и [HTML][html].
+Guide to the Software Engineering Body of Knowledge Version 3 (SWEBOK):
+[EPUB][epub] and [HTML][html].
 
-[epub]: https://bronevichok.ru/static/swebook-v3.epub
-[html]: https://bronevichok.ru/static/swebook-v3.html
+[epub]: https://bronevichok.ru/static/swebok-v3.epub
+[html]: https://bronevichok.ru/static/swebok-v3.html
+
+[Guide to the Software Engineering Body of Knowledge Version 2004
+(SWEBOK)](https://github.com/ligurio/swebok-2004-in-russian) in Russian:
+[EPUB][epub-swebok-2004] и [HTML][html-swebok-2004].
+
+[html-swebok-2004]: https://bronevichok.ru/static/swebok_2004_ru.html
+[epub-swebok-2004]: https://bronevichok.ru/static/swebok_2004_ru.epub
