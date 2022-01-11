@@ -1,3 +1,5 @@
+[![Build](https://github.com/ligurio/swebok-v3/actions/workflows/build.yaml/badge.svg)](https://github.com/ligurio/swebok-v3/actions/workflows/build.yaml)
+
 ## Guide to the Software Engineering Body of Knowledge Version 3 (SWEBOK)
 
 ![The Terrace](images/SWEBOK_logo_v2.jpg)
