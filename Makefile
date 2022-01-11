@@ -17,7 +17,7 @@ MAKRDOWN_FILES += 15_engineering_foundations.md
 MAKRDOWN_FILES += appendix.md
 
 PANDOC = pandoc
-PANDOC_OPT = -s --toc-depth=2 --number-sections --toc -c epub.css title.txt $(MAKRDOWN_FILES)
+PANDOC_OPT = -s --toc-depth=3 --toc --self-contained -c epub.css title.txt $(MAKRDOWN_FILES)
 NAME = swebook-v3
 
 epub: $(MAKRDOWN_FILES) epub.css title.txt
