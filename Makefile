@@ -1,20 +1,20 @@
-MAKRDOWN_FILES += 0_introduction.markdown
-MAKRDOWN_FILES += 1_software_requirements.markdown
-MAKRDOWN_FILES += 2_software_design.markdown
-MAKRDOWN_FILES += 3_software_construction.markdown
-MAKRDOWN_FILES += 4_software_testing.markdown
-MAKRDOWN_FILES += 5_software_maintenance.markdown
-MAKRDOWN_FILES += 6_software_configuration_management.markdown
-MAKRDOWN_FILES += 7_software_engineering_management.markdown
-MAKRDOWN_FILES += 8_software_engineering_process.markdown
-MAKRDOWN_FILES += 9_software_engineering_models.markdown
-MAKRDOWN_FILES += 10_software_quality.markdown
-MAKRDOWN_FILES += 11_software_engineering.markdown
-MAKRDOWN_FILES += 12_software_engineering_economics.markdown
-MAKRDOWN_FILES += 13_computing_foundations.markdown
-MAKRDOWN_FILES += 14_mathematical_foundations.markdown
-MAKRDOWN_FILES += 15_engineering_foundations.markdown
-MAKRDOWN_FILES += appendix.markdown
+MAKRDOWN_FILES += 0_introduction.md
+MAKRDOWN_FILES += 1_software_requirements.md
+MAKRDOWN_FILES += 2_software_design.md
+MAKRDOWN_FILES += 3_software_construction.md
+MAKRDOWN_FILES += 4_software_testing.md
+MAKRDOWN_FILES += 5_software_maintenance.md
+MAKRDOWN_FILES += 6_software_configuration_management.md
+MAKRDOWN_FILES += 7_software_engineering_management.md
+MAKRDOWN_FILES += 8_software_engineering_process.md
+MAKRDOWN_FILES += 9_software_engineering_models.md
+MAKRDOWN_FILES += 10_software_quality.md
+MAKRDOWN_FILES += 11_software_engineering.md
+MAKRDOWN_FILES += 12_software_engineering_economics.md
+MAKRDOWN_FILES += 13_computing_foundations.md
+MAKRDOWN_FILES += 14_mathematical_foundations.md
+MAKRDOWN_FILES += 15_engineering_foundations.md
+MAKRDOWN_FILES += appendix.md
 
 PANDOC = pandoc
 PANDOC_OPT = -s --toc-depth=2 --number-sections --toc -c epub.css title.txt $(MAKRDOWN_FILES)
