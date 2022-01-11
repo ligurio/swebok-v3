@@ -1,8 +1,6 @@
-**CHAPTER 1**
+## Chapter 1: Software Requirements
 
-**SOFTWARE REQUIREMENTS**
-
-##### ACRONYMS
+**Acronyms**
 
 - CIA - Confidentiality, Integrity, and Availability
 - DAG Directed Acyclic Graph
@@ -11,7 +9,7 @@
 - UML Unified Modeling Language
 - SysML Systems Modeling Language
 
-##### INTRODUCTION
+**Introduction**
 
 The Software Requirements knowledge area (KA) is concerned with the
 elicitation, analysis, specification, and validation of software requirements
@@ -42,7 +40,7 @@ resources and constraints under which the process operates and which act to
 configure it.
 
 An alternate decomposition could use a product-based structure (system
-requirements, soft- ware requirements, prototypes, use cases, and so on). The
+requirements, software requirements, prototypes, use cases, and so on). The
 process-based breakdown reflects the fact that the requirements process, if it
 is to be successful, must be considered as a process involving complex, tightly
 coupled activities (both sequential and concurrent), rather than as a discrete,
@@ -53,17 +51,17 @@ Software Testing, Software Maintenance, Software Configuration Management,
 Software Engineering Manage- ment, Software Engineering Process, Software
 Engineering Models and Methods, and Software Quality KAs.
 
-##### BREAKDOWN OF TOPICS FOR SOFTWARE REQUIREMENTS
+**BREAKDOWN OF TOPICS FOR SOFTWARE REQUIREMENTS**
 
 The breakdown of topics for the Software
 
 Requirements KA is shown in Figure 1.1.
 
-**1. Software Requirements Fundamentals**
+### 1. Software Requirements Fundamentals
 
 <!--[1, c4, c4s1, c10s1, c10s4] [2, c1, c6, c12]-->
 
-1.1. Definition of a Software Requirement
+#### 1.1. Definition of a Software Requirement
 
 At its most basic, a software requirement is a property that must be exhibited
 by something in order to solve some problem in the real world. It may aim to
@@ -92,7 +90,7 @@ Typically, software requirements are uniquely identi- fied so that they can be
 subjected to software configuration management over the entire life cycle of
 the feature and of the software.
 
-1.2. Product and Process Requirements
+#### 1.2. Product and Process Requirements
 
 A product requirement is a need or constraint on the software to be developed
 (for example, “The software shall verify that a student meets all prerequisites
@@ -109,7 +107,7 @@ methods) to reduce faults that can lead to inadequate reliability. Process
 requirements may also be imposed directly by the development organization,
 their customer, or a third party such as a safety regulator.
 
-1.3. Functional and Nonfunctional Requirements
+#### 1.3. Functional and Nonfunctional Requirements
 
 _Functional_ requirements describe the functions that the software is to
 execute; for example, formatting some text or modulating a signal. They are
@@ -125,7 +123,7 @@ reliability requirements, security requirements, interoperability requirements
 or one of many other types of software requirements (see Models and Quality
 Characteristics in the Software Quality KA).
 
-1.4. Emergent Properties
+#### 1.4. Emergent Properties
 
 Some requirements represent emergent properties of software that is,
 requirements that can- not be addressed by a single component but that depend
@@ -135,7 +133,7 @@ information system, and the operators all interacted under actual operating
 conditions. Emergent properties are crucially dependent on the system
 architecture.
 
-1.5. Quantifiable Requirements
+#### 1.5. Quantifiable Requirements
 
 Software requirements should be stated as clearly and as unambiguously as
 possible, and, where appropriate, quantitatively. It is important to avoid
@@ -149,7 +147,7 @@ than 1 * 10^-8. The throughput requirement is at a very high level and will
 need to be used to derive a number of detailed requirements. The reliability
 requirement will tightly constrain the system architecture.
 
-1.6. System Requirements and Software Requirements
+#### 1.6. System Requirements and Software Requirements
 
 In this topic, “system” means
 
@@ -168,7 +166,7 @@ contrast, encompass user requirements, requirements of other stakeholders (such
 as regulatory authorities), and requirements without an identifiable human
 source.
 
-2. Requirements Process
+### 2. Requirements Process
 
 <!-- [1*, c4s4] [2*, c1–4, c6, c22, c23] -->
 
@@ -176,7 +174,7 @@ This section introduces the software requirements process, orienting the
 remaining five topics and showing how the requirements process dovetails with
 the overall software engineering process.
 
-2.1. Process Models
+#### 2.1. Process Models
 
 The objective of this topic is to provide an understanding that the
 requirements process
@@ -194,7 +192,7 @@ analysis, specification, and validation are configured for different types of
 projects and constraints. The topic also includes activities that provide input
 into the requirements process, such as marketing and feasibility studies.
 
-2.2. Process Actors
+#### 2.2. Process Actors
 
 This topic introduces the roles of the people who participate in the
 requirements process. This process is fundamentally interdisciplinary, and the
@@ -233,7 +231,7 @@ technical, regulatory, and other constraints. A prerequisite for this is that
 all the stakeholders be identified, the nature of their “stake” analyzed, and
 their requirements elicited.
 
-2.3. Process Support and Management
+#### 2.3. Process Support and Management
 
 This section introduces the project management resources required and consumed
 by the requirements process. It establishes the context for the first topic
@@ -241,7 +239,7 @@ by the requirements process. It establishes the context for the first topic
 Its principal purpose is to make the link between the pro- cess activities
 identified in 2.1 and the issues of cost, human resources, training, and tools.
 
-2.4. Process Quality and Improvement
+#### 2.4. Process Quality and Improvement
 
 This topic is concerned with the assessment of the quality and improvement of
 the requirements process. Its purpose is to emphasize the key role the
@@ -256,7 +254,7 @@ both the Software Quality KA and Software Engineering Process KA, comprising
 - improvement planning and implementation;
 - security/CIA improvement/planning and implementation.
 
-3. Requirements Elicitation
+### 3. Requirements Elicitation
 
 <!-- [1, c4s5] [2, c5, c6, c9] -->
 
@@ -289,7 +287,7 @@ extensible to accept further requirements not expressed in the first formal
 lists and compatible with the previous ones as contemplated in recursive
 methods.
 
-3.1. Requirements Sources
+#### 3.1. Requirements Sources
 
 Requirements have many sources in typical software, and it is essential that
 all potential sources be identified and evaluated. This topic is designed to
@@ -331,7 +329,7 @@ frameworks for managing them. The main points covered are as follows:
   engineer needs to be sensitive to these since, in general, new software
   should not force unplanned change on the business process.
 
-3.2. Elicitation Techniques
+#### 3.2. Elicitation Techniques
 
 Once the requirements sources have been identified, the software engineer can
 start eliciting requirements information from them. Note that requirements are
@@ -406,7 +404,7 @@ elicitation; the principal ones are these:
   products to applying data mining techniques to using sources of domain
   knowledge or customer request databases.
 
-4. Requirements Analysis
+### 4. Requirements Analysis
 
 <!-- [1*, c4s1, c4s5, c10s4, c12s5] [2*, c7, c11, c12, c17] -->
 
@@ -426,7 +424,7 @@ these tradeoffs (requirements negotiation). Care must be taken to describe
 requirements precisely enough to enable the requirements to be validated, their
 implementation to be verified, and their costs to be estimated.
 
-4.1. Requirements Classification
+#### 4.1. Requirements Classification
 
 Requirements can be classified on a number of dimensions. Examples include the
 following:
@@ -470,7 +468,7 @@ normal practice and the application itself. There is a strong overlap between
 requirements classification and requirements attributes (see section 7.3,
 Requirements Attributes).
 
-4.2. Conceptual Modeling
+#### 4.2. Conceptual Modeling
 
 The development of models of a real-world problem is key to software
 requirements analysis. Their purpose is to aid in understanding the situation
@@ -510,7 +508,7 @@ environment and to identifying its interfaces with the environment. This
 subtopic does not seek to “teach” a particular modeling style or notation but
 rather provides guidance on the purpose and intent of modeling.
 
-4.3. Architectural Design and Requirements Allocation
+#### 4.3. Architectural Design and Requirements Allocation
 
 At some point, the solution architecture must be derived. Architectural design
 is the point at which the requirements process overlaps with software or
@@ -541,7 +539,7 @@ the detailed ABS software requirements.
 Architectural design is closely identified with conceptual modeling (see
 section 4.2, Conceptual Modeling).
 
-4.4. Requirements Negotiation
+#### 4.4. Requirements Negotiation
 
 Another term commonly used for this subtopic is “conflict resolution.” This
 concerns resolving problems with requirements where conflicts occur between two
@@ -574,7 +572,7 @@ prioritization approach called the analytic hierarchy process involves
 comparing all unique pairs of requirements to determine which of the two is of
 higher priority, and to what extent.
 
-4.5. Formal Analysis
+#### 4.5. Formal Analysis
 
 Formal analysis concerns not only topic 4, but also sections 5.3 and 6.3. This
 topic is also related to Formal Methods in the Software Engineering Models and
@@ -603,7 +601,7 @@ This permits static validation that the software specified by the requirements
 does indeed have the properties (for example, absence of deadlock) that the
 customer, users, and software engineer expect it to have.
 
-5. Requirements Specification
+### 5. Requirements Specification
 
 <!-- [1*, c4s2, c4s3, c12s2–5] [2*, c10] -->
 
@@ -619,7 +617,7 @@ documents are described here, with the understanding that they may be combined
 as appropriate. A description of systems engineering can be found in the
 Related Disciplines of Software Engineering chapter of this _Guide_.
 
-5.1. System Definition Document
+#### 5.1. System Definition Document
 
 This document (sometimes known as the user requirements document or concept of
 operations document) records the system requirements. It defines the high-level
@@ -633,7 +631,7 @@ nonfunctional requirements. It may include conceptual models designed to
 illustrate the system context, usage scenarios, and the principal domain
 entities, as well as workflows.
 
-5.2. System Requirements Specification
+#### 5.2. System Requirements Specification
 
 Developers of systems with substantial software and nonsoftware components - a
 modern airliner, for example - often separate the description of system
@@ -643,7 +641,7 @@ the system requirements, and then the requirements for the software components
 are specified. Strictly speaking, system requirements specification is a
 systems engineering activity and falls outside the scope of this Guide.
 
-5.3. Software Requirements Specification
+#### 5.3. Software Requirements Specification
 
 Software requirements specification establishes the basis for agreement between
 customers and contractors or suppliers (in market-driven projects, these
@@ -680,7 +678,7 @@ include imperatives, directives, weak phrases, options, and continuances.
 Indicators for the entire software require- ments specification document
 include size, readability, specification, depth, and text structure.
 
-6. Requirements Validation
+### 6. Requirements Validation
 
 <!-- [1, c4s6] [2, c13, c15] -->
 
@@ -705,7 +703,7 @@ committed to addressing the requirements. Requirements validation is concerned
 with the process of examining the requirements document to ensure that it
 defines the right software (that is, the software that the users expect).
 
-6.1. Requirements Reviews
+#### 6.1. Requirements Reviews
 
 Perhaps the most common means of validation is by inspection or reviews of the
 requirements document(s). A group of reviewers is assigned a brief to look for
@@ -720,7 +718,7 @@ system specification document, the software requirements specification
 document, the baseline specification for a new release, or at any other step in
 the process.
 
-6.2. Prototyping
+#### 6.2. Prototyping
 
 Prototyping is commonly a means for validating the software engineer’s
 interpretation of the software requirements, as well as for eliciting new
@@ -743,7 +741,7 @@ satisfy erroneous requirements, their cost can be more easily justified. Early
 prototypes may contain aspects of the final solution. Prototypes may be
 evolutionary as opposed to throwaway.
 
-6.3. Model Validation
+#### 6.3. Model Validation
 
 It is typically necessary to validate the quality of the models developed
 during analysis. For example, in object models, it is useful to perform a
@@ -753,7 +751,7 @@ used, it is possible to use formal reasoning to prove specification properties.
 This topic is closely related to the Software Engineering Models and Methods
 KA.
 
-6.4. Acceptance Tests
+#### 6.4. Acceptance Tests
 
 An essential property of a software requirement is that it should be possible
 to validate that the finished product satisfies it. Requirements that cannot be
@@ -766,7 +764,7 @@ validated, they must first be analyzed and decomposed to the point where
 they can be expressed quantitatively. Additional information can be found
 in Acceptance/Qualification/Conformance Testing in the Software Testing KA.
 
-7. Practical Considerations
+### 7. Practical Considerations
 
 <!-- [1*, c4s1, c4s4, c4s6, c4s7] [2*, c3, c12, c14, c16, c18–21] -->
 
@@ -788,7 +786,7 @@ they need to recover the requirements that motivated product features in order
 to assess the impact of proposed changes. Hence, requirements documentation and
 change management are key to the success of any requirements process.
 
-7.1. Iterative Nature of the Requirements Process
+#### 7.1. Iterative Nature of the Requirements Process
 
 There is general pressure in the software industry for ever shorter development
 cycles, and this is particularly pronounced in highly competitive,
@@ -837,14 +835,14 @@ implementation and refactoring methods that meet in the middle could provide
 the best of both worlds. However, this is difficult to achieve in practice, as
 it depends heavily upon the maturity and expertise of the software engineers.
 
-7.2. Change Management
+#### 7.2. Change Management
 
 Change management is central to the management of requirements. This topic
 describes the role of change management, the procedures that need to be in
 place, and the analysis that should be applied to proposed changes. It has
 strong links to the Software Configuration Management KA.
 
-7.3. Requirements Attributes
+#### 7.3. Requirements Attributes
 
 Requirements should consist not only of a specification of what is required,
 but also of ancillary information, which helps manage and interpret the
@@ -858,7 +856,7 @@ change history. The most important requirements attribute, however, is an
 identifier that allows the requirements to be uniquely and unambiguously
 identified.
 
-7.4. Requirements Tracing
+#### 7.4. Requirements Tracing
 
 Requirements tracing is concerned with recover- ing the source of requirements
 and predicting the effects of requirements. Tracing is fundamental to
@@ -881,7 +879,7 @@ the traceability information is not updated as changes in the requirements
 continue to happen, the traceability information becomes unreliable for impact
 analysis.
 
-7.5. Measuring Requirements
+#### 7.5. Measuring Requirements
 
 As a practical matter, it is typically useful to have some concept of the
 “volume” of the requirements for a particular software product. This number is
@@ -892,7 +890,7 @@ evaluating the size of a body of functional requirements. Additional
 information on size measurement and standards will be found in the Software
 Engineering Process KA.
 
-8. Software Requirements Tools
+### 8. Software Requirements Tools
 
 Tools for dealing with software requirements fall broadly into two categories:
 tools for modeling and tools for managing requirements. Requirements management
@@ -904,7 +902,7 @@ requirements practice, many organizations have invested in requirements
 management tools, although many more manage their requirements in more ad hoc
 and generally less satisfactory ways (e.g., using spreadsheets).
 
-##### MATRIX OF TOPICS VS. REFERENCE MATERIAL
+### Matrix of topics vs. Reference material
 
 Sommerville 2011
 
@@ -937,34 +935,13 @@ Wiegers 2003
     4.5. Formal Analysis c12s5
 **5. Requirements Specification**
     5.1. System Definition Document c4s2 c10
-
-
-5.2. System Requirements Specification
-
-
-c4s2, c12s2,
-c12s3, c12s4,
-c12s5
-
-
-c10
-
-5.3. Software Requirements Specification c4s3 c10
-
+    5.2. System Requirements Specification c4s2, c12s2, c12s3, c12s4, c12s5 c10
+    5.3. Software Requirements Specification c4s3 c10
 **6. Requirements Validation**
     6.1. Requirements Reviews c4s6 c15
     6.2. Prototyping c4s6 c13
     6.3. Model Validation c4s6 c15
     6.4. Acceptance Tests c4s6 c15
-
-Sommerville 2011
-
-##### [1]
-
-Wiegers 2003
-
-##### [2]
-
 **7. Practical Considerations**
     7.1. Iterative Nature of the Requirements Process c4s4 c3, c16
     7.2. Change Management c4s7 c18, c19
@@ -973,7 +950,7 @@ Wiegers 2003
     7.5. Measuring Requirements c4s6 c18
 **8. Software Requirements Tools** c21
 
-##### FURTHER READINGS
+**FURTHER READINGS**
 
 I. Alexander and L. Beus-Dukic, _Discovering Requirements_ [5].
 
@@ -1019,7 +996,7 @@ problems of selecting off-the-shelf software to satisfy requirements: there is
 usually a mismatch. This challenges some of the assumptions underpinning much
 of traditional requirements handling, which tends to assume custom software.
 
-##### REFERENCES
+**REFERENCES**
 
 [1] I. Sommerville, _Software Engineering_ , 9th ed., Addison-Wesley, 2011.
 
