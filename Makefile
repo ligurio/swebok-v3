@@ -16,14 +16,16 @@ MAKRDOWN_FILES += 14_mathematical_foundations.md
 MAKRDOWN_FILES += 15_engineering_foundations.md
 MAKRDOWN_FILES += appendix.md
 
+CSS_FILE ?= epub.css
+
 PANDOC = pandoc
-PANDOC_OPT = -s --toc-depth=3 --toc --self-contained -c epub.css title.txt $(MAKRDOWN_FILES)
+PANDOC_OPT = -s --toc-depth=3 --toc --self-contained -c $(CSS_FILE) title.txt $(MAKRDOWN_FILES)
 NAME = swebok-v3
 
-epub: $(MAKRDOWN_FILES) epub.css title.txt
+epub: $(MAKRDOWN_FILES) $(CSS_FILE) title.txt
 	$(PANDOC) $(PANDOC_OPT) --epub-cover-image=images/SWEBOK_logo_v2.jpg -o $(NAME).epub
 
-html: $(MAKRDOWN_FILES) epub.css
+html: $(MAKRDOWN_FILES) $(CSS_FILE)
 	$(PANDOC) $(PANDOC_OPT) -o $(NAME).html
 
 release: $(NAME).epub $(NAME).html
