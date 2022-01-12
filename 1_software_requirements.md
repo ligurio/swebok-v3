@@ -98,7 +98,7 @@ before he or she registers for a course”). A process requirement is essentiall
 a constraint on the development of the software (for example, “The software
 shall be developed using a RUP process”).
 
-Figure 1.1. Breakdown of Topics for the Software Requirements KA
+![Figure 1.1 Breakdown of Topics for the Software Requirements KA](images/Figure-1.1.png)
 
 Some software requirements generate implicit process requirements. The choice
 of verification technique is one example. Another might be the use of
