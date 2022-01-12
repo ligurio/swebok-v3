@@ -18,7 +18,7 @@ MAKRDOWN_FILES += appendix.md
 
 PANDOC = pandoc
 PANDOC_OPT = -s --toc-depth=3 --toc --self-contained -c epub.css title.txt $(MAKRDOWN_FILES)
-NAME = swebook-v3
+NAME = swebok-v3
 
 epub: $(MAKRDOWN_FILES) epub.css title.txt
 	$(PANDOC) $(PANDOC_OPT) --epub-cover-image=images/SWEBOK_logo_v2.jpg -o $(NAME).epub
