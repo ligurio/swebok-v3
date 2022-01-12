@@ -1,6 +1,6 @@
 ## Chapter 2: Software Design
 
-**ACRONYMS**
+**Acronyms**
 
 ADL Architecture Description Language
 CBD Component-Based Design
@@ -123,7 +123,7 @@ encapsulation/information hiding; separation of interface and implementation;
 sufficiency, completeness, and primitiveness; and separation of concerns.
 
 - _Abstraction_ is “a view of an object that focuses on the information
-  relevant to a particular purpose and ignores the remain- der of the
+  relevant to a particular purpose and ignores the remainder of the
   information” [1] (see Abstraction in the Computing Foundations KA). In the
   context of software design, two key abstraction mechanisms are
   parameterization and specification. Abstraction by parameterization abstracts
@@ -169,7 +169,7 @@ Software Design Principles, and topic 7, Software Design Strategies and
 Methods). In contrast, other issues “deal with some aspect of software’s
 behavior that is not in the application domain, but which addresses some of the
 supporting domains” [10]. Such issues, which often crosscut the system’s
-functionality, have been referred to as _aspects_ , which “tend not to be units
+functionality, have been referred to as _aspects_, which “tend not to be units
 of software’s functional decomposition, but rather to be properties that affect
 the performance or semantics of the components in systemic ways” [11]. A number
 of these key, crosscutting issues are discussed in the following sections
@@ -417,9 +417,9 @@ style of information presentation, designers can also use color to enhance the
 interface. There are several important guidelines:
 
 - Limit the number of colors used.
-- Use color change to show the change of soft- ware status.
+- Use color change to show the change of software status.
 - Use color-coding to support the user’s task.
-- Use color-coding in a thoughtful and consis- tent way.
+- Use color-coding in a thoughtful and consistent way.
 - Use colors to facilitate access for people with color blindness or color
   deficiency (e.g., use the change of color saturation and color brightness,
   try to avoid blue and red combinations).
@@ -435,7 +435,7 @@ used to determine the features, organization, and look of the software user
 interface. This process includes three core activities:
 
 - _User analysis._ In this phase, the designer analyzes the users’ tasks, the
-  working environ- ment, other software, and how users interact with other
+  working environment, other software, and how users interact with other
   people.
 - _Software prototyping._ Developing prototype software help users to guide the
   evolution of the interface.
