@@ -60,7 +60,7 @@ for software maintenance: ISO/IEC/IEEE 14764 [1].^1 In the context of software
 engineering, software maintenance is essentially one of the many technical
 processes.
 
-1 For the purpose of conciseness and ease of read- ing, this standard is
+1 For the purpose of conciseness and ease of reading, this standard is
 referred to simply as IEEE 14764 in the subsequent text of this KA.
 
 The objective of software maintenance is to modify existing software while
@@ -167,7 +167,7 @@ Three categories (types) of maintenance have been defined: corrective,
 adaptive, and perfective [2*, c4s3]. IEEE 14764 includes a fourth
 category–preventative.
 
-- Corrective maintenance: reactive modifi- cation (or repairs) of a software
+- Corrective maintenance: reactive modification (or repairs) of a software
   product performed after delivery to correct discovered problems. Included in
   this category is emergency maintenance, which is an unscheduled modification
   performed to temporarily keep a software product operational pending
@@ -188,11 +188,12 @@ IEEE 14764 classifies adaptive and perfective maintenance as maintenance
 enhancements. It also groups together the corrective and preventive maintenance
 categories into a correction category, as shown in Table 5.1.
 
+|            | Correction  | Enhancement |
+|-----------:|:------------|-------------|
+|  Proactive |  Preventive | Perfective  |
+|  Reactive  |  Corrective | Adaptive    |
+
 Table 5.1. Software Maintenance Categories
-
-Correction Enhancement
-
-Proactive Preventive Perfective Reactive Corrective Adaptive
 
 ### 2. Key Issues in Software Maintenance
 
@@ -514,7 +515,7 @@ The maintenance process contains the activities and tasks necessary to modify
 an existing software product while preserving its integrity. These activities
 and tasks are the responsibility of the maintainer. As already noted, many
 maintenance activities are similar to those of software development.
-Maintainers perform analysis, design, cod- ing, testing, and documentation.
+Maintainers perform analysis, design, coding, testing, and documentation.
 They must track requirements in their activities - just as is done in
 development - and update documentation as baselines change. IEEE 14764
 recommends that when a maintainer uses a development process, it must be
@@ -690,17 +691,13 @@ that covers migration requirements, migration tools, conversion of product and
 data, execution, verification, and support. Migrating software can also entail
 a number of additional activities such as
 
-- notification of intent: a statement of why
-    the old environment is no longer to be sup-
-    ported, followed by a description of the new
-    environment and its date of availability;
-- parallel operations: make available the
-    old and new environments so that the user
-    experiences a smooth transition to the new
-    environment;
-- notification of completion: when the sched-
-    uled migration is completed, a notification is
-    sent to all concerned;
+- notification of intent: a statement of why the old environment is no longer
+  to be supported, followed by a description of the new environment and its
+  date of availability;
+- parallel operations: make available the old and new environments so that the
+  user experiences a smooth transition to the new environment;
+- notification of completion: when the scheduled migration is completed, a
+  notification is sent to all concerned;
 
 Software Maintenance 5-11
 

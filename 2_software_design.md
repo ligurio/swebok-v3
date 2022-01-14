@@ -17,7 +17,7 @@ PDL Program Design Language
 Design is defined as both “the process of defining the architecture,
 components, interfaces, and other characteristics of a system or component” and
 “the result of [that] process” [1]. Viewed as a process, software design is the
-software engineering life cycle activity in which software require- ments are
+software engineering life cycle activity in which software requirements are
 analyzed in order to produce a description of the software’s internal structure
 that will serve as the basis for its construction. A software design (the
 result) describes the software architecture - that is, how software is
@@ -107,7 +107,7 @@ Software Design 2-3
 - Detailed design describes the desired behavior of these components.
 
 The output of these two processes is a set of models and artifacts that record
-the major decisions that have been taken, along with an explana- tion of the
+the major decisions that have been taken, along with an explanation of the
 rationale for each nontrivial decision. By recording the rationale, long-term
 maintainability of the software product is enhanced.
 
@@ -241,7 +241,7 @@ to reason about the system, which comprise software elements, relations among
 them, and properties of both” [14]. During the mid-1990s, however, software
 architecture started to emerge as a broader discipline that involved the study
 of software structures and architectures in a more generic way. This gave rise
-to a number of interesting concepts about software design at different lev- els
+to a number of interesting concepts about software design at different levels
 of abstraction. Some of these concepts can be useful during the architectural
 design (for example, architectural styles) as well as during the detailed
 design (for example, design patterns). These design concepts can also be used
@@ -279,8 +279,8 @@ organization. Various authors have identified a number of major architectural
 styles:
 
 - General structures (for example, layers, pipes and filters, blackboard)
-- Distributed systems (for example, client- server, three-tiers, broker)
-- Interactive systems (for example, Model-View- Controller,
+- Distributed systems (for example, client-server, three-tiers, broker)
+- Interactive systems (for example, Model-View-Controller,
   Presentation-Abstraction-Control)
 - Adaptable systems (for example, microkernel, reflection)
 - Others (for example, batch, interpreters, process control, rule-based).
@@ -340,7 +340,7 @@ to match the skills, experience, and expectations of its anticipated users.
   rapidly start work- ing with the software.
 - _User familiarity_. The interface should use terms and concepts drawn from
   the experiences of the people who will use the software.
-- _Consistency_. The interface should be consis- tent so that comparable
+- _Consistency_. The interface should be consistent so that comparable
   operations are activated in the same way.
 - _Minimal surprise._ The behavior of software should not surprise users.
 - _Recoverability._ The interface should provide mechanisms allowing users to

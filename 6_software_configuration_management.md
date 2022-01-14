@@ -2,21 +2,21 @@
 
 **Acronyms**
 
-CCB Configuration Control Board
-CM Configuration Management
-FCA Functional Configuration Audit
-PCA Physical Configuration Audit
-SCCB Software Configuration Control Board
-SCI Software Configuration Item
-SCM Software Configuration Management
-SCMP Software Configuration Management Plan
-SCR Software Change Request
-SCSA Software Configuration Status Accounting
-SDD Software Design Document
-SEI/ CMMI Software Engineering Institute’s Capability Maturity Model
-Integration
-SQA Software Quality Assurance
-SRS Software Requirement Specification
+- CCB Configuration Control Board
+- CM Configuration Management
+- FCA Functional Configuration Audit
+- PCA Physical Configuration Audit
+- SCCB Software Configuration Control Board
+- SCI Software Configuration Item
+- SCM Software Configuration Management
+- SCMP Software Configuration Management Plan
+- SCR Software Change Request
+- SCSA Software Configuration Status Accounting
+- SDD Software Design Document
+- SEI/ CMMI Software Engineering Institute’s Capability Maturity Model
+  Integration
+- SQA Software Quality Assurance
+- SRS Software Requirement Specification
 
 **Introduction**
 
@@ -198,7 +198,7 @@ considered:
 - Legacy: how will projects use (or not) the new tools?
 - Financing: who will pay for the tools’ acquisition, maintenance, training,
   and customization?
-- Scope: how will the new tools be deployed— for instance, through the entire
+- Scope: how will the new tools be deployed - for instance, through the entire
   organization or only on specific projects?
 - Ownership: who is responsible for the introduction of new tools?
 - Future: what is the plan for the tools’ use in the future?
@@ -618,7 +618,7 @@ or a capability of a larger, integrated tool environment.
 <!-- [2, c10s2.4] [3, c1s5, c9s1, c17] -->
 
 Reported information can be used by various organizational and project
-elements—including the development team, the maintenance team, project
+elements - including the development team, the maintenance team, project
 management, and software quality activities. Reporting can take the form of
 ad hoc queries to answer specific questions or the periodic production of
 predesigned reports. Some information produced by the status accounting
@@ -870,12 +870,12 @@ Stephen P. Berczuk and Brad Appleton, _Software Configuration Management
 Patterns: Effective Teamwork, Practical Integration_ [6].
 
 This book expresses useful SCM practices and strategies as patterns. The
-patterns can be imple- mented using various tools, but they are expressed in a
+patterns can be implemented using various tools, but they are expressed in a
 tool-agnostic fashion.
 
 “CMMI for Development,” Version 1.3, pp.  137–147 [7].
 
-This model presents a collection of best prac- tices to help software
+This model presents a collection of best practices to help software
 development organizations improve their processes. At maturity level 2, it
 suggests configuration management activities.
 
@@ -888,7 +888,7 @@ IEC/IEEE, 2010.
 Software Engineering , IEEE, 2012.
 
 [3] A.M.J. Hass, Configuration Management Principles and Practices , 1st ed.,
-Addison- Wesley, 2003.
+Addison-Wesley, 2003.
 
 [4] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
 

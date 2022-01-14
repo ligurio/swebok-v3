@@ -1123,16 +1123,13 @@ We categorize the available tools according to their functionality:
   been exercised amongst all those required by the selected test coverage
   criterion. The analysis can be done thanks to program instrumenters that
   insert recording probes into the code.
-
-           - _Tracers_ [1*, c1s7] record the history of a program’s execution
-             paths.
-           - _Regression testing tools_ [1*, c12s16] support the reexecution of
-             a test suite after a section of software has been modified. They
-             can also help to select a test subset according to the change
-             made.
-           - _Reliability evaluation tools_ [9*, c8] support test results
-             analysis and graphical visualization in order to assess
-             reliability-related measures according to selected models.
+- _Tracers_ [1*, c1s7] record the history of a program’s execution paths.
+- _Regression testing tools_ [1*, c12s16] support the reexecution of a test
+  suite after a section of software has been modified. They can also help to
+  select a test subset according to the change made.
+- _Reliability evaluation tools_ [9*, c8] support test results analysis and
+  graphical visualization in order to assess reliability-related measures
+  according to selected models.
 
 ### Matrix of topics vs. Reference material
 

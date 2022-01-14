@@ -48,7 +48,7 @@ one-off activity performed at the outset of a software development project.
 
 The Software Requirements KA is related closely to the Software Design,
 Software Testing, Software Maintenance, Software Configuration Management,
-Software Engineering Manage- ment, Software Engineering Process, Software
+Software Engineering Management, Software Engineering Process, Software
 Engineering Models and Methods, and Software Quality KAs.
 
 **BREAKDOWN OF TOPICS FOR SOFTWARE REQUIREMENTS**
@@ -86,7 +86,7 @@ the requirements can be verified within available resource constraints.
 Requirements have other attributes in addition to behavioral properties. Common
 examples include a priority rating to enable tradeoffs in the face of finite
 resources and a status value to enable project progress to be monitored.
-Typically, software requirements are uniquely identi- fied so that they can be
+Typically, software requirements are uniquely identified so that they can be
 subjected to software configuration management over the entire life cycle of
 the feature and of the software.
 
@@ -126,7 +126,7 @@ Characteristics in the Software Quality KA).
 #### 1.4. Emergent Properties
 
 Some requirements represent emergent properties of software that is,
-requirements that can- not be addressed by a single component but that depend
+requirements that cannot be addressed by a single component but that depend
 on how all the software components interoperate. The throughput requirement for
 a call center would, for example, depend on how the telephone system,
 information system, and the operators all interacted under actual operating
@@ -179,10 +179,10 @@ the overall software engineering process.
 The objective of this topic is to provide an understanding that the
 requirements process
 
-- is not a discrete front-end activity of the soft- ware life cycle, but rather
+- is not a discrete front-end activity of the software life cycle, but rather
   a process initiated at the beginning of a project that continues to be
   refined throughout the life cycle;
-- identifies software requirements as configu- ration items and manages them
+- identifies software requirements as configuration items and manages them
   using the same software configuration management practices as other products
   of the software life cycle processes;
 - needs to be adapted to the organization and project context.
@@ -209,7 +209,7 @@ stakeholders include (but are not restricted to) the following:
 - Customers: This group comprises those who have commissioned the software or
   who represent the software’s target market.
 - Market analysts: A mass-market product will not have a commissioning
-  customer, so marketing people are often needed to estab- lish what the market
+  customer, so marketing people are often needed to establish what the market
   needs and to act as proxy customers.
 - Regulators: Many application domains, such as banking and public transport,
   are regulated. Software in these domains must comply with the
@@ -236,7 +236,7 @@ their requirements elicited.
 This section introduces the project management resources required and consumed
 by the requirements process. It establishes the context for the first topic
 (Initiation and Scope Definition) of the Software Engineering Management KA.
-Its principal purpose is to make the link between the pro- cess activities
+Its principal purpose is to make the link between the process activities
 identified in 2.1 and the issues of cost, human resources, training, and tools.
 
 #### 2.4. Process Quality and Improvement
@@ -246,7 +246,7 @@ the requirements process. Its purpose is to emphasize the key role the
 requirements process plays in terms of the cost and timeliness of a software
 product and of the customer’s satisfaction with it. It will help to orient the
 requirements process with quality standards and process improvement models for
-soft- ware and systems. Process quality and improvement is closely related to
+software and systems. Process quality and improvement is closely related to
 both the Software Quality KA and Software Engineering Process KA, comprising
 
 - requirements process coverage by process improvement standards and models;
@@ -267,7 +267,7 @@ customer. It is variously termed “requirements capture,” “requirements
 discovery,” and “requirements acquisition.”
 
 One of the fundamental principles of a good requirements elicitation process is
-that of effective communication between the various stake- holders. This
+that of effective communication between the various stakeholders. This
 communication continues through the entire Software Development Life Cycle
 (SDLC) process with different stakeholders at different points in time. Before
 development begins, requirements specialists may form the conduit for this
@@ -295,7 +295,7 @@ promote awareness of the various sources of software requirements and of the
 frameworks for managing them. The main points covered are as follows:
 
 - Goals. The term “goal” (sometimes called “business concern” or “critical
-  success factor”) refers to the overall, high-level objec- tives of the
+  success factor”) refers to the overall, high-level objectives of the
   software. Goals provide the motivation for the software but are often vaguely
   formulated. Software engineers need to pay particular attention to assessing
   the value (relative to priority) and cost of goals. A feasibility study is a
@@ -307,7 +307,7 @@ frameworks for managing them. The main points covered are as follows:
   approach in the knowledge domain. Relations between relevant concepts within
   the application domain should be identified.
 - Stakeholders (see section 2.2, Process Actors). Much software has proved
-  unsatisfactory because it has stressed the require- ments of one group of
+  unsatisfactory because it has stressed the requirements of one group of
   stakeholders at the expense of others. Hence, the delivered software is
   difficult to use, or subverts the cultural or political structures of the
   customer organization. The software engineer needs to identify, represent,
@@ -324,7 +324,7 @@ frameworks for managing them. The main points covered are as follows:
   greatly affect software feasibility and cost as well as restrict design
   choices.
 - The organizational environment. Software is often required to support a
-  business process, the selection of which may be condi- tioned by the
+  business process, the selection of which may be conditioned by the
   structure, culture, and internal politics of the organization. The software
   engineer needs to be sensitive to these since, in general, new software
   should not force unplanned change on the business process.
@@ -381,7 +381,7 @@ elicitation; the principal ones are these:
   requirements reflecting the concerns of a few outspoken (and perhaps senior)
   people that are favored to the detriment of others.
 - Observation. The importance of software context within the organizational
-  environment has led to the adaptation of observa- tional techniques such as
+  environment has led to the adaptation of observational techniques such as
   ethnography for requirements elicitation. Software engineers learn about user
   tasks by immersing themselves in the environment and observing how users
   perform their tasks by interacting with each other and with software tools
@@ -533,7 +533,7 @@ required, and so on) may be allocated to the braking hardware (mechanical and
 hydraulic assemblies) and an antilock braking system (ABS). Only when a
 requirement for an antilock braking system has been identified, and the
 requirements allocated to it, can the capabilities of the ABS, the braking
-hardware, and emer- gent properties (such as car weight) be used to identify
+hardware, and emergent properties (such as car weight) be used to identify
 the detailed ABS software requirements.
 
 Architectural design is closely identified with conceptual modeling (see
@@ -675,7 +675,7 @@ the quality of software requirements specification to other project variables
 such as cost, acceptance, performance, schedule, and reproducibility. Quality
 indicators for individual software requirements specification statements
 include imperatives, directives, weak phrases, options, and continuances.
-Indicators for the entire software require- ments specification document
+Indicators for the entire software requirements specification document
 include size, readability, specification, depth, and text structure.
 
 ### 6. Requirements Validation
@@ -778,7 +778,7 @@ software to be built, or that has been built, are key to the success of the
 software engineering process.
 
 Not every organization has a culture of documenting and managing requirements.
-It is com- mon in dynamic start-up companies, driven by a strong “product
+It is common in dynamic start-up companies, driven by a strong “product
 vision” and limited resources, to view requirements documentation as
 unnecessary overhead. Most often, however, as these companies expand, as their
 customer base grows, and as their product starts to evolve, they discover that
@@ -858,7 +858,7 @@ identified.
 
 #### 7.4. Requirements Tracing
 
-Requirements tracing is concerned with recover- ing the source of requirements
+Requirements tracing is concerned with recovering the source of requirements
 and predicting the effects of requirements. Tracing is fundamental to
 performing impact analysis when requirements change. A requirement should be
 traceable backward to the requirements and stakeholders that motivated it (from
@@ -896,7 +896,7 @@ Tools for dealing with software requirements fall broadly into two categories:
 tools for modeling and tools for managing requirements. Requirements management
 tools typically support a range of activities - including documentation,
 tracing, and change management and have had a significant impact on practice.
-Indeed, tracing and change management are really only prac- ticable if
+Indeed, tracing and change management are really only practicable if
 supported by a tool. Since requirements management is fundamental to good
 requirements practice, many organizations have invested in requirements
 management tools, although many more manage their requirements in more ad hoc

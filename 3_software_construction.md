@@ -107,7 +107,7 @@ by the testers and users during independent testing and operational activities.
 Specific techniques that support constructing for verification include
 following coding standards to support code reviews and unit testing, organizing
 code to support automated testing, and restricting the use of complex or
-hard-to-understand lan- guage structures, among others.
+hard-to-understand language structures, among others.
 
 #### 1.4. Reuse
 
@@ -172,11 +172,11 @@ construction as an activity that occurs only after significant prerequisite
 work has been completed - including detailed requirements work, extensive
 design work, and detailed planning. The more linear approaches tend to
 emphasize the activities that precede construction (requirements and design)
-and to create more distinct sep- arations between activities. In these models,
+and to create more distinct separations between activities. In these models,
 the main emphasis of construction may be coding.
 
 Other models are more iterative - such as evolutionary prototyping and agile
-development. These approaches tend to treat construc- tion as an activity that
+development. These approaches tend to treat construction as an activity that
 occurs concurrently with other software development activities (including
 requirements, design, and planning) or that overlaps them. These approaches
 tend to mix design, coding, and testing activities, and they often treat the
@@ -242,7 +242,7 @@ level, and that design work tends to be dictated by constraints imposed by the
 real-world problem that is being addressed by the software.
 
 Just as construction workers building a physical structure must make
-small-scale modifica- tions to account for unanticipated gaps in the builder’s
+small-scale modifications to account for unanticipated gaps in the builder’s
 plans, software construction workers must make modifications on a smaller or
 larger scale to flesh out details of the software design during construction.
 
@@ -397,7 +397,7 @@ Software Construction 3-7
 Construction with reuse means to create new software with the reuse of existing
 software assets. The most popular method of reuse is to reuse code from the
 libraries provided by the language, platform, tools being used, or an
-organizational repository. Asides from these, the applica- tions developed
+organizational repository. Asides from these, the applications developed
 today widely make use of many open-source libraries. Reused and off-the-shelf
 software often have the same - or better - quality requirements as newly
 developed software (for example, security level).
@@ -405,7 +405,7 @@ developed software (for example, security level).
 The tasks related to software construction with reuse during coding and testing
 are as follows:
 
-- The selection of the reusable units, data- bases, test procedures, or test
+- The selection of the reusable units, databases, test procedures, or test
   data.
 - The evaluation of code or test reusability.
 - The integration of reusable software assets into the current software.
@@ -570,8 +570,8 @@ down the software - are also used.
 
 Exceptions are used to detect and process errors or exceptional events. The
 basic structure of an exception is that a routine uses _throw_ to throw a
-detected exception and an exception han- dling block will _catch_ the exception
-in a _try-catch_ block. The try-catch block may process the erro- neous
+detected exception and an exception handling block will _catch_ the exception
+in a _try-catch_ block. The try-catch block may process the erroneous
 condition in the routine or it may return control to the calling routine.
 Exception handling policies should be carefully designed following common
 principles such as including in the exception message all information that led
@@ -671,7 +671,7 @@ multiple processes or threads in a concurrent programming environment.
 
 A monitor is an abstract data type that presents a set of programmer-defined
 operations that are executed with mutual exclusion. A monitor contains the
-declaration of shared variables and pro- cedures or functions that operate on
+declaration of shared variables and procedures or functions that operate on
 those variables. The monitor construct ensures that only one process at a time
 is active within the monitor. A mutex (mutual exclusion) is a synchronization
 primitive that grants exclusive access to a shared resource by only one process
@@ -697,7 +697,7 @@ Software Construction 3-11
 <!-- [7] -->
 
 A distributed system is a collection of physically separate, possibly
-heterogeneous computer sys- tems that are networked to provide the users with
+heterogeneous computer systems that are networked to provide the users with
 access to the various resources that the system maintains. Construction of
 distributed software is distinguished from traditional software construction
 by issues such as parallelism, communication, and fault tolerance.
