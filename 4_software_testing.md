@@ -235,7 +235,7 @@ of view of software quality analysts and of certifiers.
 
 Software testing is usually performed at different _levels_ throughout the
 development and maintenance processes. Levels can be distinguished based on the
-object of testing, which is called the _target_ , or on the purpose, which is
+object of testing, which is called the _target_, or on the purpose, which is
 called the _objective_ (of the test level).
 
 #### 2.1. The Target of the Test
@@ -512,7 +512,7 @@ only one) is usually taken from each equivalency class.
 
 Test cases are derived by combining interesting values for every pair of a set
 of input variables instead of considering all possible combinations.  Pairwise
-testing belongs to combinatorial testing , which in general also includes
+testing belongs to combinatorial testing, which in general also includes
 higher-level combinations than pairs: these techniques are referred to as
 t-wise, whereby every possible combination of t input variables is considered.
 
@@ -627,7 +627,7 @@ way [12].
 
 In testing for reliability evaluation (also called operational testing), the
 test environment reproduces the operational environment of the software, or the
-operational profile , as closely as possible. The goal is to infer from the
+operational profile, as closely as possible. The goal is to infer from the
 observed test results the future reliability of the software when in actual
 use. To do this, inputs are assigned probabilities, or profiles, according to
 their frequency of occurrence in actual operation. Operational profiles can be
@@ -1321,12 +1321,12 @@ Nielsen 1993
     6.1.1. Selecting Tools c12 s11
     6.2. Categories of Tools c1s7, c3s9, c4, c9s7, c12 s11, c12s16 c8
 
-##### REFERENCES
+**References**
 
 [1] S. Naik and P. Tripathy, _Software Testing and Quality Assurance: Theory
-and Practice_ , Wiley-Spektrum, 2008.
-[2] I. Sommerville, _Software Engineering_ , 9th ed., Addison-Wesley, 2011.
-[3] M.R. Lyu, ed., _Handbook of Software Reliability Engineering_ , McGraw-Hill
+and Practice_, Wiley-Spektrum, 2008.
+[2] I. Sommerville, _Software Engineering_, 9th ed., Addison-Wesley, 2011.
+[3] M.R. Lyu, ed., _Handbook of Software Reliability Engineering_, McGraw-Hill
 and IEEE Computer Society Press, 1996.
 [4] H. Zhu, P.A.V. Hall, and J.H.R. May, “Software Unit Test Coverage and
 Adequacy,” _ACM Computing Surveys,_ vol.  29, no. 4, Dec. 1997, pp. 366–427.
@@ -1335,16 +1335,16 @@ Technological University, Eindhoven, 1970;
 [http://www.cs.utexas.edu/users/EWD/](http://www.cs.utexas.edu/users/EWD/)
 ewd02xx/EWD249.PDF.
 [6] _ISO/IEC/IEEE P29119-1/DIS Draft Standard for Software and Systems
-Engineering - Software Testing - Part 1: Concepts and Definitions_ , ISO/IEC/IEEE,
+Engineering - Software Testing - Part 1: Concepts and Definitions_, ISO/IEC/IEEE,
 2012.
-[7] _ISO/IEC/IEEE 24765:2010 Systems and Software Engineering - Vocabulary_ ,
+[7] _ISO/IEC/IEEE 24765:2010 Systems and Software Engineering - Vocabulary_,
 ISO/ IEC/IEEE, 2010.
 [8] S. Yoo and M. Harman, “Regression Testing Minimization, Selection and
 Prioritization: A Survey,” Software Testing Verification and Reliability, vol.
 22, no. 2, Mar. 2012, pp. 67–120.
-[9] S.H. Kan, Metrics and Models in Software Quality Engineering , 2nd ed.,
+[9] S.H. Kan, Metrics and Models in Software Quality Engineering, 2nd ed.,
 Addison- Wesley, 2002.
-[10] J. Nielsen, Usability Engineering , Morgan Kaufmann, 1993.
+[10] J. Nielsen, Usability Engineering, Morgan Kaufmann, 1993.
 [11] T.Y. Chen et al., “Adaptive Random Testing: The ART of Test Case
 Diversity,” Journal of Systems and Software, vol. 83, no. 1, Jan.  2010, pp.
 60–66.

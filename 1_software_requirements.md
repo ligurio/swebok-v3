@@ -906,11 +906,11 @@ and generally less satisfactory ways (e.g., using spreadsheets).
 
 Sommerville 2011
 
-##### [1]
+[1]
 
 Wiegers 2003
 
-##### [2]
+[2]
 
 **1. Software Requirements Fundamentals**
     1.1. Definition of a Software Requirement c4 c1
@@ -950,7 +950,7 @@ Wiegers 2003
     7.5. Measuring Requirements c4s6 c18
 **8. Software Requirements Tools** c21
 
-**FURTHER READINGS**
+**Further Readings**
 
 I. Alexander and L. Beus-Dukic, _Discovering Requirements_ [5].
 
@@ -996,30 +996,30 @@ problems of selecting off-the-shelf software to satisfy requirements: there is
 usually a mismatch. This challenges some of the assumptions underpinning much
 of traditional requirements handling, which tends to assume custom software.
 
-**REFERENCES**
+**References**
 
-[1] I. Sommerville, _Software Engineering_ , 9th ed., Addison-Wesley, 2011.
+[1] I. Sommerville, _Software Engineering_, 9th ed., Addison-Wesley, 2011.
 
-[2] K.E. Wiegers, _Software Requirements_ , 2nd ed., Microsoft Press, 2003.
+[2] K.E. Wiegers, _Software Requirements_, 2nd ed., Microsoft Press, 2003.
 
 [3] INCOSE, _Systems Engineering Handbook: A Guide for System Life Cycle
-Processes and Activities_ , version 3.2.2, International Council on Systems
+Processes and Activities_, version 3.2.2, International Council on Systems
 Engineering, 2012.
 
 [4] S. Friedenthal, A. Moore, and R. Steiner, _A Practical Guide to SysML: The
-Systems Modeling Language_ , 2nd ed., Morgan Kaufmann, 2012.
+Systems Modeling Language_, 2nd ed., Morgan Kaufmann, 2012.
 
 [5] I. Alexander and L. Beus-Deukic, _Discovering Requirements: How to Specify
-Products and Services_ , Wiley, 2009.
+Products and Services_, Wiley, 2009.
 
 [6] C. Potts, K. Takahashi, and A.I. Antón, “Inquiry-Based Requirements
 Analysis,” IEEE Software, vol. 11, no. 2, Mar. 1994, pp. 21–32.
 
 [7] A. van Lamsweerde, Requirements Engineering: From System Goals to UML
-Models to Software Specifications , Wiley, 2009.
+Models to Software Specifications, Wiley, 2009.
 
 [8] O. Gotel and C.W. Finkelstein, “An Analysis of the Requirements
-Traceability Problem,” Proc. 1st Int’l Conf. Requirements Eng. , IEEE, 1994.
+Traceability Problem,” Proc. 1st Int’l Conf. Requirements Eng., IEEE, 1994.
 
 [9] N.A. Maiden and C. Ncube, “Acquiring COTS Software Selection Requirements,”
 IEEE Software, vol. 15, no. 2, Mar.–Apr.  1998, pp. 46–56.

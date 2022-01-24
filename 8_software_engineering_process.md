@@ -223,7 +223,7 @@ the software requirements).
 
 #### 2.1. Categories of Software Processes
 
-<!-- [1*, Preface] [2* , p294–295] [3*, c22–c24] -->
+<!-- [1*, Preface] [2*, p294–295] [3*, c22–c24] -->
 
 Many distinct software processes have been defined for use in the various parts
 of the software development and software maintenance life cycles. These
@@ -884,4 +884,4 @@ Engineering Institute, 2010; http:// resources.sei.cmu.edu/library/asset-view.
 cfm?assetID=9661.
 
 [8] ISO/IEC 15504-1:2004, Information Technology—Process Assessment—Part 1:
-Concepts and Vocabulary , ISO/IEC, 2004.
+Concepts and Vocabulary, ISO/IEC, 2004.

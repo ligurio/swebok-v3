@@ -634,7 +634,7 @@ Addison- Wesley, 1999.
 [5] J.M. Wing, “A Specifier’s Introduction to Formal Methods,” Computer, vol.
 23, no. 9, 1990, pp. 8, 10–23.
 
-[6] J.G. Brookshear, Computer Science: An Overview , 10th ed., Addison-Wesley,
+[6] J.G. Brookshear, Computer Science: An Overview, 10th ed., Addison-Wesley,
 2008.
 
 [7] B. Boehm and R. Turner, Balancing Agility and Discipline: A Guide for the

@@ -131,11 +131,11 @@ The following working definitions are adopted here:
 - _Measurement_ refers to the assignment of values and labels to software
   engineering work products, processes, and resources plus the models that are
   derived from them, whether these models are developed using statistical or
-  other techniques [3* , c7, c8].
+  other techniques [3*, c7, c8].
 
 The software engineering project management sections in this KA make extensive
 use of the software engineering measurement section. This KA is closely related
-to others in the SWEBOK Guide , and reading the following KA descriptions in
+to others in the SWEBOK Guide, and reading the following KA descriptions in
 conjunction with this one will be particularly helpful:
 
 - The Engineering Foundations KA describes some general concepts of measurement
@@ -853,7 +853,7 @@ the activities and tasks that are necessary to successfully identify, define,
 select, apply, and improve measurement within an overall project or
 organizational measurement structure.
 
-J. McDonald, _Managing the Development of Software Intensive Systems_ , Wiley,
+J. McDonald, _Managing the Development of Software Intensive Systems_, Wiley,
 2010 [8].
 
 This textbook provides an introduction to project management for beginning
@@ -883,7 +883,7 @@ Perplexed, Addison-Wesley, 2003.
 Software Engineering - Measurement Process, IEEE, 2008.
 
 [7] J. McGarry et al., Practical Software Measurement: Objective Information
-for Decision Makers , Addison-Wesley Professional, 2001.
+for Decision Makers, Addison-Wesley Professional, 2001.
 
 [8] J. McDonald, Managing the Development of Software Intensive Systems, John
 Wiley and Sons, Inc., 2010.

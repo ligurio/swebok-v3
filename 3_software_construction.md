@@ -524,7 +524,7 @@ using parameterized class and method names.
 
 <!-- [4] -->
 
-Parameterized types , also known as generics (Ada, Eiffel) and templates (C++),
+Parameterized types, also known as generics (Ada, Eiffel) and templates (C++),
 enable the definition of a type or class without specifying all the other types
 it uses. The unspecified types are supplied as parameters at the point of use.
 Parameterized types provide a third way (in addition to class inheritance and
@@ -648,7 +648,7 @@ the user interface.
 
 <!-- [1] [6] -->
 
-Grammar-based input processing involves syntax analysis, or _parsing_ , of the
+Grammar-based input processing involves syntax analysis, or _parsing_, of the
 input token stream. It involves the creation of a data structure (called a
 _parse tree_ or _syntax tree_ ) representing the input data. The inorder
 traversal of the parse tree usually gives the expression just parsed. The
@@ -973,7 +973,7 @@ Silberschatz et al. 2008
 **Further Readings**
 
 _IEEE Std. 1517-2010 Standard for Information Technology - System and Software
-Life Cycle Processes - Reuse Processes_ , IEEE, 2010 [8].
+Life Cycle Processes - Reuse Processes_, IEEE, 2010 [8].
 
 This standard specifies the processes, activities, and tasks to be applied
 during each phase of the software life cycle to enable a software product to be
@@ -982,7 +982,7 @@ development and the processes of construction for reuse and construction with
 reuse.
 
 _IEEE Std. 12207-2008 (a.k.a. ISO/IEC 12207:2008) Standard for Systems and
-Software Engineering - Software Life Cycle Processes_ , IEEE, 2008 [9].
+Software Engineering - Software Life Cycle Processes_, IEEE, 2008 [9].
 
 This standard defines a series of software development processes, including
 software construction process, software integration process, and software reuse
@@ -990,26 +990,26 @@ process.
 
 **References**
 
-[1] S. McConnell, Code Complete , 2nd ed., Microsoft Press, 2004.
+[1] S. McConnell, Code Complete, 2nd ed., Microsoft Press, 2004.
 
-[2] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+[2] I. Sommerville, Software Engineering, 9th ed., Addison-Wesley, 2011.
 
-[3] P. Clements et al., Documenting Software Architectures: Views and Beyond ,
+[3] P. Clements et al., Documenting Software Architectures: Views and Beyond,
 2nd ed., Pearson Education, 2010.
 
 [4] E. Gamma et al., Design Patterns: Elements of Reusable Object-Oriented
-Software , 1st ed., Addison-Wesley Professional, 1994.
+Software, 1st ed., Addison-Wesley Professional, 1994.
 
 [5] S.J. Mellor and M.J. Balcer, Executable UML: A Foundation for Model-Driven
-Architecture , 1st ed., Addison-Wesley, 2002.
+Architecture, 1st ed., Addison-Wesley, 2002.
 
 [6] L. Null and J. Lobur, The Essentials of Computer Organization and
-Architecture , 2nd ed., Jones and Bartlett Publishers, 2006.
+Architecture, 2nd ed., Jones and Bartlett Publishers, 2006.
 
-[7] A. Silberschatz, P.B. Galvin, and G. Gagne, Operating System Concepts , 8th
+[7] A. Silberschatz, P.B. Galvin, and G. Gagne, Operating System Concepts, 8th
 ed., Wiley, 2008.
 
 [8] IEEE Std. 1517-2010 Standard for Information Technology—System and Software
-Life Cycle Processes—Reuse Processes , IEEE, 2010.
+Life Cycle Processes—Reuse Processes, IEEE, 2010.
 
 [9] IEEE Std. 12207-2008 (a.k.a. ISO/IEC 12207:2008) Standard for Systems and

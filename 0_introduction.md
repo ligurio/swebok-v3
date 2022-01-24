@@ -97,7 +97,7 @@ _Guide_ constitutes a valuable characterization of the software engineering
 profession.
 
 In 1958, John Tukey, the world-renowned statistician, coined the term software.
-The term soft ware engineering was used in the title of a NATO conference held
+The term software engineering was used in the title of a NATO conference held
 in Germany in 1968. The IEEE Computer Society first published its Transactions
 on Software Engineering in 1972, and a commit- tee for developing software
 engineering standards was established within the IEEE Computer Society in 1976.

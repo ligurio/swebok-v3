@@ -27,7 +27,7 @@ keeping software operating as long as possible. The open source paradigm has
 brought further attention to the issue of maintaining software artifacts
 developed by others.
 
-In this _Guide_ , software maintenance is defined as the totality of activities
+In this _Guide_, software maintenance is defined as the totality of activities
 required to provide cost-effective support to software. Activities are
 performed during the predelivery stage as well as during the postdelivery
 stage. Predelivery activities include planning for postdelivery operations,
@@ -461,7 +461,7 @@ for subcharacteristics of maintainability include the following [4*, p. 60]:
   the modified software.
 - Other measures that maintainers use include
 - size of the software,
-- complexity of the software ,
+- complexity of the software,
 - understandability, and
 - maintainability.
 
@@ -837,22 +837,22 @@ typical corrective maintenance process.
 **References**
 
 [1] IEEE Std. 14764-2006 (a.k.a. ISO/IEC 14764:2006) Standard for Software
-Engineering—Software Life Cycle Processes—Maintenance , IEEE, 2006.
+Engineering—Software Life Cycle Processes—Maintenance, IEEE, 2006.
 
-[2] P. Grubb and A.A. Takang, Software Maintenance: Concepts and Practice , 2nd
+[2] P. Grubb and A.A. Takang, Software Maintenance: Concepts and Practice, 2nd
 ed., World Scientific Publishing, 2003.
 
 [3] H.M. Sneed, “Offering Software Maintenance as an Offshore Service,” Proc.
 IEEE Int’l Conf. Software Maintenance (ICSM 08), IEEE, 2008, pp. 1–5.
 
-[4] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide ,
+[4] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide,
 Wiley-IEEE Computer Society Press, 2006.
 
-[5] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary , ISO/
+[5] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary, ISO/
 IEC/IEEE, 2010.
 
 [6] A. April and A. Abran, Software Maintenance Management: Evaluation and
-Continuous Improvement , Wiley-IEEE Computer Society Press, 2008.
+Continuous Improvement, Wiley-IEEE Computer Society Press, 2008.
 
 [7] M. Kajko-Mattsson, “Towards a Business Maintenance Model,” Proc. Int’l
-Conf.  Software Maintenance , IEEE, 2001, pp.  500–509.
+Conf.  Software Maintenance, IEEE, 2001, pp.  500–509.

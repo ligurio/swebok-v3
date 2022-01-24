@@ -871,7 +871,7 @@ c10, App. A
 
 Software Design 2-15
 
-**FURTHER READINGS**
+**Further Readings**
 
 Roger Pressman, _Software Engineering: A Practitioner’s Approach (Seventh
 Edition)_ [19].
@@ -908,57 +908,57 @@ architecture.
 
 **References**
 
-[1] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary , ISO/
+[1] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary, ISO/
 IEC/IEEE, 2010.
 
 [2] IEEE Std. 12207-2008 (a.k.a. ISO/IEC 12207:2008) Standard for Systems and
-Software Engineering—Software Life Cycle Processes , IEEE, 2008.
+Software Engineering—Software Life Cycle Processes, IEEE, 2008.
 
 [3] T. DeMarco, “The Paradox of Software Architecture and Design,” Stevens
 Prize Lecture, 1999.
 
-[4] D. Budgen, Software Design , 2nd ed., Addison-Wesley, 2003.
+[4] D. Budgen, Software Design, 2nd ed., Addison-Wesley, 2003.
 
-[5] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+[5] I. Sommerville, Software Engineering, 9th ed., Addison-Wesley, 2011.
 
-[6] M. Page-Jones, Fundamentals of Object- Oriented Design in UML , 1st ed.,
+[6] M. Page-Jones, Fundamentals of Object- Oriented Design in UML, 1st ed.,
 Addison- Wesley, 1999.
 
-[7] Merriam-Webster’s Collegiate Dictionary , 11th ed., 2003.
+[7] Merriam-Webster’s Collegiate Dictionary, 11th ed., 2003.
 
 [8] IEEE Std. 1069-2009 Standard for Information Technology—Systems
-Design—Software Design Descriptions , IEEE, 2009.
+Design—Software Design Descriptions, IEEE, 2009.
 
 [9] ISO/IEC 42010:2011 Systems and Software Engineering—Recommended Practice
-for Architectural Description of Software- Intensive Systems , ISO/IEC, 2011.
+for Architectural Description of Software- Intensive Systems, ISO/IEC, 2011.
 
 [10] J. Bosch, Design and Use of Software Architectures: Adopting and Evolving
-a Product-Line Approach , ACM Press, 2000.
+a Product-Line Approach, ACM Press, 2000.
 
 [11] G. Kiczales et al., “Aspect-Oriented Programming,” Proc. 11th European
 Conf.  Object-Oriented Programming (ECOOP 97), Springer, 1997.
 
-[12] J.G. Brookshear, _Computer Science: An Overview_ , 10th ed.,
+[12] J.G. Brookshear, _Computer Science: An Overview_, 10th ed.,
 Addison-Wesley, 2008.
 
 [13] J.H. Allen et al., _Software Security Engineering: A Guide for Project
-Managers_ , Addison-Wesley, 2008.
+Managers_, Addison-Wesley, 2008.
 
 [14] P. Clements et al., _Documenting Software Architectures: Views and
 Beyond_, 2nd ed., Pearson Education, 2010.
 
 [15] E. Gamma et al., _Design Patterns: Elements of Reusable Object-Oriented
-Software_ , 1st ed., Addison-Wesley Professional, 1994.
+Software_, 1st ed., Addison-Wesley Professional, 1994.
 
 [16] I. Jacobson, G. Booch, and J. Rumbaugh, _The Unified Software Development
-Process_ , Addison-Wesley Professional, 1999.
+Process_, Addison-Wesley Professional, 1999.
 
-[17] J. Nielsen, Usability Engineering , Morgan Kaufmann, 1993.
+[17] J. Nielsen, Usability Engineering, Morgan Kaufmann, 1993.
 
 [18] G. Booch, J. Rumbaugh, and I. Jacobson, The Unified Modeling Language User
 Guide, Addison-Wesley, 1999.
 
-[19] R.S. Pressman, Software Engineering: A Practitioner’s Approach , 7th ed.,
+[19] R.S. Pressman, Software Engineering: A Practitioner’s Approach, 7th ed.,
 McGraw- Hill, 2010.
 
 [20] P.B. Kruchten, “The 4+1 View Model of Architecture,” IEEE Software, vol.

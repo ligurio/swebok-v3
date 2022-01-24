@@ -881,22 +881,22 @@ suggests configuration management activities.
 
 **References**
 
-[1] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering—Vocabulary , ISO/
+[1] ISO/IEC/IEEE 24765:2010 Systems and Software Engineering-Vocabulary, ISO/
 IEC/IEEE, 2010.
 
 [2] IEEE Std. 828-2012, Standard for Configuration Management in Systems and
-Software Engineering , IEEE, 2012.
+Software Engineering, IEEE, 2012.
 
-[3] A.M.J. Hass, Configuration Management Principles and Practices , 1st ed.,
+[3] A.M.J. Hass, Configuration Management Principles and Practices, 1st ed.,
 Addison-Wesley, 2003.
 
-[4] I. Sommerville, Software Engineering , 9th ed., Addison-Wesley, 2011.
+[4] I. Sommerville, Software Engineering, 9th ed., Addison-Wesley, 2011.
 
 [5] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide
 , Wiley-IEEE Computer Society Press, 2006.
 
 [6] S.P. Berczuk and B. Appleton, Software Configuration Management Patterns:
-Effective Teamwork, Practical Integration , Addison-Wesley Professional, 2003.
+Effective Teamwork, Practical Integration, Addison-Wesley Professional, 2003.
 
 [7] CMMI Product Team, “CMMI for Development, Version 1.3,” Software
 Engineering Institute, 2010; http:// resources.sei.cmu.edu/library/asset-view.
