@@ -99,11 +99,11 @@ profession.
 In 1958, John Tukey, the world-renowned statistician, coined the term software.
 The term software engineering was used in the title of a NATO conference held
 in Germany in 1968. The IEEE Computer Society first published its Transactions
-on Software Engineering in 1972, and a commit- tee for developing software
+on Software Engineering in 1972, and a committee for developing software
 engineering standards was established within the IEEE Computer Society in 1976.
 
 In 1990, planning was begun for an international standard to provide an overall
-view of soft- ware engineering. The standard was completed in 1995 with
+view of software engineering. The standard was completed in 1995 with
 designation ISO/IEC 12207 and given the title of Standard for Software Life
 Cycle Processes. The IEEE version of 12207 was published in 1996 and provided a
 major foundation for the body of knowledge captured in SWEBOK 2004.  The
@@ -140,7 +140,7 @@ nevertheless constitutes a valuable element of the software engineering
 infrastructure.
 
 In 1958, John Tukey, the world-renowned statistician, coined the term
-_software_. The term _soft- ware engineering_ was used in the title of a NATO
+_software_. The term _software engineering_ was used in the title of a NATO
 conference held in Germany in 1968. The IEEE Computer Society first published
 its _Transactions on Software Engineering_ in 1972. The committee established
 within the IEEE Computer Society for developing software engineering standards
@@ -153,15 +153,15 @@ IEEE standard 730 for software quality assurance, which was completed in
 
 The purpose of IEEE Std. 730 was to provide uniform, minimum acceptable
 requirements for preparation and content of software quality assurance plans.
-This standard was influential in com- pleting the developing standards in the
+This standard was influential in completing the developing standards in the
 following topics: configuration management, software testing, software
 requirements, software design, and software verification and validation.
 
 During the period 1981–1985, the IEEE Computer Society held a series of
-workshops con- cerning the application of software engineering standards. These
-workshops involved practitio- ners sharing their experiences with existing
-standards. The workshops also held sessions on plan- ning for future standards,
-including one involving measures and metrics for software engineer- ing
+workshops concerning the application of software engineering standards. These
+workshops involved practitioners sharing their experiences with existing
+standards. The workshops also held sessions on planning for future standards,
+including one involving measures and metrics for software engineering
 products and processes. The planning also resulted in IEEE Std. 1002, Taxonomy
 of Software Engineering Standards (1986), which provided a new, holistic view
 of software engineering. The standard describes the form and content of a
@@ -170,10 +170,10 @@ software engineering standards, their functional and external relationships,
 and the role of various functions participating in the software life cycle.
 
 In 1990, planning for an international standard with an overall view was begun.
-The plan- ning focused on reconciling the software process views from IEEE Std.
+The planning focused on reconciling the software process views from IEEE Std.
 1074 and the revised US DoD standard 2167A. The revision was eventually
 published as DoD Std. 498. The international standard was completed in 1995
-with designation, ISO/IEC 12207, and given the title of Stan- dard for Software
+with designation, ISO/IEC 12207, and given the title of Standard for Software
 Life Cycle Processes. Std. ISO/IEC 12207 provided a major point of departure
 for the body of knowledge captured in this book.
 
@@ -582,9 +582,9 @@ the indispensable contribution of reviewers.
 The editorial team also wishes to thank the following people who contributed to
 the project in various ways: Pieter Botman, Evan Butterfield, Carine Chauny,
 Pierce Gibbs, Diane Girard, John Keppler, Dorian McClenahan, Kenza Meridji,
-Sam- uel Redwine, Annette Reilly, and Pam Thompson.  Finally, there are surely
+Samuel Redwine, Annette Reilly, and Pam Thompson.  Finally, there are surely
 other people who have contributed to this Guide , either directly or
-indirectly, whose names we have inadvertently omit- ted. To those people, we
+indirectly, whose names we have inadvertently omitted. To those people, we
 offer our tacit appreciation and apologize for having omitted explicit
 recognition.
 
@@ -618,10 +618,10 @@ publication?”
 The results of this ballot were 259 Yes votes and 5 No votes.
 
 **The following motion was unanimously adopted by the Professional Activities
-Board of the IEEE Com- puter Society in December 2013:**
+Board of the IEEE Computer Society in December 2013:**
 
 The Professional Activities Board of the IEEE Computer Society finds that the
-Guide to the Soft- ware Engineering Body of Knowledge Version 3.0 has been
+Guide to the Software Engineering Body of Knowledge Version 3.0 has been
 successfully completed; and endorses the Guide to the Software Engineering Body
 of Knowledge Version 3.0 and commends it to the IEEE Computer Society Board of
 Governors for their approval.
@@ -639,7 +639,7 @@ sional Activities Board to proceed with printing.
 of the _SWEBOK Guide_ project in February 2004:**
 
 The Industrial Advisory Board finds that the Software Engineering Body of
-Knowledge project ini- tiated in 1998 has been successfully completed; and
+Knowledge project initiated in 1998 has been successfully completed; and
 endorses the 2004 Version of the Guide to the SWEBOK and commends it to the
 IEEE Computer Society Board of Governors for their approval.
 
@@ -820,7 +820,7 @@ uniformly applied to all software engineering endeavors—each project’s needs
 determine that—but it does imply that competent, capable software engineers
 should be equipped with this knowledge for potential application. More
 precisely, generally accepted knowledge should be included in the study
-material for the software engineering licensing exami- nation that graduates
+material for the software engineering licensing examination that graduates
 would take after gaining four years of work experience. Although this criterion
 is specific to the US style of education and does not necessarily apply to
 other countries, we deem it useful.
