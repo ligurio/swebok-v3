@@ -2,12 +2,12 @@
 
 **Acronyms**
 
-MR Modification Request
-PR Problem Report
-SCM Software Configuration Management
-SLA Service-Level Agreement
-SQA Software Quality Assurance
-V&V Verification and Validation
+- MR Modification Request
+- PR Problem Report
+- SCM Software Configuration Management
+- SLA Service-Level Agreement
+- SQA Software Quality Assurance
+- V&V Verification and Validation
 
 **Introduction**
 
@@ -38,7 +38,7 @@ area (KA) is related to all other aspects of software engineering. Therefore,
 this KA description is linked to all other software engineering KAs of the
 Guide.
 
-BREAKDOWN OF TOPICS FOR SOFTWARE MAINTENANCE
+**Breakdown Of Topics For Software Maintenance**
 
 The breakdown of topics for the Software Maintenance KA is shown in Figure
 5.1.
@@ -60,6 +60,7 @@ for software maintenance: ISO/IEC/IEEE 14764 [1].^1 In the context of software
 engineering, software maintenance is essentially one of the many technical
 processes.
 
+<!-- FIXME: footnote -->
 1 For the purpose of conciseness and ease of reading, this standard is
 referred to simply as IEEE 14764 in the subsequent text of this KA.
 
@@ -95,8 +96,6 @@ documentation) and support them immediately, then progressively
 evolve/maintain them over a software life cycle.
 
 ![Figure 5.1. Breakdown of Topics for the Software Maintenance KA](images/Figure-5.1.png)
-
-Software Maintenance 5-3
 
 #### 1.3. Need for Maintenance
 
@@ -248,8 +247,6 @@ it may be difficult to bring it offline to test. Tests cannot be executed in
 the most meaningful place - the production system. The Software Testing KA
 provides additional information and references on this matter in its subtopic
 on regression testing.
-
-Software Maintenance 5-5
 
 ##### 2.1.3. Impact Analysis
 
@@ -403,8 +400,6 @@ factors. IEEE 14764 states that “the two most popular approaches to estimating
 resources for software maintenance are the use of parametric models and the use
 of experience” [1*, c7s4.1]. A combination of these two can also be used.
 
-Software Maintenance 5-7
-
 ##### 2.3.2. Parametric Models
 
 <!-- [2*, c12s5.6] -->
@@ -554,8 +549,6 @@ software configuration management, verification and validation, problem
 resolution, software quality assurance, reviews, and audits. Another important
 support activity consists of training the maintainers and users.
 
-Software Maintenance 5-9
-
 ##### 3.2.3. Maintenance Planning Activities
 
 <!-- [1*, c7s3] -->
@@ -698,9 +691,6 @@ a number of additional activities such as
   user experiences a smooth transition to the new environment;
 - notification of completion: when the scheduled migration is completed, a
   notification is sent to all concerned;
-
-Software Maintenance 5-11
-
 - postoperation review: an assessment of parallel operation and the impact of
   changing to the new environment;
 - data archival: storing the old software data.
@@ -776,8 +766,6 @@ Sneed 2008
     2.3. Maintenance Cost Estimation
     2.3.1. Cost Estimation c7s4.1 c7s2.4
 
-Software Maintenance 5-13
-
 IEEE/ISO/IEC 14764 2006
 
 [1]
@@ -809,7 +797,7 @@ Sneed 2008
     4.5. Retirement c5s6
 **5. Software Maintenance Tools** c6s4 c14
 
-**Further Readings
+**Further Readings**
 
 A. April and A. Abran, _Software Maintenance Management: Evaluation and
 Continuous Improvement_ [6].

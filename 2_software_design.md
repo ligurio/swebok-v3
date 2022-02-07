@@ -62,7 +62,7 @@ This Software Design KA is related specifically to the Software Requirements,
 Software Construction, Software Engineering Management, Software Engineering
 Models and Methods, Software Quality, and Computing Foundations KAs.
 
-**BREAKDOWN OF TOPICS FOR SOFTWARE DESIGN**
+**Breakdown Of Topics For Software Design**
 
 The breakdown of topics for the Software Design KA is shown in Figure 2.1.
 
@@ -99,8 +99,6 @@ construction, software testing, and software maintenance.
 Software design is generally considered a two-step process:
 
 ![Figure 2.1 Breakdown of Topics for the Software Design KA](images/Figure-2.1.png)
-
-Software Design 2-3
 
 - Architectural design (also referred to as high-level design and top-level
   design) describes how software is organized into components.
@@ -248,8 +246,6 @@ design (for example, design patterns). These design concepts can also be used
 to design families of programs (also known as product lines). Interestingly,
 most of these concepts can be seen as attempts to describe, and thus reuse,
 design knowledge.
-
-Software Design 2-5
 
 #### 3.1. Architectural Structures and Viewpoints
 
@@ -404,8 +400,6 @@ keeps the information presentation separate from the information itself. The
 MVC (Model-View-Controller) approach is an effective way to keep information
 presentation separating from the information being presented.
 
-Software Design 2-7
-
 Software engineers also consider software response time and feedback in the
 design of information presentation. Response time is generally measured from
 the point at which a user executes a certain control action until the software
@@ -551,8 +545,6 @@ structural (static) view vs. the behavioral (dynamic) view.
 [4*, c7] [5*, c6, c7] [6*, c4, c5, c6, c7]
 [12*, c7] [14*, c7]
 -->
-
-Software Design 2-9
 
 The following notations, mostly but not always graphical, describe and
 represent the structural aspects of a software design - that is, they are used

@@ -2,14 +2,14 @@
 
 **Acronyms**
 
-API Application Programming Interface
-COTS Commercial Off-the-Shelf
-GUI Graphical User Interface
-IDE Integrated Development Environment
-OMG Object Management Group
-POSIX Portable Operating System Interface
-TDD Test-Driven Development
-UML Unified Modeling Language
+- API Application Programming Interface
+- COTS Commercial Off-the-Shelf
+- GUI Graphical User Interface
+- IDE Integrated Development Environment
+- OMG Object Management Group
+- POSIX Portable Operating System Interface
+- TDD Test-Driven Development
+- UML Unified Modeling Language
 
 **Introduction**
 
@@ -42,7 +42,7 @@ support the design and construction of software products. It is also related to
 project management, insofar as the management of construction can present
 considerable challenges.
 
-**BREAKDOWN OF TOPICS FOR SOFTWARE CONSTRUCTION**
+**Breakdown Of Topics For Software Construction**
 
 Figure 3.1 gives a graphical representation of the top-level decomposition of
 the breakdown for the Software Construction KA.
@@ -62,8 +62,6 @@ following sections define these concepts and describe how they apply to
 construction.
 
 ![Figure 3.1. Breakdown of Topics for the Software Construction KA](images/Figure-3.1.png)
-
-Software Construction 3-3
 
 #### 1.1. Minimizing Complexity
 
@@ -220,8 +218,6 @@ These measurements can be useful for purposes of managing construction,
 ensuring quality during construction, and improving the construction process,
 among other uses (see the Software Engineering Process KA for more on
 measurement).
-
-Software Construction 3-5
 
 ### 3. Practical Considerations
 
@@ -380,8 +376,6 @@ analysis and design. To avoid the problem of code clones, it is desired to
 encapsulate reusable code fragments into well-structured libraries or
 components. The tasks related to software construction for reuse during coding
 and testing are as follows:
-
-Software Construction 3-7
 
 - Variability implementation with mechanisms such as parameterization,
   conditional compilation, design patterns, and so forth.
@@ -542,8 +536,6 @@ code is modified, and so on. Assertions are normally compiled into the code at
 development time and are later compiled out of the code so that they don’t
 degrade the performance.
 
-Software Construction 3-9
-
 Design by contract is a development approach in which preconditions and
 postconditions are included for each routine. When preconditions and
 postconditions are used, each routine or class is said to form a contract with
@@ -690,8 +682,6 @@ Modern message-oriented middleware usually provides an Enterprise Service Bus
 (ESB), which supports service-oriented interaction and communication between
 multiple software applications.
 
-Software Construction 3-11
-
 #### 4.12. Construction Methods for Distributed Software
 
 <!-- [7] -->
@@ -754,7 +744,6 @@ implementations must implement. Typical examples of platform standards are Java
 2 Platform Enterprise Edition (J2EE) and the POSIX standard for operating
 systems (Portable Operating System Interface), which represents a set of
 standards implemented primarily for UNIX-based operating systems.
-
 
 #### 4.16. Test-First Programming
 
@@ -834,8 +823,6 @@ point of interest, which is referred to as a slicing criterion. Program slicing
 can be used for locating the source of errors, program understanding, and
 optimization analysis. Program slicing tools compute program slices for various
 programming languages using static or dynamic analysis methods.
-
-Software Construction 3-13
 
 ### Matrix Of Topics vs. Reference Material
 

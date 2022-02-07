@@ -37,22 +37,24 @@ special damages, even if IEEE has been advised of the possibility of such
 damages.
 
 Copyright © 2014 IEEE. All rights reserved.
+
 Paperback ISBN-10: 0-7695-5166-
+
 Paperback ISBN-13: 978-0-7695-5166-
 
 Digital copies of _SWEBOK Guide_ V3.0 may be downloaded free of charge for
-personal and academic use via [http://www.swebok.org.](http://www.swebok.org).
+personal and academic use via [http://www.swebok.org/](http://www.swebok.org).
 
 _IEEE Computer Society Staff for This Publication_
 
-Angela Burgess, Executive Director
-Anne Marie Kelly, Associate Executive Director, Director of Governance
-Evan M. Butterfield, Director of Products and Services
-John Keppler, Senior Manager, Professional Education
-Kate Guillemette, Product Development Editor
-Dorian McClenahan, Education Program Product Developer
-Michelle Phon, Professional Education & Certification Program Coordinator
-Jennie Zhu-Mai, Editorial Designer
+- Angela Burgess, Executive Director
+- Anne Marie Kelly, Associate Executive Director, Director of Governance
+- Evan M. Butterfield, Director of Products and Services
+- John Keppler, Senior Manager, Professional Education
+- Kate Guillemette, Product Development Editor
+- Dorian McClenahan, Education Program Product Developer
+- Michelle Phon, Professional Education & Certification Program Coordinator
+- Jennie Zhu-Mai, Editorial Designer
 
 _IEEE Computer Society Products and Services._
 
@@ -243,14 +245,17 @@ USA, dickfairley@gmail.com
 
 Alain Abran, Department of Software and IT Engineering, École de technologie
 supérieure (ÉTS), Canada, alain.abran@etsmtl.ca
+
 Juan Garbajosa, Universidad Politecnica de Madrid (Technical University of
 Madrid, UPM), Spain, juan.garbajosa@upm.es
+
 Gargi Keeni, Tata Consultancy Services, India, gargi@ieee.org Beijun Shen,
 School of Software, Shanghai Jiao Tong University, China, bjshen@sjtu.edu.cn
 
 ### Contributing Editors
 
 The following persons contributed to editing the SWEBOK Guide V3:
+
 - Don Shafer
 - Linda Shafer
 - Mary Jane Willshire
@@ -259,6 +264,7 @@ The following persons contributed to editing the SWEBOK Guide V3:
 ### Change Control Board
 
 The following persons served on the SWEBOK Guide V3 Change Control Board:
+
 - Pierre Bourque
 - Richard E. (Dick) Fairley, Chair
 - Dennis Frailey
@@ -620,36 +626,37 @@ The results of this ballot were 259 Yes votes and 5 No votes.
 **The following motion was unanimously adopted by the Professional Activities
 Board of the IEEE Computer Society in December 2013:**
 
-The Professional Activities Board of the IEEE Computer Society finds that the
-Guide to the Software Engineering Body of Knowledge Version 3.0 has been
-successfully completed; and endorses the Guide to the Software Engineering Body
-of Knowledge Version 3.0 and commends it to the IEEE Computer Society Board of
-Governors for their approval.
+_The Professional Activities Board of the IEEE Computer Society finds_ that the
+Guide to the Software Engineering Body of Knowledge Version 3.0 _has been
+successfully completed; and endorses the_ Guide to the Software Engineering Body
+of Knowledge Version 3.0 _and commends it to the IEEE Computer Society Board of
+Governors for their approval_.
 
 **The following motion was adopted by the IEEE Computer Society Board of
 Governors in December 2013:**
 
-MOVED, that the Board of Governors of the IEEE Computer Society approves Version 3.0 of the
-Guide to the Software Engineering Body of Knowledge and authorizes the Chair of the Profes-
-sional Activities Board to proceed with printing.
+_MOVED, that the Board of Governors of the IEEE Computer Society approves
+Version 3.0 of the_ Guide to the Software Engineering Body of Knowledge _and
+authorizes the Chair of the Professional Activities Board to proceed with
+printing_.
 
 ### Motions Regarding The Approval Of SWEBOK Guide 2004 Version
 
 **The following motion was unanimously adopted by the Industrial Advisory Board
 of the _SWEBOK Guide_ project in February 2004:**
 
-The Industrial Advisory Board finds that the Software Engineering Body of
+_The Industrial Advisory Board finds that the Software Engineering Body of
 Knowledge project initiated in 1998 has been successfully completed; and
 endorses the 2004 Version of the Guide to the SWEBOK and commends it to the
-IEEE Computer Society Board of Governors for their approval.
+IEEE Computer Society Board of Governors for their approval_.
 
 **The following motion was adopted by the IEEE Computer Society Board of
 Governors in February 2004:**
 
-MOVED, that the Board of Governors of the IEEE Computer Society approves the
-2004 Edition of the Guide to the Software Engineering Body of Knowledge and
+_MOVED, that the Board of Governors of the IEEE Computer Society approves the
+2004 Edition of the_ Guide to the Software Engineering Body of Knowledge _and
 authorizes the Chair of the Professional Practices Committee to proceed with
-printing.
+printing_.
 
 Please also note that the 2004 edition of the _Guide to the Software
 Engineering Body of Knowledge_ was submitted by the IEEE Computer Society to
@@ -658,11 +665,8 @@ ISO/IEC without any change and was recognized as Technical Report ISO/IEC TR
 
 ## Introduction To The Guide
 
-KA Knowledge Area
-
-SWEBOK
-Software Engineering Body of
-Knowledge
+- KA Knowledge Area
+- SWEBOK Software Engineering Body of Knowledge
 
 Publication of the 2004 version of this _Guide to the Software Engineering Body
 of Knowledge_ (SWEBOK 2004) was a major milestone in establishing software
@@ -683,18 +687,19 @@ This _Guide_, written under the auspices of the Professional Activities Board
 of the IEEE Computer Society, represents a next step in the evolution of the
 software engineering profession.
 
-**WHAT IS SOFTWARE ENGINEERING?**
+**What Is Software Engineering?**
 
 ISO/IEC/IEEE Systems and Software Engineering Vocabulary (SEVOCAB) defines
 software engineering as “the application of a systematic, disciplined,
 quantifiable approach to the development, operation, and maintenance of
 software; that is, the application of engineering to software).”^1
 
-**WHAT ARE THE OBJECTIVES OF THE SWEBOK GUIDE?**
+**What Are The Objectives Of The SWEBOK Guide?**
 
 The _Guide_ should not be confused with the Body of Knowledge itself, which
 exists in the published
 
+<!-- FIXME -->
 1 See [http://www.computer.org/sevocab](http://www.computer.org/sevocab).
 
 literature. The purpose of the Guide is to describe the portion of the Body of
@@ -716,18 +721,18 @@ certification and licensing material
 The first of these objectives, a consistent worldwide view of software
 engineering, was supported by a development process which engaged approximately
 150 reviewers from 33 countries. More information regarding the development
-process can be found on the website (www.swebok.org). Professional and learned
-societies and public agencies involved in software engineering were contacted,
-made aware of this project to update SWEBOK, and invited to participate in the
-review process. KA editors were recruited from North America, the Pacific Rim,
-and Europe. Presentations on the project were made at various international
-venues. The second of the objectives, the desire to specify the scope of
-software engineering, motivates the fundamental organization of the Guide. The
-material that is recognized as being within this discipline is organized into
-the fifteen KAs listed in Table I.1. Each of these KAs is treated in a chapter
-in this Guide.
+process can be found on the website ([www.swebok.org](http://www.swebok.org)).
+Professional and learned societies and public agencies involved in software
+engineering were contacted, made aware of this project to update SWEBOK, and
+invited to participate in the review process. KA editors were recruited from
+North America, the Pacific Rim, and Europe. Presentations on the project were
+made at various international venues. The second of the objectives, the desire
+to specify the scope of software engineering, motivates the fundamental
+organization of the Guide. The material that is recognized as being within this
+discipline is organized into the fifteen KAs listed in Table I.1. Each of these
+KAs is treated in a chapter in this Guide.
 
-Table I.1. The 15 SWEBOK KAs
+Table I.1. The 15 SWEBOK KAs <!-- FIXME -->
 
 Software Requirements
 Software Design
@@ -753,7 +758,7 @@ descriptions in this _Guide_ may make reference to them). It is not, however,
 an objective of the _SWEBOK Guide_ to characterize the knowledge of the related
 disciplines.
 
-Table I.2. Related Disciplines
+Table I.2. Related Disciplines <!-- FIXME -->
 
 Computer Engineering
 Computer Science
@@ -767,7 +772,7 @@ The relevant elements of computer science and mathematics are presented in the
 Computing Foundations and Mathematical Foundations KAs of the _Guide_ (Chapters
 13 and 14).
 
-##### HIERARCHICAL ORGANIZATION
+**Hierarchical Organization**
 
 The organization of the KA chapters supports the third of the project’s
 objectives - a characterization of the contents of software engineering. The
@@ -787,7 +792,7 @@ the generally accepted nature of the topics and for the reader to successfully
 find reference material; the Body of Knowledge is found in the reference
 materials themselves, not in the Guide.
 
-REFERENCE MATERIAL AND MATRIX
+**Reference Material And Matrix**
 
 To provide topical access to the knowledge-the fourth of the project’s
 objectives-the Guide identifies authoritative reference material for each KA.
@@ -799,17 +804,13 @@ citations. Much material that is both suitable and excellent is not
 referenced. Material included in the Consolidated Reference List provides
 coverage of the topics described.
 
-DEPTH OF TREATMENT
+**Depth Of Treatment**
 
 To achieve the SWEBOK fifth objective-providing a foundation for curriculum
-development,
-
-Introduction
-
-certification, and licensing, the criterion of _generally accepted_ knowledge
-has been applied, to be distinguished from advanced and research knowledge (on
-the grounds of maturity) and from specialized knowledge (on the grounds of
-generality of application).
+development, certification, and licensing, the criterion of _generally
+accepted_ knowledge has been applied, to be distinguished from advanced and
+research knowledge (on the grounds of maturity) and from specialized knowledge
+(on the grounds of generality of application).
 
 The equivalent term _generally recognized_ comes from the Project Management
 Institute: “Generally recognized means the knowledge and practices described
@@ -825,14 +826,14 @@ would take after gaining four years of work experience. Although this criterion
 is specific to the US style of education and does not necessarily apply to
 other countries, we deem it useful.
 
-**STRUCTURE OF THE KA DESCRIPTIONS**
+**Structure Of The KA Descriptions**
 
 The KA descriptions are structured as follows. In the introduction, a brief
 definition of the KA and an overview of its scope and of its relationship
 with other KAs are presented.
 
 _A Guide to the Project Management Body of Knowledge_, 5th ed., Project
-Management Institute, 2013; [http://www.pmi.org.](http://www.pmi.org.)
+Management Institute, 2013; [http://www.pmi.org/](http://www.pmi.org/).
 
 The breakdown of topics in each KA constitutes the core the KA description,
 describing the decomposition of the KA into subareas, topics, and sub-topics.
@@ -845,18 +846,18 @@ topics to the reference material. The last part of each KA description is the
 list of recommended references and (optionally) further readings. Relevant
 standards for each KA are presented in Appendix B of the Guide.
 
-APPENDIX A. KA DESCRIPTION SPECIFICATIONS
+**APPENDIX A. KA Description Specifications**
 
 Appendix A describes the specifications provided by the editorial team to the
 associate editors for the content, recommended references, format, and style of
 the KA descriptions.
 
-APPENDIX B. ALLOCATION OF STANDARDS TO KAS
+**APPENDIX B. Allocation Of Standards To KAS**
 
 Appendix B is an annotated list of the relevant standards, mostly from the IEEE
 and the ISO, for each of the KAs of the SWEBOK Guide.
 
-APPENDIX C. CONSOLIDATED REFERENCE LIST
+**APPENDIX C. Consolidated Reference List**
 
 Appendix C contains the consolidated list of recommended references cited in
 the KAs (these references are marked with an asterisk (*) in the text).

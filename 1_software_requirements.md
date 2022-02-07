@@ -51,11 +51,10 @@ Software Testing, Software Maintenance, Software Configuration Management,
 Software Engineering Management, Software Engineering Process, Software
 Engineering Models and Methods, and Software Quality KAs.
 
-**BREAKDOWN OF TOPICS FOR SOFTWARE REQUIREMENTS**
+**Breakdown Of Topics For Software Requirements**
 
-The breakdown of topics for the Software
-
-Requirements KA is shown in Figure 1.1.
+The breakdown of topics for the Software Requirements KA is shown in Figure
+1.1.
 
 ### 1. Software Requirements Fundamentals
 
@@ -962,7 +961,7 @@ alternative solutions. Its coverage is exemplary and serves as a useful
 reference for key techniques such as use case modeling and requirements
 prioritization.
 
-C. Potts, K. Takahashi, and A. Antón, “Inquiry- Based Requirements Analysis” [6].
+C. Potts, K. Takahashi, and A. Antón, “Inquiry-Based Requirements Analysis” [6].
 
 This paper is an easily digested account of work that has proven to be very
 influential in the development of requirements handling. It describes how and

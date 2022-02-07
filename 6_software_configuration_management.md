@@ -59,7 +59,7 @@ The Software Configuration Management KA is related to all the other KAs, since
 the object of configuration management is the artifact produced and used
 throughout the software engineering process.
 
-**BREAKDOWN OF TOPICS FOR SOFTWARE CONFIGURATION MANAGEMENT**
+**Breakdown Of Topics For Software Configuration Management**
 
 The breakdown of topics for the Software Configuration Management KA is shown
 in Figure 6.1.
@@ -111,7 +111,7 @@ maintenance organizations. It is within this context that many of the
 software configuration control tasks are conducted. Frequently, the same
 tools support development, maintenance, and SCM purposes.
 
-#### 1.2. Constraints and Guidance for the SCM Process_
+#### 1.2. Constraints and Guidance for the SCM Process
 
 <!-- [2, c6, ann. D, ann. E] [3, c2, c5] [5, c19s2.2] -->
 
@@ -259,7 +259,7 @@ reference for the SCM process. It is maintained (that is, updated and approved)
 as necessary during the software life cycle. In implementing the SCMP, it is
 typically necessary to develop a number of more detailed, subordinate
 procedures defining how specific requirements will be carried out during
-day-to-day activities— for example, which branching strategies will be used and
+day-to-day activities - for example, which branching strategies will be used and
 how frequently builds occur and automated tests of all kinds are run.
 
 Guidance on the creation and maintenance of an SCMP, based on the information
@@ -892,8 +892,8 @@ Addison-Wesley, 2003.
 
 [4] I. Sommerville, Software Engineering, 9th ed., Addison-Wesley, 2011.
 
-[5] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide
-, Wiley-IEEE Computer Society Press, 2006.
+[5] J.W. Moore, The Road Map to Software Engineering: A Standards-Based Guide,
+Wiley-IEEE Computer Society Press, 2006.
 
 [6] S.P. Berczuk and B. Appleton, Software Configuration Management Patterns:
 Effective Teamwork, Practical Integration, Addison-Wesley Professional, 2003.

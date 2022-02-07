@@ -2,10 +2,10 @@
 
 **Acronyms**
 
-API Application Program Interface
-TDD Test-Driven Development
-TTCN3 Testing and Test Control Notation Version 3
-XP Extreme Programming
+- API Application Program Interface
+- TDD Test-Driven Development
+- TTCN3 Testing and Test Control Notation Version 3
+- XP Extreme Programming
 
 **Introduction**
 
@@ -79,7 +79,7 @@ Software testing is also related to software construction (see Construction
 Testing in the Software Construction KA). In particular, unit and integration
 testing are intimately related to software construction, if not part of it.
 
-**BREAKDOWN OF TOPICS FOR SOFTWARE TESTING**
+**Breakdown Of Topics For Software Testing**
 
 The breakdown of topics for the Software Testing KA is shown in Figure 4.1. A
 more detailed breakdown is provided in the Matrix of Topics vs. Reference
@@ -1343,7 +1343,7 @@ ISO/ IEC/IEEE, 2010.
 Prioritization: A Survey,” Software Testing Verification and Reliability, vol.
 22, no. 2, Mar. 2012, pp. 67–120.
 [9] S.H. Kan, Metrics and Models in Software Quality Engineering, 2nd ed.,
-Addison- Wesley, 2002.
+Addison-Wesley, 2002.
 [10] J. Nielsen, Usability Engineering, Morgan Kaufmann, 1993.
 [11] T.Y. Chen et al., “Adaptive Random Testing: The ART of Test Case
 Diversity,” Journal of Systems and Software, vol. 83, no. 1, Jan.  2010, pp.

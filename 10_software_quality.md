@@ -1014,7 +1014,7 @@ Software Quality 10-17
 [1] P.B. Crosby, _Quality Is Free_, McGraw-Hill, 1979.
 [2] W. Humphrey, _Managing the Software Process_, Addison-Wesley, 1989.
 [3] S.H. Kan, _Metrics and Models in Software Quality Engineering_, 2nd ed.,
-Addison- Wesley, 2002.
+Addison-Wesley, 2002.
 [4] _ISO/IEC 25010:2011 Systems and Software Engineering—Systems and Software
 Quality Requirements and Evaluation (SQuaRE)—Systems and Software Quality
 Models_, ISO/IEC, 2011.

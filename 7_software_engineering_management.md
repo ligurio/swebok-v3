@@ -2,7 +2,7 @@
 
 **Acronyms**
 
-- PMBOK ® Guide Guide to the Project Management Body of Knowledge
+- PMBOK® Guide Guide to the Project Management Body of Knowledge
 - SDLC Software Development Life Cycle
 - SEM Software Engineering Management
 - SQA Software Quality Assurance
@@ -25,6 +25,7 @@ the same way other complex endeavors are managed. However, there are aspects
 specific to software projects and software life cycle processes that complicate
 effective management, including these:
 
+<!-- FIXME: footnote -->
 1 The terms Initiating, Planning, Executing, Monitoring and Controlling, and
 Closing are used to describe process groups in the _PMBOK_ ® _Guide_ and _SWX_.
 
@@ -156,7 +157,7 @@ conjunction with this one will be particularly helpful:
 - The Software Engineering Economics KA discusses how to make software-related
   decisions in a business context.
 
-**BREAKDOWN OF TOPICS FOR SOFTWARE ENGINEERING MANAGEMENT**
+**Breakdown Of Topics For Software Engineering Management**
 
 Because most software development life cycle models require similar activities
 that may be executed in different ways, the breakdown of topics is
@@ -610,8 +611,9 @@ process. The standard also includes a measurement information model.
   analyst and librarian). Adequate funding, training, tools, and support to
   conduct the process should also be allocated.
 
+<!-- FIXME: footnote -->
 2 Please note that these two chapters can be downloaded free of charge from
-http://www.psmsc.com/ PSMBook.asp.
+http://www.psmsc.com/PSMBook.asp.
 
 #### 6.2. Plan the Measurement Process
 

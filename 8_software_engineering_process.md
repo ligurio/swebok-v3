@@ -50,7 +50,7 @@ processes for project and product quality. Measurement and measurement results
 in the Engineering Foundations KA are essential for evaluating and control-
 ling software processes.
 
-**BREAKDOWN OF TOPICS FOR SOFTWARE ENGINEERING PROCESS**
+**Breakdown Of Topics For Software Engineering Process**
 
 As illustrated in Figure 8.1, this KA is concerned with software process
 definition, software life cycles, software process assessment and improve-
@@ -90,8 +90,6 @@ other subprocesses of the software requirements process are often interleaved
 and iterated in various ways;
 
 ![Figure 8.1. Breakdown of Topics for the Software Engineering Process KA](images/Figure-8.1.png)
-
-Software Engineering Process 8-3
 
 the software requirements process and its subprocesses may be entered and
 exited multiple times during software development or modification.
@@ -452,19 +450,14 @@ prevention.
 
 <!-- [1*, p28–34] [3*, s26.5] [4*, p39–45] -->
 
-Software process capability and software process
-maturity are typically rated using five or six levels
-to characterize the capability or maturity of the
-software processes used within an organization.
-A _continuous_ rating system involves assign-
-ing a rating to each software process of interest;
-a _staged_ rating system is established by assign-
-ing the same maturity rating to all of the software
-processes within a specified process level. A rep-
-resentation of continuous and staged process lev-
-els is provided in Table 8.1. Continuous models
-typically use a level 0 rating; staged models typi-
-cally do not.
+Software process capability and software process maturity are typically rated
+using five or six levels to characterize the capability or maturity of the
+software processes used within an organization. A _continuous_ rating system
+involves assigning a rating to each software process of interest; a _staged_
+rating system is established by assigning the same maturity rating to all of
+the software processes within a specified process level. A representation of
+continuous and staged process levels is provided in Table 8.1. Continuous
+models typically use a level 0 rating; staged models typically do not.
 
 | Level  | Continuous Representation of Capability Levels | Staged Representation of Maturity Levels |
 |-------:|:-----------------------------------------------|------------------------------------------|
@@ -560,8 +553,8 @@ and the quality of requirements, design documentation, and other related work
 products.
 
 Also note that efficiency and effectiveness are independent concepts. An
-effective software process can be inefficient in achieving a desired soft-
-ware process result; for example, the amount of effort expended to find and fix
+effective software process can be inefficient in achieving a desired software
+process result; for example, the amount of effort expended to find and fix
 software defects could be very high and result in low efficiency, as compared
 to expectations.
 
@@ -730,8 +723,8 @@ diagrams, run charts, control charts, and cause-and-effect diagrams) (see Root
 Cause Analysis in the Engineering Foundations KA). In addition, various
 statistical techniques can be used that range from calculation of medians and
 means to multivariate analysis methods (see Statistical Analysis in the
-Engineering Foundations KA). Data collected using quantitative process mea-
-surement techniques can also be used as inputs to simulation models (see
+Engineering Foundations KA). Data collected using quantitative process
+measurement techniques can also be used as inputs to simulation models (see
 Modeling, Prototyping, and Simulation in the Engineering Foundations KA);
 these models can be used to assess the impact of various approaches to software
 process improvement.
