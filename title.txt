@@ -6,6 +6,7 @@ pagetitle: SWEBOK v3
 creator:
 - role: editor
   text: Pierre Bourque
-- role: Richard E. (Dick) Fairley
+- role: editor
+  text: Richard E. (Dick) Fairley
 publisher:  Sergey Bronnikov
 ---
