@@ -45,25 +45,30 @@ of such an environment is the computer and its various components. Knowledge
 about the computer and its underlying principles of hardware and software
 serves as a framework on which software engineering is anchored. Thus, all
 software engineers must have good understanding of the Computing Foundations
-KA. It is generally accepted that software engineering builds on top of
-computer science. For example, “Software Engineering 2004: Curriculum
-Guidelines for Undergraduate Degree Programs in Software Engineering” [1]
-clearly states, “One particularly important aspect is that software engineering
-builds on computer science and mathematics” (italics added). Steve Tockey wrote
-in his book Return on Software:
+KA.
 
-Both computer science and software engineering deal with computers,
-computing, and software. The science of computing, as a body of knowledge, is
-at the core of both.
+It is generally accepted that software engineering builds on top of computer
+science. For example, “Software Engineering 2004: Curriculum Guidelines for
+Undergraduate Degree Programs in Software Engineering” [1] clearly states, “One
+particularly important aspect is that software engineering builds on computer
+science and mathematics” (italics added).
 
-... Software engineering is concerned with the application of computers,
-computing, and software to practical purposes, specifically the design,
-construction, and operation of efficient and economical software systems.
+Steve Tockey wrote in his book Return on Software:
+
+> Both computer science and software engineering deal with computers,
+> computing, and software. The science of computing, as a body of knowledge, is
+> at the core of both.
+
+> ...Software engineering is concerned with the application of computers,
+> computing, and software to practical purposes, specifically the design,
+> construction, and operation of efficient and economical software systems.
 
 Thus, at the core of software engineering is an understanding of computer
-science. While few people will deny the role computer science plays in the
-development of software engineering both as a discipline and as a body of
-knowledge, the importance of computer science to software engineering cannot be
+science.
+
+While few people will deny the role computer science plays in the development
+of software engineering both as a discipline and as a body of knowledge, the
+importance of computer science to software engineering cannot be
 overemphasized; thus, this Computing Foundations KA is being written.
 
 The majority of topics discussed in the Computing Foundations KA are also
@@ -72,27 +77,29 @@ and graduate programs. Such courses include programming, data structure,
 algorithms, computer organization, operating systems, compilers, databases,
 networking, distributed systems, and so forth. Thus, when breaking down
 topics, it can be tempting to decompose the Computing Foundations KA according
-to these often-found divisions in relevant courses. However, a purely
-course-based division of topics suffers serious drawbacks. For one, not all
-courses in computer science are related or equally important to software
-engineering. Thus, some topics that would otherwise be covered in a computer
-science course are not covered in this KA. For example, computer graphics - while
-an important course in a computer science degree program - is not included in
-this KA.
+to these often-found divisions in relevant courses.
+
+However, a purely course-based division of topics suffers serious drawbacks.
+For one, not all courses in computer science are related or equally important
+to software engineering. Thus, some topics that would otherwise be covered in a
+computer science course are not covered in this KA. For example, computer
+graphics - while an important course in a computer science degree program - is
+not included in this KA.
 
 Second, some topics discussed in this guideline do not exist as standalone
 courses in undergraduate or graduate computer science programs. Consequently,
 such topics may not be adequately covered in a purely course-based breakdown.
 For example, abstraction is a topic incorporated into several different
 computer science courses; it is unclear which course abstraction should belong
-to in a course-based breakdown of topics. The Computing Foundations KA is
-divided into seventeen different topics. A topic’s direct usefulness to
-software engineers is the criterion used for selecting topics for inclusion in
-this KA (see Figure 13.1). The advantage of this topic-based breakdown is its
-foundation on the belief that Computing Foundations - if it is to be grasped
-firmly - must be considered as a collection of logically connected topics
-undergirding software engineering in general and software construction in
-particular.
+to in a course-based breakdown of topics.
+
+The Computing Foundations KA is divided into seventeen different topics. A
+topic’s direct usefulness to software engineers is the criterion used for
+selecting topics for inclusion in this KA (see Figure 13.1). The advantage of
+this topic-based breakdown is its foundation on the belief that Computing
+Foundations - if it is to be grasped firmly - must be considered as a
+collection of logically connected topics undergirding software engineering in
+general and software construction in particular.
 
 The Computing Foundations KA is related closely to the Software Design,
 Software Construction, Software Testing, Software Maintenance, Software
@@ -181,10 +188,12 @@ tell the computer to do. There may be many ways to tell the story, but all
 should take the perspective of a computer such that the computer can eventually
 solve the problem. In general, a problem should be expressed in such a way as
 to facilitate the development of algorithms and data structures for solving it.
+
 The result of the first task is a problem statement. The next step is to
 convert the problem statement into algorithms that solve the problem. Once an
 algorithm is found, the final step converts the algorithm into machine
 instructions that form the final solution: software that solves the problem.
+
 Abstractly speaking, problem solving using a computer can be considered as a
 process of problem transformation - in other words, the step-by-step
 transformation of a problem statement into a problem solution. To the
@@ -322,7 +331,7 @@ activity. When one programs, he or she can use one of several programming
 paradigms to write the code. The major types of programming paradigms are
 discussed below.
 
-Unstructured Programming: In unstructured programming, a programmer follows
+_Unstructured Programming_: In unstructured programming, a programmer follows
 his/her hunch to write the code in whatever way he/she likes as long as the
 function is operational. Often, the practice is to write code to fulfill a
 specific utility without regard to anything else. Programs written this way
@@ -501,8 +510,8 @@ caught by the compiler during compilation.
 _Logic errors_ are semantic errors that result in incorrect computations or
 program behaviors. Your program is legal, but wrong! So the results do not
 match the problem statement or user expectations. For example, in the C/C++
-programming language, the inline function “int f(int _x_ ) {return f( _x_
--1);}” for computing factorial x! is legal but logically incorrect. This type
+programming language, the inline function `int f(int _x_ ) {return f( _x_
+-1);}` for computing factorial x! is legal but logically incorrect. This type
 of error cannot be caught by a compiler during compilation and is often
 discovered through tracing the execution of the program (Modern static checkers
 do identify some of these errors. However, the point remains that these are not
@@ -577,9 +586,10 @@ designed for improving program or algorithm efficiency. Examples of such data
 structures include stacks, queues, and heaps. At other times, data structures
 are used for conceptual unity (abstract data type), such as the name and
 address of a person. Often, a data structure can determine whether a program
-runs in a few seconds or in a few hours or even a few days. From the
-perspective of physical and logical ordering, a data structure is either
-linear or nonlinear. Other perspectives give rise to different
+runs in a few seconds or in a few hours or even a few days.
+
+From the perspective of physical and logical ordering, a data structure is
+either linear or nonlinear. Other perspectives give rise to different
 classifications that include homogeneous vs. heterogeneous, static vs. dynamic,
 persistent vs. transient, external vs. internal, primitive vs. aggregate,
 recursive vs. nonrecursive; passive vs. active; and stateful vs. stateless
@@ -673,24 +683,24 @@ incorrect.
 
 #### 7.3. Algorithmic Analysis
 
-Analysis of algorithms is the theoretical study of computer-program performance
+_Analysis of algorithms_ is the theoretical study of computer-program performance
 and resource usage; to some extent it determines the goodness of an algorithm.
 Such analysis usually abstracts away the particular details of a specific
 computer and focuses on the asymptotic, machine-independent analysis.
 
-There are three basic types of analysis. In worst-case analysis, one determines
+There are three basic types of analysis. In _worst-case analysis_, one determines
 the maximum time or resources required by the algorithm on any input of size
-n. In average-case analysis, one determines the expected time or resources
+n. In _average-case analysis_, one determines the expected time or resources
 required by the algorithm over all inputs of size n ; in performing
 average-case analysis, one often needs to make assumptions on the statistical
-distribution of inputs. The third type of analysis is the best-case analysis,
+distribution of inputs. The third type of analysis is the _best-case analysis_,
 in which one determines the minimum time or resources required by the algorithm
-on any input of size n. Among the three types of analysis, average-case
+on any input of size _n_. Among the three types of analysis, average-case
 analysis is the most relevant but also the most difficult to perform.
 
-Besides the basic analysis methods, there are also the amortized analysis, in
+Besides the basic analysis methods, there are also the _amortized analysis_, in
 which one determines the maximum time required by an algorithm over a
-sequence of operations; and the competitive analysis, in which one determines
+sequence of operations; and the _competitive analysis_, in which one determines
 the relative performance merit of an algorithm against the optimal algorithm
 (which may not be known) in the same category (for the same operations).
 
@@ -798,14 +808,15 @@ functionality. According to Turing, all computers with a certain minimum
 capability are equivalent in their ability to perform computation tasks. In
 other words, given enough time and memory, all computers— ranging from a
 netbook to a supercomputer—are capable of computing exactly the same things,
-irrespective of speed, size, cost, or anything else. Most computer systems have
-a structure that is known as the “von Neumann model,” which consists of five
-components: a memory for storing instructions and data, a central processing
-unit for performing arithmetic and logical operations, a control unit for
-sequencing and interpreting instructions, input for getting external informa-
-tion into the memory, and output for producing results for the user. The basic
-components of a computer system based on the von Neumann model are depicted in
-Figure 13.3.
+irrespective of speed, size, cost, or anything else.
+
+Most computer systems have a structure that is known as the “von Neumann
+model,” which consists of five components: a _memory_ for storing instructions
+and data, a _central processing unit_ for performing arithmetic and logical
+operations, a _control unit_ for sequencing and interpreting instructions,
+_input_ for getting external information into the memory, and _output_ for
+producing results for the user. The basic components of a computer system based
+on the von Neumann model are depicted in Figure 13.3.
 
 ![Figure 13.3. Basic Components of a Computer System Based on the von Neumann Model](images/Figure-13.3.png)
 
