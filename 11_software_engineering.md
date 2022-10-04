@@ -803,17 +803,17 @@ Fairley 2009 [9]
     1.1. Accreditation, Certification, and Licensing c1s4.1, c1s5.1– c1s5.4
     1.2. Codes of Ethics and Professional Conduct c1s6– c1s9 c8 c1s2 c33 *
     1.3. Nature and Role of Professional Societies c1s1– c1s2 c1s2 c35s1
-    1.4. Nature and Role of Software Engineering Standards c5s3.2, c10 s2.1 c32s6 c1s2 
-    1.5. Economic Impact of Software c10 s8 c1s1.1 c1 
-    1.6. Employment Contracts c7 
-    1.7. Legal Issues c6, c11 c5s3– c5s4 c1s10 
+    1.4. Nature and Role of Software Engineering Standards c5s3.2, c10 s2.1 c32s6 c1s2
+    1.5. Economic Impact of Software c10 s8 c1s1.1 c1
+    1.6. Employment Contracts c7
+    1.7. Legal Issues c6, c11 c5s3– c5s4 c1s10
     1.8. Documentation c10s5.8 c1s5 c32
-    1.9. Tradeoff Analysis c1s2, c10 c9s5.10 
+    1.9. Tradeoff Analysis c1s2, c10 c9s5.10
 **2. Group Dynamics and Psychology**
     2.1. Dynamics of Working in Teams/ Groups c1s6 c1s3.5, c10
-    2.2. Individual Cognition c1s6.5 c33 
-    2.3. 2.3 Dealing with Problem Complexity c3s2 c33 
-    2.4. Interacting with Stakeholders c2s3.1 
+    2.2. Individual Cognition c1s6.5 c33
+    2.3. 2.3 Dealing with Problem Complexity c3s2 c33
+    2.4. Interacting with Stakeholders c2s3.1
 
 Bott et al. 2000 [1]
 Voland 2003 [3]
